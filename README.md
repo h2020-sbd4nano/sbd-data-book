@@ -3,10 +3,16 @@
 ## Setting up a SPARQL end point
 
 Download blazegraph and copy the `.jar` into a new `bg/` subfolder, and then
-load the following files into Blazegraph via the `Update` tab:
+load the Turtle data. It is recommended to use the landscape cache, currently
+at https://gitlab.maastrichtuniversity.nl/bigcat-um/sbd-data-landscape-data
+where you can create a complete Turtle file with:
 
-* sbd-data-landscape/nanosafety_databases.ttl
-* sbd-data-diamonds/diamonds-models.ttl
+```shell
+sh fetchData.sh
+make -B all.ttl
+```
+
+Then, this file can be loaded into Blazegraph via the `Update` tab.
 
 ## Building the book
 
