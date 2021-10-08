@@ -1,0 +1,44 @@
+#+ endpoint: https://query.wikidata.org/bigdata/namespace/wdq/sparql
+#+ endpoint_in_url: False
+#+ enumerate:
+#+   - lang:
+#+     - en,en
+
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX p: <http://www.wikidata.org/prop/>
+PREFIX bd: <http://www.bigdata.com/rdf#>
+PREFIX ps: <http://www.wikidata.org/prop/statement/>
+PREFIX pq: <http://www.wikidata.org/prop/qualifier/>
+
+PREFIX sbd:     <https://www.sbd4nano.eu/rdf/#>
+PREFIX sbdbel:  <https://www.sbd4nano.eu/bel/#>
+PREFIX dc:      <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+
+SELECT DISTINCT ?sourceLabel ?databases ?datasets ?model ?relationships
+WHERE {
+  ?source   dcterms:title ?sourceLabel .
+  {
+    SELECT ?source (COUNT(DISTINCT ?relationship) AS ?relationships) WHERE {
+      ?source ^dc:source ?relationship . ?relationship a sbdbel:CausalAssertion .
+    } GROUP BY ?source
+  } UNION
+  {
+    SELECT ?source (COUNT(DISTINCT ?dataset) AS ?datasets) WHERE {
+      ?source ^dc:source ?dataset . ?dataset a sbd:Dataset .
+    } GROUP BY ?source
+  } UNION
+  {
+    SELECT ?source (COUNT(DISTINCT ?database) AS ?databases) WHERE {
+      ?source ^dc:source ?database . ?database a sbd:Database .
+    } GROUP BY ?source
+  } UNION
+  {
+    SELECT ?source (COUNT(DISTINCT ?model) AS ?models) WHERE {
+      ?source ^dc:source ?model . ?model a sbd:Model .
+    } GROUP BY ?source
+  }
+}
+

@@ -1,4 +1,6 @@
-# General requirements
+# A Semantic landscape
+
+## General requirements
 
 General features we have to track of assets:
 
@@ -13,6 +15,11 @@ These two follow DMP and FAIR practices, see for example [this presentation](htt
 Specific assets will have additional requirements or specific more detailed information about the second two
 requirements.
 
+## Information sources and plugins
+
+Information about databases, datasets, model, and relationships
+are collected but also retrieved from other data sources.
+
 ## Data sources
 
 Currently, the following datasources are being used:
@@ -22,3 +29,14 @@ Currently, the following datasources are being used:
 This gives us:
 
 <out>allDatasources</out>
+
+## Statistics
+
+Each data source can provide information about different
+resource types. This table gives an overview for each metadata
+source what information is provided:
+
+<out>statistics</out>
+
+If metadata sources are not listed here, then they are likely not
+described by a data descriptor header file.
