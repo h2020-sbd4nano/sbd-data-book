@@ -5,5 +5,5 @@ PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
 SELECT ?title ?url WHERE {
   ?database a sbd:Database ;
             rdfs:label ?title .
-  OPTIONAL { ?void foaf:page ?url }
+  OPTIONAL { ?database foaf:page ?url }
 } ORDER BY ?url
