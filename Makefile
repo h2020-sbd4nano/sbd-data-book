@@ -9,10 +9,10 @@ SUBDIRS := sparql
 
 all: ${SUBDIRS} ${METAS} ${TARGETS} docs/index.md docs/urlList.txt
 	@cp sparql/*.code.en.md docs/sparql
-	@rename.ul 'en.md' 'md' docs/sparql/*.md
+	@rename -f "s/\.en.md/\.md/" docs/sparql/*.en.md
 	@for lang in $(L10N) ; do \
 		cp sparql/*.code.$$lang.md docs/$$lang/sparql ; \
-		rename.ul "$$lang.md" 'md' docs/$$lang/sparql/*.md ; \
+		rename -f "s/\.$$lang\.md/\.md/" docs/$$lang/sparql/*.$$lang.md ; \
 	done
 	@cp indexList.en.md docs/indexList.md
 	@for lang in $(L10N) ; do \
