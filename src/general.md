@@ -13,3 +13,12 @@ These two follow DMP and FAIR practices, see for example [this presentation](htt
 Specific assets will have additional requirements or specific more detailed information about the second two
 requirements.
 
+## Data sources
+
+Currently, the following datasources are being used:
+
+<sparql>allDatasources</sparql>
+
+This gives us:
+
+<out>allDatasources</out>

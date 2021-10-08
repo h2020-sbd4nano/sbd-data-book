@@ -1,0 +1,9 @@
+PREFIX void:    <http://rdfs.org/ns/void#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX dc:      <http://purl.org/dc/elements/1.1/>
+
+SELECT ?title ?url WHERE {
+  ?void a void:DatasetDescription ;
+    dcterms:title ?title .
+  OPTIONAL { ?void dc:source ?url }
+}
