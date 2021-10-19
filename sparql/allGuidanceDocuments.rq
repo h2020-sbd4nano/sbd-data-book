@@ -1,0 +1,9 @@
+PREFIX sbd:     <https://www.sbd4nano.eu/rdf/#>
+PREFIX foaf:   <http://xmlns.com/foaf/0.1/> 
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#> 
+
+SELECT ?title ?url WHERE {
+  ?database a sbd:GuidanceDocument ;
+            rdfs:label ?title .
+  OPTIONAL { ?database foaf:page ?url }
+} ORDER BY ?url

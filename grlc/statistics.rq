@@ -17,28 +17,26 @@ PREFIX sbdbel:  <https://www.sbd4nano.eu/bel/#>
 PREFIX dc:      <http://purl.org/dc/elements/1.1/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 
-SELECT DISTINCT ?source ?sourceLabel ?databases ?datasets ?models ?relationships
+SELECT DISTINCT ?source ?sourceLabel ?databases ?datasets ?models ?relationships ?frameworks
 WHERE {
-  ?source   dcterms:title ?sourceLabel .
+  ?source   dcterms:title|dc:title ?sourceLabel .
   {
-    SELECT ?source (COUNT(DISTINCT ?relationship) AS ?relationships) WHERE {
-      ?source ^dc:source ?relationship . ?relationship a sbdbel:CausalAssertion .
+    SELECT ?source (COUNT(DISTINCT ?framework) AS ?frameworks) (COUNT(DISTINCT ?dataset) AS ?datasets)
+                   (COUNT(DISTINCT ?database) AS ?databases)   (COUNT(DISTINCT ?model) AS ?models)
+                   (COUNT(DISTINCT ?relationship) AS ?relationships)
+    WHERE {
+      {
+        ?source ^dc:source ?database . ?database a sbd:Database .
+      } UNION {
+        ?source ^dc:source ?relationship . ?relationship a sbdbel:CausalAssertion .
+      } UNION {
+        ?source ^dc:source ?model . ?model a sbd:Model .
+      } UNION {
+        ?source ^dc:source ?dataset . ?dataset a sbd:Dataset .
+      } UNION {
+        ?source ^dc:source ?framework . ?framework a sbd:Framework .
+      }
     } GROUP BY ?source
-  } UNION
-  {
-    SELECT ?source (COUNT(DISTINCT ?dataset) AS ?datasets) WHERE {
-      ?source ^dc:source ?dataset . ?dataset a sbd:Dataset .
-    } GROUP BY ?source
-  } UNION
-  {
-    SELECT ?source (COUNT(DISTINCT ?database) AS ?databases) WHERE {
-      ?source ^dc:source ?database . ?database a sbd:Database .
-    } GROUP BY ?source
-  } UNION
-  {
-    SELECT ?source (COUNT(DISTINCT ?model) AS ?models) WHERE {
-      ?source ^dc:source ?model . ?model a sbd:Model .
-    } GROUP BY ?source
-  }
+  }  
 }
 

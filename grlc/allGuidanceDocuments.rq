@@ -1,0 +1,24 @@
+#+ endpoint: https://query.wikidata.org/bigdata/namespace/wdq/sparql
+#+ endpoint_in_url: False
+#+ enumerate:
+#+   - lang:
+#+     - en,en
+
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX p: <http://www.wikidata.org/prop/>
+PREFIX bd: <http://www.bigdata.com/rdf#>
+PREFIX ps: <http://www.wikidata.org/prop/statement/>
+PREFIX pq: <http://www.wikidata.org/prop/qualifier/>
+
+PREFIX sbd:     <https://www.sbd4nano.eu/rdf/#>
+PREFIX foaf:   <http://xmlns.com/foaf/0.1/> 
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#> 
+
+SELECT ?title ?url WHERE {
+  ?database a sbd:GuidanceDocument ;
+            rdfs:label ?title .
+  OPTIONAL { ?database foaf:page ?url }
+} ORDER BY ?url
+
