@@ -4,6 +4,6 @@ PREFIX dc:      <http://purl.org/dc/elements/1.1/>
 
 SELECT ?title ?url WHERE {
   ?void a void:DatasetDescription ;
-    dcterms:title ?title .
+    dcterms:title|dc:title ?title .
   OPTIONAL { ?void dc:source ?url }
 }
