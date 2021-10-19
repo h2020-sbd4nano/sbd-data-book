@@ -17,13 +17,15 @@ PREFIX sbdbel:  <https://www.sbd4nano.eu/bel/#>
 PREFIX dc:      <http://purl.org/dc/elements/1.1/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 
-SELECT DISTINCT ?source ?sourceLabel ?databases ?datasets ?models ?relationships ?frameworks
+SELECT DISTINCT ?source ?sourceLabel ?databases ?datasets ?models ?relationships
+                ?frameworks ?guidancetools ?guidancedocs ?lcanalyses
 WHERE {
   ?source   dcterms:title|dc:title ?sourceLabel .
   {
     SELECT ?source (COUNT(DISTINCT ?framework) AS ?frameworks) (COUNT(DISTINCT ?dataset) AS ?datasets)
                    (COUNT(DISTINCT ?database) AS ?databases)   (COUNT(DISTINCT ?model) AS ?models)
-                   (COUNT(DISTINCT ?relationship) AS ?relationships)
+                   (COUNT(DISTINCT ?relationship) AS ?relationships) (COUNT(DISTINCT ?guidancetool) AS ?guidancetools)
+                   (COUNT(DISTINCT ?guidancedoc) AS ?guidancedocs) (COUNT(DISTINCT ?lcanalysis) AS ?lcanalyses)
     WHERE {
       {
         ?source ^dc:source ?database . ?database a sbd:Database .
@@ -35,6 +37,12 @@ WHERE {
         ?source ^dc:source ?dataset . ?dataset a sbd:Dataset .
       } UNION {
         ?source ^dc:source ?framework . ?framework a sbd:Framework .
+      } UNION {
+        ?source ^dc:source ?guidancetool . ?guidancetool a sbd:GuidanceTool .
+      } UNION {
+        ?source ^dc:source ?guidancedoc . ?guidancedoc a sbd:GuidanceDocument .
+      } UNION {
+        ?source ^dc:source ?lcanalysis . ?lcanalysis a sbd:GuidanceDocument .
       }
     } GROUP BY ?source
   }  
