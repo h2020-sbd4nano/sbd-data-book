@@ -75,7 +75,7 @@ while (line != null) {
       if (line.contains("<lang/>")) line = line.replace("<lang/>", lang)
       md.append(line+"\n");
     }
-  }  
+  }
   line = reader.readLine();
 }
 
@@ -150,6 +150,8 @@ for (int type=0; type<mdTypes.size(); type++) {
         line = line.replace("%LABEL_${label}%", labelStr);
       }
       mdWriter.write(line);
+    } else {
+      mdWriter.write("\n");
     }
     line = template.readLine();
   }
