@@ -28,7 +28,7 @@ WHERE {
       } UNION {
         ?source ^dc:source ?guidancedoc . ?guidancedoc a sbd:GuidanceDocument .
       } UNION {
-        ?source ^dc:source ?lcanalysis . ?lcanalysis a sbd:GuidanceDocument .
+        ?source ^dc:source ?lcanalysis . ?lcanalysis a sbd:LifeCycleAssessment .
       }
     } GROUP BY ?source
   }  
