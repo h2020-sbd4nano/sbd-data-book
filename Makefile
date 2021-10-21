@@ -3,11 +3,12 @@ LANGS ?= en ${L10N}
 
 SOURCES := $(shell find src -name "*.md")
 TARGETS := $(shell find src -name "*.md" | sed -e 's/src/docs/' )
+PDFS    := $(shell find src -name "*.md" | sed -e 's/src/docs/' | sed -e 's/md/pdf/' )
 METAS := references.dat toc.txt indexList.i.md sections.txt
 
 SUBDIRS := sparql
 
-all: ${SUBDIRS} ${METAS} ${TARGETS} docs/index.md docs/urlList.txt
+all: ${SUBDIRS} ${METAS} ${TARGETS} docs/index.md docs/urlList.txt book.pdf
 	@cp sparql/*.code.en.md docs/sparql
 	@rename -f "s/\.en.md/\.md/" docs/sparql/*.en.md
 	@for lang in $(L10N) ; do \
@@ -63,3 +64,9 @@ references.dat: references.qids references.js
 docs/%.md : src/%.md createMarkdown.groovy sparql/*.out
 	@echo "Creating $@ ... "
 	@groovy createMarkdown.groovy $< > $@
+
+docs/%.pdf : docs/%.md
+	@pandoc -o $@ -f markdown -t html5 $<
+
+book.pdf: ${PDFS}
+	@pdftk docs/index.pdf docs/general.pdf docs/data.pdf docs/models.pdf docs/websites.pdf docs/guidance.pdf docs/relationships.pdf cat output book.pdf
