@@ -27,6 +27,9 @@ This gives us:
 
 <out>relationshipsByOutcome</out>
 
+Or by Gracious term:
+
+<out>relationshipsByGraciousTerm</out>
 
 ## All relationships
 

@@ -30,6 +30,18 @@ This gives us:
 
 <out>allDatasources</out>
 
+### Licenses
+
+Not all resources have licenses that allow us to immediately use them, but require acquiring a license.
+This query lists all license information in the current knowledge base:
+
+<sparql>allLicenses</sparql>
+
+This gives us:
+
+<out>allLicenses</out>
+
+
 ## Statistics
 
 Each data source can provide information about different
