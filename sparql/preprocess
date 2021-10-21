@@ -65,8 +65,10 @@ for (i=1;i<=results.rowCount;i++) {
       wikidata = label
       label = labelCols.get(label)
       qidURL = results.get(i, wikidata)
-      if (label == null || qidURL == null) {
+      if (label == null && qidURL == null) {
         println "    <td></td>"
+      } else if (label != null) {
+        println "    <td>${results.get(i, label)}</td>"
       } else {
         // println "    <td><a href=\"$scholiaURL\">${results.get(i, label)}</a> (<a href=\"$qidURL\">edit</a>)</td>"
         println "    <td><a href=\"${qidURL}\">${results.get(i, label)}</a></td>"
@@ -76,6 +78,8 @@ for (i=1;i<=results.rowCount;i++) {
       value = results.get(i, label)
       if (value == null) {
         value = ""
+      } else if ("img".equals(label)) {
+        value = "<img width=\"200\" src=\"${value}\" />"
       } else if ("date".equals(label)) {
         value = value.substring(0,10) // only keep the date part
       } else if (formatterURLs.containsKey(label)) {
