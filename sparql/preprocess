@@ -67,7 +67,7 @@ for (i=1;i<=results.rowCount;i++) {
       qidURL = results.get(i, wikidata)
       if (label == null && qidURL == null) {
         println "    <td></td>"
-      } else if (label != null) {
+      } else if (qidURL == null) {
         println "    <td>${results.get(i, label)}</td>"
       } else {
         // println "    <td><a href=\"$scholiaURL\">${results.get(i, label)}</a> (<a href=\"$qidURL\">edit</a>)</td>"
