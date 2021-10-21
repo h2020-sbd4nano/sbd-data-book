@@ -16,9 +16,10 @@ PREFIX void:    <http://rdfs.org/ns/void#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX dc:      <http://purl.org/dc/elements/1.1/>
 
-SELECT ?title ?url WHERE {
+SELECT ?resource ?resourceLabel ?img WHERE {
   ?void a void:DatasetDescription ;
-    dcterms:title|dc:title ?title .
-  OPTIONAL { ?void dc:source ?url }
+    dcterms:title|dc:title ?resourceLabel .
+  OPTIONAL { ?void dc:source ?resource }
+  OPTIONAL { ?void foaf:img ?img }
 }
 
