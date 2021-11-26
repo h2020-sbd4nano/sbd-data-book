@@ -6,5 +6,5 @@ We can list all models with the following query:
 
 This gives us:
 
-<out>allModels</out>
+<out limit="25">allModels</out>
 
