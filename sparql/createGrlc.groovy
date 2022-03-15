@@ -2,8 +2,8 @@
 //
 // GPL v3
 
-@Grab(group='io.github.egonw.bacting', module='managers-rdf', version='0.0.10')
-@Grab(group='io.github.egonw.bacting', module='managers-ui', version='0.0.10')
+@Grab(group='io.github.egonw.bacting', module='managers-rdf', version='0.0.33')
+@Grab(group='io.github.egonw.bacting', module='managers-ui', version='0.0.33')
 
 bioclipse = new net.bioclipse.managers.BioclipseManager(".");
 
