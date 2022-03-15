@@ -8,6 +8,8 @@ topics.*tsv
 indexList.??.md
 indexList.i.md
 urlList.txt
+node_modules/
 bg/
 docs/*.pdf
 book.pdf
+package*.json
