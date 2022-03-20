@@ -13,7 +13,6 @@ queries:
   - https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-book/main/grlc/allGuidanceTools.rq
   - https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-book/main/grlc/allLicenses.rq
   - https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-book/main/grlc/allModels.rq
-  - https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-book/main/grlc/query-api.yml
   - https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-book/main/grlc/relationshipsByCause.rq
   - https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-book/main/grlc/relationshipsByGraciousTerm.rq
   - https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-book/main/grlc/relationshipsByMaterial.rq
