@@ -69,4 +69,4 @@ docs/%.pdf : docs/%.md
 	@pandoc -o $@ -f markdown -t html5 $<
 
 book.pdf: ${PDFS}
-	@pdftk docs/index.pdf docs/general.pdf docs/data.pdf docs/models.pdf docs/websites.pdf docs/guidance.pdf docs/relationships.pdf cat output book.pdf
+	@pdftk docs/index.pdf docs/general.pdf docs/data.pdf docs/models.pdf docs/guidance.pdf docs/relationships.pdf cat output book.pdf
