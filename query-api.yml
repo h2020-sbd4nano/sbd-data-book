@@ -3,6 +3,10 @@ description: Queries for accessing the public data harvested by the SbD4Nano Lan
 contact:
   name: Egon Willighagen
   url: https://orcid.org/0000-0001-7542-0286
+contributor:
+  name: Egon Willighagen
+  url: https://orcid.org/0000-0001-7542-0286
+licence: https://creativecommons.org/licenses/by/4.0/
 sparql_endpoint: https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/sparql
 queries:
   - https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-book/main/grlc/allCausalRelationships.rq
