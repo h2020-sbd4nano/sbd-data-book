@@ -1,16 +1,9 @@
-#+ endpoint: https://query.wikidata.org/bigdata/namespace/wdq/sparql
+#+ endpoint: https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/sparql
 #+ endpoint_in_url: False
 #+ enumerate:
 #+   - lang:
 #+     - en,en
 
-PREFIX wd: <http://www.wikidata.org/entity/>
-PREFIX wdt: <http://www.wikidata.org/prop/direct/>
-PREFIX wikibase: <http://wikiba.se/ontology#>
-PREFIX p: <http://www.wikidata.org/prop/>
-PREFIX bd: <http://www.bigdata.com/rdf#>
-PREFIX ps: <http://www.wikidata.org/prop/statement/>
-PREFIX pq: <http://www.wikidata.org/prop/qualifier/>
 
 PREFIX sbd:     <https://www.sbd4nano.eu/rdf/#>
 PREFIX sbdbel:  <https://www.sbd4nano.eu/bel/#>
