@@ -28,7 +28,7 @@ formatterURLs.put("guideToPharma", "https://www.guidetopharmacology.org/GRAC/Obj
 
 if (bioclipse.isOnline()) {
   resultsData = bioclipse.sparqlRemote(
-    "http://localhost:9999/blazegraph/sparql", sparql
+    "https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/sparql", sparql
   )
   results = rdf.processSPARQLXML(resultsData, sparql)
 }

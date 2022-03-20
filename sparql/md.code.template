@@ -19,8 +19,8 @@
 ### curl
 
 ```shell
-curl -s https://raw.githubusercontent.com/egonw/SARS-CoV-2-Queries/master/sparql/%STEM%.%EXT% | sed 's+<lang/>+%LANG%+' > %STEM%.%EXT%
-curl -H "Accept: text/tab-separated-values" -G https://localhost:9999/blazegraph/sparql --data-urlencode query@%STEM%.%EXT%
+curl -s https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-book/master/sparql/%STEM%.%EXT% | sed 's+<lang/>+%LANG%+' > %STEM%.%EXT%
+curl -H "Accept: text/tab-separated-values" -G https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/sparql --data-urlencode query@%STEM%.%EXT%
 ```
 
 %LABEL_LICENSE%

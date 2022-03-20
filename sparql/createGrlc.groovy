@@ -14,7 +14,7 @@ sparql = new File(inFile).text
 if (sparql.contains("\"<lang/>,en\""))
   sparql = sparql.replace("\"<lang/>,en\"", "?_lang")
 
-println """#+ endpoint: https://query.wikidata.org/bigdata/namespace/wdq/sparql
+println """#+ endpoint: https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/sparql
 #+ endpoint_in_url: False
 #+ enumerate:
 #+   - lang:"""
@@ -24,13 +24,6 @@ for (lang in langs.split(" ")) {
 }
 
 println """
-PREFIX wd: <http://www.wikidata.org/entity/>
-PREFIX wdt: <http://www.wikidata.org/prop/direct/>
-PREFIX wikibase: <http://wikiba.se/ontology#>
-PREFIX p: <http://www.wikidata.org/prop/>
-PREFIX bd: <http://www.bigdata.com/rdf#>
-PREFIX ps: <http://www.wikidata.org/prop/statement/>
-PREFIX pq: <http://www.wikidata.org/prop/qualifier/>
 """
 
 println sparql
