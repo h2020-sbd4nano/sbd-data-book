@@ -1,0 +1,23 @@
+title: Bioschemas Knowledge Graph
+description: Queries for accessing the data harvested by Bioschemas. Set the endpoint to https://swel.macs.hw.ac.uk/data/repositories/bioschemas
+contact:
+  name: Alasdair Gray
+  url: https://alasdairgray.github.io/
+contributor:
+  name: Egon Willighagen
+  url: https://orcid.org/0000-0001-7542-0286
+licence: https://creativecommons.org/licenses/by/4.0/
+sparql_endpoint: https://swel.macs.hw.ac.uk/data/repositories/bioschemas
+queries:
+  - https://raw.githubusercontent.com/AlasdairGray/HCLS-Stats-Queries/master/class-count.rq
+  - https://raw.githubusercontent.com/BioSchemas/bioschemas-data-harvesting/main/queries/numberDomainFeeds.rq
+  - https://raw.githubusercontent.com/BioSchemas/bioschemas-data-harvesting/main/queries/protein-count.rq
+  - https://raw.githubusercontent.com/BioSchemas/bioschemas-data-harvesting/main/queries/protein-search.rq
+  - https://raw.githubusercontent.com/BioSchemas/bioschemas-data-harvesting/main/queries/protein-information.rq
+  - https://raw.githubusercontent.com/BioSchemas/bioschemas-data-harvesting/main/queries/molecularEntity-count.rq
+  - https://raw.githubusercontent.com/BioSchemas/bioschemas-data-harvesting/main/queries/molecularEntity-information.rq
+  - https://raw.githubusercontent.com/BioSchemas/bioschemas-data-harvesting/main/queries/molecularEntity-search.rq
+  - https://raw.githubusercontent.com/BioSchemas/bioschemas-data-harvesting/main/queries/molecularEntity-search-inchi-key.rq
+  - https://raw.githubusercontent.com/BioSchemas/bioschemas-data-harvesting/main/queries/chemicalSubstance-count.rq
+  - https://raw.githubusercontent.com/BioSchemas/bioschemas-data-harvesting/main/queries/chemicalSubstance-information.rq
+  - https://raw.githubusercontent.com/BioSchemas/bioschemas-data-harvesting/main/queries/chemicalSubstance-search.rq
