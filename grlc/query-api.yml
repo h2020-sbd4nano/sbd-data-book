@@ -1,0 +1,21 @@
+title: SbD4Nano Landscape
+description: Queries for accessing the public data harvested by the SbD4Nano Landscape. See the endpoint at https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/
+contact:
+  name: Egon Willighagen
+  url: https://orcid.org/0000-0001-7542-0286
+sparql_endpoint: https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/sparql
+queries:
+  - https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-book/main/grlc/allCausalRelationships.rq
+  - https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-book/main/grlc/allDatabases.rq
+  - https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-book/main/grlc/allDatasets.rq
+  - https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-book/main/grlc/allDatasources.rq
+  - https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-book/main/grlc/allGuidanceDocuments.rq
+  - https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-book/main/grlc/allGuidanceTools.rq
+  - https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-book/main/grlc/allLicenses.rq
+  - https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-book/main/grlc/allModels.rq
+  - https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-book/main/grlc/query-api.yml
+  - https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-book/main/grlc/relationshipsByCause.rq
+  - https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-book/main/grlc/relationshipsByGraciousTerm.rq
+  - https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-book/main/grlc/relationshipsByMaterial.rq
+  - https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-book/main/grlc/relationshipsByOutcome.rq
+  - https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-book/main/grlc/statistics.rq
