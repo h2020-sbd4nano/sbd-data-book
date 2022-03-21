@@ -4,8 +4,8 @@
 
 General features we have to track of assets:
 
-* copyright information
-* license information
+* <topic>copyright information</topic>
+* <topic>license information</topic>
 
 These two follow DMP and FAIR practices, see for example [this presentation](http://doi.org/10.5281/zenodo.3661425).
 
@@ -18,11 +18,11 @@ requirements.
 ## Information sources and plugins
 
 Information about databases, datasets, model, and relationships
-are collected but also retrieved from other data sources.
+are collected but also retrieved from other <topic>data sources</topic>.
 
 ## Data sources
 
-Currently, the following datasources are being used:
+Currently, the following data sources are being used:
 
 <sparql>allDatasources</sparql>
 
@@ -42,7 +42,7 @@ This gives us:
 <out>allLicenses</out>
 
 
-## Statistics
+## <topic>Statistics</topic>
 
 Each data source can provide information about different
 resource types. This table gives an overview for each metadata

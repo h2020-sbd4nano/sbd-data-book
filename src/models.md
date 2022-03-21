@@ -1,6 +1,6 @@
 # Models
 
-We can list all models with the following query:
+We can list all <topic>models</topic> with the following query:
 
 <sparql>allModels</sparql>
 

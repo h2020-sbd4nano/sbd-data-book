@@ -2,7 +2,7 @@
 
 # Guidances
 
-The landscape found the following guidance tools and documents.
+The landscape found the following <a name="tp1">guidance tools</a> and <a name="tp2">guidance documents</a>.
 
 ## Guidance tools
 

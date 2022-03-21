@@ -1,6 +1,6 @@
 # Guidances
 
-The landscape found the following guidance tools and documents.
+The landscape found the following <topic>guidance tools</topic> and <topic>guidance documents</topic>.
 
 ## Guidance tools
 

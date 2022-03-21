@@ -1,6 +1,6 @@
 # Data
 
-The landscape found the following datasets and databases.
+The landscape found the following <topic>datasets</topic> and <topic>databases</topic>.
 
 ## Databases
 

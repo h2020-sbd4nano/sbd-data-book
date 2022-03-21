@@ -2,7 +2,7 @@
 
 # Causal relationships
 
-Causal relationships links causes and effects. We can categorize them
+Causal relationships links <a name="tp1">causes and effects</a>. We can categorize them
 by, for example, nanomaterial they are applicable too, by cause, and by effect.
 
 ## Relationships for nanomaterials
@@ -78,7 +78,7 @@ This gives us:
   </tr>
 </table>
 
-Or by Gracious term:
+Or by Gracious [<a href="#citeref1">1</a>] term:
 
 <table>
   <tr>
@@ -141,4 +141,8 @@ This gives us:
     <td></td>
   </tr>
 </table>
+
+## References
+
+1. <a name="citeref1"></a>Stone V, Gottardo S, Bleeker EAJ, Braakhuis H, Dekkers S, Fernandes T, et al. A framework for grouping and read-across of nanomaterials- supporting innovation and risk assessment. Nano Today. 2020 Dec;35:100941.  doi:[10.1016/J.NANTOD.2020.100941](https://doi.org/10.1016/J.NANTOD.2020.100941) ([Scholia](https://scholia.toolforge.org/doi/10.1016/J.NANTOD.2020.100941))
 

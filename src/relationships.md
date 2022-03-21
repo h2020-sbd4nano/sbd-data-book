@@ -1,6 +1,6 @@
 # Causal relationships
 
-Causal relationships links causes and effects. We can categorize them
+Causal relationships links <topic>causes and effects</topic>. We can categorize them
 by, for example, nanomaterial they are applicable too, by cause, and by effect.
 
 ## Relationships for nanomaterials
@@ -27,7 +27,7 @@ This gives us:
 
 <out>relationshipsByOutcome</out>
 
-Or by Gracious term:
+Or by Gracious [<cite>Q111312606</cite>] term:
 
 <out>relationshipsByGraciousTerm</out>
 
@@ -41,3 +41,6 @@ This gives us:
 
 <out limit="10">allCausalRelationships</out>
 
+## References
+
+<references/>
