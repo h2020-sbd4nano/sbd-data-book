@@ -11,6 +11,8 @@ rdf = new net.bioclipse.managers.RDFManager(".");
 inFile = args[0];
 lang = args[1];
 
+sparqlEP = "https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/sparql"
+
 urlList = new File("../urlList.txt")
 
 sparql = new File(inFile).text
@@ -27,9 +29,7 @@ formatterURLs.put("cpx", "https://www.ebi.ac.uk/complexportal/complex/#{1}")
 formatterURLs.put("guideToPharma", "https://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=#{1}")
 
 if (bioclipse.isOnline()) {
-  resultsData = bioclipse.sparqlRemote(
-    "https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/sparql", sparql
-  )
+  resultsData = bioclipse.sparqlRemote(sparqlEP, sparql)
   results = rdf.processSPARQLXML(resultsData, sparql)
 }
 
