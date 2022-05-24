@@ -65,11 +65,7 @@ This gives us:
   </tr>
   <tr>
     <td><a href="http://www.smartnanotox.eu/?page_id=131">SmartNanoTox Transcriptomics datasets</a></td>
-    <td><img width="200" src="http://www.smartnanotox.eu/wp-content/uploads/2017/09/logo1-1.png" /></td>
-  </tr>
-  <tr>
-    <td>Overview of open datasets released by NanoSafety Cluster projects</td>
-    <td><img width="200" src="https://upload.wikimedia.org/wikipedia/commons/e/e1/NanoCommons-Logo-Large_-_White_Circle_01.png" /></td>
+    <td><img width="200" src="https://www.ucd.ie/sbi/t4media/SNT%20870x400.png" /></td>
   </tr>
   <tr>
     <td><a href="https://nanosolveit.eu/resources/tools-services/">NanoSolveIT Tools</a></td>
@@ -78,6 +74,10 @@ This gives us:
   <tr>
     <td>Datasets hosted at search.data.enanomapper.net</td>
     <td><img width="200" src="https://search.data.enanomapper.net/assets/img/logo.png" /></td>
+  </tr>
+  <tr>
+    <td>Overview of open datasets released by NanoSafety Cluster projects</td>
+    <td><img width="200" src="https://upload.wikimedia.org/wikipedia/commons/e/e1/NanoCommons-Logo-Large_-_White_Circle_01.png" /></td>
   </tr>
 </table>
 
@@ -117,18 +117,22 @@ This gives us:
   </tr>
   <tr>
     <td>http://creativecommons.org/publicdomain/zero/1.0/</td>
-    <td>17</td>
+    <td>16</td>
   </tr>
   <tr>
     <td>https://creativecommons.org/licenses/by/4.0/legalcode</td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>https://creativecommons.org/licenses/by-nc-sa/4.0/</td>
-    <td>2</td>
+    <td>10</td>
   </tr>
   <tr>
     <td></td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>https://creativecommons.org/publicdomain/zero/1.0/</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>https://search.data.enanomapper.net/about/sbd4nano</td>
     <td>1</td>
   </tr>
   <tr>
@@ -137,10 +141,6 @@ This gives us:
   </tr>
   <tr>
     <td>https://creativecommons.org/licenses/by-nc/4.0/legalcode</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>https://search.data.enanomapper.net/about/enanomapper/</td>
     <td>1</td>
   </tr>
 </table>
@@ -198,9 +198,9 @@ source what information is provided as basic <a name="tp4">statistics</a>:
     <td>0</td>
   </tr>
   <tr>
-    <td><a href="https://search.data.enanomapper.net/">Datasets hosted at search.data.enanomapper.net</a></td>
+    <td><a href="https://search.data.enanomapper.net/closed/">Datasets hosted at search.data.enanomapper.net</a></td>
     <td>0</td>
-    <td>3</td>
+    <td>1</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
@@ -233,18 +233,7 @@ source what information is provided as basic <a name="tp4">statistics</a>:
   <tr>
     <td><a href="https://nanocommons.github.io/datasets/">Overview of open datasets released by NanoSafety Cluster projects</a></td>
     <td>0</td>
-    <td>7</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-  </tr>
-  <tr>
-    <td><a href="https://h2020-sbd4nano.github.io/smartnanotox/datasets/">SmartNanoTox Transcriptomics datasets</a></td>
-    <td>0</td>
-    <td>20</td>
+    <td>13</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>

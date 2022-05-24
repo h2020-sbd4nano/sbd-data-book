@@ -8334,6 +8334,12 @@ WHERE {
   </tr>
   <tr>
     <td></td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
     <td>https://www.sbd4nano.eu/bel/#negativelyCorreclates</td>
     <td></td>
     <td></td>

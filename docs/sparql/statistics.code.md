@@ -94,9 +94,9 @@ WHERE {
     <td>0</td>
   </tr>
   <tr>
-    <td><a href="https://search.data.enanomapper.net/">Datasets hosted at search.data.enanomapper.net</a></td>
+    <td><a href="https://search.data.enanomapper.net/closed/">Datasets hosted at search.data.enanomapper.net</a></td>
     <td>0</td>
-    <td>3</td>
+    <td>1</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
@@ -129,18 +129,7 @@ WHERE {
   <tr>
     <td><a href="https://nanocommons.github.io/datasets/">Overview of open datasets released by NanoSafety Cluster projects</a></td>
     <td>0</td>
-    <td>7</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-  </tr>
-  <tr>
-    <td><a href="https://h2020-sbd4nano.github.io/smartnanotox/datasets/">SmartNanoTox Transcriptomics datasets</a></td>
-    <td>0</td>
-    <td>20</td>
+    <td>13</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>

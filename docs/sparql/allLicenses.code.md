@@ -38,18 +38,22 @@ WHERE {
   </tr>
   <tr>
     <td>http://creativecommons.org/publicdomain/zero/1.0/</td>
-    <td>17</td>
+    <td>16</td>
   </tr>
   <tr>
     <td>https://creativecommons.org/licenses/by/4.0/legalcode</td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>https://creativecommons.org/licenses/by-nc-sa/4.0/</td>
-    <td>2</td>
+    <td>10</td>
   </tr>
   <tr>
     <td></td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>https://creativecommons.org/publicdomain/zero/1.0/</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>https://search.data.enanomapper.net/about/sbd4nano</td>
     <td>1</td>
   </tr>
   <tr>
@@ -58,10 +62,6 @@ WHERE {
   </tr>
   <tr>
     <td>https://creativecommons.org/licenses/by-nc/4.0/legalcode</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>https://search.data.enanomapper.net/about/enanomapper/</td>
     <td>1</td>
   </tr>
 </table>

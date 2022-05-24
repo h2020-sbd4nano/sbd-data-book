@@ -46,11 +46,7 @@ SELECT ?resource ?resourceLabel ?img WHERE {
   </tr>
   <tr>
     <td><a href="http://www.smartnanotox.eu/?page_id=131">SmartNanoTox Transcriptomics datasets</a></td>
-    <td><img width="200" src="http://www.smartnanotox.eu/wp-content/uploads/2017/09/logo1-1.png" /></td>
-  </tr>
-  <tr>
-    <td>Overview of open datasets released by NanoSafety Cluster projects</td>
-    <td><img width="200" src="https://upload.wikimedia.org/wikipedia/commons/e/e1/NanoCommons-Logo-Large_-_White_Circle_01.png" /></td>
+    <td><img width="200" src="https://www.ucd.ie/sbi/t4media/SNT%20870x400.png" /></td>
   </tr>
   <tr>
     <td><a href="https://nanosolveit.eu/resources/tools-services/">NanoSolveIT Tools</a></td>
@@ -59,6 +55,10 @@ SELECT ?resource ?resourceLabel ?img WHERE {
   <tr>
     <td>Datasets hosted at search.data.enanomapper.net</td>
     <td><img width="200" src="https://search.data.enanomapper.net/assets/img/logo.png" /></td>
+  </tr>
+  <tr>
+    <td>Overview of open datasets released by NanoSafety Cluster projects</td>
+    <td><img width="200" src="https://upload.wikimedia.org/wikipedia/commons/e/e1/NanoCommons-Logo-Large_-_White_Circle_01.png" /></td>
   </tr>
 </table>
 

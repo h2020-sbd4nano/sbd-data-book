@@ -28,6 +28,10 @@ SELECT ?title ?url WHERE {
     <td><b>url</b></td>
   </tr>
   <tr>
+    <td>All NanoPUZZLES ISA-TAB-Nano datasets</td>
+    <td>http://doi.org/10.5281/zenodo.35493</td>
+  </tr>
+  <tr>
     <td>AOP-Wiki AOP-AO dataset</td>
     <td>https://aopwiki.rdf.bigcat-bioinformatics.org/sparql?default-graph-uri=&query=SELECT+%3FAOP+%3FAOPTitle+%3FAO+%3FAOTitle+WHERE+%7B%0D%0A%3FAOP+a+aopo%3AAdverseOutcomePathway+%3B%0D%0Adc%3Atitle+%3FAOPTitle+%3B%0D%0Aaopo%3Ahas_adverse_outcome+%3FAO.%0D%0A%3FAO+dc%3Atitle+%3FAOTitle+.%7D&should-sponge=&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+</td>
   </tr>
@@ -38,6 +42,34 @@ SELECT ?title ?url WHERE {
   <tr>
     <td>AOP-Wiki MIE-KE dataset</td>
     <td>https://aopwiki.rdf.bigcat-bioinformatics.org/sparql?default-graph-uri=&query=SELECT+%3FMIE+%3FMolecularInitiatingEventName+%3FKE+%3FKeyEventName+WHERE+%7B%0D%0A%3FMIE+dc%3Atitle+%3FMolecularInitiatingEventName+.%0D%0A%3FAOP+a+aopo%3AAdverseOutcomePathway+%3B%0D%0Aaopo%3Ahas_molecular_initiating_event+%3FMIE%3B%0D%0Aaopo%3Ahas_key_event+%3FKE.%0D%0A%3FKE+dc%3Atitle+%3FKeyEventName+.%0D%0AFILTER+%28%3FMIE+%21%3D+%3FKE%29%7D&should-sponge=&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+</td>
+  </tr>
+  <tr>
+    <td>NANoREG - eNanoMapper database</td>
+    <td>https://doi.org/10.5281/zenodo.3467015</td>
+  </tr>
+  <tr>
+    <td>Toxicogenomic assessment of engineered nanomaterials</td>
+    <td>https://doi.org/10.5281/zenodo.4146981</td>
+  </tr>
+  <tr>
+    <td>Raw data and metadata of SiO2 NP physicochemical characterisation, in vitro investigations and in silico predictions on protein corona formation</td>
+    <td>https://doi.org/10.5281/zenodo.4609840</td>
+  </tr>
+  <tr>
+    <td>NanoReg2 - eNanoMapper database</td>
+    <td>https://doi.org/10.5281/zenodo.4713745</td>
+  </tr>
+  <tr>
+    <td>BAM reference data: XPS raw data of Al-coated titania nanoparticles (JRCNM62001a and JRCNM62002a)</td>
+    <td>https://doi.org/10.5281/zenodo.4986068</td>
+  </tr>
+  <tr>
+    <td>RDF version of the data from Anastasios G. et al. Computational enrichment of physicochemical data for the development of a zeta-potential read-across predictive model with Isalos Analytics Platform. NanoImpact (2021)</td>
+    <td>https://doi.org/10.5281/zenodo.5744082</td>
+  </tr>
+  <tr>
+    <td>RDF version of the data from Hagar I. Labouta et al. Meta-Analysis of Nanoparticle Cytotoxicity via Data-Mining the Literature. NanoImpact (2019)</td>
+    <td>https://doi.org/10.5281/zenodo.5744302</td>
   </tr>
   <tr>
     <td>NanoWiki 6</td>
@@ -128,36 +160,20 @@ SELECT ?title ?url WHERE {
     <td>https://identifiers.org/geo:GSE99997</td>
   </tr>
   <tr>
-    <td>FP7 eNanoMapper prototype database</td>
-    <td>https://search.data.enanomapper.net/projects/enanomapper/</td>
+    <td>sbd4nano - eNanoMapper database</td>
+    <td>https://search.data.enanomapper.net/projects/sbd4nano</td>
   </tr>
   <tr>
-    <td>FP7 NANoREG - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/nanoreg/</td>
+    <td>RDF version of the data from Choi, JS. et al. Towards a generalized toxicity prediction model for oxide nanomaterials using integrated data from different sources (2018)</td>
+    <td>https://zenodo.org/record/5743204</td>
   </tr>
   <tr>
-    <td>H2020 NanoReg2 - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/nanoreg2/</td>
+    <td>RDF version of the data from Anastasios G. Papadiamantis et al. Predicting Cytotoxicity of Metal Oxide Nanoparticles Using Isalos Analytics Platform (2020)</td>
+    <td>https://zenodo.org/record/5743788</td>
   </tr>
   <tr>
-    <td>NANoREG - eNanoMapper database</td>
-    <td>https://zenodo.org/record/3467015</td>
-  </tr>
-  <tr>
-    <td>All NanoPUZZLES ISA-TAB-Nano datasets</td>
-    <td>https://zenodo.org/record/35493</td>
-  </tr>
-  <tr>
-    <td>Manually curated transcriptomics data collection for toxicogenomic assessment of engineered nanomaterials)</td>
-    <td>https://zenodo.org/record/4146981</td>
-  </tr>
-  <tr>
-    <td>NanoReg2 - eNanoMapper database</td>
-    <td>https://zenodo.org/record/4713745</td>
-  </tr>
-  <tr>
-    <td>BAM reference data: XPS raw data of Al-coated titania nanoparticles (JRCNM62001a and JRCNM62002a)</td>
-    <td>https://zenodo.org/record/4986068</td>
+    <td>RDF version of the data from Saarimaki et al. Manually curated transcriptomics data collection for toxicogenomic assessment of engineered nanomaterials (Version 1.0.0) [Zenodo Dataset] (2020)</td>
+    <td>https://zenodo.org/record/5744003</td>
   </tr>
 </table>
 

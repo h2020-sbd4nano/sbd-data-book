@@ -50,6 +50,10 @@ This gives us a list of datasets, here showing the first 10:
     <td><b>url</b></td>
   </tr>
   <tr>
+    <td>All NanoPUZZLES ISA-TAB-Nano datasets</td>
+    <td>http://doi.org/10.5281/zenodo.35493</td>
+  </tr>
+  <tr>
     <td>AOP-Wiki AOP-AO dataset</td>
     <td>https://aopwiki.rdf.bigcat-bioinformatics.org/sparql?default-graph-uri=&query=SELECT+%3FAOP+%3FAOPTitle+%3FAO+%3FAOTitle+WHERE+%7B%0D%0A%3FAOP+a+aopo%3AAdverseOutcomePathway+%3B%0D%0Adc%3Atitle+%3FAOPTitle+%3B%0D%0Aaopo%3Ahas_adverse_outcome+%3FAO.%0D%0A%3FAO+dc%3Atitle+%3FAOTitle+.%7D&should-sponge=&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+</td>
   </tr>
@@ -62,24 +66,20 @@ This gives us a list of datasets, here showing the first 10:
     <td>https://aopwiki.rdf.bigcat-bioinformatics.org/sparql?default-graph-uri=&query=SELECT+%3FMIE+%3FMolecularInitiatingEventName+%3FKE+%3FKeyEventName+WHERE+%7B%0D%0A%3FMIE+dc%3Atitle+%3FMolecularInitiatingEventName+.%0D%0A%3FAOP+a+aopo%3AAdverseOutcomePathway+%3B%0D%0Aaopo%3Ahas_molecular_initiating_event+%3FMIE%3B%0D%0Aaopo%3Ahas_key_event+%3FKE.%0D%0A%3FKE+dc%3Atitle+%3FKeyEventName+.%0D%0AFILTER+%28%3FMIE+%21%3D+%3FKE%29%7D&should-sponge=&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+</td>
   </tr>
   <tr>
-    <td>NanoWiki 6</td>
-    <td>https://doi.org/10.6084/m9.figshare.11897205.v1</td>
+    <td>NANoREG - eNanoMapper database</td>
+    <td>https://doi.org/10.5281/zenodo.3467015</td>
   </tr>
   <tr>
-    <td>NanoPUZZLES ISA-TAB-Nano dataset: Data extracted from NanoCare project final scientific report</td>
-    <td>https://doi.org/10.6084/m9.figshare.2056095.v1</td>
+    <td>Toxicogenomic assessment of engineered nanomaterials</td>
+    <td>https://doi.org/10.5281/zenodo.4146981</td>
   </tr>
   <tr>
-    <td>Effect of cell passage number on gene expression in NR8383 macrophages</td>
-    <td>https://identifiers.org/geo:GSE117487</td>
+    <td>Raw data and metadata of SiO2 NP physicochemical characterisation, in vitro investigations and in silico predictions on protein corona formation</td>
+    <td>https://doi.org/10.5281/zenodo.4609840</td>
   </tr>
   <tr>
-    <td>Transcriptomic study of NR8383 rat macrophages cells following exposure to Printex90</td>
-    <td>https://identifiers.org/geo:GSE156457</td>
-  </tr>
-  <tr>
-    <td>Transcriptomic study of NR8383 rat macrophages cells in control condition (DMEM culture medium supplemented with 10% of fetal bovine serum)</td>
-    <td>https://identifiers.org/geo:GSE156458</td>
+    <td>NanoReg2 - eNanoMapper database</td>
+    <td>https://doi.org/10.5281/zenodo.4713745</td>
   </tr>
   <tr><td colspan="2">This table is truncated. See the full table at <a href="sparql/allDatasets.code.md">sparql/allDatasets.rq</a></td></tr>
 </table>
