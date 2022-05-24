@@ -29,12 +29,8 @@ WHERE {
     <td><b>count</b></td>
   </tr>
   <tr>
-    <td></td>
-    <td>271</td>
-  </tr>
-  <tr>
     <td>http://example.com/unknown</td>
-    <td>198</td>
+    <td>1580</td>
   </tr>
   <tr>
     <td>https://www.wikidata.org/entity/Q50423863</td>
@@ -42,7 +38,7 @@ WHERE {
   </tr>
   <tr>
     <td>http://creativecommons.org/publicdomain/zero/1.0/</td>
-    <td>16</td>
+    <td>17</td>
   </tr>
   <tr>
     <td>https://creativecommons.org/licenses/by/4.0/legalcode</td>
@@ -53,7 +49,7 @@ WHERE {
     <td>2</td>
   </tr>
   <tr>
-    <td>https://search.data.enanomapper.net/about/enanomapper/</td>
+    <td></td>
     <td>1</td>
   </tr>
   <tr>
@@ -62,6 +58,10 @@ WHERE {
   </tr>
   <tr>
     <td>https://creativecommons.org/licenses/by-nc/4.0/legalcode</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>https://search.data.enanomapper.net/about/enanomapper/</td>
     <td>1</td>
   </tr>
 </table>

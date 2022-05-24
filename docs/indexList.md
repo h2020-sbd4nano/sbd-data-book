@@ -10,4 +10,4 @@ guidance documents [guidance](guidance.md#tp2)<br />
 guidance tools [guidance](guidance.md#tp1)<br />
 license information [general](general.md#tp2)<br />
 models [models](models.md#tp1)<br />
-Statistics [general](general.md#tp4)
+statistics [general](general.md#tp4)

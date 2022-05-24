@@ -48,14 +48,6 @@ This gives us:
     <td><b>img</b></td>
   </tr>
   <tr>
-    <td><a href="https://doi.org/10.6084/m9.figshare.11897205.v1">NanoWiki v6 causal relationships</a></td>
-    <td><img width="200" src="http://www.enanomapper.net/sites/default/files/eNanoMapper_LOGO.png" /></td>
-  </tr>
-  <tr>
-    <td><a href="https://nanosolveit.eu/resources/tools-services/">NanoSolveIT Tools</a></td>
-    <td><img width="200" src="https://nanosolveit.eu/wp-content/uploads/2019/06/NanoSolveIT-300x114-Transparent-Half.png" /></td>
-  </tr>
-  <tr>
     <td><a href="https://aopwiki.rdf.bigcat-bioinformatics.org/">AOP-Wiki data</a></td>
     <td><img width="200" src="https://aopwiki.rdf.bigcat-bioinformatics.org/assets/images/aopwiki-snorql-logo.png" /></td>
   </tr>
@@ -64,12 +56,24 @@ This gives us:
     <td><img width="200" src="https://aopwiki.rdf.bigcat-bioinformatics.org/assets/images/aopwiki-snorql-logo.png" /></td>
   </tr>
   <tr>
+    <td><a href="https://aopwiki.rdf.bigcat-bioinformatics.org/">AOP-Wiki Key Event Relationships</a></td>
+    <td><img width="200" src="https://aopwiki.rdf.bigcat-bioinformatics.org/assets/images/aopwiki-snorql-logo.png" /></td>
+  </tr>
+  <tr>
+    <td><a href="https://doi.org/10.6084/m9.figshare.11897205.v1">NanoWiki v6 causal relationships</a></td>
+    <td><img width="200" src="http://www.enanomapper.net/sites/default/files/eNanoMapper_LOGO.png" /></td>
+  </tr>
+  <tr>
     <td><a href="http://www.smartnanotox.eu/?page_id=131">SmartNanoTox Transcriptomics datasets</a></td>
     <td><img width="200" src="http://www.smartnanotox.eu/wp-content/uploads/2017/09/logo1-1.png" /></td>
   </tr>
   <tr>
     <td>Overview of open datasets released by NanoSafety Cluster projects</td>
     <td><img width="200" src="https://upload.wikimedia.org/wikipedia/commons/e/e1/NanoCommons-Logo-Large_-_White_Circle_01.png" /></td>
+  </tr>
+  <tr>
+    <td><a href="https://nanosolveit.eu/resources/tools-services/">NanoSolveIT Tools</a></td>
+    <td><img width="200" src="https://nanosolveit.eu/wp-content/uploads/2019/06/NanoSolveIT-300x114-Transparent-Half.png" /></td>
   </tr>
   <tr>
     <td>Datasets hosted at search.data.enanomapper.net</td>
@@ -104,12 +108,8 @@ This gives us:
     <td><b>count</b></td>
   </tr>
   <tr>
-    <td></td>
-    <td>271</td>
-  </tr>
-  <tr>
     <td>http://example.com/unknown</td>
-    <td>198</td>
+    <td>1580</td>
   </tr>
   <tr>
     <td>https://www.wikidata.org/entity/Q50423863</td>
@@ -117,7 +117,7 @@ This gives us:
   </tr>
   <tr>
     <td>http://creativecommons.org/publicdomain/zero/1.0/</td>
-    <td>16</td>
+    <td>17</td>
   </tr>
   <tr>
     <td>https://creativecommons.org/licenses/by/4.0/legalcode</td>
@@ -128,7 +128,7 @@ This gives us:
     <td>2</td>
   </tr>
   <tr>
-    <td>https://search.data.enanomapper.net/about/enanomapper/</td>
+    <td></td>
     <td>1</td>
   </tr>
   <tr>
@@ -139,14 +139,18 @@ This gives us:
     <td>https://creativecommons.org/licenses/by-nc/4.0/legalcode</td>
     <td>1</td>
   </tr>
+  <tr>
+    <td>https://search.data.enanomapper.net/about/enanomapper/</td>
+    <td>1</td>
+  </tr>
 </table>
 
 
-## <a name="tp4">Statistics</a>
+## Statistics
 
 Each data source can provide information about different
 resource types. This table gives an overview for each metadata
-source what information is provided:
+source what information is provided as basic <a name="tp4">statistics</a>:
 
 <table>
   <tr>
@@ -161,20 +165,42 @@ source what information is provided:
     <td><b>lcanalyses</b></td>
   </tr>
   <tr>
-    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-nanowiki/">NanoWiki v6 causal relationships</a></td>
+    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/">AOP-Wiki AOPs</a></td>
     <td>0</td>
     <td>0</td>
+    <td>191</td>
     <td>0</td>
-    <td>11</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
   </tr>
   <tr>
-    <td><a href="https://nanocommons.github.io/datasets/">Overview of open datasets released by NanoSafety Cluster projects</a></td>
+    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-aopwiki/">AOP-Wiki data</a></td>
     <td>0</td>
-    <td>7</td>
+    <td>3</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/">AOP-Wiki Key Event Relationships</a></td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1382</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td><a href="https://search.data.enanomapper.net/">Datasets hosted at search.data.enanomapper.net</a></td>
+    <td>0</td>
+    <td>3</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
@@ -194,32 +220,21 @@ source what information is provided:
     <td>0</td>
   </tr>
   <tr>
-    <td><a href="https://search.data.enanomapper.net/">Datasets hosted at search.data.enanomapper.net</a></td>
-    <td>0</td>
-    <td>3</td>
+    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-nanowiki/">NanoWiki v6 causal relationships</a></td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-  </tr>
-  <tr>
-    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-aopwiki/">AOP-Wiki data</a></td>
-    <td>0</td>
-    <td>3</td>
-    <td>0</td>
-    <td>0</td>
+    <td>11</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
   </tr>
   <tr>
-    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/">AOP-Wiki AOPs</a></td>
+    <td><a href="https://nanocommons.github.io/datasets/">Overview of open datasets released by NanoSafety Cluster projects</a></td>
     <td>0</td>
+    <td>7</td>
     <td>0</td>
-    <td>191</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
