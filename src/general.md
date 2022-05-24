@@ -42,11 +42,11 @@ This gives us:
 <out>allLicenses</out>
 
 
-## <topic>Statistics</topic>
+## Statistics
 
 Each data source can provide information about different
 resource types. This table gives an overview for each metadata
-source what information is provided:
+source what information is provided as basic <topic>statistics</topic>:
 
 <out>statistics</out>
 
