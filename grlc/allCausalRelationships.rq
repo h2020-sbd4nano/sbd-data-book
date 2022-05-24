@@ -10,13 +10,13 @@ PREFIX sbdbel:  <https://www.sbd4nano.eu/bel/#>
 PREFIX dc:      <http://purl.org/dc/elements/1.1/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 
-SELECT DISTINCT ?cause ?type ?outcome ?materialLabel ?evidence
+SELECT DISTINCT ?cause ?type ?outcome ?material ?evidence
 WHERE {
   ?relation a sbdbel:CausalAssertion ;
               sbdbel:relationship ?type .
   OPTIONAL { ?relation sbdbel:cause / rdfs:label ?cause . }
   OPTIONAL { ?relation sbdbel:outcome / rdfs:label ?outcome . }
-  OPTIONAL { ?relation sbdbel:NP / rdfs:label ?materialLabel . }
+  OPTIONAL { ?relation sbdbel:NP / rdfs:label ?material . }
   OPTIONAL { ?relation sbdbel:evidence ?evidence . }
 } ORDER BY DESC(?relation)
 
