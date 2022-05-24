@@ -17,7 +17,7 @@ This gives us:
 
 This gives us:
 
-<out>relationshipsByCause</out>
+<out limit="25">relationshipsByCause</out>
 
 ## Relationships by outcome
 
@@ -25,7 +25,7 @@ This gives us:
 
 This gives us:
 
-<out>relationshipsByOutcome</out>
+<out limit="25">relationshipsByOutcome</out>
 
 Or by Gracious [<cite>Q111312606</cite>] term:
 
