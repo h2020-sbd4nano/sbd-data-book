@@ -79,6 +79,10 @@ This gives us:
     <td>Overview of open datasets released by NanoSafety Cluster projects</td>
     <td><img width="200" src="https://upload.wikimedia.org/wikipedia/commons/e/e1/NanoCommons-Logo-Large_-_White_Circle_01.png" /></td>
   </tr>
+  <tr>
+    <td>Cloud services provided by VHP4Safety</td>
+    <td><img width="200" src="https://vhp4safety.nl/wp-content/uploads/sites/725/2021/05/VHP-LOGO-100mm-RGB.png" /></td>
+  </tr>
 </table>
 
 ### Licenses
@@ -117,7 +121,7 @@ This gives us:
   </tr>
   <tr>
     <td>http://creativecommons.org/publicdomain/zero/1.0/</td>
-    <td>16</td>
+    <td>17</td>
   </tr>
   <tr>
     <td>https://creativecommons.org/licenses/by/4.0/legalcode</td>
@@ -125,7 +129,11 @@ This gives us:
   </tr>
   <tr>
     <td></td>
-    <td>2</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html</td>
+    <td>1</td>
   </tr>
   <tr>
     <td>https://creativecommons.org/publicdomain/zero/1.0/</td>

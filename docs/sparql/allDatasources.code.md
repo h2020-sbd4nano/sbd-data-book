@@ -60,6 +60,10 @@ SELECT ?resource ?resourceLabel ?img WHERE {
     <td>Overview of open datasets released by NanoSafety Cluster projects</td>
     <td><img width="200" src="https://upload.wikimedia.org/wikipedia/commons/e/e1/NanoCommons-Logo-Large_-_White_Circle_01.png" /></td>
   </tr>
+  <tr>
+    <td>Cloud services provided by VHP4Safety</td>
+    <td><img width="200" src="https://vhp4safety.nl/wp-content/uploads/sites/725/2021/05/VHP-LOGO-100mm-RGB.png" /></td>
+  </tr>
 </table>
 
 ## Code examples

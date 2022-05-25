@@ -85,6 +85,14 @@ This gives us:
     <td>8</td>
   </tr>
   <tr>
+    <td>Histone deacetylase inhibition</td>
+    <td>7</td>
+  </tr>
+  <tr>
+    <td>Thyroid hormone synthesis, Decreased</td>
+    <td>7</td>
+  </tr>
+  <tr>
     <td>Acetylcholinesterase (AchE) Inhibition</td>
     <td>7</td>
   </tr>
@@ -97,19 +105,11 @@ This gives us:
     <td>7</td>
   </tr>
   <tr>
-    <td>Thyroid hormone synthesis, Decreased</td>
-    <td>7</td>
-  </tr>
-  <tr>
-    <td>Histone deacetylase inhibition</td>
-    <td>7</td>
-  </tr>
-  <tr>
     <td>Inhibition, 5-hydroxytryptamine transporter (5-HTT; SERT)</td>
     <td>6</td>
   </tr>
   <tr>
-    <td>Increased, serotonin (5-HT) </td>
+    <td>Increased Pro-inflammatory mediators</td>
     <td>6</td>
   </tr>
   <tr>
@@ -125,19 +125,11 @@ This gives us:
     <td>6</td>
   </tr>
   <tr>
-    <td>Increased Pro-inflammatory mediators</td>
+    <td>Increased, serotonin (5-HT) </td>
     <td>6</td>
   </tr>
   <tr>
     <td>Increased, valve movement</td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>Decrease, Adenosine triphosphate pool</td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>Increase, Mutations</td>
     <td>5</td>
   </tr>
   <tr>
@@ -149,11 +141,19 @@ This gives us:
     <td>5</td>
   </tr>
   <tr>
+    <td>Altered, Transcription of genes by AR</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>Increase, Mutations</td>
+    <td>5</td>
+  </tr>
+  <tr>
     <td>Disturbance, Lysosomal function</td>
     <td>5</td>
   </tr>
   <tr>
-    <td>Altered, Transcription of genes by AR</td>
+    <td>Decrease, Adenosine triphosphate pool</td>
     <td>5</td>
   </tr>
   <tr><td colspan="2">This table is truncated. See the full table at <a href="sparql/relationshipsByCause.code.md">sparql/relationshipsByCause.rq</a></td></tr>
@@ -212,15 +212,15 @@ This gives us:
     <td>7</td>
   </tr>
   <tr>
+    <td>impaired, Fertility</td>
+    <td>7</td>
+  </tr>
+  <tr>
     <td>Decrease, Adenosine triphosphate pool</td>
     <td>7</td>
   </tr>
   <tr>
     <td>Accumulation, Fatty acid</td>
-    <td>7</td>
-  </tr>
-  <tr>
-    <td>impaired, Fertility</td>
     <td>7</td>
   </tr>
   <tr>
@@ -234,18 +234,6 @@ This gives us:
   <tr>
     <td>Reduction, 17beta-estradiol synthesis by ovarian granulosa cells</td>
     <td>6</td>
-  </tr>
-  <tr>
-    <td>Decrease, Oogenesis</td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>Activated, gastric ulcer formation</td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>Increase, Mortality</td>
-    <td>5</td>
   </tr>
   <tr>
     <td>Increased, Oxidative Stress</td>
@@ -269,6 +257,18 @@ This gives us:
   </tr>
   <tr>
     <td>Increase, hepatocellular adenomas and carcinomas</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>Increase, Mortality</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>Decrease, Oogenesis</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>Activated, gastric ulcer formation</td>
     <td>5</td>
   </tr>
   <tr>

@@ -9710,37 +9710,79 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td></td>
+    <td>surface modification</td>
     <td>https://www.sbd4nano.eu/bel/#correlates</td>
-    <td></td>
+    <td>bioassay profile</td>
     <td>Nanomaterial</td>
     <td></td>
   </tr>
   <tr>
-    <td></td>
+    <td>particle type</td>
     <td>https://www.sbd4nano.eu/bel/#correlates</td>
-    <td></td>
+    <td>bioassay profile</td>
     <td>Metal Oxide</td>
     <td></td>
   </tr>
   <tr>
+    <td>surface modification</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>bioassay profile</td>
+    <td>Metal Oxide</td>
     <td></td>
+  </tr>
+  <tr>
+    <td>bioassay reading</td>
     <td>https://www.sbd4nano.eu/bel/#negativelyCorreclates</td>
-    <td></td>
+    <td>log 1/EC50</td>
     <td>Metal Oxide</td>
     <td></td>
   </tr>
   <tr>
-    <td></td>
+    <td>exposure concentration</td>
     <td>https://www.sbd4nano.eu/bel/#changes</td>
-    <td></td>
+    <td>LDH release</td>
     <td>Nanomaterial</td>
     <td></td>
   </tr>
   <tr>
+    <td>particle size</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>LDH release</td>
+    <td>Nanomaterial</td>
     <td></td>
+  </tr>
+  <tr>
+    <td>surface modification</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>toxicity</td>
+    <td>Nanomaterial</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>particle size</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>toxicity</td>
+    <td>Nanomaterial</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>particle size</td>
     <td>https://www.sbd4nano.eu/bel/#negativelyCorrelates</td>
+    <td>oxditation state</td>
+    <td>Metal Oxide</td>
     <td></td>
+  </tr>
+  <tr>
+    <td>pH</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>zeta potential</td>
+    <td>Metal Oxide</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>zeta potential</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>aggregation</td>
     <td>Metal Oxide</td>
     <td></td>
   </tr>

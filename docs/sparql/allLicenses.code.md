@@ -38,7 +38,7 @@ WHERE {
   </tr>
   <tr>
     <td>http://creativecommons.org/publicdomain/zero/1.0/</td>
-    <td>16</td>
+    <td>17</td>
   </tr>
   <tr>
     <td>https://creativecommons.org/licenses/by/4.0/legalcode</td>
@@ -46,7 +46,11 @@ WHERE {
   </tr>
   <tr>
     <td></td>
-    <td>2</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html</td>
+    <td>1</td>
   </tr>
   <tr>
     <td>https://creativecommons.org/publicdomain/zero/1.0/</td>
