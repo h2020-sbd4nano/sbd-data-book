@@ -26,8 +26,7 @@ are collected but also retrieved from other <a name="tp3">data sources</a>.
 
 Currently, the following data sources are being used:
 
-**SPARQL** [sparql/allDatasources.rq](sparql/allDatasources.code.html) ([run](https://query.wikidata.org/embed.html#PREFIX%20void%3A%20%20%20%20%3Chttp%3A%2F%2Frdfs.org%2Fns%2Fvoid%23%3E%0APREFIX%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0APREFIX%20dc%3A%20%20%20%20%20%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%3E%0A%0ASELECT%20%3Fresource%20%3FresourceLabel%20%3Fimg%20WHERE%20%7B%0A%20%20%3Fvoid%20a%20void%3ADatasetDescription%20%3B%0A%20%20%20%20dcterms%3Atitle%7Cdc%3Atitle%20%3FresourceLabel%20.%0A%20%20OPTIONAL%20%7B%20%3Fvoid%20dc%3Asource%20%3Fresource%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fvoid%20foaf%3Aimg%20%3Fimg%20%7D%0A%7D%0A), [edit](https://query.wikidata.org/#PREFIX%20void%3A%20%20%20%20%3Chttp%3A%2F%2Frdfs.org%2Fns%2Fvoid%23%3E%0APREFIX%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0APREFIX%20dc%3A%20%20%20%20%20%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%3E%0A%0ASELECT%20%3Fresource%20%3FresourceLabel%20%3Fimg%20WHERE%20%7B%0A%20%20%3Fvoid%20a%20void%3ADatasetDescription%20%3B%0A%20%20%20%20dcterms%3Atitle%7Cdc%3Atitle%20%3FresourceLabel%20.%0A%20%20OPTIONAL%20%7B%20%3Fvoid%20dc%3Asource%20%3Fresource%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fvoid%20foaf%3Aimg%20%3Fimg%20%7D%0A%7D%0A))
-
+**SPARQL** [sparql/allDatasources.rq](sparql/allDatasources.code.html) ([run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20void%3A%20%20%20%20%3Chttp%3A%2F%2Frdfs.org%2Fns%2Fvoid%23%3E%0APREFIX%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0APREFIX%20dc%3A%20%20%20%20%20%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%3E%0A%0ASELECT%20%3Fresource%20%3FresourceLabel%20%3Fimg%20WHERE%20%7B%0A%20%20%3Fvoid%20a%20void%3ADatasetDescription%20%3B%0A%20%20%20%20dcterms%3Atitle%7Cdc%3Atitle%20%3FresourceLabel%20.%0A%20%20OPTIONAL%20%7B%20%3Fvoid%20dc%3Asource%20%3Fresource%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fvoid%20foaf%3Aimg%20%3Fimg%20%7D%0A%7D%0A))
 ```sparql
 PREFIX void:    <http://rdfs.org/ns/void#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
@@ -90,8 +89,7 @@ This gives us:
 Not all resources have licenses that allow us to immediately use them, but require acquiring a license.
 This query lists all license information in the current knowledge base:
 
-**SPARQL** [sparql/allLicenses.rq](sparql/allLicenses.code.html) ([run](https://query.wikidata.org/embed.html#PREFIX%20sbdbel%3A%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Fbel%2F%23%3E%0APREFIX%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0A%0ASELECT%20%3Flicense%20%28COUNT%28DISTINCT%20%3Fresource%29%20AS%20%3Fcount%29%0AWHERE%20%7B%0A%20%20%3Fresource%20a%20%3Ftype%20.%0A%20%20MINUS%20%7B%20%3Fresource%20a%20sbdbel%3ACausalRelationship%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fresource%20dcterms%3Alicense%20%3Flicense%20%7D%0A%7D%20GROUP%20BY%20%3Flicense%0A%20%20ORDER%20BY%20DESC%28%3Fcount%29%0A), [edit](https://query.wikidata.org/#PREFIX%20sbdbel%3A%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Fbel%2F%23%3E%0APREFIX%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0A%0ASELECT%20%3Flicense%20%28COUNT%28DISTINCT%20%3Fresource%29%20AS%20%3Fcount%29%0AWHERE%20%7B%0A%20%20%3Fresource%20a%20%3Ftype%20.%0A%20%20MINUS%20%7B%20%3Fresource%20a%20sbdbel%3ACausalRelationship%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fresource%20dcterms%3Alicense%20%3Flicense%20%7D%0A%7D%20GROUP%20BY%20%3Flicense%0A%20%20ORDER%20BY%20DESC%28%3Fcount%29%0A))
-
+**SPARQL** [sparql/allLicenses.rq](sparql/allLicenses.code.html) ([run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20sbdbel%3A%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Fbel%2F%23%3E%0APREFIX%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0A%0ASELECT%20%3Flicense%20%28COUNT%28DISTINCT%20%3Fresource%29%20AS%20%3Fcount%29%0AWHERE%20%7B%0A%20%20%3Fresource%20a%20%3Ftype%20.%0A%20%20MINUS%20%7B%20%3Fresource%20a%20sbdbel%3ACausalRelationship%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fresource%20dcterms%3Alicense%20%3Flicense%20%7D%0A%7D%20GROUP%20BY%20%3Flicense%0A%20%20ORDER%20BY%20DESC%28%3Fcount%29%0A))
 ```sparql
 PREFIX sbdbel:  <https://www.sbd4nano.eu/bel/#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
@@ -132,10 +130,6 @@ This gives us:
     <td>3</td>
   </tr>
   <tr>
-    <td>https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html</td>
-    <td>1</td>
-  </tr>
-  <tr>
     <td>https://creativecommons.org/publicdomain/zero/1.0/</td>
     <td>1</td>
   </tr>
@@ -149,6 +143,10 @@ This gives us:
   </tr>
   <tr>
     <td>https://creativecommons.org/licenses/by-nc/4.0/legalcode</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html</td>
     <td>1</td>
   </tr>
 </table>

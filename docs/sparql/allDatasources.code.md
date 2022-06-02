@@ -17,8 +17,7 @@ SELECT ?resource ?resourceLabel ?img WHERE {
 }
 ```
 
-[run](https://query.wikidata.org/embed.html#PREFIX%20void%3A%20%20%20%20%3Chttp%3A%2F%2Frdfs.org%2Fns%2Fvoid%23%3E%0APREFIX%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0APREFIX%20dc%3A%20%20%20%20%20%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%3E%0A%0ASELECT%20%3Fresource%20%3FresourceLabel%20%3Fimg%20WHERE%20%7B%0A%20%20%3Fvoid%20a%20void%3ADatasetDescription%20%3B%0A%20%20%20%20dcterms%3Atitle%7Cdc%3Atitle%20%3FresourceLabel%20.%0A%20%20OPTIONAL%20%7B%20%3Fvoid%20dc%3Asource%20%3Fresource%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fvoid%20foaf%3Aimg%20%3Fimg%20%7D%0A%7D%0A) or [edit](https://query.wikidata.org/#PREFIX%20void%3A%20%20%20%20%3Chttp%3A%2F%2Frdfs.org%2Fns%2Fvoid%23%3E%0APREFIX%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0APREFIX%20dc%3A%20%20%20%20%20%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%3E%0A%0ASELECT%20%3Fresource%20%3FresourceLabel%20%3Fimg%20WHERE%20%7B%0A%20%20%3Fvoid%20a%20void%3ADatasetDescription%20%3B%0A%20%20%20%20dcterms%3Atitle%7Cdc%3Atitle%20%3FresourceLabel%20.%0A%20%20OPTIONAL%20%7B%20%3Fvoid%20dc%3Asource%20%3Fresource%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fvoid%20foaf%3Aimg%20%3Fimg%20%7D%0A%7D%0A)
-
+[run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20void%3A%20%20%20%20%3Chttp%3A%2F%2Frdfs.org%2Fns%2Fvoid%23%3E%0APREFIX%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0APREFIX%20dc%3A%20%20%20%20%20%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%3E%0A%0ASELECT%20%3Fresource%20%3FresourceLabel%20%3Fimg%20WHERE%20%7B%0A%20%20%3Fvoid%20a%20void%3ADatasetDescription%20%3B%0A%20%20%20%20dcterms%3Atitle%7Cdc%3Atitle%20%3FresourceLabel%20.%0A%20%20OPTIONAL%20%7B%20%3Fvoid%20dc%3Asource%20%3Fresource%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fvoid%20foaf%3Aimg%20%3Fimg%20%7D%0A%7D%0A)
 
 
 ### Output

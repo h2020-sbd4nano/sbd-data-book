@@ -4,8 +4,7 @@
 
 We can list all <a name="tp1">models</a> with the following query:
 
-**SPARQL** [sparql/allModels.rq](sparql/allModels.code.html) ([run](https://query.wikidata.org/embed.html#PREFIX%20sbd%3A%20%20%20%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Frdf%2F%23%3E%0A%0ASELECT%20*%20WHERE%20%7B%0A%20%20%3Fmodel%20a%20sbd%3AModel%20.%0A%7D%20ORDER%20BY%20%3Fmodel%0A), [edit](https://query.wikidata.org/#PREFIX%20sbd%3A%20%20%20%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Frdf%2F%23%3E%0A%0ASELECT%20*%20WHERE%20%7B%0A%20%20%3Fmodel%20a%20sbd%3AModel%20.%0A%7D%20ORDER%20BY%20%3Fmodel%0A))
-
+**SPARQL** [sparql/allModels.rq](sparql/allModels.code.html) ([run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20sbd%3A%20%20%20%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Frdf%2F%23%3E%0A%0ASELECT%20*%20WHERE%20%7B%0A%20%20%3Fmodel%20a%20sbd%3AModel%20.%0A%7D%20ORDER%20BY%20%3Fmodel%0A))
 ```sparql
 PREFIX sbd:     <https://www.sbd4nano.eu/rdf/#>
 SELECT * WHERE {
