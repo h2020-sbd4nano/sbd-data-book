@@ -9723,9 +9723,30 @@ WHERE {
     <td></td>
   </tr>
   <tr>
+    <td>particle type</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>bioassay profile</td>
+    <td>Metal Oxide</td>
+    <td></td>
+  </tr>
+  <tr>
     <td>surface modification</td>
     <td>https://www.sbd4nano.eu/bel/#correlates</td>
     <td>bioassay profile</td>
+    <td>Metal Oxide</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>surface modification</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>bioassay profile</td>
+    <td>Metal Oxide</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>bioassay reading</td>
+    <td>https://www.sbd4nano.eu/bel/#negativelyCorreclates</td>
+    <td>log 1/EC50</td>
     <td>Metal Oxide</td>
     <td></td>
   </tr>
@@ -9772,9 +9793,30 @@ WHERE {
     <td></td>
   </tr>
   <tr>
+    <td>particle size</td>
+    <td>https://www.sbd4nano.eu/bel/#negativelyCorrelates</td>
+    <td>oxditation state</td>
+    <td>Metal Oxide</td>
+    <td></td>
+  </tr>
+  <tr>
     <td>pH</td>
     <td>https://www.sbd4nano.eu/bel/#correlates</td>
     <td>zeta potential</td>
+    <td>Metal Oxide</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>pH</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>zeta potential</td>
+    <td>Metal Oxide</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>zeta potential</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>aggregation</td>
     <td>Metal Oxide</td>
     <td></td>
   </tr>

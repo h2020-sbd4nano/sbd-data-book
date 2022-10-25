@@ -32,27 +32,47 @@ WHERE {
     <td>1580</td>
   </tr>
   <tr>
+    <td></td>
+    <td>1361</td>
+  </tr>
+  <tr>
     <td>https://www.wikidata.org/entity/Q50423863</td>
     <td>23</td>
   </tr>
   <tr>
     <td>http://creativecommons.org/publicdomain/zero/1.0/</td>
-    <td>17</td>
+    <td>19</td>
   </tr>
   <tr>
     <td>https://creativecommons.org/licenses/by/4.0/legalcode</td>
-    <td>10</td>
+    <td>11</td>
   </tr>
   <tr>
-    <td></td>
-    <td>3</td>
+    <td>https://creativecommons.org/licenses/by-nc-sa/4.0/</td>
+    <td>2</td>
   </tr>
   <tr>
-    <td>https://creativecommons.org/publicdomain/zero/1.0/</td>
+    <td>https://search.data.enanomapper.net/about/biorima</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>https://search.data.enanomapper.net/about/sbd4nano</td>
+    <td>https://search.data.enanomapper.net/about/enanomapper/</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>https://search.data.enanomapper.net/about/polyrisk</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>https://search.data.enanomapper.net/about/gov4nano</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>https://search.data.enanomapper.net/about/riskgone</td>
     <td>1</td>
   </tr>
   <tr>
@@ -60,11 +80,55 @@ WHERE {
     <td>1</td>
   </tr>
   <tr>
+    <td>https://search.data.enanomapper.net/about/sabydoma</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>https://search.data.enanomapper.net/about/patrols</td>
+    <td>1</td>
+  </tr>
+  <tr>
     <td>https://creativecommons.org/licenses/by-nc/4.0/legalcode</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html</td>
+    <td>https://search.data.enanomapper.net/about/sunshine</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>https://search.data.enanomapper.net/about/nanoinformatix</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>https://search.data.enanomapper.net/about/gracious</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>https://search.data.enanomapper.net/about/cusp</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>https://search.data.enanomapper.net/about/plasticfate</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>https://search.data.enanomapper.net/about/charisma</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>https://search.data.enanomapper.net/about/harmless</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>https://search.data.enanomapper.net/about/plasticheal</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>https://search.data.enanomapper.net/about/sbd4nano</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>https://creativecommons.org/publicdomain/zero/1.0/</td>
     <td>1</td>
   </tr>
 </table>

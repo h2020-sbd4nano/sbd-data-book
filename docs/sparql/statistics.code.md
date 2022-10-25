@@ -60,42 +60,20 @@ WHERE {
     <td><b>lcanalyses</b></td>
   </tr>
   <tr>
-    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/">AOP-Wiki AOPs</a></td>
-    <td>0</td>
-    <td>0</td>
-    <td>191</td>
+    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-nanowiki/">NanoWiki v6 causal relationships</a></td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
-    <td>0</td>
-    <td>0</td>
-  </tr>
-  <tr>
-    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-aopwiki/">AOP-Wiki data</a></td>
-    <td>0</td>
-    <td>3</td>
-    <td>0</td>
-    <td>0</td>
+    <td>11</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
   </tr>
   <tr>
-    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/">AOP-Wiki Key Event Relationships</a></td>
+    <td><a href="https://nanocommons.github.io/datasets/">Overview of open datasets released by NanoSafety Cluster projects</a></td>
     <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>1382</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-  </tr>
-  <tr>
-    <td><a href="https://search.data.enanomapper.net/closed/">Datasets hosted at search.data.enanomapper.net</a></td>
-    <td>0</td>
-    <td>1</td>
+    <td>13</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
@@ -115,22 +93,66 @@ WHERE {
     <td>0</td>
   </tr>
   <tr>
-    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-nanowiki/">NanoWiki v6 causal relationships</a></td>
+    <td><a href="https://search.data.enanomapper.net/">Datasets hosted at search.data.enanomapper.net</a></td>
+    <td>0</td>
+    <td>3</td>
     <td>0</td>
     <td>0</td>
-    <td>0</td>
-    <td>11</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
   </tr>
   <tr>
-    <td><a href="https://nanocommons.github.io/datasets/">Overview of open datasets released by NanoSafety Cluster projects</a></td>
+    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-aopwiki/">AOP-Wiki data</a></td>
     <td>0</td>
-    <td>13</td>
+    <td>3</td>
     <td>0</td>
     <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/">AOP-Wiki AOPs</a></td>
+    <td>0</td>
+    <td>0</td>
+    <td>191</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td><a href="https://h2020-sbd4nano.github.io/smartnanotox/datasets/">SmartNanoTox Transcriptomics datasets</a></td>
+    <td>0</td>
+    <td>20</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td><a href="https://search.data.enanomapper.net/closed/">Datasets hosted at search.data.enanomapper.net</a></td>
+    <td>0</td>
+    <td>15</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/">AOP-Wiki Key Event Relationships</a></td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1382</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>

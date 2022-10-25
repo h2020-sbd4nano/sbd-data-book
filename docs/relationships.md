@@ -34,6 +34,10 @@ This gives us:
     <td>6</td>
   </tr>
   <tr>
+    <td>Metal Oxide</td>
+    <td>6</td>
+  </tr>
+  <tr>
     <td>Nanomaterial</td>
     <td>5</td>
   </tr>
@@ -91,6 +95,10 @@ This gives us:
     <td>7</td>
   </tr>
   <tr>
+    <td>Histone deacetylase inhibition</td>
+    <td>7</td>
+  </tr>
+  <tr>
     <td>Activation, PPARα</td>
     <td>7</td>
   </tr>
@@ -99,8 +107,16 @@ This gives us:
     <td>7</td>
   </tr>
   <tr>
-    <td>Histone deacetylase inhibition</td>
-    <td>7</td>
+    <td>Reduced levels of BDNF</td>
+    <td>6</td>
+  </tr>
+  <tr>
+    <td>Peptide Oxidation</td>
+    <td>6</td>
+  </tr>
+  <tr>
+    <td>Increased Pro-inflammatory mediators</td>
+    <td>6</td>
   </tr>
   <tr>
     <td>Decreased, serotonin transporter activity</td>
@@ -111,20 +127,20 @@ This gives us:
     <td>6</td>
   </tr>
   <tr>
-    <td>Reduced levels of BDNF</td>
-    <td>6</td>
-  </tr>
-  <tr>
-    <td>Increased Pro-inflammatory mediators</td>
-    <td>6</td>
-  </tr>
-  <tr>
     <td>Increased, serotonin (5-HT) </td>
     <td>6</td>
   </tr>
   <tr>
-    <td>Peptide Oxidation</td>
-    <td>6</td>
+    <td>Disturbance, Lysosomal function</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>Altered, Transcription of genes by AR</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>Increase, Mutations</td>
+    <td>5</td>
   </tr>
   <tr>
     <td>Increased, valve movement</td>
@@ -139,19 +155,7 @@ This gives us:
     <td>5</td>
   </tr>
   <tr>
-    <td>Increase, Mutations</td>
-    <td>5</td>
-  </tr>
-  <tr>
     <td>Agonism, Androgen receptor</td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>Altered, Transcription of genes by AR</td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>Inhibition, Cyclooxygenase activity</td>
     <td>5</td>
   </tr>
   <tr><td colspan="2">This table is truncated. See the full table at <a href="sparql/relationshipsByCause.code.md">sparql/relationshipsByCause.rq</a></td></tr>
@@ -181,11 +185,11 @@ This gives us:
     <td><b>count</b></td>
   </tr>
   <tr>
-    <td>Increased Mortality</td>
+    <td>Decrease, Population trajectory</td>
     <td>12</td>
   </tr>
   <tr>
-    <td>Decrease, Population trajectory</td>
+    <td>Increased Mortality</td>
     <td>12</td>
   </tr>
   <tr>
@@ -197,7 +201,7 @@ This gives us:
     <td>9</td>
   </tr>
   <tr>
-    <td>Apoptosis</td>
+    <td>Increased, Liver Steatosis</td>
     <td>7</td>
   </tr>
   <tr>
@@ -205,11 +209,7 @@ This gives us:
     <td>7</td>
   </tr>
   <tr>
-    <td>Increased, Liver Steatosis</td>
-    <td>7</td>
-  </tr>
-  <tr>
-    <td>impaired, Fertility</td>
+    <td>Accumulation, Fatty acid</td>
     <td>7</td>
   </tr>
   <tr>
@@ -217,12 +217,12 @@ This gives us:
     <td>7</td>
   </tr>
   <tr>
-    <td>Accumulation, Fatty acid</td>
+    <td>Apoptosis</td>
     <td>7</td>
   </tr>
   <tr>
-    <td>N/A, Mitochondrial dysfunction 1</td>
-    <td>6</td>
+    <td>impaired, Fertility</td>
+    <td>7</td>
   </tr>
   <tr>
     <td> Thyroxine (T4) in serum, Decreased</td>
@@ -233,35 +233,11 @@ This gives us:
     <td>6</td>
   </tr>
   <tr>
-    <td>Increased, Oxidative Stress</td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>Altered, Amphibian metamorphosis</td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>Weakened, Colony</td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>Altered, Gene Expression</td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>Thyroid hormone synthesis, Decreased</td>
-    <td>5</td>
+    <td>N/A, Mitochondrial dysfunction 1</td>
+    <td>6</td>
   </tr>
   <tr>
     <td>Increase, hepatocellular adenomas and carcinomas</td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>Decrease, Oogenesis</td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>Activated, gastric ulcer formation</td>
     <td>5</td>
   </tr>
   <tr>
@@ -269,7 +245,35 @@ This gives us:
     <td>5</td>
   </tr>
   <tr>
+    <td>Thyroid hormone synthesis, Decreased</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>Altered, Amphibian metamorphosis</td>
+    <td>5</td>
+  </tr>
+  <tr>
     <td>Increase, Apoptosis</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>Decrease of synaptogenesis</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>Occurrence, Kidney toxicity</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>Activated, gastric ulcer formation</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>Increased, Oxidative Stress</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>Decrease, Oogenesis</td>
     <td>5</td>
   </tr>
   <tr><td colspan="2">This table is truncated. See the full table at <a href="sparql/relationshipsByOutcome.code.md">sparql/relationshipsByOutcome.rq</a></td></tr>
