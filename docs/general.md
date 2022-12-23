@@ -63,10 +63,6 @@ This gives us:
     <td><img width="200" src="https://aopwiki.rdf.bigcat-bioinformatics.org/assets/images/aopwiki-snorql-logo.png" /></td>
   </tr>
   <tr>
-    <td><a href="http://www.smartnanotox.eu/?page_id=131">SmartNanoTox Transcriptomics datasets</a></td>
-    <td><img width="200" src="http://www.smartnanotox.eu/wp-content/uploads/2017/09/logo1-1.png" /></td>
-  </tr>
-  <tr>
     <td><a href="https://aopwiki.rdf.bigcat-bioinformatics.org/">AOP-Wiki Key Event Relationships</a></td>
     <td><img width="200" src="https://aopwiki.rdf.bigcat-bioinformatics.org/assets/images/aopwiki-snorql-logo.png" /></td>
   </tr>
@@ -79,16 +75,20 @@ This gives us:
     <td><img width="200" src="https://upload.wikimedia.org/wikipedia/commons/e/e1/NanoCommons-Logo-Large_-_White_Circle_01.png" /></td>
   </tr>
   <tr>
-    <td>Datasets hosted at search.data.enanomapper.net</td>
-    <td><img width="200" src="https://search.data.enanomapper.net/assets/img/logo.png" /></td>
-  </tr>
-  <tr>
     <td>Cloud services provided by VHP4Safety</td>
     <td><img width="200" src="https://vhp4safety.nl/wp-content/uploads/sites/725/2021/05/VHP-LOGO-100mm-RGB.png" /></td>
   </tr>
   <tr>
     <td>Datasets hosted at search.data.enanomapper.net</td>
     <td><img width="200" src="https://search.data.enanomapper.net/assets/img/logo.png" /></td>
+  </tr>
+  <tr>
+    <td><a href="https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260">SbD4nano WP2 Causal Relationships</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="https://doi.org/10.1016/j.comtox.2018.12.002">Computational models for the assessment of manufactured nanomaterials</a></td>
+    <td></td>
   </tr>
 </table>
 
@@ -118,12 +118,12 @@ This gives us:
     <td><b>count</b></td>
   </tr>
   <tr>
-    <td>http://example.com/unknown</td>
-    <td>1580</td>
+    <td></td>
+    <td>12150</td>
   </tr>
   <tr>
-    <td></td>
-    <td>1361</td>
+    <td>http://example.com/unknown</td>
+    <td>1580</td>
   </tr>
   <tr>
     <td>https://www.wikidata.org/entity/Q50423863</td>
@@ -131,22 +131,14 @@ This gives us:
   </tr>
   <tr>
     <td>http://creativecommons.org/publicdomain/zero/1.0/</td>
-    <td>19</td>
+    <td>17</td>
   </tr>
   <tr>
     <td>https://creativecommons.org/licenses/by/4.0/legalcode</td>
-    <td>11</td>
-  </tr>
-  <tr>
-    <td>https://creativecommons.org/licenses/by-nc-sa/4.0/</td>
-    <td>2</td>
+    <td>10</td>
   </tr>
   <tr>
     <td>https://search.data.enanomapper.net/about/biorima</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>https://search.data.enanomapper.net/about/enanomapper/</td>
     <td>1</td>
   </tr>
   <tr>
@@ -276,17 +268,6 @@ source what information is provided as basic <a name="tp4">statistics</a>:
     <td>0</td>
   </tr>
   <tr>
-    <td><a href="https://search.data.enanomapper.net/">Datasets hosted at search.data.enanomapper.net</a></td>
-    <td>0</td>
-    <td>3</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-  </tr>
-  <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-aopwiki/">AOP-Wiki data</a></td>
     <td>0</td>
     <td>3</td>
@@ -302,17 +283,6 @@ source what information is provided as basic <a name="tp4">statistics</a>:
     <td>0</td>
     <td>0</td>
     <td>191</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-  </tr>
-  <tr>
-    <td><a href="https://h2020-sbd4nano.github.io/smartnanotox/datasets/">SmartNanoTox Transcriptomics datasets</a></td>
-    <td>0</td>
-    <td>20</td>
-    <td>0</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>

@@ -47,10 +47,6 @@ SELECT ?title ?url WHERE {
     <td>https://doi.org/10.5281/zenodo.3467015</td>
   </tr>
   <tr>
-    <td>Manually curated transcriptomics data collection for toxicogenomic assessment of engineered nanomaterials)</td>
-    <td>https://doi.org/10.5281/zenodo.4146981</td>
-  </tr>
-  <tr>
     <td>Toxicogenomic assessment of engineered nanomaterials</td>
     <td>https://doi.org/10.5281/zenodo.4146981</td>
   </tr>
@@ -175,10 +171,6 @@ SELECT ?title ?url WHERE {
     <td>https://search.data.enanomapper.net/projects/cusp</td>
   </tr>
   <tr>
-    <td>FP7 eNanoMapper prototype database</td>
-    <td>https://search.data.enanomapper.net/projects/enanomapper/</td>
-  </tr>
-  <tr>
     <td>gov4nano - eNanoMapper database</td>
     <td>https://search.data.enanomapper.net/projects/gov4nano</td>
   </tr>
@@ -193,14 +185,6 @@ SELECT ?title ?url WHERE {
   <tr>
     <td>nanoinformatix - eNanoMapper database</td>
     <td>https://search.data.enanomapper.net/projects/nanoinformatix</td>
-  </tr>
-  <tr>
-    <td>FP7 NANoREG - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/nanoreg/</td>
-  </tr>
-  <tr>
-    <td>H2020 NanoReg2 - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/nanoreg2/</td>
   </tr>
   <tr>
     <td>patrols - eNanoMapper database</td>
@@ -233,30 +217,6 @@ SELECT ?title ?url WHERE {
   <tr>
     <td>sunshine - eNanoMapper database</td>
     <td>https://search.data.enanomapper.net/projects/sunshine</td>
-  </tr>
-  <tr>
-    <td>NANoREG - eNanoMapper database</td>
-    <td>https://zenodo.org/record/3467015</td>
-  </tr>
-  <tr>
-    <td>All NanoPUZZLES ISA-TAB-Nano datasets</td>
-    <td>https://zenodo.org/record/35493</td>
-  </tr>
-  <tr>
-    <td>Manually curated transcriptomics data collection for toxicogenomic assessment of engineered nanomaterials)</td>
-    <td>https://zenodo.org/record/4146981</td>
-  </tr>
-  <tr>
-    <td>Toxicogenomic assessment of engineered nanomaterials</td>
-    <td>https://zenodo.org/record/4146981</td>
-  </tr>
-  <tr>
-    <td>NanoReg2 - eNanoMapper database</td>
-    <td>https://zenodo.org/record/4713745</td>
-  </tr>
-  <tr>
-    <td>BAM reference data: XPS raw data of Al-coated titania nanoparticles (JRCNM62001a and JRCNM62002a)</td>
-    <td>https://zenodo.org/record/4986068</td>
   </tr>
   <tr>
     <td>RDF version of the data from Choi, JS. et al. Towards a generalized toxicity prediction model for oxide nanomaterials using integrated data from different sources (2018)</td>

@@ -28,12 +28,12 @@ WHERE {
     <td><b>count</b></td>
   </tr>
   <tr>
-    <td>http://example.com/unknown</td>
-    <td>1580</td>
+    <td></td>
+    <td>12150</td>
   </tr>
   <tr>
-    <td></td>
-    <td>1361</td>
+    <td>http://example.com/unknown</td>
+    <td>1580</td>
   </tr>
   <tr>
     <td>https://www.wikidata.org/entity/Q50423863</td>
@@ -41,22 +41,14 @@ WHERE {
   </tr>
   <tr>
     <td>http://creativecommons.org/publicdomain/zero/1.0/</td>
-    <td>19</td>
+    <td>17</td>
   </tr>
   <tr>
     <td>https://creativecommons.org/licenses/by/4.0/legalcode</td>
-    <td>11</td>
-  </tr>
-  <tr>
-    <td>https://creativecommons.org/licenses/by-nc-sa/4.0/</td>
-    <td>2</td>
+    <td>10</td>
   </tr>
   <tr>
     <td>https://search.data.enanomapper.net/about/biorima</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>https://search.data.enanomapper.net/about/enanomapper/</td>
     <td>1</td>
   </tr>
   <tr>

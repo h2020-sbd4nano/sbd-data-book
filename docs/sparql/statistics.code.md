@@ -93,17 +93,6 @@ WHERE {
     <td>0</td>
   </tr>
   <tr>
-    <td><a href="https://search.data.enanomapper.net/">Datasets hosted at search.data.enanomapper.net</a></td>
-    <td>0</td>
-    <td>3</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-  </tr>
-  <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-aopwiki/">AOP-Wiki data</a></td>
     <td>0</td>
     <td>3</td>
@@ -119,17 +108,6 @@ WHERE {
     <td>0</td>
     <td>0</td>
     <td>191</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-  </tr>
-  <tr>
-    <td><a href="https://h2020-sbd4nano.github.io/smartnanotox/datasets/">SmartNanoTox Transcriptomics datasets</a></td>
-    <td>0</td>
-    <td>20</td>
-    <td>0</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
