@@ -35,4 +35,4 @@ Issues, comments, questions can be reported [here](https://github.com/h2020-sbd4
 [Index](indexList.md) <br />
 
 This project has received funding from the European Union’s Horizon 2020 research and innovation program under grant agreement
-No. [862195](https://cordis.europa.eu/project/id/862195).
+No.&nbps;[862195](https://cordis.europa.eu/project/id/862195).
