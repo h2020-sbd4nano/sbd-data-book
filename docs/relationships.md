@@ -166,7 +166,7 @@ This gives us:
     <td>Oxidative Stress </td>
     <td>5</td>
   </tr>
-  <tr><td colspan="2">This table is truncated. See the full table at <a href="sparql/relationshipsByCause.code.md">sparql/relationshipsByCause.rq</a></td></tr>
+  <tr><td colspan="2">This table is truncated. See the full table at <a href="sparql/relationshipsByCause.code.html">sparql/relationshipsByCause.rq</a></td></tr>
 </table>
 
 ## Relationships by outcome
@@ -284,7 +284,7 @@ This gives us:
     <td>Increase, Mortality</td>
     <td>5</td>
   </tr>
-  <tr><td colspan="2">This table is truncated. See the full table at <a href="sparql/relationshipsByOutcome.code.md">sparql/relationshipsByOutcome.rq</a></td></tr>
+  <tr><td colspan="2">This table is truncated. See the full table at <a href="sparql/relationshipsByOutcome.code.html">sparql/relationshipsByOutcome.rq</a></td></tr>
 </table>
 
 Or by Gracious [<a href="#citeref1">1</a>] term:
@@ -381,7 +381,7 @@ This gives us:
     <td></td>
     <td></td>
   </tr>
-  <tr><td colspan="2">This table is truncated. See the full table at <a href="sparql/allCausalRelationships.code.md">sparql/allCausalRelationships.rq</a></td></tr>
+  <tr><td colspan="2">This table is truncated. See the full table at <a href="sparql/allCausalRelationships.code.html">sparql/allCausalRelationships.rq</a></td></tr>
 </table>
 
 ## References

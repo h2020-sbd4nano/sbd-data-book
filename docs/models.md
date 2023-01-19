@@ -139,6 +139,6 @@ This gives us:
     <td>Intracellular Acidification Induced Olfactory Epithelial Injury Leading to Site of Contact Nasal Tumors</td>
     <td>AOP-Wiki AOPs</td>
   </tr>
-  <tr><td colspan="2">This table is truncated. See the full table at <a href="sparql/allModels.code.md">sparql/allModels.rq</a></td></tr>
+  <tr><td colspan="2">This table is truncated. See the full table at <a href="sparql/allModels.code.html">sparql/allModels.rq</a></td></tr>
 </table>
 

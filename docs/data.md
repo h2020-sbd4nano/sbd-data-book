@@ -79,5 +79,5 @@ This gives us a list of datasets, here showing the first 10:
     <td>Raw data and metadata of SiO2 NP physicochemical characterisation, in vitro investigations and in silico predictions on protein corona formation</td>
     <td>https://doi.org/10.5281/zenodo.4609840</td>
   </tr>
-  <tr><td colspan="2">This table is truncated. See the full table at <a href="sparql/allDatasets.code.md">sparql/allDatasets.rq</a></td></tr>
+  <tr><td colspan="2">This table is truncated. See the full table at <a href="sparql/allDatasets.code.html">sparql/allDatasets.rq</a></td></tr>
 </table>
