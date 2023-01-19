@@ -1,0 +1,8 @@
+PREFIX sbdbel:  <https://www.sbd4nano.eu/bel/#>
+PREFIX npo: <http://purl.bioontology.org/ontology/npo#>
+
+SELECT DISTINCT ?nm ?nmLabel (COUNT(DISTINCT ?relation) AS ?relations) WHERE {
+  VALUES ?superclass { npo:NPO_1541 }
+  ?nm rdfs:subClassOf* ?superclass ; rdfs:label ?nmLabel .
+  ?relation a sbdbel:CausalAssertion ; sbdbel:NP ?nm .
+}

@@ -1,0 +1,14 @@
+#+ endpoint: https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/sparql
+#+ endpoint_in_url: False
+#+ enumerate:
+#+   - lang:
+#+     - en,en
+
+
+PREFIX npo: <http://purl.bioontology.org/ontology/npo#>
+
+SELECT DISTINCT ?nm ?nmLabel WHERE {
+  VALUES ?superclass { npo:NPO_1486 }
+  ?nm rdfs:subClassOf* ?superclass ; rdfs:label ?nmLabel
+}
+
