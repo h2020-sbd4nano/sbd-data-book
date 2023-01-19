@@ -7,8 +7,9 @@
 
 PREFIX npo: <http://purl.bioontology.org/ontology/npo#>
 
-SELECT DISTINCT ?nm ?nmLabel WHERE {
+SELECT DISTINCT ?nm (SAMPLE(?nmLabel_) AS ?nmLabel)
+WHERE {
   VALUES ?superclass { npo:NPO_1486 }
-  ?nm rdfs:subClassOf* ?superclass ; rdfs:label ?nmLabel
+  ?nm rdfs:subClassOf* ?superclass ; rdfs:label ?nmLabel_ .
 }
 
