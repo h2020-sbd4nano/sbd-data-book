@@ -28,10 +28,6 @@ SELECT ?resource ?resourceLabel ?img WHERE {
     <td><b>img</b></td>
   </tr>
   <tr>
-    <td><a href="https://doi.org/10.6084/m9.figshare.11897205.v1">NanoWiki v6 causal relationships</a></td>
-    <td><img width="200" src="http://www.enanomapper.net/sites/default/files/eNanoMapper_LOGO.png" /></td>
-  </tr>
-  <tr>
     <td><a href="https://nanosolveit.eu/resources/tools-services/">NanoSolveIT Tools</a></td>
     <td><img width="200" src="https://nanosolveit.eu/wp-content/uploads/2019/06/NanoSolveIT-300x114-Transparent-Half.png" /></td>
   </tr>
@@ -48,6 +44,10 @@ SELECT ?resource ?resourceLabel ?img WHERE {
     <td><img width="200" src="https://aopwiki.rdf.bigcat-bioinformatics.org/assets/images/aopwiki-snorql-logo.png" /></td>
   </tr>
   <tr>
+    <td><a href="https://doi.org/10.6084/m9.figshare.11897205.v1">NanoWiki v6 causal relationships</a></td>
+    <td><img width="200" src="http://www.enanomapper.net/sites/default/files/eNanoMapper_LOGO.png" /></td>
+  </tr>
+  <tr>
     <td><a href="http://www.smartnanotox.eu/?page_id=131">SmartNanoTox Transcriptomics datasets</a></td>
     <td><img width="200" src="https://www.ucd.ie/sbi/t4media/SNT%20870x400.png" /></td>
   </tr>
@@ -56,12 +56,12 @@ SELECT ?resource ?resourceLabel ?img WHERE {
     <td><img width="200" src="https://upload.wikimedia.org/wikipedia/commons/e/e1/NanoCommons-Logo-Large_-_White_Circle_01.png" /></td>
   </tr>
   <tr>
-    <td>Cloud services provided by VHP4Safety</td>
-    <td><img width="200" src="https://vhp4safety.nl/wp-content/uploads/sites/725/2021/05/VHP-LOGO-100mm-RGB.png" /></td>
+    <td>Open datasets hosted at search.data.enanomapper.net</td>
+    <td><img width="200" src="https://search.data.enanomapper.net/assets/img/logo.png" /></td>
   </tr>
   <tr>
-    <td>Datasets hosted at search.data.enanomapper.net</td>
-    <td><img width="200" src="https://search.data.enanomapper.net/assets/img/logo.png" /></td>
+    <td>Cloud services provided by VHP4Safety</td>
+    <td><img width="200" src="https://vhp4safety.nl/wp-content/uploads/sites/725/2021/05/VHP-LOGO-100mm-RGB.png" /></td>
   </tr>
   <tr>
     <td><a href="https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260">SbD4nano WP2 Causal Relationships</a></td>

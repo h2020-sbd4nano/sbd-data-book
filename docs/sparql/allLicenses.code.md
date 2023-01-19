@@ -29,7 +29,7 @@ WHERE {
   </tr>
   <tr>
     <td></td>
-    <td>12150</td>
+    <td>34237</td>
   </tr>
   <tr>
     <td>http://example.com/unknown</td>
@@ -41,42 +41,22 @@ WHERE {
   </tr>
   <tr>
     <td>http://creativecommons.org/publicdomain/zero/1.0/</td>
-    <td>17</td>
+    <td>18</td>
   </tr>
   <tr>
     <td>https://creativecommons.org/licenses/by/4.0/legalcode</td>
-    <td>10</td>
+    <td>12</td>
   </tr>
   <tr>
-    <td>https://search.data.enanomapper.net/about/biorima</td>
+    <td>https://creativecommons.org/share-your-work/public-domain/cc0</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>https://search.data.enanomapper.net/about/polyrisk</td>
+    <td>https://search.data.enanomapper.net/about/enanomapper</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>https://search.data.enanomapper.net/about/gov4nano</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>https://search.data.enanomapper.net/about/riskgone</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>https://search.data.enanomapper.net/about/sabydoma</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>https://search.data.enanomapper.net/about/patrols</td>
+    <td>https://springernature.figshare.com/articles/dataset/MOESM1_of_Role_of_chemical_composition_and_redox_modification_of_poorly_soluble_nanomaterials_on_their_ability_to_enhance_allergic_airway_sensitisation_in_mice/10071023</td>
     <td>1</td>
   </tr>
   <tr>
@@ -84,43 +64,27 @@ WHERE {
     <td>1</td>
   </tr>
   <tr>
-    <td>https://search.data.enanomapper.net/about/sunshine</td>
+    <td>https://search.data.enanomapper.net/about/nanoreg</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>https://search.data.enanomapper.net/about/nanoinformatix</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>https://search.data.enanomapper.net/about/gracious</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>https://search.data.enanomapper.net/about/cusp</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>https://search.data.enanomapper.net/about/plasticfate</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>https://search.data.enanomapper.net/about/charisma</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>https://search.data.enanomapper.net/about/harmless</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>https://search.data.enanomapper.net/about/plasticheal</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>https://search.data.enanomapper.net/about/sbd4nano</td>
+    <td>https://springernature.figshare.com/articles/dataset/MOESM1_of_Role_of_chemical_composition_and_redox_modification_of_poorly_soluble_nanomaterials_on_their_ability_to_enhance_allergic_airway_sensitisation_in_mice/10071032</td>
     <td>1</td>
   </tr>
   <tr>
     <td>https://creativecommons.org/publicdomain/zero/1.0/</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>https://search.data.enanomapper.net/about/nanoreg2</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>https://search.data.enanomapper.net/about/calibrate</td>
     <td>1</td>
   </tr>
 </table>

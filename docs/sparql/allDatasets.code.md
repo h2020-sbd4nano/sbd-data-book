@@ -51,6 +51,10 @@ SELECT ?title ?url WHERE {
     <td>https://doi.org/10.5281/zenodo.4146981</td>
   </tr>
   <tr>
+    <td>Status quo in data availability and predictive models of nano-mixture toxicity</td>
+    <td>https://doi.org/10.5281/zenodo.4421969</td>
+  </tr>
+  <tr>
     <td>Raw data and metadata of SiO2 NP physicochemical characterisation, in vitro investigations and in silico predictions on protein corona formation</td>
     <td>https://doi.org/10.5281/zenodo.4609840</td>
   </tr>
@@ -71,12 +75,24 @@ SELECT ?title ?url WHERE {
     <td>https://doi.org/10.5281/zenodo.5744302</td>
   </tr>
   <tr>
+    <td>MOESM1 of Role of chemical composition and redox modification of poorly soluble nanomaterials on their ability to enhance allergic airway sensitisation in mice</td>
+    <td>https://doi.org/10.6084/m9.figshare.10071023.v1</td>
+  </tr>
+  <tr>
+    <td>MOESM2 of Role of chemical composition and redox modification of poorly soluble nanomaterials on their ability to enhance allergic airway sensitisation in mice</td>
+    <td>https://doi.org/10.6084/m9.figshare.10071032.v1</td>
+  </tr>
+  <tr>
     <td>NanoWiki 6</td>
     <td>https://doi.org/10.6084/m9.figshare.11897205.v1</td>
   </tr>
   <tr>
     <td>NanoPUZZLES ISA-TAB-Nano dataset: Data extracted from NanoCare project final scientific report</td>
     <td>https://doi.org/10.6084/m9.figshare.2056095.v1</td>
+  </tr>
+  <tr>
+    <td>Heatmap of the overall HTS database</td>
+    <td>https://doi.org/10.6084/m9.figshare.7844594.v1</td>
   </tr>
   <tr>
     <td>Effect of cell passage number on gene expression in NR8383 macrophages</td>
@@ -159,64 +175,20 @@ SELECT ?title ?url WHERE {
     <td>https://identifiers.org/geo:GSE99997</td>
   </tr>
   <tr>
-    <td>biorima - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/biorima</td>
+    <td>calibrate - eNanoMapper database</td>
+    <td>https://search.data.enanomapper.net/projects/calibrate</td>
   </tr>
   <tr>
-    <td>charisma - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/charisma</td>
+    <td>enanomapper - eNanoMapper database</td>
+    <td>https://search.data.enanomapper.net/projects/enanomapper</td>
   </tr>
   <tr>
-    <td>cusp - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/cusp</td>
+    <td>nanoreg - eNanoMapper database</td>
+    <td>https://search.data.enanomapper.net/projects/nanoreg</td>
   </tr>
   <tr>
-    <td>gov4nano - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/gov4nano</td>
-  </tr>
-  <tr>
-    <td>gracious - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/gracious</td>
-  </tr>
-  <tr>
-    <td>harmless - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/harmless</td>
-  </tr>
-  <tr>
-    <td>nanoinformatix - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/nanoinformatix</td>
-  </tr>
-  <tr>
-    <td>patrols - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/patrols</td>
-  </tr>
-  <tr>
-    <td>plasticfate - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/plasticfate</td>
-  </tr>
-  <tr>
-    <td>plasticheal - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/plasticheal</td>
-  </tr>
-  <tr>
-    <td>polyrisk - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/polyrisk</td>
-  </tr>
-  <tr>
-    <td>riskgone - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/riskgone</td>
-  </tr>
-  <tr>
-    <td>sabydoma - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/sabydoma</td>
-  </tr>
-  <tr>
-    <td>sbd4nano - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/sbd4nano</td>
-  </tr>
-  <tr>
-    <td>sunshine - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/sunshine</td>
+    <td>nanoreg2 - eNanoMapper database</td>
+    <td>https://search.data.enanomapper.net/projects/nanoreg2</td>
   </tr>
   <tr>
     <td>RDF version of the data from Choi, JS. et al. Towards a generalized toxicity prediction model for oxide nanomaterials using integrated data from different sources (2018)</td>
@@ -229,6 +201,10 @@ SELECT ?title ?url WHERE {
   <tr>
     <td>RDF version of the data from Saarimaki et al. Manually curated transcriptomics data collection for toxicogenomic assessment of engineered nanomaterials (Version 1.0.0) [Zenodo Dataset] (2020)</td>
     <td>https://zenodo.org/record/5744003</td>
+  </tr>
+  <tr>
+    <td>Raw data of in vitro investigations on immune activation by bare and surface-functionalized SiO2 NP-allergen conjugates using human monocyte-derived dendritic cells as model antigen-presenting cells. Data repository for Punz B. et al., 2022</td>
+    <td>https://zenodo.org/record/6473305</td>
   </tr>
 </table>
 

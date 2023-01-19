@@ -34,7 +34,19 @@ This gives us:
     <td>6</td>
   </tr>
   <tr>
+    <td>metal oxide nanoparticle</td>
+    <td>6</td>
+  </tr>
+  <tr>
     <td>Nanomaterial</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>Nanoparticle</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>nanoparticle</td>
     <td>5</td>
   </tr>
 </table>
@@ -83,11 +95,15 @@ This gives us:
     <td>8</td>
   </tr>
   <tr>
+    <td>Thyroid hormone synthesis, Decreased</td>
+    <td>7</td>
+  </tr>
+  <tr>
     <td>Acetylcholinesterase (AchE) Inhibition</td>
     <td>7</td>
   </tr>
   <tr>
-    <td>Thyroid hormone synthesis, Decreased</td>
+    <td>Increase, Reactive oxygen species production</td>
     <td>7</td>
   </tr>
   <tr>
@@ -99,10 +115,6 @@ This gives us:
     <td>7</td>
   </tr>
   <tr>
-    <td>Increase, Reactive oxygen species production</td>
-    <td>7</td>
-  </tr>
-  <tr>
     <td>Reduced levels of BDNF</td>
     <td>6</td>
   </tr>
@@ -111,11 +123,7 @@ This gives us:
     <td>6</td>
   </tr>
   <tr>
-    <td>Increased Pro-inflammatory mediators</td>
-    <td>6</td>
-  </tr>
-  <tr>
-    <td>Decreased, serotonin transporter activity</td>
+    <td>Increased, serotonin (5-HT) </td>
     <td>6</td>
   </tr>
   <tr>
@@ -123,19 +131,15 @@ This gives us:
     <td>6</td>
   </tr>
   <tr>
-    <td>Increased, serotonin (5-HT) </td>
+    <td>Decreased, serotonin transporter activity</td>
     <td>6</td>
   </tr>
   <tr>
-    <td>Disturbance, Lysosomal function</td>
-    <td>5</td>
+    <td>Increased Pro-inflammatory mediators</td>
+    <td>6</td>
   </tr>
   <tr>
     <td>Altered, Transcription of genes by AR</td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>Increase, Mutations</td>
     <td>5</td>
   </tr>
   <tr>
@@ -143,15 +147,23 @@ This gives us:
     <td>5</td>
   </tr>
   <tr>
-    <td>Oxidative Stress </td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>Decrease, Adenosine triphosphate pool</td>
+    <td>Disturbance, Lysosomal function</td>
     <td>5</td>
   </tr>
   <tr>
     <td>Agonism, Androgen receptor</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>Increase, Mutations</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>Activation, EGFR</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>Oxidative Stress </td>
     <td>5</td>
   </tr>
   <tr><td colspan="2">This table is truncated. See the full table at <a href="sparql/relationshipsByCause.code.md">sparql/relationshipsByCause.rq</a></td></tr>
@@ -181,11 +193,11 @@ This gives us:
     <td><b>count</b></td>
   </tr>
   <tr>
-    <td>Decrease, Population trajectory</td>
+    <td>Increased Mortality</td>
     <td>12</td>
   </tr>
   <tr>
-    <td>Increased Mortality</td>
+    <td>Decrease, Population trajectory</td>
     <td>12</td>
   </tr>
   <tr>
@@ -197,11 +209,19 @@ This gives us:
     <td>9</td>
   </tr>
   <tr>
+    <td>impaired, Fertility</td>
+    <td>7</td>
+  </tr>
+  <tr>
     <td>Increased, Liver Steatosis</td>
     <td>7</td>
   </tr>
   <tr>
     <td>Increase, Mutations</td>
+    <td>7</td>
+  </tr>
+  <tr>
+    <td>Apoptosis</td>
     <td>7</td>
   </tr>
   <tr>
@@ -213,19 +233,11 @@ This gives us:
     <td>7</td>
   </tr>
   <tr>
-    <td>Apoptosis</td>
-    <td>7</td>
-  </tr>
-  <tr>
-    <td>impaired, Fertility</td>
-    <td>7</td>
-  </tr>
-  <tr>
-    <td> Thyroxine (T4) in serum, Decreased</td>
+    <td>Reduction, 17beta-estradiol synthesis by ovarian granulosa cells</td>
     <td>6</td>
   </tr>
   <tr>
-    <td>Reduction, 17beta-estradiol synthesis by ovarian granulosa cells</td>
+    <td> Thyroxine (T4) in serum, Decreased</td>
     <td>6</td>
   </tr>
   <tr>
@@ -233,19 +245,11 @@ This gives us:
     <td>6</td>
   </tr>
   <tr>
-    <td>Increase, hepatocellular adenomas and carcinomas</td>
+    <td>Decrease of synaptogenesis</td>
     <td>5</td>
   </tr>
   <tr>
-    <td>Increase, Mortality</td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>Thyroid hormone synthesis, Decreased</td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>Altered, Amphibian metamorphosis</td>
+    <td>Occurrence, Kidney toxicity</td>
     <td>5</td>
   </tr>
   <tr>
@@ -253,11 +257,7 @@ This gives us:
     <td>5</td>
   </tr>
   <tr>
-    <td>Decrease of synaptogenesis</td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>Occurrence, Kidney toxicity</td>
+    <td>Weakened, Colony</td>
     <td>5</td>
   </tr>
   <tr>
@@ -270,6 +270,18 @@ This gives us:
   </tr>
   <tr>
     <td>Decrease, Oogenesis</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>Thyroid hormone synthesis, Decreased</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>Altered, Gene Expression</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>Increase, Mortality</td>
     <td>5</td>
   </tr>
   <tr><td colspan="2">This table is truncated. See the full table at <a href="sparql/relationshipsByOutcome.code.md">sparql/relationshipsByOutcome.rq</a></td></tr>
