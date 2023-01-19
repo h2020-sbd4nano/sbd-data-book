@@ -6,7 +6,7 @@ with this SPARQL:
 
 <sparql>allTitanias</sparql>
 
-This gives us this list of nanomaerials:
+This gives us this list of nanomaterials:
 
 <out>allTitanias</out>
 
