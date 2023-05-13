@@ -91,7 +91,7 @@ if (unencodedSPARQL.contains("<lang/>"))
   unencodedSPARQL = unencodedSPARQL.replace("<lang/>", lang)
 encodedSPARQL = java.net.URLEncoder.encode(unencodedSPARQL, "UTF-8")
 encodedSPARQL = encodedSPARQL.replace("+","%20");
-baseURL = new File("../endpoint.txt").text.trim()
+baseURL = new File("../endpoint.online.txt").text.trim()
 runURL = "${baseURL}?q=" + encodedSPARQL
 editURL = "${baseURL}?q=" + encodedSPARQL
 
