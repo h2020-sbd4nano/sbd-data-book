@@ -1,7 +1,7 @@
 PREFIX sbdbel:  <https://www.sbd4nano.eu/bel/#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 
-SELECT ?license (COUNT(DISTINCT ?resource) AS ?count)
+SELECT (COUNT(DISTINCT ?resource) AS ?count) ?license
 WHERE {
   ?resource a ?type .
   MINUS { ?resource a sbdbel:CausalRelationship }
