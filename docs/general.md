@@ -47,8 +47,12 @@ This gives us:
     <td><b>img</b></td>
   </tr>
   <tr>
-    <td><a href="https://nanosolveit.eu/resources/tools-services/">NanoSolveIT Tools</a></td>
-    <td><img width="200" src="https://nanosolveit.eu/wp-content/uploads/2019/06/NanoSolveIT-300x114-Transparent-Half.png" /></td>
+    <td><a href="https://doi.org/10.1016/j.comtox.2018.12.002">Computational models for the assessment of manufactured nanomaterials</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>SbD4nano Nanocompound</td>
+    <td><img width="200" src="https://www.urv.cat/media/img/logo-urv-nav.png" /></td>
   </tr>
   <tr>
     <td><a href="https://aopwiki.rdf.bigcat-bioinformatics.org/">AOP-Wiki data</a></td>
@@ -75,20 +79,16 @@ This gives us:
     <td><img width="200" src="https://upload.wikimedia.org/wikipedia/commons/e/e1/NanoCommons-Logo-Large_-_White_Circle_01.png" /></td>
   </tr>
   <tr>
-    <td>Open datasets hosted at search.data.enanomapper.net</td>
+    <td><a href="https://nanosolveit.eu/resources/tools-services/">NanoSolveIT Tools</a></td>
+    <td><img width="200" src="https://nanosolveit.eu/wp-content/uploads/2019/06/NanoSolveIT-300x114-Transparent-Half.png" /></td>
+  </tr>
+  <tr>
+    <td>Open datasets hosted at the Nanosafety Data Interface</td>
     <td><img width="200" src="https://search.data.enanomapper.net/assets/img/logo.png" /></td>
   </tr>
   <tr>
     <td>Cloud services provided by VHP4Safety</td>
     <td><img width="200" src="https://vhp4safety.nl/wp-content/uploads/sites/725/2021/05/VHP-LOGO-100mm-RGB.png" /></td>
-  </tr>
-  <tr>
-    <td><a href="https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260">SbD4nano WP2 Causal Relationships</a></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><a href="https://doi.org/10.1016/j.comtox.2018.12.002">Computational models for the assessment of manufactured nanomaterials</a></td>
-    <td></td>
   </tr>
 </table>
 
@@ -119,34 +119,30 @@ This gives us:
   </tr>
   <tr>
     <td></td>
-    <td>34237</td>
+    <td>6118</td>
   </tr>
   <tr>
-    <td>http://example.com/unknown</td>
-    <td>1580</td>
+    <td>http://creativecommons.org/publicdomain/zero/1.0/</td>
+    <td>1777</td>
+  </tr>
+  <tr>
+    <td>https://creativecommons.org/licenses/by/4.0/</td>
+    <td>261</td>
   </tr>
   <tr>
     <td>https://www.wikidata.org/entity/Q50423863</td>
     <td>23</td>
   </tr>
   <tr>
-    <td>http://creativecommons.org/publicdomain/zero/1.0/</td>
-    <td>18</td>
+    <td>http://example.com/unknown</td>
+    <td>17</td>
   </tr>
   <tr>
     <td>https://creativecommons.org/licenses/by/4.0/legalcode</td>
-    <td>12</td>
+    <td>14</td>
   </tr>
   <tr>
-    <td>https://creativecommons.org/share-your-work/public-domain/cc0</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>https://search.data.enanomapper.net/about/enanomapper</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>https://springernature.figshare.com/articles/dataset/MOESM1_of_Role_of_chemical_composition_and_redox_modification_of_poorly_soluble_nanomaterials_on_their_ability_to_enhance_allergic_airway_sensitisation_in_mice/10071023</td>
+    <td>https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode</td>
     <td>1</td>
   </tr>
   <tr>
@@ -154,7 +150,7 @@ This gives us:
     <td>1</td>
   </tr>
   <tr>
-    <td>https://search.data.enanomapper.net/about/nanoreg</td>
+    <td>https://springernature.figshare.com/articles/dataset/MOESM1_of_Role_of_chemical_composition_and_redox_modification_of_poorly_soluble_nanomaterials_on_their_ability_to_enhance_allergic_airway_sensitisation_in_mice/10071023</td>
     <td>1</td>
   </tr>
   <tr>
@@ -166,15 +162,23 @@ This gives us:
     <td>1</td>
   </tr>
   <tr>
-    <td>https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>https://search.data.enanomapper.net/about/nanoreg2</td>
+    <td>https://creativecommons.org/share-your-work/public-domain/cc0</td>
     <td>1</td>
   </tr>
   <tr>
     <td>https://search.data.enanomapper.net/about/calibrate</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>https://search.data.enanomapper.net/about/enanomapper</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>https://search.data.enanomapper.net/about/nanoreg</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>https://search.data.enanomapper.net/about/nanoreg2</td>
     <td>1</td>
   </tr>
 </table>
@@ -199,21 +203,10 @@ source what information is provided as basic <a name="tp4">statistics</a>:
     <td><b>lcanalyses</b></td>
   </tr>
   <tr>
-    <td><a href="https://nanocommons.github.io/datasets/">Overview of open datasets released by NanoSafety Cluster projects</a></td>
-    <td>0</td>
-    <td>18</td>
+    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/">AOP-Wiki AOPs</a></td>
     <td>0</td>
     <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-  </tr>
-  <tr>
-    <td><a href="https://nanosolveit.eu/resources/tools-services/">NanoSolveIT Tools</a></td>
-    <td>0</td>
-    <td>0</td>
-    <td>6</td>
+    <td>261</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
@@ -232,22 +225,22 @@ source what information is provided as basic <a name="tp4">statistics</a>:
     <td>0</td>
   </tr>
   <tr>
-    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/">AOP-Wiki AOPs</a></td>
+    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/">AOP-Wiki Key Event Relationships</a></td>
     <td>0</td>
     <td>0</td>
-    <td>191</td>
     <td>0</td>
+    <td>1758</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
   </tr>
   <tr>
-    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/">AOP-Wiki Key Event Relationships</a></td>
+    <td><a href="https://nanosolveit.eu/resources/tools-services/">NanoSolveIT Tools</a></td>
     <td>0</td>
     <td>0</td>
+    <td>6</td>
     <td>0</td>
-    <td>1382</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
@@ -265,10 +258,32 @@ source what information is provided as basic <a name="tp4">statistics</a>:
     <td>0</td>
   </tr>
   <tr>
-    <td><a href="https://search.data.enanomapper.net/">Open datasets hosted at search.data.enanomapper.net</a></td>
-    <td>0</td>
+    <td><a href="https://search.data.enanomapper.net/">Open datasets hosted at the Nanosafety Data Interface</a></td>
     <td>4</td>
     <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td><a href="https://nanocommons.github.io/datasets/">Overview of open datasets released by NanoSafety Cluster projects</a></td>
+    <td>0</td>
+    <td>20</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td><a href="https://atena.urv.cat/model/">SbD4nano Nanocompound</a></td>
+    <td>0</td>
+    <td>0</td>
+    <td>10</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>

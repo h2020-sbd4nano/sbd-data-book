@@ -29,34 +29,30 @@ WHERE {
   </tr>
   <tr>
     <td></td>
-    <td>34237</td>
+    <td>6118</td>
   </tr>
   <tr>
-    <td>http://example.com/unknown</td>
-    <td>1580</td>
+    <td>http://creativecommons.org/publicdomain/zero/1.0/</td>
+    <td>1777</td>
+  </tr>
+  <tr>
+    <td>https://creativecommons.org/licenses/by/4.0/</td>
+    <td>261</td>
   </tr>
   <tr>
     <td>https://www.wikidata.org/entity/Q50423863</td>
     <td>23</td>
   </tr>
   <tr>
-    <td>http://creativecommons.org/publicdomain/zero/1.0/</td>
-    <td>18</td>
+    <td>http://example.com/unknown</td>
+    <td>17</td>
   </tr>
   <tr>
     <td>https://creativecommons.org/licenses/by/4.0/legalcode</td>
-    <td>12</td>
+    <td>14</td>
   </tr>
   <tr>
-    <td>https://creativecommons.org/share-your-work/public-domain/cc0</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>https://search.data.enanomapper.net/about/enanomapper</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>https://springernature.figshare.com/articles/dataset/MOESM1_of_Role_of_chemical_composition_and_redox_modification_of_poorly_soluble_nanomaterials_on_their_ability_to_enhance_allergic_airway_sensitisation_in_mice/10071023</td>
+    <td>https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode</td>
     <td>1</td>
   </tr>
   <tr>
@@ -64,7 +60,7 @@ WHERE {
     <td>1</td>
   </tr>
   <tr>
-    <td>https://search.data.enanomapper.net/about/nanoreg</td>
+    <td>https://springernature.figshare.com/articles/dataset/MOESM1_of_Role_of_chemical_composition_and_redox_modification_of_poorly_soluble_nanomaterials_on_their_ability_to_enhance_allergic_airway_sensitisation_in_mice/10071023</td>
     <td>1</td>
   </tr>
   <tr>
@@ -76,15 +72,23 @@ WHERE {
     <td>1</td>
   </tr>
   <tr>
-    <td>https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>https://search.data.enanomapper.net/about/nanoreg2</td>
+    <td>https://creativecommons.org/share-your-work/public-domain/cc0</td>
     <td>1</td>
   </tr>
   <tr>
     <td>https://search.data.enanomapper.net/about/calibrate</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>https://search.data.enanomapper.net/about/enanomapper</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>https://search.data.enanomapper.net/about/nanoreg</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>https://search.data.enanomapper.net/about/nanoreg2</td>
     <td>1</td>
   </tr>
 </table>

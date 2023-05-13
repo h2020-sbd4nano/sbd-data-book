@@ -60,21 +60,10 @@ WHERE {
     <td><b>lcanalyses</b></td>
   </tr>
   <tr>
-    <td><a href="https://nanocommons.github.io/datasets/">Overview of open datasets released by NanoSafety Cluster projects</a></td>
-    <td>0</td>
-    <td>18</td>
+    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/">AOP-Wiki AOPs</a></td>
     <td>0</td>
     <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-  </tr>
-  <tr>
-    <td><a href="https://nanosolveit.eu/resources/tools-services/">NanoSolveIT Tools</a></td>
-    <td>0</td>
-    <td>0</td>
-    <td>6</td>
+    <td>261</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
@@ -93,22 +82,22 @@ WHERE {
     <td>0</td>
   </tr>
   <tr>
-    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/">AOP-Wiki AOPs</a></td>
+    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/">AOP-Wiki Key Event Relationships</a></td>
     <td>0</td>
     <td>0</td>
-    <td>191</td>
     <td>0</td>
+    <td>1758</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
   </tr>
   <tr>
-    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/">AOP-Wiki Key Event Relationships</a></td>
+    <td><a href="https://nanosolveit.eu/resources/tools-services/">NanoSolveIT Tools</a></td>
     <td>0</td>
     <td>0</td>
+    <td>6</td>
     <td>0</td>
-    <td>1382</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
@@ -126,10 +115,32 @@ WHERE {
     <td>0</td>
   </tr>
   <tr>
-    <td><a href="https://search.data.enanomapper.net/">Open datasets hosted at search.data.enanomapper.net</a></td>
-    <td>0</td>
+    <td><a href="https://search.data.enanomapper.net/">Open datasets hosted at the Nanosafety Data Interface</a></td>
     <td>4</td>
     <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td><a href="https://nanocommons.github.io/datasets/">Overview of open datasets released by NanoSafety Cluster projects</a></td>
+    <td>0</td>
+    <td>20</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td><a href="https://atena.urv.cat/model/">SbD4nano Nanocompound</a></td>
+    <td>0</td>
+    <td>0</td>
+    <td>10</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>

@@ -38,6 +38,56 @@ SELECT ?model ?label ?provider WHERE {
     <td>NanoSolveIT Tools</td>
   </tr>
   <tr>
+    <td>https://atena.urv.cat/model/#Anantha2021</td>
+    <td>Nanocompound: Toxicity Metal-Oxide: Anantha 2021</td>
+    <td>SbD4nano Nanocompound</td>
+  </tr>
+  <tr>
+    <td>https://atena.urv.cat/model/#Gajewicz2015</td>
+    <td>Nanocompound: Toxicity Metal-Oxide: Gajewicz 2015</td>
+    <td>SbD4nano Nanocompound</td>
+  </tr>
+  <tr>
+    <td>https://atena.urv.cat/model/#Papa2015-TiO2</td>
+    <td>Nanocompound: LDH(TiO2)</td>
+    <td>SbD4nano Nanocompound</td>
+  </tr>
+  <tr>
+    <td>https://atena.urv.cat/model/#Papa2015-TiO2ZnO</td>
+    <td>Nanocompound: LDH(TiO2+ZnO)</td>
+    <td>SbD4nano Nanocompound</td>
+  </tr>
+  <tr>
+    <td>https://atena.urv.cat/model/#Papa2015-ZnO</td>
+    <td>Nanocompound: LDH(TiO2+ZnO)</td>
+    <td>SbD4nano Nanocompound</td>
+  </tr>
+  <tr>
+    <td>https://atena.urv.cat/model/#Puzyn2011</td>
+    <td>Nanocompound: Toxicity Metal-Oxide: Puzyn 2011</td>
+    <td>SbD4nano Nanocompound</td>
+  </tr>
+  <tr>
+    <td>https://atena.urv.cat/model/#Serratosa2022</td>
+    <td>Nanocompound: Toxicity Metal-Oxide: Serratosa2022</td>
+    <td>SbD4nano Nanocompound</td>
+  </tr>
+  <tr>
+    <td>https://atena.urv.cat/model/#Serratosa2022-TiO2</td>
+    <td>Nanocompound: LDH(TiO2): Serratosa2022</td>
+    <td>SbD4nano Nanocompound</td>
+  </tr>
+  <tr>
+    <td>https://atena.urv.cat/model/#Serratosa2022-TiO2ZnO</td>
+    <td>Nanocompound: LDH(TiO2+ZnO): Serratosa2022</td>
+    <td>SbD4nano Nanocompound</td>
+  </tr>
+  <tr>
+    <td>https://atena.urv.cat/model/#Serratosa2022-ZnO</td>
+    <td>Nanocompound: LDH(ZnO): Serratosa2022</td>
+    <td>SbD4nano Nanocompound</td>
+  </tr>
+  <tr>
     <td>https://cellviability.cloud.nanosolveit.eu/</td>
     <td>NanoSolveIT Cytotoxicity (Cell Viability) Prediction for Metal Oxide NPs</td>
     <td>NanoSolveIT Tools</td>
@@ -93,6 +143,11 @@ SELECT ?model ?label ?provider WHERE {
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
+    <td>https://identifiers.org/aop/110</td>
+    <td>Inhibition of iodide pump activity leading to follicular cell adenomas and carcinomas (in rat and mouse)</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
     <td>https://identifiers.org/aop/113</td>
     <td>Glutamate-gated chloride channel activation leading to acute mortality</td>
     <td>AOP-Wiki AOPs</td>
@@ -115,11 +170,6 @@ SELECT ?model ?label ?provider WHERE {
   <tr>
     <td>https://identifiers.org/aop/123</td>
     <td>Unknown MIE leading to reproductive dysfunction via increased HIF-1alpha transcription</td>
-    <td>AOP-Wiki AOPs</td>
-  </tr>
-  <tr>
-    <td>https://identifiers.org/aop/128</td>
-    <td>Kidney dysfunction by decreased thyroid hormone</td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
@@ -183,6 +233,11 @@ SELECT ?model ?label ?provider WHERE {
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
+    <td>https://identifiers.org/aop/151</td>
+    <td>AhR activation leading to preeclampsia</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
     <td>https://identifiers.org/aop/152</td>
     <td>Interference with thyroid serum binding protein transthyretin and subsequent adverse human neurodevelopmental toxicity </td>
     <td>AOP-Wiki AOPs</td>
@@ -239,7 +294,7 @@ SELECT ?model ?label ?provider WHERE {
   </tr>
   <tr>
     <td>https://identifiers.org/aop/173</td>
-    <td>Substance interaction with the lung resident cell membrane components leading to lung fibrosis</td>
+    <td>Substance interaction with the pulmonary resident cell membrane components leading to pulmonary fibrosis</td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
@@ -328,6 +383,11 @@ SELECT ?model ?label ?provider WHERE {
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
+    <td>https://identifiers.org/aop/203</td>
+    <td>5-hydroxytryptamine transporter inhibition leading to decreased reproductive success and population decline</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
     <td>https://identifiers.org/aop/205</td>
     <td>AOP from chemical insult to cell death</td>
     <td>AOP-Wiki AOPs</td>
@@ -344,7 +404,7 @@ SELECT ?model ?label ?provider WHERE {
   </tr>
   <tr>
     <td>https://identifiers.org/aop/216</td>
-    <td>Excessive reactive oxygen species production leading to population decline via follicular atresia</td>
+    <td>Deposition of energy leading to population decline via DNA strand breaks and follicular atresia</td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
@@ -374,12 +434,12 @@ SELECT ?model ?label ?provider WHERE {
   </tr>
   <tr>
     <td>https://identifiers.org/aop/237</td>
-    <td>Secretion of inflammatory cytokines after cellular sensing of the stressor leading to plaque progression</td>
+    <td>Substance interaction with lung resident cell membrane components leading to atherosclerosis</td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
     <td>https://identifiers.org/aop/238</td>
-    <td>Excessive reactive oxygen species production leading to population decline via lipid peroxidation</td>
+    <td>Deposition of energy leading to population decline via DNA strand breaks and oocyte apoptosis</td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
@@ -404,32 +464,32 @@ SELECT ?model ?label ?provider WHERE {
   </tr>
   <tr>
     <td>https://identifiers.org/aop/263</td>
-    <td>Uncoupling of oxidative phosphorylation leading to  growth inhibition (1)</td>
+    <td>Uncoupling of oxidative phosphorylation leading to  growth inhibition via decreased cell proliferation</td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
     <td>https://identifiers.org/aop/264</td>
-    <td>Uncoupling of oxidative phosphorylation leading to growth inhibition (2)</td>
+    <td>Uncoupling of oxidative phosphorylation leading to growth inhibition via ATP depletion associated cell death</td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
     <td>https://identifiers.org/aop/265</td>
-    <td>Uncoupling of oxidative phosphorylation leading to growth inhibition (3)</td>
+    <td>Uncoupling of oxidative phosphorylation leading to growth inhibition via increased cytosolic calcium</td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
     <td>https://identifiers.org/aop/266</td>
-    <td>Uncoupling of oxidative phosphorylation leading to growth inhibition (4)</td>
+    <td>Uncoupling of oxidative phosphorylation leading to growth inhibition via decreased Na-K ATPase activity</td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
     <td>https://identifiers.org/aop/267</td>
-    <td>Uncoupling of oxidative phosphorylation leading to growth inhibition (5)</td>
+    <td>Uncoupling of oxidative phosphorylation leading to growth inhibition via glucose depletion</td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
     <td>https://identifiers.org/aop/268</td>
-    <td>Uncoupling of oxidative phosphorylation leading to growth inhibition (6)</td>
+    <td>Uncoupling of oxidative phosphorylation leading to growth inhibition via mitochondrial swelling</td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
@@ -439,7 +499,7 @@ SELECT ?model ?label ?provider WHERE {
   </tr>
   <tr>
     <td>https://identifiers.org/aop/272</td>
-    <td>Direct deposition of ionizing energy leading to lung cancer</td>
+    <td>Deposition of energy leading to lung cancer</td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
@@ -464,7 +524,7 @@ SELECT ?model ?label ?provider WHERE {
   </tr>
   <tr>
     <td>https://identifiers.org/aop/277</td>
-    <td>Impaired IL-1R1 signaling leading to increased susceptibility to infection</td>
+    <td>Impaired IL-1R1 signaling leading to Impaired T-Cell Dependent Antibody Response</td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
@@ -479,7 +539,7 @@ SELECT ?model ?label ?provider WHERE {
   </tr>
   <tr>
     <td>https://identifiers.org/aop/282</td>
-    <td>Reactive oxygen species generated from photoreactive chemicals leading to phototoxic reactions</td>
+    <td>Adverse outcome pathway on photochemical toxicity initiated by light exposure</td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
@@ -549,12 +609,12 @@ SELECT ?model ?label ?provider WHERE {
   </tr>
   <tr>
     <td>https://identifiers.org/aop/298</td>
-    <td>Chronic reactive oxygen species leading to human treatment-resistant gastric cancer</td>
+    <td>Increases in cellular reactive oxygen species and chronic reactive oxygen species leading to human treatment-resistant gastric cancer</td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
     <td>https://identifiers.org/aop/299</td>
-    <td>Excessive reactive oxygen species production leading to population decline via reduced fatty acid beta-oxidation</td>
+    <td>Deposition of energy leading to population decline via DNA oxidation and follicular atresia</td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
@@ -575,6 +635,11 @@ SELECT ?model ?label ?provider WHERE {
   <tr>
     <td>https://identifiers.org/aop/301</td>
     <td>Inhibition of Cystathionine Beta synthase leading to impaired the early development of anterior-posterior axis </td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/302</td>
+    <td>Lung surfactant function inhibition leading to decreased lung function</td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
@@ -609,7 +674,7 @@ SELECT ?model ?label ?provider WHERE {
   </tr>
   <tr>
     <td>https://identifiers.org/aop/311</td>
-    <td>Excessive reactive oxygen species production leading to population decline via mitochondrial dysfunction</td>
+    <td>Deposition of energy leading to population decline via DNA oxidation and oocyte apoptosis</td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
@@ -644,17 +709,22 @@ SELECT ?model ?label ?provider WHERE {
   </tr>
   <tr>
     <td>https://identifiers.org/aop/319</td>
-    <td>Inhibition of Angiotensin-converting enzyme 2 leading to lung fibrosis</td>
+    <td>Binding to ACE2 leading to lung fibrosis</td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
     <td>https://identifiers.org/aop/320</td>
-    <td>Binding of viral S-glycoprotein to ACE2 receptor  leading to acute respiratory distress associated mortality</td>
+    <td>Binding of SARS-CoV-2 to ACE2 receptor leading to acute respiratory distress associated mortality</td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
     <td>https://identifiers.org/aop/322</td>
     <td>Alkylation of DNA leading to reduced sperm count</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/323</td>
+    <td>PPARalpha Agonism Impairs Fish Reproduction</td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
@@ -764,12 +834,12 @@ SELECT ?model ?label ?provider WHERE {
   </tr>
   <tr>
     <td>https://identifiers.org/aop/348</td>
-    <td>Inhibition of 11β-Hydroxysteroid Dehydrogenase leading to decreased trajectory in fish</td>
+    <td>Inhibition of 11β-Hydroxysteroid Dehydrogenase leading to decreased population trajectory </td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
     <td>https://identifiers.org/aop/349</td>
-    <td>Inhibition of 11β-hydroxylase leading to decresed trajectory in  fish </td>
+    <td>Inhibition of 11β-hydroxylase leading to decresed population trajectory </td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
@@ -799,7 +869,17 @@ SELECT ?model ?label ?provider WHERE {
   </tr>
   <tr>
     <td>https://identifiers.org/aop/363</td>
-    <td>Thyroperoxidase inhibition leading to increased mortality via altered eye structure</td>
+    <td>Thyroperoxidase inhibition leading to altered visual function via altered retinal layer structure</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/364</td>
+    <td>Thyroperoxidase inhibition leading to altered visual function via decreased eye size</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/365</td>
+    <td>Thyroperoxidase inhibition leading to altered visual function via altered photoreceptor patterning</td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
@@ -839,7 +919,12 @@ SELECT ?model ?label ?provider WHERE {
   </tr>
   <tr>
     <td>https://identifiers.org/aop/377</td>
-    <td>Dysregulated prolonged Toll Like Receptor 9 (TLR9) activation leading to Acute Respiratory Distress Syndrome (ARDS) and Multiple Organ Dysfunction (MOD)</td>
+    <td>Dysregulated prolonged Toll Like Receptor 9 (TLR9) activation leading to Multi Organ Failure involving Acute Respiratory Distress Syndrome (ARDS)</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/379</td>
+    <td>Binding to ACE2 leading to thrombosis and disseminated intravascular coagulation</td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
@@ -854,12 +939,62 @@ SELECT ?model ?label ?provider WHERE {
   </tr>
   <tr>
     <td>https://identifiers.org/aop/383</td>
-    <td>ACE2 inhibition leading to liver fibrosis</td>
+    <td>Inhibition of Angiotensin-converting enzyme 2 leading to liver fibrosis</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/386</td>
+    <td>Deposition of ionizing energy leading to population decline via inhibition of photosynthesis</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/387</td>
+    <td>Deposition of ionising energy leading to population decline via mitochondrial dysfunction</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/388</td>
+    <td>Deposition of ionising energy  leading to population decline via programmed cell death</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/389</td>
+    <td> Oxygen-evolving complex damage leading to population decline via inhibition of photosynthesis</td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
     <td>https://identifiers.org/aop/39</td>
-    <td>Covalent Binding of Low Molecular Weight Organic Chemicals to Proteins leads to Sensitisation (Sensitization) of the Respiratory Tract</td>
+    <td>Covalent Binding, Protein, leading to Increase, Allergic Respiratory Hypersensitivity Response</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/392</td>
+    <td>Decreased fibrinolysis and activated bradykinin system leading to hyperinflammation</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/394</td>
+    <td>SARS-CoV-2 infection of olfactory epithelium leading to impaired olfactory function (short-term anosmia)</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/395</td>
+    <td>Binding of Sars-CoV-2 spike protein to ACE 2 receptors expressed on pericytes leads to disseminated intravascular coagulation resulting in cerebrovascular disease (stroke)</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/397</td>
+    <td>Bulky DNA adducts leading to mutations</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/398</td>
+    <td>Inhibition of ALDH1A (RALDH) leading to impaired fertility via disrupted meiotic initiation of fetal oogonia of the ovary</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/399</td>
+    <td>Inhibition of Fyna leading to increased mortality via decreased eye size (Microphthalmos)</td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
@@ -868,8 +1003,73 @@ SELECT ?model ?label ?provider WHERE {
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
+    <td>https://identifiers.org/aop/401</td>
+    <td>G protein-coupled estrogen receptor 1 (GPER) signal pathway in the endocrine disrupting effect </td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/402</td>
+    <td>Thyroid peroxidase (TPO) inhibition leads to periventricular heterotopia formation in the developing rat brain</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/405</td>
+    <td>Organo-Phosphate Chemicals induced inhibition of AChE  leading to impaired cognitive function</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/406</td>
+    <td>SARS-CoV-2 infection leading to hyperinflammation</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/407</td>
+    <td>SARS-CoV-2 infection leading to pyroptosis</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/409</td>
+    <td>Frustrated phagocytosis leads to malignant mesothelioma</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
     <td>https://identifiers.org/aop/41</td>
     <td>Sustained AhR Activation leading to Rodent Liver Tumours</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/410</td>
+    <td>GSK3beta inactivation leading to increased mortality via defects in developing inner ear</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/411</td>
+    <td>Oxidative stress Leading to Decreased Lung Function </td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/413</td>
+    <td>Oxidation and antagonism of reduced glutathione leading to mortality via acute renal failure</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/415</td>
+    <td>Aryl hydrocarbon receptor activation leading to lung fibrosis through IL-6 toxicity pathway</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/416</td>
+    <td>Aryl hydrocarbon receptor activation leading to lung cancer through IL-6 toxicity pathway</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/417</td>
+    <td>Aryl hydrocarbon receptor activation leading to lung cancer through AHR-ARNT toxicity pathway</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/419</td>
+    <td>Aryl hydrocarbon receptor activation leading to impaired lung function through P53 toxicity pathway</td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
@@ -878,8 +1078,103 @@ SELECT ?model ?label ?provider WHERE {
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
+    <td>https://identifiers.org/aop/423</td>
+    <td> Toxicological mechanisms of hepatocyte apoptosis through the PARP1 dependent cell death pathway </td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/424</td>
+    <td>Oxidative stress Leading to Decreased Lung Function via CFTR dysfunction</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/425</td>
+    <td>Oxidative Stress Leading to Decreased Lung Function via Decreased FOXJ1</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/426</td>
+    <td>SARS-CoV-2 spike protein binding to ACE2 receptors expressed on pericytes leads to endothelial cell dysfunction, microvascular injury and myocardial infarction. </td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/427</td>
+    <td>ACE2 downregulation following SARS-CoV-2 infection triggers dysregulation of RAAS and can lead to heart failure.</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
     <td>https://identifiers.org/aop/43</td>
     <td>Disruption of VEGFR Signaling Leading to Developmental Defects</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/430</td>
+    <td>Binding of SARS-CoV-2 to ACE2 leads to viral infection proliferation</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/432</td>
+    <td>Deposition of Energy by Ionizing Radiation leading to Acute Myeloid Leukemia</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/435</td>
+    <td>Deposition of ionising energy leads to population decline via pollen abnormal</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/436</td>
+    <td>Inhibition of RALDH2 causes reduced all-trans retinoic acid levels, leading to transposition of the great arteries</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/439</td>
+    <td>Activation of the AhR leading to breast cancer </td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/440</td>
+    <td>Hypothalamus estrogen receptors activity suppression leading to ovarian cancer via ovarian epithelial cell hyperplasia</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/441</td>
+    <td>Ionizing radiation-induced DNA damage leads to microcephaly via apoptosis and premature cell differentiation</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/442</td>
+    <td>Inhibition of voltage gate sodium channels leading to impairment in learning and memory during development</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/443</td>
+    <td>Alcohol Induced DNA damage and mutations leading to Metastatic Breast Cancer</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/444</td>
+    <td>Ionizing radiation leads to reduced reproduction in Eisenia fetida via reduced spermatogenesis and cocoon hatchability</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/450</td>
+    <td> Inhibition of AChE and activation of CYP2E1 leading to sensory axonal peripheral neuropathy and mortality</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/451</td>
+    <td>Interaction with lung resident cell membrane components leads to lung cancer</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/455</td>
+    <td>Aryl hydrocarbon receptor activation leading to early life stage mortality via impeded craniofacial development</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/456</td>
+    <td>Aryl hydrocarbon receptor activation leading to early life stage mortality via cardiovascular toxicity</td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
@@ -888,8 +1183,108 @@ SELECT ?model ?label ?provider WHERE {
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
+    <td>https://identifiers.org/aop/460</td>
+    <td>Antagonism of Smoothened receptor leading to orofacial clefting</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/464</td>
+    <td>Calcium overload in dopaminergic neurons of the substantia nigra leading to parkinsonian motor deficits</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/468</td>
+    <td>Binding of SARS-CoV-2 to ACE2 leads to hyperinflammation (via cell death)</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/470</td>
+    <td>Deposition of energy leads to vascular remodeling</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/473</td>
+    <td>Energy deposition from internalized Ra-226 decay lower oxygen binding capacity of hemocyanin</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/475</td>
+    <td>Binding of chemicals to ionotropic glutamate receptors leads to impairment of learning and memory via loss of drebrin from dendritic spines of neurons</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/476</td>
+    <td>Adverse Outcome Pathways diagram related to PBDEs associated male reproductive toxicity</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/477</td>
+    <td>Androgen receptor (AR) antagonism leading to hypospadias in male offspring</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/478</td>
+    <td>Deposition of energy leading to occurrence of cataracts</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/479</td>
+    <td>Mitochondrial complexes inhibition leading to heart failure via increased myocardial oxidative stress</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
     <td>https://identifiers.org/aop/48</td>
     <td>Binding of agonists to ionotropic glutamate receptors in adult brain causes excitotoxicity that mediates neuronal cell death, contributing to learning and memory impairment.</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/480</td>
+    <td>Mitochondrial complexes inhibition leading to heart failure via decreased ATP production</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/482</td>
+    <td>Deposition of energy leading to occurrence of bone loss</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/483</td>
+    <td>Deposition of Energy Leading to Learning and Memory Impairment</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/485</td>
+    <td>Thyroid hormone antagonism leading to impaired oligodendrocyte maturation during development and subsequent decreased cognition</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/486</td>
+    <td>Binding to the extracellular protein laminin leading to decreased cognitive function</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/487</td>
+    <td>Unknown MIE altering cholesterol metabolism leading to decreased cognition</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/488</td>
+    <td>Increased reactive oxygen species production leading to decreased cognitive function</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/489</td>
+    <td>Inhibition of voltage-gated sodium channels leading to decreased cognition</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/490</td>
+    <td>Increased glutamate leads to economic burden through reduced IQ and non-cholinergic mechanisms</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/491</td>
+    <td>Decrease, GLI1/2 target gene expression leads to orofacial clefting </td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
@@ -1005,6 +1400,11 @@ SELECT ?model ?label ?provider WHERE {
   <tr>
     <td>https://identifiers.org/aop/96</td>
     <td>Axonal sodium channel modulation leading to acute mortality</td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td>https://identifiers.org/aop/97</td>
+    <td>5-hydroxytryptamine transporter (5-HTT; SERT) inhibition leading to population decline</td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>

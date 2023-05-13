@@ -35,6 +35,56 @@ This gives us:
     <td>NanoSolveIT Tools</td>
   </tr>
   <tr>
+    <td>https://atena.urv.cat/model/#Anantha2021</td>
+    <td>Nanocompound: Toxicity Metal-Oxide: Anantha 2021</td>
+    <td>SbD4nano Nanocompound</td>
+  </tr>
+  <tr>
+    <td>https://atena.urv.cat/model/#Gajewicz2015</td>
+    <td>Nanocompound: Toxicity Metal-Oxide: Gajewicz 2015</td>
+    <td>SbD4nano Nanocompound</td>
+  </tr>
+  <tr>
+    <td>https://atena.urv.cat/model/#Papa2015-TiO2</td>
+    <td>Nanocompound: LDH(TiO2)</td>
+    <td>SbD4nano Nanocompound</td>
+  </tr>
+  <tr>
+    <td>https://atena.urv.cat/model/#Papa2015-TiO2ZnO</td>
+    <td>Nanocompound: LDH(TiO2+ZnO)</td>
+    <td>SbD4nano Nanocompound</td>
+  </tr>
+  <tr>
+    <td>https://atena.urv.cat/model/#Papa2015-ZnO</td>
+    <td>Nanocompound: LDH(TiO2+ZnO)</td>
+    <td>SbD4nano Nanocompound</td>
+  </tr>
+  <tr>
+    <td>https://atena.urv.cat/model/#Puzyn2011</td>
+    <td>Nanocompound: Toxicity Metal-Oxide: Puzyn 2011</td>
+    <td>SbD4nano Nanocompound</td>
+  </tr>
+  <tr>
+    <td>https://atena.urv.cat/model/#Serratosa2022</td>
+    <td>Nanocompound: Toxicity Metal-Oxide: Serratosa2022</td>
+    <td>SbD4nano Nanocompound</td>
+  </tr>
+  <tr>
+    <td>https://atena.urv.cat/model/#Serratosa2022-TiO2</td>
+    <td>Nanocompound: LDH(TiO2): Serratosa2022</td>
+    <td>SbD4nano Nanocompound</td>
+  </tr>
+  <tr>
+    <td>https://atena.urv.cat/model/#Serratosa2022-TiO2ZnO</td>
+    <td>Nanocompound: LDH(TiO2+ZnO): Serratosa2022</td>
+    <td>SbD4nano Nanocompound</td>
+  </tr>
+  <tr>
+    <td>https://atena.urv.cat/model/#Serratosa2022-ZnO</td>
+    <td>Nanocompound: LDH(ZnO): Serratosa2022</td>
+    <td>SbD4nano Nanocompound</td>
+  </tr>
+  <tr>
     <td>https://cellviability.cloud.nanosolveit.eu/</td>
     <td>NanoSolveIT Cytotoxicity (Cell Viability) Prediction for Metal Oxide NPs</td>
     <td>NanoSolveIT Tools</td>
@@ -87,56 +137,6 @@ This gives us:
   <tr>
     <td>https://identifiers.org/aop/107</td>
     <td>Constitutive androstane receptor activation leading to hepatocellular adenomas and carcinomas in the mouse and the rat</td>
-    <td>AOP-Wiki AOPs</td>
-  </tr>
-  <tr>
-    <td>https://identifiers.org/aop/113</td>
-    <td>Glutamate-gated chloride channel activation leading to acute mortality</td>
-    <td>AOP-Wiki AOPs</td>
-  </tr>
-  <tr>
-    <td>https://identifiers.org/aop/119</td>
-    <td>Inhibition of thyroid peroxidase leading to follicular cell adenomas and carcinomas (in rat and mouse)</td>
-    <td>AOP-Wiki AOPs</td>
-  </tr>
-  <tr>
-    <td>https://identifiers.org/aop/12</td>
-    <td>Chronic binding of antagonist to N-methyl-D-aspartate receptors (NMDARs) during brain development leads to neurodegeneration with impairment in learning and memory in aging</td>
-    <td>AOP-Wiki AOPs</td>
-  </tr>
-  <tr>
-    <td>https://identifiers.org/aop/122</td>
-    <td>Prolyl hydroxylase inhibition leading to reproductive dysfunction via increased HIF1 heterodimer formation</td>
-    <td>AOP-Wiki AOPs</td>
-  </tr>
-  <tr>
-    <td>https://identifiers.org/aop/123</td>
-    <td>Unknown MIE leading to reproductive dysfunction via increased HIF-1alpha transcription</td>
-    <td>AOP-Wiki AOPs</td>
-  </tr>
-  <tr>
-    <td>https://identifiers.org/aop/128</td>
-    <td>Kidney dysfunction by decreased thyroid hormone</td>
-    <td>AOP-Wiki AOPs</td>
-  </tr>
-  <tr>
-    <td>https://identifiers.org/aop/13</td>
-    <td>Chronic binding of antagonist to N-methyl-D-aspartate receptors (NMDARs) during brain development induces impairment of learning and memory abilities</td>
-    <td>AOP-Wiki AOPs</td>
-  </tr>
-  <tr>
-    <td>https://identifiers.org/aop/131</td>
-    <td>Aryl hydrocarbon receptor activation leading to uroporphyria</td>
-    <td>AOP-Wiki AOPs</td>
-  </tr>
-  <tr>
-    <td>https://identifiers.org/aop/134</td>
-    <td>Sodium Iodide Symporter (NIS) Inhibition and Subsequent Adverse Neurodevelopmental Outcomes in Mammals</td>
-    <td>AOP-Wiki AOPs</td>
-  </tr>
-  <tr>
-    <td>https://identifiers.org/aop/136</td>
-    <td>Intracellular Acidification Induced Olfactory Epithelial Injury Leading to Site of Contact Nasal Tumors</td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr><td colspan="2">This table is truncated. See the full table at <a href="sparql/allModels.code.html">sparql/allModels.rq</a></td></tr>

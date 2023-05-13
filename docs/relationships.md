@@ -34,19 +34,11 @@ This gives us:
     <td>6</td>
   </tr>
   <tr>
-    <td>metal oxide nanoparticle</td>
-    <td>6</td>
-  </tr>
-  <tr>
     <td>Nanomaterial</td>
     <td>5</td>
   </tr>
   <tr>
     <td>Nanoparticle</td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>nanoparticle</td>
     <td>5</td>
   </tr>
 </table>
@@ -75,39 +67,63 @@ This gives us:
     <td><b>count</b></td>
   </tr>
   <tr>
+    <td>Deposition of Energy</td>
+    <td>23</td>
+  </tr>
+  <tr>
+    <td>Oxidative Stress </td>
+    <td>22</td>
+  </tr>
+  <tr>
+    <td>Activation, AhR</td>
+    <td>18</td>
+  </tr>
+  <tr>
     <td>N/A, Mitochondrial dysfunction 1</td>
+    <td>13</td>
+  </tr>
+  <tr>
+    <td> Thyroxine (T4) in serum, Decreased</td>
     <td>12</td>
+  </tr>
+  <tr>
+    <td>Increase, DNA damage</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>Increased, Reactive oxygen species</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>Cell injury/death</td>
+    <td>10</td>
   </tr>
   <tr>
     <td>Activation, LXR</td>
     <td>10</td>
   </tr>
   <tr>
-    <td>Activation, AhR</td>
-    <td>10</td>
-  </tr>
-  <tr>
-    <td>Cell injury/death</td>
+    <td>Deposition of Ionizing Energy</td>
     <td>9</td>
   </tr>
   <tr>
-    <td> Thyroxine (T4) in serum, Decreased</td>
+    <td>Histone deacetylase inhibition</td>
     <td>8</td>
   </tr>
   <tr>
-    <td>Thyroid hormone synthesis, Decreased</td>
-    <td>7</td>
+    <td>Increase, Reactive Oxygen Species production</td>
+    <td>8</td>
   </tr>
   <tr>
     <td>Acetylcholinesterase (AchE) Inhibition</td>
-    <td>7</td>
+    <td>8</td>
   </tr>
   <tr>
-    <td>Increase, Reactive oxygen species production</td>
-    <td>7</td>
+    <td>Increase, DNA strand breaks</td>
+    <td>8</td>
   </tr>
   <tr>
-    <td>Histone deacetylase inhibition</td>
+    <td>Apoptosis</td>
     <td>7</td>
   </tr>
   <tr>
@@ -115,19 +131,19 @@ This gives us:
     <td>7</td>
   </tr>
   <tr>
+    <td>Increased Pro-inflammatory mediators</td>
+    <td>7</td>
+  </tr>
+  <tr>
+    <td>Increase, Apoptosis</td>
+    <td>6</td>
+  </tr>
+  <tr>
+    <td>Thyroid hormone synthesis, Decreased</td>
+    <td>6</td>
+  </tr>
+  <tr>
     <td>Reduced levels of BDNF</td>
-    <td>6</td>
-  </tr>
-  <tr>
-    <td>Peptide Oxidation</td>
-    <td>6</td>
-  </tr>
-  <tr>
-    <td>Increased, serotonin (5-HT) </td>
-    <td>6</td>
-  </tr>
-  <tr>
-    <td>Inhibition, 5-hydroxytryptamine transporter (5-HTT; SERT)</td>
     <td>6</td>
   </tr>
   <tr>
@@ -135,36 +151,12 @@ This gives us:
     <td>6</td>
   </tr>
   <tr>
-    <td>Increased Pro-inflammatory mediators</td>
+    <td>Peptide Oxidation</td>
     <td>6</td>
   </tr>
   <tr>
-    <td>Altered, Transcription of genes by AR</td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>Increased, valve movement</td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>Disturbance, Lysosomal function</td>
-    <td>5</td>
-  </tr>
-  <tr>
     <td>Agonism, Androgen receptor</td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>Increase, Mutations</td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>Activation, EGFR</td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>Oxidative Stress </td>
-    <td>5</td>
+    <td>6</td>
   </tr>
   <tr><td colspan="2">This table is truncated. See the full table at <a href="sparql/relationshipsByCause.code.html">sparql/relationshipsByCause.rq</a></td></tr>
 </table>
@@ -193,35 +185,63 @@ This gives us:
     <td><b>count</b></td>
   </tr>
   <tr>
-    <td>Increased Mortality</td>
-    <td>12</td>
+    <td>Decrease, Population growth rate</td>
+    <td>17</td>
   </tr>
   <tr>
-    <td>Decrease, Population trajectory</td>
-    <td>12</td>
+    <td>Increased Mortality</td>
+    <td>16</td>
   </tr>
   <tr>
     <td>Cell injury/death</td>
-    <td>10</td>
+    <td>14</td>
   </tr>
   <tr>
     <td>Impairment, Learning and memory</td>
+    <td>13</td>
+  </tr>
+  <tr>
+    <td>Increased, Reactive oxygen species</td>
+    <td>11</td>
+  </tr>
+  <tr>
+    <td>Increase, Apoptosis</td>
+    <td>9</td>
+  </tr>
+  <tr>
+    <td>Increased, secretion of proinflammatory mediators</td>
     <td>9</td>
   </tr>
   <tr>
     <td>impaired, Fertility</td>
-    <td>7</td>
-  </tr>
-  <tr>
-    <td>Increased, Liver Steatosis</td>
-    <td>7</td>
-  </tr>
-  <tr>
-    <td>Increase, Mutations</td>
-    <td>7</td>
+    <td>9</td>
   </tr>
   <tr>
     <td>Apoptosis</td>
+    <td>9</td>
+  </tr>
+  <tr>
+    <td>Increased, Oxidative Stress</td>
+    <td>8</td>
+  </tr>
+  <tr>
+    <td>Increase, Mutations</td>
+    <td>8</td>
+  </tr>
+  <tr>
+    <td>N/A, Mitochondrial dysfunction 1</td>
+    <td>8</td>
+  </tr>
+  <tr>
+    <td>Increase, Cell death</td>
+    <td>8</td>
+  </tr>
+  <tr>
+    <td>Increase, Mortality</td>
+    <td>7</td>
+  </tr>
+  <tr>
+    <td>Oxidative Stress </td>
     <td>7</td>
   </tr>
   <tr>
@@ -229,60 +249,32 @@ This gives us:
     <td>7</td>
   </tr>
   <tr>
-    <td>Decrease, Adenosine triphosphate pool</td>
+    <td>Decrease of neuronal network function</td>
     <td>7</td>
+  </tr>
+  <tr>
+    <td>Increased, Liver Steatosis</td>
+    <td>7</td>
+  </tr>
+  <tr>
+    <td>Increase, Oocyte apoptosis</td>
+    <td>7</td>
+  </tr>
+  <tr>
+    <td>Decrease, Reproduction</td>
+    <td>7</td>
+  </tr>
+  <tr>
+    <td>Occurrence, Kidney toxicity</td>
+    <td>6</td>
   </tr>
   <tr>
     <td>Reduction, 17beta-estradiol synthesis by ovarian granulosa cells</td>
     <td>6</td>
   </tr>
   <tr>
-    <td> Thyroxine (T4) in serum, Decreased</td>
+    <td>Neuroinflammation</td>
     <td>6</td>
-  </tr>
-  <tr>
-    <td>N/A, Mitochondrial dysfunction 1</td>
-    <td>6</td>
-  </tr>
-  <tr>
-    <td>Decrease of synaptogenesis</td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>Occurrence, Kidney toxicity</td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>Increase, Apoptosis</td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>Weakened, Colony</td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>Activated, gastric ulcer formation</td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>Increased, Oxidative Stress</td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>Decrease, Oogenesis</td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>Thyroid hormone synthesis, Decreased</td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>Altered, Gene Expression</td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>Increase, Mortality</td>
-    <td>5</td>
   </tr>
   <tr><td colspan="2">This table is truncated. See the full table at <a href="sparql/relationshipsByOutcome.code.html">sparql/relationshipsByOutcome.rq</a></td></tr>
 </table>
@@ -368,16 +360,16 @@ This gives us:
     <td></td>
   </tr>
   <tr>
-    <td>Activation, Sp1</td>
+    <td>Activation, EGFR</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Increase, Mucin production</td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td>Activation, EGFR</td>
+    <td>Activation, AhR</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Increase, Mucin production</td>
+    <td>Increase, Early Life Stage Mortality</td>
     <td></td>
     <td></td>
   </tr>

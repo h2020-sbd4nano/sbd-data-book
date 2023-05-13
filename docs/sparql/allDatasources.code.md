@@ -28,8 +28,12 @@ SELECT ?resource ?resourceLabel ?img WHERE {
     <td><b>img</b></td>
   </tr>
   <tr>
-    <td><a href="https://nanosolveit.eu/resources/tools-services/">NanoSolveIT Tools</a></td>
-    <td><img width="200" src="https://nanosolveit.eu/wp-content/uploads/2019/06/NanoSolveIT-300x114-Transparent-Half.png" /></td>
+    <td><a href="https://doi.org/10.1016/j.comtox.2018.12.002">Computational models for the assessment of manufactured nanomaterials</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>SbD4nano Nanocompound</td>
+    <td><img width="200" src="https://www.urv.cat/media/img/logo-urv-nav.png" /></td>
   </tr>
   <tr>
     <td><a href="https://aopwiki.rdf.bigcat-bioinformatics.org/">AOP-Wiki data</a></td>
@@ -56,20 +60,16 @@ SELECT ?resource ?resourceLabel ?img WHERE {
     <td><img width="200" src="https://upload.wikimedia.org/wikipedia/commons/e/e1/NanoCommons-Logo-Large_-_White_Circle_01.png" /></td>
   </tr>
   <tr>
-    <td>Open datasets hosted at search.data.enanomapper.net</td>
+    <td><a href="https://nanosolveit.eu/resources/tools-services/">NanoSolveIT Tools</a></td>
+    <td><img width="200" src="https://nanosolveit.eu/wp-content/uploads/2019/06/NanoSolveIT-300x114-Transparent-Half.png" /></td>
+  </tr>
+  <tr>
+    <td>Open datasets hosted at the Nanosafety Data Interface</td>
     <td><img width="200" src="https://search.data.enanomapper.net/assets/img/logo.png" /></td>
   </tr>
   <tr>
     <td>Cloud services provided by VHP4Safety</td>
     <td><img width="200" src="https://vhp4safety.nl/wp-content/uploads/sites/725/2021/05/VHP-LOGO-100mm-RGB.png" /></td>
-  </tr>
-  <tr>
-    <td><a href="https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260">SbD4nano WP2 Causal Relationships</a></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><a href="https://doi.org/10.1016/j.comtox.2018.12.002">Computational models for the assessment of manufactured nanomaterials</a></td>
-    <td></td>
   </tr>
 </table>
 

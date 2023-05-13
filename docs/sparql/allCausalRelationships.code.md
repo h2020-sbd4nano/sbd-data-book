@@ -77,13 +77,6 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>Activation, Sp1</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Increase, Mucin production</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
     <td>Activation, EGFR</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Increase, Mucin production</td>
@@ -154,41 +147,6 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>Activation, EGFR</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Increase, Proliferation of goblet cells</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Activation, EGFR</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Occurrence, Transdifferentiation of ciliated epithelial cells</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Activation, EGFR</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Activation, Sp1</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Activation, EGFR</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Decrease, Apoptosis of ciliated epithelial cells</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Decrease, Apoptosis of ciliated epithelial cells</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Occurrence, Transdifferentiation of ciliated epithelial cells</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
     <td>KE6 : Depletion, Nitric Oxide</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>KE7 : Impaired, Vasodilation</td>
@@ -231,23 +189,9 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>Increase, Proliferation of goblet cells</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Occurrence, Hyperplasia of goblet cells</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Occurrence, Transdifferentiation of ciliated epithelial cells</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Occurrence, Metaplasia of goblet cells</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
     <td>Reduction, Cumulative fecundity and spawning</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Decrease, Population trajectory</td>
+    <td>Decrease, Population growth rate</td>
     <td></td>
     <td></td>
   </tr>
@@ -854,13 +798,6 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>Decreased, Thyroxine (T4) in serum</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Occurrence, Cytoplasmic vacuolization (podocyte)</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
     <td>Increased, Serum creatinine</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Occurrence, Cystic dilatation (renal tubule)</td>
@@ -875,30 +812,9 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>Decreased, Thyroxine (T4) in serum</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Occurrence, Cystic dilatation (renal tubule)</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Decreased, Thyroxine (T4) in serum</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Occurrence, Cytoplasmic vacuolization (Renal tubule)</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
     <td>Thyroid hormone synthesis, Decreased</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Increased, Serum creatinine</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Thyroid hormone synthesis, Decreased</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Decreased, Thyroxine (T4) in serum</td>
     <td></td>
     <td></td>
   </tr>
@@ -1018,20 +934,6 @@ WHERE {
     <td>Inhibition, 5α-reductase activity</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Decrease, Bioactivation of testosterone</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Decrease, Incorporation of active iodide into iodotyrosines</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Decrease, Serum thyroid hormone (T4/T3)</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Thyroperoxidase, Inhibition</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Decrease, Incorporation of active iodide into iodotyrosines</td>
     <td></td>
     <td></td>
   </tr>
@@ -1172,20 +1074,6 @@ WHERE {
     <td>Activation, ChREBP</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Synthesis, De Novo FA</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Decrease, Serum thyroid hormone (T4/T3)</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Increase, Thyroid-stimulating hormone (TSH)</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Decreased, Uptake of inorganic iodide</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Decrease, Serum thyroid hormone (T4/T3)</td>
     <td></td>
     <td></td>
   </tr>
@@ -1344,13 +1232,6 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>Increase, Thyroid-stimulating hormone (TSH)</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Increase, Hypertrophy and proliferation (follicular cell)</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
     <td>Altered, Meiotic chromosome dynamics</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Altered, Chromosome number</td>
@@ -1358,7 +1239,7 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>Disorganization, Spindle</td>
+    <td>Disorganization, Meiotic Spindle</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Altered, Meiotic chromosome dynamics</td>
     <td></td>
@@ -1444,7 +1325,7 @@ WHERE {
   <tr>
     <td>Disruption, Microtubule dynamics</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Disorganization, Spindle</td>
+    <td>Disorganization, Meiotic Spindle</td>
     <td></td>
     <td></td>
   </tr>
@@ -1654,7 +1535,7 @@ WHERE {
   <tr>
     <td>Reduced, Reproductive Success</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Decrease, Population trajectory</td>
+    <td>Decrease, Population growth rate</td>
     <td></td>
     <td></td>
   </tr>
@@ -3052,6 +2933,125 @@ WHERE {
     <td></td>
   </tr>
   <tr>
+    <td>Systemic acute phase response</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Atherosclerosis</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Mucin production</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, Lung function</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, goblet cell number</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Mucin production</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Activation, EGFR</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, goblet cell number</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, DNA strand breaks</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Altered Signaling Pathways</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Inhibition of rapid delayed rectifying potassium current </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Prolongation of Action Potential Duration</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>hERG channel blockade</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Inhibition of rapid delayed rectifying potassium current </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Deposition of Energy</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Occurrence, Bone Loss</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Deposition of Energy</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Bone Remodeling</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Deposition of Energy</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Altered Bone Cell Homeostasis</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Oxidative Stress </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Altered Bone Cell Homeostasis</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Bone Remodeling</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Occurrence, Bone Loss</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Altered Bone Cell Homeostasis</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Bone Remodeling</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Altered Signaling Pathways</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Altered Bone Cell Homeostasis</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Cell death</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Altered Bone Cell Homeostasis</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, DNA strand breaks</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Neural Remodeling</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Altered Signaling Pathways</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Neural Remodeling</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
     <td>Activation, SCD-1</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Synthesis, De Novo FA</td>
@@ -3059,16 +3059,282 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>Increase, Reactive oxygen species production</td>
+    <td>Increase, Pro-Inflammatory Mediators</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Impairment, Learning and memory</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Deposition of Energy</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Impairment, Learning and memory</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Deposition of Energy</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Neural Remodeling</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Neural Remodeling</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Impairment, Learning and memory</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Pro-Inflammatory Mediators</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Neural Remodeling</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Tissue resident cell activation</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Pro-Inflammatory Mediators</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Oxidative Stress </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Tissue resident cell activation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Deposition of Energy</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Tissue resident cell activation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dysregulation, ACE2 expression and activity</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Occurrence, (Micro)vascular dysfunction</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Reactive Oxygen Species production</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Increased, Oxidative damage</td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td>Increase, Reactive oxygen species production</td>
+    <td>Promotion, ovarian adenomas</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Promotion, Ovarian Cancer </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decrease, androgen receptors (AR) activation</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Hypospadias, increased</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Oxidative Stress </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Mitochondrial dysfunction</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Reactive oxygen species</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Oxidative Stress </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Heart failure </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Mortality</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decrease, Cardiac contractility </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Heart failure </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decrease, Mitochondrial ATP production</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, Cardiac contractility </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>N/A, Mitochondrial dysfunction 1</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, Mitochondrial ATP production</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Inhibition, Mitochondrial Electron Transport Chain Complexes</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>N/A, Mitochondrial dysfunction 1</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decrease, androgen receptors (AR) activation</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>anogenital distance (AGD), decreased</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Reactive Oxygen Species production</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Decreased, Nitric Oxide</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Cell Proliferation</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Occurrence of Cataracts</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Oxidative Stress </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Occurrence of Cataracts</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Inadequate DNA repair</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Occurrence of Cataracts</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased Modified Proteins</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Occurrence of Cataracts</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Deposition of Energy</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Occurrence of Cataracts</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Deposition of Energy</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Cell Proliferation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Deposition of Energy</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Oxidative damage to DNA</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Oxidative Stress </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased Modified Proteins</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Oxidative Stress </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, DNA strand breaks</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Oxidative Stress </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Oxidative damage to DNA</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Deposition of Energy</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased Modified Proteins</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Synaptic dysfunction</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Impairment, Learning and memory</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Loss of drebrin</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Synaptic dysfunction</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Overactivation, NMDARs</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Loss of drebrin</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decrease, Growth</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decreased, Reproductive Success</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decreased, oxygen binding capacity by hemocyanin</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, hemocyanin mRNA</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, pulmonate breathing</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, Growth</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Cognitive, sensed as hypoxic/low oxygen environment</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, pulmonate breathing</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>increase oxidation of the di-copper moiety of the hemocyanin active site </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Cognitive, sensed as hypoxic/low oxygen environment</td>
     <td></td>
     <td></td>
   </tr>
@@ -3080,6 +3346,76 @@ WHERE {
     <td></td>
   </tr>
   <tr>
+    <td>increase oxidation of the di-copper moiety of the hemocyanin active site </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decreased, oxygen binding capacity by hemocyanin</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase in reactive oxygen and nitrogen species (RONS)</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>increase oxidation of the di-copper moiety of the hemocyanin active site </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Mitochondrial swelling</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Cell injury/death</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decrease, Coupling of oxidative phosphorylation</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Mitochondrial swelling</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decrease, Glucose pool</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, Cell proliferation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Glycolysis</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, Glucose pool</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decrease, Coupling of oxidative phosphorylation</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Glycolysis</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Apoptosis</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, palatal shelf outgrowth</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Cell cycle, disrupted</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Altered, Meiotic chromosome dynamics</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, DNA damage</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Cell cycle, disrupted</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
     <td>Damaging, Red blood cells; hemolysis</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Increase, RBC congestion in liver</td>
@@ -3087,9 +3423,135 @@ WHERE {
     <td></td>
   </tr>
   <tr>
+    <td>Altered, Nitric Oxide Levels</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Endothelial Dysfunction</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Cell membrane depolarization</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Cell injury/death</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decreased Na/K ATPase activity</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Cell membrane depolarization</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decrease, Adenosine triphosphate pool</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decreased Na/K ATPase activity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Deposition of Energy</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Occurrence, Vascular Remodeling </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Endothelial Dysfunction</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Occurrence, Vascular Remodeling </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Status epilepticus</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased, Intracellular Calcium overload</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Status epilepticus</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased, glutamate</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Overactivation, NMDARs</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Status epilepticus</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Deposition of Energy</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Endothelial Dysfunction</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
     <td>Damaging, Red blood cells; hemolysis</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>N/A, Methemoglobinemia, decreased hemoglobin, hematocrit, red blood cell number</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Deposition of Energy</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Altered, Nitric Oxide Levels</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased Pro-inflammatory mediators</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Endothelial Dysfunction</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Oxidative Stress </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Endothelial Dysfunction</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Altered Signaling Pathways</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Endothelial Dysfunction</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Oxidative Stress </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Altered, Nitric Oxide Levels</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Altered Signaling Pathways</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Altered, Nitric Oxide Levels</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Oxidative Stress </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased Pro-inflammatory mediators</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Oxidative Stress </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Altered Signaling Pathways</td>
     <td></td>
     <td></td>
   </tr>
@@ -3101,9 +3563,310 @@ WHERE {
     <td></td>
   </tr>
   <tr>
+    <td>Deposition of Energy</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Oxidative Stress </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decrease, Adenosine triphosphate pool</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Cell injury/death</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Cell injury/death</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, Growth</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Cytosolic calcium</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Cell injury/death</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Activation, AhR</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Altered, Cardiovascular development/function</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decrease, Coupling of oxidative phosphorylation</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Cytosolic calcium</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased, recruitment of inflammatory cells</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased, secretion of proinflammatory mediators</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Cell death</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased, secretion of proinflammatory mediators</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
     <td>Production, Reactive oxygen species</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Peptide Oxidation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Incomplete ecdysis</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, developmental abnormalities</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decrease, New cuticle secretion</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Incomplete ecdysis</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Weak, Procuticle protection</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, New cuticle secretion</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decrease, Prevent chitin degradation by chitinases</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Weak, Procuticle protection</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decrease, Chitin laminar organization</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Weak, Procuticle protection</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decrease, knickkopf gene</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, Prevent chitin degradation by chitinases</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decrease, knickkopf gene</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, Chitin laminar organization</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decrease, 20-hydroxyecdysone</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, knickkopf gene</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Incomplete ecdysis</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease,  hatching of egg</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Incomplete ecdysis</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase,  delay in oviposition</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase,  pigmentation</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Incomplete ecdysis</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase,  impairment of cuticle sclerotization</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Incomplete ecdysis</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Defects in tanning of new cuticle</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase,  pigmentation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Defects in tanning of new cuticle</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase,  impairment of cuticle sclerotization</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decrease, dopa decarboxylase</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Defects in tanning of new cuticle</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decrease, Tyrosine</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, dopa decarboxylase</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, developmental abnormalities</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Mortality</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, sex ratio (F/M)</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, developmental abnormalities</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Body volume of female adults</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, developmental abnormalities</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Delay, Ovarian maturation</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, sex ratio (F/M)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Delay, Ovarian maturation</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Body volume of female adults</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Vitellogenin mRNA</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Delay, Ovarian maturation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased, Estrogen receptor (ER) activity</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Vitellogenin mRNA</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Alcohol dehydrogenase</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased, Estrogen receptor (ER) activity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decrease, Smoothend relocation and activation </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, GLI1/2 translocation to nucleus </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Antagonism, Smoothened receptor</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, Smoothend relocation and activation </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decrease, Sonic Hedgehog second messenger production</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, Cell proliferation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decrease, GLI1/2 target gene expression</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, Sonic Hedgehog second messenger production</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Activation, estrogen receptor alpha</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Impaired, Reproduction</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase Chromosomal Aberrations</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased micro RNA expression</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased, DNA damage and mutation</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase Chromosomal Aberrations</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, slincR expression</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Altered, Cardiovascular development/function</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decrease, palatal shelf outgrowth</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Ororofacial clefting</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decrease, Cell proliferation</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, palatal shelf outgrowth</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decrease, GLI1/2 translocation to nucleus </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, GLI1/2 target gene expression</td>
     <td></td>
     <td></td>
   </tr>
@@ -3115,9 +3878,268 @@ WHERE {
     <td></td>
   </tr>
   <tr>
+    <td>Activation, PARP1</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>N/A, Mitochondrial dysfunction 1</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Cell death</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Neuroinflammation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Neuroinflammation</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Cell death</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Oxidative Stress </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Cell death</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Mitochondrial Injury</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Cell death</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Oxidative Stress </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Mitochondrial Injury</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decrease, Oxidative phosphorylation</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Oxidative Stress </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Unfolded Protein Response</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Cell death</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Endoplasmic reticulum stress</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Unfolded Protein Response</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased, Intracellular Calcium overload</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Endoplasmic reticulum stress</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased, Intracellular Calcium overload</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, Oxidative phosphorylation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Cell membrane depolarization</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased, Intracellular Calcium overload</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Inhibition GABAA receptor</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Cell membrane depolarization</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Cell death</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Parkinsonian motor deficits</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Activation of calpain signalling</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Cell death</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased, Intracellular Calcium overload</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Activation of calpain signalling</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Activation of metabotropic glutamate receptor</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Inositol triphosphate receptor activation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Inositol triphosphate receptor activation</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased, Intracellular Calcium overload</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>decreased folate uptake</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Neural tube defects</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Histone deacetylase inhibition</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Neural tube defects</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased sphingolipid-1-phosphate</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Histone deacetylase inhibition</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Inhibition of Ceramide Synthase </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased sphingolipid-1-phosphate</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Affected folate transporter</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>decreased folate uptake</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Reduced complex sphingolipids</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Affected folate transporter</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Inhibition of Ceramide Synthase </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Reduced complex sphingolipids</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Viable offspring, decreased</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, Population growth rate</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Impaired, Spermatogenesis</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Viable offspring, decreased</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decrease, sox9 expression</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Altered, Cardiovascular development/function</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, slincR expression</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Facial cartilage structures are reduced in size and morphologically distorted</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
     <td>Alkylation, Protein</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Cell injury/death</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Activation, AhR</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Facial cartilage structures are reduced in size and morphologically distorted</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Activation, AhR</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, sox9 expression</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Facial cartilage structures are reduced in size and morphologically distorted</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Early Life Stage Mortality</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decrease, sox9 expression</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Facial cartilage structures are reduced in size and morphologically distorted</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, slincR expression</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, sox9 expression</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>dimerization, AHR/ARNT</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, slincR expression</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Airway remodeling</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Chronic obstructive pulmonary disease</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Emphysema</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Chronic obstructive pulmonary disease</td>
     <td></td>
     <td></td>
   </tr>
@@ -3129,9 +4151,534 @@ WHERE {
     <td></td>
   </tr>
   <tr>
+    <td>Pulmonary inflammation</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Chronic obstructive pulmonary disease</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Fibroblast proliferation and differentiation</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Airway remodeling</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Epithelial-mesenchymal transition</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Airway remodeling</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dysfunctional Autophagy</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Emphysema</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Apoptosis</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Emphysema</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Oxidative Stress </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Pulmonary inflammation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Activation of inflammation pathway</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Pulmonary inflammation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Non-coding RNA expression profile alteration</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Dysfunctional Autophagy</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Non-coding RNA expression profile alteration</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Apoptosis</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Non-coding RNA expression profile alteration</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Fibroblast proliferation and differentiation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Non-coding RNA expression profile alteration</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Epithelial-mesenchymal transition</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Non-coding RNA expression profile alteration</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Oxidative Stress </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Non-coding RNA expression profile alteration</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Activation of inflammation pathway</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Activation, estrogen receptor alpha</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decreased, Gonadotropins</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Activation, estrogen receptor alpha</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased, Kisspeptin signalling</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Cytotoxicity (epithelial cells)</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Secondary genotoxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Substance interaction with the lung resident cell membrane components</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased, DNA damage and mutation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Substance interaction with the lung resident cell membrane components</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased, Reactive oxygen species</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Secondary genotoxicity</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased, DNA damage and mutation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased, Reactive oxygen species</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Secondary genotoxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
     <td>Feminisation or incomplete development, Primary and accessory male sex organs</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>N/A, Impairment of reproductive capacity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Cytotoxicity (epithelial cells)</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased, Reactive oxygen species</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased, recruitment of inflammatory cells</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Cytotoxicity (epithelial cells)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Sensory axonal peripheral neuropathy</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased Mortality</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decreased, Neuronal network function in adult brain</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Sensory axonal peripheral neuropathy</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Oxidative Stress in Brain</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>N/A, Neurodegeneration</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Activation of Cyp2E1</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Oxidative Stress in Brain</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Acetylcholinesterase (AchE) Inhibition</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Activation of Cyp2E1</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased, fibroblast proliferation and myofibroblast differentiation</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Accumulation, Collagen</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased, secretion of proinflammatory mediators</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Activation, Dendritic Cells</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Covalent Binding, Protein</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Allergic Respiratory Hypersensitivity Response</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Covalent Binding, Protein</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased, secretion of proinflammatory mediators</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Occurrence, Kidney toxicity</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased, Kidney Failure</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Occurrence, renal proximal tubular necrosis</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Occurrence, Kidney toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase in inflammation</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Occurrence, renal proximal tubular necrosis</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Apoptosis</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Occurrence, renal proximal tubular necrosis</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Inhibition, Nuclear factor kappa B (NF-kB)</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase in inflammation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Activation of ER stress</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Apoptosis</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Altered gene expression, NRF2 dependent antioxidant pathway</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased, Oxidative Stress</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Altered gene expression, NRF2 dependent antioxidant pathway</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Activation of ER stress</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Mitochondrial Dysfunction</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Apoptosis</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Mitochondrial Dysfunction</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Inhibition, Nuclear factor kappa B (NF-kB)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Mitochondrial Dysfunction</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Altered gene expression, NRF2 dependent antioxidant pathway</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decrease, Mitochondrial membrane potential</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Mitochondrial Dysfunction</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Inhibition, Mitochondrial Electron Transport Chain Complexes</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, Mitochondrial membrane potential</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decreased, Reproductive Success</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, Population growth rate</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, predation</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, Population growth rate</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased, Oocyte Atresia</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Impaired, Reproduction</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Impaired, Oocyte maturation and ovulation</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased, Oocyte Atresia</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decreased, Maturation Inducing Steroid Surge by Granulosa cells</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Impaired, Oocyte maturation and ovulation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decreased, Androgen and Progestin </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decreased, Maturation Inducing Steroid Surge by Granulosa cells</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decreased, Gonadotropins</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decreased, Androgen and Progestin </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased, Kisspeptin signalling</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decreased, Gonadotropins</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Disruption of sodium channel gating kinetics</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Disruption, action potential</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decreased spermatogenesis </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, Population growth rate</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decreased spermatogenesis </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, Reproduction</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, DNA damage</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decreased spermatogenesis </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decrease, Fecundity</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, Reproduction</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decreased spermatogenesis </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, Fecundity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Apoptosis</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decreased spermatogenesis </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased, Oxidative Stress</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Apoptosis</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase in reactive oxygen and nitrogen species (RONS)</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased, Oxidative Stress</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Deposition of Energy</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase in reactive oxygen and nitrogen species (RONS)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Induction, Epithelial Mesenchymal Transition</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>metastatic breast cancer</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Antagonism, Estrogen receptor</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Induction, Epithelial Mesenchymal Transition</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase activation, Nuclear factor kappa B (NF-kB)</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Antagonism, Estrogen receptor</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decreased SIRT1 expression</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase activation, Nuclear factor kappa B (NF-kB)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased micro RNA expression</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decreased SIRT1 expression</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Mutations</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased micro RNA expression</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased, DNA damage and mutation</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Inadequate DNA repair</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Premature cell differentiation</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase risk, microcephaly</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Activation of Tumor Protein 53</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Premature cell differentiation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Inhibit, voltage-gated sodium channel</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Disruption of sodium channel gating kinetics</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Deposition of Energy</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase risk, microcephaly</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Apoptosis</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase risk, microcephaly</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Activation of Tumor Protein 53</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Apoptosis</td>
     <td></td>
     <td></td>
   </tr>
@@ -3143,9 +4690,170 @@ WHERE {
     <td></td>
   </tr>
   <tr>
+    <td>Increase, DNA damage</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Activation of Tumor Protein 53</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased Angiotensin II </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Binding of agonist, Angiotensin II receptor type 1 receptor (AT1R)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Oxidative damage to DNA</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Oocyte apoptosis</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Oxidative damage to DNA</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Follicular atresia</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Reactive Oxygen Species production</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Oxidative damage to DNA</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
     <td>Decreased, PPAR-beta activation</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Decreased, HSD17B10 expression</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, DNA strand breaks</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Oocyte apoptosis</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decrease, Oogenesis</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Reduction, Cumulative fecundity and spawning</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, DNA strand breaks</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Follicular atresia</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased, circulating estrogen levels</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Hyperplasia, ovarian epithelium</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased, estrogens </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased, circulating estrogen levels</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased, Steroidogenic acute regulatory protein (StAR) </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased, estrogens </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased, secretion of LH from anterior pituitary</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased, Steroidogenic acute regulatory protein (StAR) </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Suppression, Estrogen receptor (ER) activity</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased, secretion of GnRH from hypothalamus</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased, tumor growth</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>N/A, Breast Cancer</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, angiogenesis</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>N/A, Breast Cancer</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Apoptosis</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased, tumor growth</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased, Invasion</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>N/A, Breast Cancer</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased, Migration (Endothelial Cells)</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, angiogenesis</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Inflammation</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, angiogenesis</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Inflammation</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased, Invasion</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Activation, AhR</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased, Invasion</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Activation, AhR</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased, Migration (Endothelial Cells)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Activation, AhR</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased, Motility</td>
     <td></td>
     <td></td>
   </tr>
@@ -3157,9 +4865,177 @@ WHERE {
     <td></td>
   </tr>
   <tr>
+    <td>Activation, AhR</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Apoptosis</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Activation, AhR</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Inflammation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Mitochondrial Dysfunction</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Cytotoxicity (renal tubular cell)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Oxidative Stress</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Mitochondrial Dysfunction</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Inhibition, Mitochondrial Electron Transport Chain Complexes</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Oxidative Stress</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Neural crest cell migration, reduced</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>transposition of the great arteries</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Disruption, Progenitor cells of second heart field</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Neural crest cell migration, reduced</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decreased, all-trans retinoic acid (atRA) concentration</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Disruption, Progenitor cells of second heart field</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Deposition of Energy</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Reactive Oxygen Species production</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decrease, Reproduction</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decreased, Population trajectory</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Pollen abnormal</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, Reproduction</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Altered, Meiotic chromosome dynamics</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Pollen abnormal</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Programmed cell death</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, Reproduction</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Deposition of Energy</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, DNA damage</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decrease, Mitochondrial ATP production</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, Reproduction</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased, Reactive oxygen species</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, Mitochondrial membrane potential</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
     <td>Reduction, Plasma vitellogenin concentrations</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Reduction, Vitellogenin accumulation into oocytes and oocyte growth/development</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased, Reactive oxygen species</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, D1 protein deactivation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Deposition of Energy</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased, Reactive oxygen species</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decrease, ATP production</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, Reproduction</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased SARS-CoV-2 production</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Intestinal barrier, disruption</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased SARS-CoV-2 production</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Sustentacular cells, decrease </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Torsades de Pointes</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Sudden cardiac death</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Prolongation of QT interval</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Torsades de Pointes</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Prolongation of Action Potential Duration</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Prolongation of QT interval</td>
     <td></td>
     <td></td>
   </tr>
@@ -3171,9 +5047,121 @@ WHERE {
     <td></td>
   </tr>
   <tr>
+    <td>Dysregulation, ACE2 expression and activity</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Gut microbiota, alteration</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Abnormal, Glucose homeostasis</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Gestational diabetes mellitus</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decrease, Glucose uptake</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Abnormal, Glucose homeostasis</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decrease, GLUT4</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, Glucose uptake</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, TNF</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, GLUT4</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased (ectopic) all-trans retinoic acid concentration</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Premature initiation of meiosis in fetal male germ cells</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increases in cellular reactive oxygen species</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Porcupine-induced Wnt secretion and Wnt signaling activation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Reduced size of the ovarian follicle pool </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>irregularities, ovarian cycle</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
     <td>Reduction, Plasma 17beta-estradiol concentrations</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Reduction, Vitellogenin synthesis in liver</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Accumulation, Cytosolic toxic Tau oligomers</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Neuroinflammation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Impaired axonial transport</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Synaptic dysfunction</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Oxidative Stress </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Hyperphosphorylation of Tau</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Synaptic dysfunction</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease of neuronal network function</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Accumulation, Cytosolic toxic Tau oligomers</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Impaired axonial transport</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dysfunctional Autophagy</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Accumulation, Cytosolic toxic Tau oligomers</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decrease of neuronal network function</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Memory Loss</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Neuroinflammation</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease of neuronal network function</td>
     <td></td>
     <td></td>
   </tr>
@@ -3185,9 +5173,226 @@ WHERE {
     <td></td>
   </tr>
   <tr>
+    <td>Mitochondrial dysfunction</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Oxidative Stress </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased SARS-CoV-2 production</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Viral infection and host-to-host transmission, proliferated</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Interferon-I antiviral response, antagonized by SARS-CoV-2</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased SARS-CoV-2 production</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>SARS-CoV-2 cell entry </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Interferon-I antiviral response, antagonized by SARS-CoV-2</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased SARS-CoV-2 production</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Cell death</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>GSK3beta inactivation</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Repression of Gbx2 expression</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Hippocampal Physiology, Altered</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Loss, Cochlear function</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Activation, Pregnane-X receptor, NR1l2</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Induction, Upregulation of glucuronyltransferase activity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Disrupted meiotic initiation of fetal oogonia of the ovary</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Reduced size of the ovarian follicle pool </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
     <td>Bile accumulation, Pathological condition</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Activation of specific nuclear receptors, Transcriptional change</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased, Hepatic thyroid hormone uptake/transport</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased, Clearance of thyroxine from serum</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Induction, Upregulation of glucuronyltransferase activity</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased, Clearance of thyroxine from serum</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decreased, all-trans retinoic acid (atRA) concentration</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Disrupted meiotic initiation of fetal oogonia of the ovary</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Inhibition, Iodotyrosine deiodinase (IYD)</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td> Thyroxine (T4) in serum, Decreased</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td> Thyroxine (T4) in serum, Decreased</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Occurrence, Cytoplasmic vacuolization (podocyte)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td> Thyroxine (T4) in serum, Decreased</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Occurrence, Cystic dilatation (renal tubule)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td> Thyroxine (T4) in serum, Decreased</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Occurrence, Cytoplasmic vacuolization (Renal tubule)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>altered, inner ear development</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Reduced, Hearing</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Cell death</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>altered, inner ear development</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased, Kidney Failure</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased Mortality</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Necrosis</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased, Kidney Failure</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Lipid peroxidation</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Necrosis</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased, Reactive oxygen species</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Lipid peroxidation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Oxidation, Glutathione (To be considered with MIE)</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased, Reactive oxygen species</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Platelet-neutrophil interactions, Increased </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Thromboinflammation, Increased </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Neutrophil activation, Increased </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Platelet-neutrophil interactions, Increased </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Platelet activation, Increased</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Platelet-neutrophil interactions, Increased </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Release, Cytokine</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Neutrophil activation, Increased </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Release, Cytokine</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Platelet activation, Increased</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Endothelial cell dysfunction </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Release, Cytokine</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Oxidative Stress </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Cilia Beat Frequency, Decreased</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Oxidative Stress </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>FOXJ1 Protein, Decreased</td>
     <td></td>
     <td></td>
   </tr>
@@ -3199,9 +5404,128 @@ WHERE {
     <td></td>
   </tr>
   <tr>
+    <td>Oxidative Stress </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Cystic Fibrosis Transmembrane Regulator Function, Decreased</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Motile Cilia Number/Length, Decreased</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Cilia Beat Frequency, Decreased</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>FOXJ1 Protein, Decreased</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Motile Cilia Number/Length, Decreased</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Mucociliary Clearance, Decreased</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, Lung function</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Cilia Beat Frequency, Decreased</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Mucociliary Clearance, Decreased</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Airway Surface Liquid Height, Decreased </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Cilia Beat Frequency, Decreased</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Cystic Fibrosis Transmembrane Regulator Function, Decreased</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Airway Surface Liquid Height, Decreased </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
     <td>N/A, Parent compound is converted to the reactive metabolite and forms free radicals leading to oxidation of heme iron(II) in hemoglobin to iron(III)</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Propagation, Oxidative stress</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>eya1 expression, inhibited</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Cell death</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>six1b expression, increased</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>eya1 expression, inhibited</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>foxi1 expression, increased</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>six1b expression, increased</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Repression of Gbx2 expression</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>foxi1 expression, increased</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase plasma Ang II</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased Ang II type 1 receptor (AT1R)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Induced dysregulation of ACE2 </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase plasma Ang II</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Prolonged TLR9 activation</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>NLRP3 inflammasome activity, increased</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase activation, Nuclear factor kappa B (NF-kB)</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased Pro-inflammatory mediators</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase activation, Nuclear factor kappa B (NF-kB)</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Release, Cytokine</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>increased MyD88 activation</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase activation, Nuclear factor kappa B (NF-kB)</td>
     <td></td>
     <td></td>
   </tr>
@@ -3213,6 +5537,27 @@ WHERE {
     <td></td>
   </tr>
   <tr>
+    <td>Prolonged TLR9 activation</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>increased MyD88 activation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased, Thyroid-stimulating hormone (TSH)</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Hypertrophy and proliferation (follicular cell)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td> Thyroxine (T4) in serum, Decreased</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased, Thyroid-stimulating hormone (TSH)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
     <td>N/A, Parent compound is converted to the reactive metabolite and forms free radicals leading to oxidation of heme iron(II) in hemoglobin to iron(III)</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Altered regulation, Alpha hemoglobin</td>
@@ -3220,9 +5565,142 @@ WHERE {
     <td></td>
   </tr>
   <tr>
+    <td>Increase, Cell Proliferation</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased, mesotheliomas</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Genomic instability</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Cell Proliferation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased, DNA damage and mutation</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Genomic instability</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Frustrated phagocytosis</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased, Reactive oxygen species</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Frustrated phagocytosis</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased, secretion of proinflammatory mediators</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>NLRP3 inflammasome activity, increased</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Hyperinflammation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Diminished protective oxidative stress response</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>NLRP3 inflammasome activity, increased</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased Cholinergic Signaling</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Cognitive Function, Decreased </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decrease of neuronal network function</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Cognitive Function, Decreased </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased Cholinergic Signaling</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease of neuronal network function</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
     <td>Propagation, Oxidative stress</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Damaging, Red blood cells; hemolysis</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>increase, placental insufficiency</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>increase, Preeclampsia</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>abnormal, placental labyrinth vasculature morphology</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>increase, placental insufficiency</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>reduced production, VEGF</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>abnormal, placental labyrinth vasculature morphology</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decrease, Cell proliferation</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decreased, Eye size</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Overexpression of rasl11b</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, Cell proliferation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Inhibition of Plxna2</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Overexpression of rasl11b</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Inhibition of Fyna</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Inhibition of Plxna2</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Inhibition of ALDH1A (RALDH)</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decreased, all-trans retinoic acid (atRA) concentration</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Oocyte apoptosis</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease of egg production and cummulative fecundity</td>
     <td></td>
     <td></td>
   </tr>
@@ -3236,42 +5714,518 @@ WHERE {
   <tr>
     <td>Alkylation, DNA</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>N/A, Inadequate DNA repair</td>
+    <td>Inadequate DNA repair</td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td>ACE2 binding to viral S-protein </td>
+    <td>Bulky DNA adducts, increase</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Mutations</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Bulky DNA adducts, increase</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Inadequate DNA repair</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Deposition of Ionizing Energy</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Oocyte apoptosis</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Deposition of Ionizing Energy</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decreased, Population size</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Deposition of Ionizing Energy</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease of egg production and cummulative fecundity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Deposition of Ionizing Energy</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>impaired, Fertility</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Deposition of Ionizing Energy</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decreased spermatogenesis </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Deposition of Ionizing Energy</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Altered, Meiotic chromosome dynamics</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Deposition of Ionizing Energy</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased, Oxidative Stress</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decrease of egg production and cummulative fecundity</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decreased, Population size</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decreased spermatogenesis </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease of egg production and cummulative fecundity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>impaired, Fertility</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease of egg production and cummulative fecundity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Oocyte apoptosis</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>impaired, Fertility</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased, Oxidative Stress</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Oocyte apoptosis</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Altered, Meiotic chromosome dynamics</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decreased spermatogenesis </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Altered, Meiotic chromosome dynamics</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Oocyte apoptosis</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, DNA damage</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Oocyte apoptosis</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, DNA damage</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Altered, Meiotic chromosome dynamics</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Deposition of Ionizing Energy</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, DNA damage</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Deposition of Ionizing Energy</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased, Reactive oxygen species</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decreased, Triiodothyronine (T3)</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Altered, Photoreceptor patterning</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decreased, Eye size</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Altered, Visual function</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decreased, Triiodothyronine (T3)</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decreased, Eye size</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Altered, Visual function</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased Mortality</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Altered, retinal layer structure</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Altered, Visual function</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decreased, Triiodothyronine (T3)</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Altered, retinal layer structure</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Loss of alveolar capillary membrane integrity</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, Lung function</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Alveolar collapse</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, Lung function</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Inhibition of lung surfactant function</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, Lung function</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Loss of alveolar capillary membrane integrity</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Reduced tidal volume </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Loss of alveolar capillary membrane integrity</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Inhibition of lung surfactant function</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Reduced tidal volume </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, Lung function</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>olfactory sensory neurons, decrease </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>impaired olfactory function (anosmia) </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Sustentacular cells, decrease </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>impaired olfactory function (anosmia) </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Olfactory epithelium degeneration</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>impaired olfactory function (anosmia) </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>olfactory sensory neurons, decrease </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Olfactory epithelium degeneration</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Sustentacular cells, decrease </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>olfactory sensory neurons, decrease </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Coagulation</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Diminished protective oxidative stress response</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Diminished protective oxidative stress response</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Coagulation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased SARS-CoV-2 production</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Diminished protective oxidative stress response</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Bradykinin system, hyperactivated</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Hyperinflammation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Fibrinolysis, decreased</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased, secretion of proinflammatory mediators</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Bradykinin system, hyperactivated</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Fibrinolysis, decreased</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased, recruitment of inflammatory cells</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Hyperinflammation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Bradykinin system, hyperactivated</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased, secretion of proinflammatory mediators</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Fibrinolysis, decreased</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Bradykinin system, hyperactivated</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased SARS-CoV-2 production</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Toll Like Receptor (TLR) Dysregulation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Inhibition, Aromatase</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased, Male Biased Sex Ratio</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Agonism, Androgen receptor</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased, Male Biased Sex Ratio</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decrease, ATP production</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, Leaf development</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, Oxygen-evolving complex damage</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, Photosystem II efficiency</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, DNA damage</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Programmed cell death</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decrease, Reproduction</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, Population growth rate</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decrease, Leaf development</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, Reproduction</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decrease, Photosynthesis</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, ATP production</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Decrease, Photosystem II efficiency</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Decrease, Photosynthesis</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased Sodium-sensitive hypertension</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Chronic kidney disease</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased, Reactive oxygen species</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased Sodium-sensitive hypertension</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased Angiotensin II </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased Ang II type 1 receptor (AT1R)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Hyperactivation of ACE/Ang-II/AT1R axis</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased Angiotensin II </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased, extracellular matrix deposition</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>N/A, Liver fibrosis</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased, Reactive oxygen species</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased, extracellular matrix deposition</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased Ang II type 1 receptor (AT1R)</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased, Reactive oxygen species</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased, Reactive oxygen species</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase activation, Nuclear factor kappa B (NF-kB)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Binding of agonist, Angiotensin II receptor type 1 receptor (AT1R)</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased, Reactive oxygen species</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Imbalanced salty and sweet taste responses</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Impaired gustatory nerve</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased Angiotensin II </td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Imbalanced salty and sweet taste responses</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Binding to ACE2</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Downregulation, ACE2</td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td>ACE2 binding to viral S-protein </td>
+    <td>Binding to ACE2</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Dysregulation, ACE2 of expression and activity</td>
+    <td>Dysregulation, ACE2 expression and activity</td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td>Increased viral entry and gene expression</td>
+    <td>SARS-CoV-2 cell entry </td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Coronaviral replication / RNA genome transcription</td>
+    <td>Increased SARS-CoV-2 production</td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td>Induced Toll Like Receptor (TLR) Dysregulation</td>
+    <td>Increase activation, Nuclear factor kappa B (NF-kB)</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Increased, secretion of proinflammatory and profibrotic mediators</td>
+    <td>Increased, secretion of proinflammatory mediators</td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td>Increased viral entry and gene expression</td>
+    <td>Increased, secretion of proinflammatory mediators</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Induced Toll Like Receptor (TLR) Dysregulation</td>
+    <td>Accumulation, Collagen</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Toll Like Receptor (TLR) Dysregulation</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased, secretion of proinflammatory mediators</td>
     <td></td>
     <td></td>
   </tr>
@@ -3279,6 +6233,13 @@ WHERE {
     <td>Alkylation, DNA</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Increase, Heritable mutations in offspring</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Impaired gustatory nerve</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>dysgeusia</td>
     <td></td>
     <td></td>
   </tr>
@@ -3292,21 +6253,14 @@ WHERE {
   <tr>
     <td>impaired, Fertility</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Decrease, Population trajectory</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Coronaviral replication / RNA genome transcription</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Oxidative Stress </td>
+    <td>Decrease, Population growth rate</td>
     <td></td>
     <td></td>
   </tr>
   <tr>
     <td>Coagulation</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Thrombosis</td>
+    <td>Thrombosis and Disseminated Intravascular Coagulation</td>
     <td></td>
     <td></td>
   </tr>
@@ -3314,13 +6268,6 @@ WHERE {
     <td>Binding of antagonist, NMDA receptors</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Inhibition, NMDARs</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Oxidative Stress </td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Coagulation</td>
     <td></td>
     <td></td>
   </tr>
@@ -3339,16 +6286,9 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>ACE2 binding to viral S-protein </td>
+    <td>Binding to ACE2</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Neuroinflammation</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Alveolar collapse</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Impaired lung function</td>
     <td></td>
     <td></td>
   </tr>
@@ -3454,20 +6394,6 @@ WHERE {
     <td>Agonism, Androgen receptor</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Increased, Differentiation to Testis </td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Loss of alveolar capillary membrane integrity</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Impaired lung function</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Reduced tidal volume </td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Impaired lung function</td>
     <td></td>
     <td></td>
   </tr>
@@ -3591,37 +6517,16 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>Increase, Biliary excretion TH glucuronide</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td> Thyroxine (T4) in serum, Decreased</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Induction, Upregulation of glucuronyltransferase activity</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Increase, Biliary excretion TH glucuronide</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Decreased, Thyroxine (T4) in serum</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Altered, Amphibian metamorphosis</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Inhibition, Iodotyrosine deiodinase (IYD)</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Decreased, Thyroxine (T4) in serum</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
     <td>Inhibition, Na+/I- symporter (NIS)</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td> Thyroxine (T4) in serum, Decreased</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Reduced, Hearing</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased Mortality</td>
     <td></td>
     <td></td>
   </tr>
@@ -3661,7 +6566,7 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>Increase, Reactive oxygen species production</td>
+    <td>Increase, Reactive Oxygen Species production</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Increase, Global DNA methylation</td>
     <td></td>
@@ -3670,63 +6575,7 @@ WHERE {
   <tr>
     <td>N/A, Mitochondrial dysfunction 1</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Increase, Reactive oxygen species production</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Increase, Protein oxidation</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Increase, Cell death</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Increase, Lipid peroxidation</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Increase, Cell death</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Increase, Oxidative DNA damage</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Increase, Cell death</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Increase, Oxygen consumption</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Increase, Reactive oxygen species production</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Decrease, Coupling of oxidative phosphorylation</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Increase, Oxygen consumption</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Decrease, Lipid storage</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Decrease, Growth</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Increase, Fatty acid beta-oxidation</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Decrease, Lipid storage</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Decrease, Adenosine triphosphate pool</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Increase, Fatty acid beta-oxidation</td>
+    <td>Increase, Reactive Oxygen Species production</td>
     <td></td>
     <td></td>
   </tr>
@@ -3759,44 +6608,9 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>Increase, Follicular atresia</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Decrease, Fecundity</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Increase, Lipid peroxidation</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Increase, Apoptosis</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
     <td>Decrease, Adenosine triphosphate pool</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Decrease, Oogenesis</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Decrease, Fatty acid β-oxidation</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Decrease, Adenosine triphosphate pool</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Decrease, Lipid storage</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Decrease, Fatty acid β-oxidation</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Increase, Lipid peroxidation</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Decrease, Lipid storage</td>
     <td></td>
     <td></td>
   </tr>
@@ -3818,13 +6632,6 @@ WHERE {
     <td>Decrease, Coupling of oxidative phosphorylation</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Decrease, Adenosine triphosphate pool</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Covalent Binding, Protein</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Activation, Inflammatory cytokines, chemokines, cytoprotective gene pathways</td>
     <td></td>
     <td></td>
   </tr>
@@ -3899,7 +6706,7 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>Increase, Chitobiase inhibition</td>
+    <td>Inhibition, Chitobiase</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Decrease, Digestion of old cuticle</td>
     <td></td>
@@ -3913,7 +6720,7 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>Increase, Chitinase inhibition</td>
+    <td>Inhibition, Chitinase </td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Decrease, Digestion of old cuticle</td>
     <td></td>
@@ -4020,7 +6827,7 @@ WHERE {
   <tr>
     <td>Increased, Male Biased Sex Ratio</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Decrease, Population trajectory</td>
+    <td>Decrease, Population growth rate</td>
     <td></td>
     <td></td>
   </tr>
@@ -4046,23 +6853,9 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>Increased visual impairment</td>
+    <td>Altered, Visual function</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Decrease, Population trajectory</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Status epilepticus</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Overactivation, NMDARs</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Increased, Intracellular Calcium overload</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Status epilepticus</td>
+    <td>Decrease, Population growth rate</td>
     <td></td>
     <td></td>
   </tr>
@@ -4074,9 +6867,9 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>Increase plasma Ang II</td>
+    <td>Downregulation, ACE2</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Accumulation, Collagen</td>
+    <td>Increased Angiotensin II </td>
     <td></td>
     <td></td>
   </tr>
@@ -4090,14 +6883,14 @@ WHERE {
   <tr>
     <td>Antagonism, Androgen receptor</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>increase, retained nipples in males</td>
+    <td>Nipple retention (NR), increased</td>
     <td></td>
     <td></td>
   </tr>
   <tr>
     <td>Altered, Transcription of genes by AR</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>increase, retained nipples in males</td>
+    <td>Nipple retention (NR), increased</td>
     <td></td>
     <td></td>
   </tr>
@@ -4125,7 +6918,7 @@ WHERE {
   <tr>
     <td>decrease, transcription of genes by AR </td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>decrease, male anogenital distance</td>
+    <td>anogenital distance (AGD), decreased</td>
     <td></td>
     <td></td>
   </tr>
@@ -4139,7 +6932,7 @@ WHERE {
   <tr>
     <td>Altered, Transcription of genes by AR</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>decrease, male anogenital distance</td>
+    <td>anogenital distance (AGD), decreased</td>
     <td></td>
     <td></td>
   </tr>
@@ -4167,7 +6960,7 @@ WHERE {
   <tr>
     <td>Antagonism, Androgen receptor</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>decrease, male anogenital distance</td>
+    <td>anogenital distance (AGD), decreased</td>
     <td></td>
     <td></td>
   </tr>
@@ -4202,7 +6995,7 @@ WHERE {
   <tr>
     <td>Decrease, Fecundity (F3)</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Decrease, Population trajectory</td>
+    <td>Decrease, Population growth rate</td>
     <td></td>
     <td></td>
   </tr>
@@ -4312,7 +7105,7 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>Increase, Reactive oxygen species production</td>
+    <td>Increase, Reactive Oxygen Species production</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Increase, Oxidative DNA damage</td>
     <td></td>
@@ -4354,7 +7147,7 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>Increase, Reactive oxygen species production</td>
+    <td>Increase, Reactive Oxygen Species production</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Decrease, Mitochondrial membrane potential</td>
     <td></td>
@@ -4382,7 +7175,7 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>Increase, Reactive oxygen species production</td>
+    <td>Increase, Reactive Oxygen Species production</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Increase, Protein oxidation</td>
     <td></td>
@@ -4433,7 +7226,7 @@ WHERE {
   <tr>
     <td>Reduced, Swimming performance</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Decrease, Population trajectory</td>
+    <td>Decrease, Population growth rate</td>
     <td></td>
     <td></td>
   </tr>
@@ -4508,16 +7301,16 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>Proliferation/ beta-catenin activation</td>
+    <td>beta-catenin activation</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Epithelial-mesenchymal transition</td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td>Sustained tissue damage / macrophage activation/ porcupine-induced Wnt secretion</td>
+    <td>Porcupine-induced Wnt secretion and Wnt signaling activation</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Proliferation/ beta-catenin activation</td>
+    <td>beta-catenin activation</td>
     <td></td>
     <td></td>
   </tr>
@@ -4531,21 +7324,14 @@ WHERE {
   <tr>
     <td>Chronic reactive oxygen species</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Sustained tissue damage / macrophage activation/ porcupine-induced Wnt secretion</td>
+    <td>Porcupine-induced Wnt secretion and Wnt signaling activation</td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td>Increased AngII</td>
+    <td>Induced dysregulation of ACE2 </td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Increase plasma Ang II</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>ACE2 inhibition</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Increased AngII</td>
+    <td>Increased Angiotensin II </td>
     <td></td>
     <td></td>
   </tr>
@@ -4557,30 +7343,30 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>Increased, secretion of proinflammatory and profibrotic mediators</td>
+    <td>Increased, secretion of proinflammatory mediators</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Increased inflammatory immune responses</td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td>ACE2 binding to viral S-protein </td>
+    <td>Binding to ACE2</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Increased viral entry and gene expression</td>
+    <td>SARS-CoV-2 cell entry </td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td>Increased viral entry and gene expression</td>
+    <td>Increased, secretion of proinflammatory mediators</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Increased, secretion of proinflammatory and profibrotic mediators</td>
+    <td>Acute phase response proteins expression, Increased</td>
     <td></td>
     <td></td>
   </tr>
   <tr>
     <td> Thyroxine (T4) in serum, Decreased</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Decreased, Triiodothyronine (T3) in serum</td>
+    <td>Decreased, Triiodothyronine (T3)</td>
     <td></td>
     <td></td>
   </tr>
@@ -4713,14 +7499,14 @@ WHERE {
   <tr>
     <td>Acetylcholinesterase (AchE) Inhibition</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Decrease, Population trajectory</td>
+    <td>Decrease, Population growth rate</td>
     <td></td>
     <td></td>
   </tr>
   <tr>
     <td>Impaired coordination and movement</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Decrease, Population trajectory</td>
+    <td>Decrease, Population growth rate</td>
     <td></td>
     <td></td>
   </tr>
@@ -4734,7 +7520,7 @@ WHERE {
   <tr>
     <td>Increased Mortality</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Decrease, Population trajectory</td>
+    <td>Decrease, Population growth rate</td>
     <td></td>
     <td></td>
   </tr>
@@ -4783,7 +7569,7 @@ WHERE {
   <tr>
     <td>Suppression of  T cell activation</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Increase, Increased susceptibility to infection</td>
+    <td>Impairment of TDAR</td>
     <td></td>
     <td></td>
   </tr>
@@ -4795,16 +7581,9 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>Impaired IL-1R1 signaling</td>
+    <td>Impaired IL-1R1 signaling in T cell</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Inhibition, Nuclear factor kappa B (NF-kB)</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Occurrence, Focal Seizure</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Overactivation, NMDARs</td>
     <td></td>
     <td></td>
   </tr>
@@ -4900,21 +7679,21 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>Direct Deposition of Energy</td>
+    <td>Deposition of Energy</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Increase, lung cancer</td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td>Direct Deposition of Energy</td>
+    <td>Deposition of Energy</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Increase, Chromosomal aberrations</td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td>Direct Deposition of Energy</td>
+    <td>Deposition of Energy</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Increase, Mutations</td>
     <td></td>
@@ -4942,7 +7721,7 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>Direct Deposition of Energy</td>
+    <td>Deposition of Energy</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Increase, DNA strand breaks</td>
     <td></td>
@@ -4998,7 +7777,7 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>Frustrated phagoytosis</td>
+    <td>Frustrated phagocytosis</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Release, Cytokine</td>
     <td></td>
@@ -5173,16 +7952,16 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>Decreased optical elements of the eye </td>
+    <td>Altered, Photoreceptor patterning</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Increased visual impairment</td>
+    <td>Altered, Visual function</td>
     <td></td>
     <td></td>
   </tr>
   <tr>
     <td>Decreased plasma RA level</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Decreased optical elements of the eye </td>
+    <td>Altered, Photoreceptor patterning</td>
     <td></td>
     <td></td>
   </tr>
@@ -5215,7 +7994,7 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>N/A, Inadequate DNA repair</td>
+    <td>Inadequate DNA repair</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Increase, Chromosomal aberrations</td>
     <td></td>
@@ -5224,12 +8003,12 @@ WHERE {
   <tr>
     <td>Increase, DNA strand breaks</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>N/A, Inadequate DNA repair</td>
+    <td>Inadequate DNA repair</td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td>N/A, Inadequate DNA repair</td>
+    <td>Inadequate DNA repair</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Increase, DNA strand breaks</td>
     <td></td>
@@ -5238,7 +8017,7 @@ WHERE {
   <tr>
     <td>Increase, Oxidative damage to DNA</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>N/A, Inadequate DNA repair</td>
+    <td>Inadequate DNA repair</td>
     <td></td>
     <td></td>
   </tr>
@@ -5329,7 +8108,7 @@ WHERE {
   <tr>
     <td>Reduction fo Pigmentation pattern </td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Decrease, Population trajectory</td>
+    <td>Decrease, Population growth rate</td>
     <td></td>
     <td></td>
   </tr>
@@ -5362,9 +8141,16 @@ WHERE {
     <td></td>
   </tr>
   <tr>
+    <td>Occurrence, Focal Seizure</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increased, glutamate</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
     <td>Disruption, Mitochondrial electron transport chain</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Increase, Reactive oxygen species production</td>
+    <td>Increase, Reactive Oxygen Species production</td>
     <td></td>
     <td></td>
   </tr>
@@ -5378,7 +8164,7 @@ WHERE {
   <tr>
     <td>Decrease, Fecundity</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Decrease, Population trajectory</td>
+    <td>Decrease, Population growth rate</td>
     <td></td>
     <td></td>
   </tr>
@@ -5477,6 +8263,13 @@ WHERE {
     <td>Increased, Intracellular Calcium overload</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Cell injury/death</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increased, glutamate</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Overactivation, NMDARs</td>
     <td></td>
     <td></td>
   </tr>
@@ -6132,20 +8925,6 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>Increased, extracellular matrix deposition</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Pulmonary fibrosis</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Increased, fibroblast proliferation and myofibroblast differentiation</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Increased, extracellular matrix deposition</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
     <td>Increased, activation of T (T) helper (h) type 2 cells</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Increased, fibroblast proliferation and myofibroblast differentiation</td>
@@ -6167,16 +8946,16 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>Increased, secretion of proinflammatory and profibrotic mediators</td>
+    <td>Increased, secretion of proinflammatory mediators</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Increased, recruitment of inflammatory cells</td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td>Interaction with the lung resident cell membrane components</td>
+    <td>Substance interaction with the lung resident cell membrane components</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Increased, secretion of proinflammatory and profibrotic mediators</td>
+    <td>Increased, secretion of proinflammatory mediators</td>
     <td></td>
     <td></td>
   </tr>
@@ -6191,13 +8970,6 @@ WHERE {
     <td>Induction, Liver “Dysfunctional” Changes by CGA 330050</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Inhibition, Inducible Nitric Oxide Synthase by Metabolite CGA 265307</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Activation, Inflammatory cytokines, chemokines, cytoprotective gene pathways</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Activation, Dendritic Cells</td>
     <td></td>
     <td></td>
   </tr>
@@ -6405,7 +9177,7 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>Decrease, Chloroplast ATP production</td>
+    <td>Decrease, ATP production</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Decrease, Chlorophyll synthesis</td>
     <td></td>
@@ -6414,7 +9186,7 @@ WHERE {
   <tr>
     <td>Increase, Uncoupling of photophosphorylation</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Decrease, Chloroplast ATP production</td>
+    <td>Decrease, ATP production</td>
     <td></td>
     <td></td>
   </tr>
@@ -6580,7 +9352,7 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>N/A, Inadequate DNA repair</td>
+    <td>Inadequate DNA repair</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Increase, Mutations</td>
     <td></td>
@@ -6748,7 +9520,7 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>Increase, Reactive oxygen species production</td>
+    <td>Increase, Reactive Oxygen Species production</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Increase, Lipid peroxidation</td>
     <td></td>
@@ -6762,48 +9534,6 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>Increase, Apoptosis</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Increase, Follicular atresia</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Foam cell formation</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Plaque progression in arteries</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Formation of HDL-SAA</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Foam cell formation</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Increased systemic total cholesterol pool</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Foam cell formation</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Formation of HDL-SAA</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Increased systemic total cholesterol pool</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Increased production of pulmonary SAA</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Formation of HDL-SAA</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
     <td>Inhibition, Inducible Nitric Oxide Synthase by Metabolite CGA 265307</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Induction, Sustained Hepatotoxicity</td>
@@ -6811,16 +9541,9 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>Increased production of pulmonary, pro-inflammatory cytokines</td>
+    <td>Acute phase response proteins expression, Increased</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Increased production of pulmonary SAA</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Sensing of the stressor by pulmonary cells</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Increased production of pulmonary, pro-inflammatory cytokines</td>
+    <td>Systemic acute phase response</td>
     <td></td>
     <td></td>
   </tr>
@@ -7350,13 +10073,6 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>Decreased, Reproductive Success</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Decreased, Population trajectory</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
     <td>Locomotor activity, decreased</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Decreased, Reproductive Success</td>
@@ -7535,6 +10251,13 @@ WHERE {
     <td>Increase, Apoptosis</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Decrease, Oogenesis</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Increase, DNA damage</td>
+    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
+    <td>Increase, Apoptosis</td>
     <td></td>
     <td></td>
   </tr>
@@ -8302,34 +11025,6 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>Increase, Mucin production</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Chronic, Mucus hypersecretion</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Chronic, Mucus hypersecretion</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Decrease, Lung function</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Occurrence, Metaplasia of goblet cells</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Increase, Mucin production</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Occurrence, Hyperplasia of goblet cells</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Increase, Mucin production</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
     <td>N/A, Mitochondrial dysfunction 1</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Altered, Ca2+-calmodulin activated signal transduction</td>
@@ -8694,13 +11389,6 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>Increased, Hepatic thyroid hormone uptake/transport</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Increase, Biliary excretion TH glucuronide</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
     <td>Activation, Hepatic nuclear receptor(s)</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Induction, Upregulation of glucuronyltransferase activity</td>
@@ -8760,20 +11448,6 @@ WHERE {
     <td>Depletion, energy reserves</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Increase, predation</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Increase, predation</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Decline, Population</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Decreased, Reproductive Success</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Decline, Population</td>
     <td></td>
     <td></td>
   </tr>
@@ -9485,48 +12159,6 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>Increased, Hyperplasia (follicular cells)</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Increased Apoptosis, Adenomas/carcinomas (follicular cell)</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Increased, Hypertrophy and proliferation (follicular cell)</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Increased, Hyperplasia (follicular cells)</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Increased, Thyroid-stimulating hormone (TSH)</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Increased, Hypertrophy and proliferation (follicular cell)</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Decreased, serum T4/T3</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Increased, Thyroid-stimulating hormone (TSH)</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Increased, T4/T3 catabolism</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Decreased, serum T4/T3</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Increased, induction of UDPGT's in liver</td>
-    <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Increased, T4/T3 catabolism</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
     <td>Antagonism, Histamine Receptor (H2)</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Decrease, histaminergic neuron excitation</td>
@@ -9627,7 +12259,7 @@ WHERE {
   <tr>
     <td>Inhibition, Deiodinase 1</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Decreased, Triiodothyronine (T3) in serum</td>
+    <td>Decreased, Triiodothyronine (T3)</td>
     <td></td>
     <td></td>
   </tr>
@@ -9639,7 +12271,7 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>Decreased, Triiodothyronine (T3) in serum</td>
+    <td>Decreased, Triiodothyronine (T3)</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Reduced, Anterior swim bladder inflation</td>
     <td></td>
@@ -9660,7 +12292,7 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>Decreased, Triiodothyronine (T3) in serum</td>
+    <td>Decreased, Triiodothyronine (T3)</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Reduced, Posterior swim bladder inflation</td>
     <td></td>
@@ -9669,7 +12301,7 @@ WHERE {
   <tr>
     <td>Inhibition, Deiodinase 2</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>Decreased, Triiodothyronine (T3) in serum</td>
+    <td>Decreased, Triiodothyronine (T3)</td>
     <td></td>
     <td></td>
   </tr>
@@ -9712,13 +12344,6 @@ WHERE {
     <td>surface modification</td>
     <td>https://www.sbd4nano.eu/bel/#correlates</td>
     <td>bioassay profile</td>
-    <td>Nanoparticle</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>surface modification</td>
-    <td>https://www.sbd4nano.eu/bel/#correlates</td>
-    <td>bioassay profile</td>
     <td>Nanomaterial</td>
     <td></td>
   </tr>
@@ -9726,7 +12351,7 @@ WHERE {
     <td>surface modification</td>
     <td>https://www.sbd4nano.eu/bel/#correlates</td>
     <td>bioassay profile</td>
-    <td>nanoparticle</td>
+    <td>Nanoparticle</td>
     <td></td>
   </tr>
   <tr>
@@ -9734,20 +12359,6 @@ WHERE {
     <td>https://www.sbd4nano.eu/bel/#correlates</td>
     <td>bioassay profile</td>
     <td>Metal Oxide</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>particle type</td>
-    <td>https://www.sbd4nano.eu/bel/#correlates</td>
-    <td>bioassay profile</td>
-    <td>metal oxide nanoparticle</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>surface modification</td>
-    <td>https://www.sbd4nano.eu/bel/#correlates</td>
-    <td>bioassay profile</td>
-    <td>metal oxide nanoparticle</td>
     <td></td>
   </tr>
   <tr>
@@ -9761,21 +12372,7 @@ WHERE {
     <td>bioassay reading</td>
     <td>https://www.sbd4nano.eu/bel/#negativelyCorreclates</td>
     <td>log 1/EC50</td>
-    <td>metal oxide nanoparticle</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>bioassay reading</td>
-    <td>https://www.sbd4nano.eu/bel/#negativelyCorreclates</td>
-    <td>log 1/EC50</td>
     <td>Metal Oxide</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>exposure concentration</td>
-    <td>https://www.sbd4nano.eu/bel/#changes</td>
-    <td>LDH release</td>
-    <td>Nanoparticle</td>
     <td></td>
   </tr>
   <tr>
@@ -9789,49 +12386,7 @@ WHERE {
     <td>exposure concentration</td>
     <td>https://www.sbd4nano.eu/bel/#changes</td>
     <td>LDH release</td>
-    <td>nanoparticle</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>particle size</td>
-    <td>https://www.sbd4nano.eu/bel/#correlates</td>
-    <td>LDH release</td>
     <td>Nanoparticle</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Particle size</td>
-    <td>https://www.sbd4nano.eu/bel/#correlates</td>
-    <td>LDH release</td>
-    <td>Nanoparticle</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>particle size</td>
-    <td>https://www.sbd4nano.eu/bel/#correlates</td>
-    <td>LDH release</td>
-    <td>Nanoparticle</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>particle size</td>
-    <td>https://www.sbd4nano.eu/bel/#correlates</td>
-    <td>LDH release</td>
-    <td>nanoparticle</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Particle size</td>
-    <td>https://www.sbd4nano.eu/bel/#correlates</td>
-    <td>LDH release</td>
-    <td>nanoparticle</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>particle size</td>
-    <td>https://www.sbd4nano.eu/bel/#correlates</td>
-    <td>LDH release</td>
-    <td>nanoparticle</td>
     <td></td>
   </tr>
   <tr>
@@ -9852,20 +12407,13 @@ WHERE {
     <td>particle size</td>
     <td>https://www.sbd4nano.eu/bel/#correlates</td>
     <td>LDH release</td>
-    <td>Nanomaterial</td>
+    <td>Nanoparticle</td>
     <td></td>
   </tr>
   <tr>
-    <td>surface modification</td>
+    <td>Particle size</td>
     <td>https://www.sbd4nano.eu/bel/#correlates</td>
-    <td>toxicity</td>
-    <td>nanoparticle</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>surface modification</td>
-    <td>https://www.sbd4nano.eu/bel/#correlates</td>
-    <td>toxicity</td>
+    <td>LDH release</td>
     <td>Nanoparticle</td>
     <td></td>
   </tr>
@@ -9877,24 +12425,10 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>particle size</td>
+    <td>surface modification</td>
     <td>https://www.sbd4nano.eu/bel/#correlates</td>
     <td>toxicity</td>
-    <td>nanoparticle</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Particle size</td>
-    <td>https://www.sbd4nano.eu/bel/#correlates</td>
-    <td>toxicity</td>
-    <td>nanoparticle</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>particle size</td>
-    <td>https://www.sbd4nano.eu/bel/#correlates</td>
-    <td>toxicity</td>
-    <td>nanoparticle</td>
+    <td>Nanoparticle</td>
     <td></td>
   </tr>
   <tr>
@@ -9906,13 +12440,6 @@ WHERE {
   </tr>
   <tr>
     <td>Particle size</td>
-    <td>https://www.sbd4nano.eu/bel/#correlates</td>
-    <td>toxicity</td>
-    <td>Nanomaterial</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>particle size</td>
     <td>https://www.sbd4nano.eu/bel/#correlates</td>
     <td>toxicity</td>
     <td>Nanomaterial</td>
@@ -9934,34 +12461,6 @@ WHERE {
   </tr>
   <tr>
     <td>particle size</td>
-    <td>https://www.sbd4nano.eu/bel/#correlates</td>
-    <td>toxicity</td>
-    <td>Nanoparticle</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>particle size</td>
-    <td>https://www.sbd4nano.eu/bel/#negativelyCorrelates</td>
-    <td>oxditation state</td>
-    <td>metal oxide nanoparticle</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Particle size</td>
-    <td>https://www.sbd4nano.eu/bel/#negativelyCorrelates</td>
-    <td>oxditation state</td>
-    <td>metal oxide nanoparticle</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>particle size</td>
-    <td>https://www.sbd4nano.eu/bel/#negativelyCorrelates</td>
-    <td>oxditation state</td>
-    <td>metal oxide nanoparticle</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>particle size</td>
     <td>https://www.sbd4nano.eu/bel/#negativelyCorrelates</td>
     <td>oxditation state</td>
     <td>Metal Oxide</td>
@@ -9975,34 +12474,6 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>particle size</td>
-    <td>https://www.sbd4nano.eu/bel/#negativelyCorrelates</td>
-    <td>oxditation state</td>
-    <td>Metal Oxide</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>pH value</td>
-    <td>https://www.sbd4nano.eu/bel/#correlates</td>
-    <td>zeta potential</td>
-    <td>metal oxide nanoparticle</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>pH</td>
-    <td>https://www.sbd4nano.eu/bel/#correlates</td>
-    <td>zeta potential</td>
-    <td>metal oxide nanoparticle</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>pH value</td>
-    <td>https://www.sbd4nano.eu/bel/#correlates</td>
-    <td>zeta potential</td>
-    <td>Metal Oxide</td>
-    <td></td>
-  </tr>
-  <tr>
     <td>pH</td>
     <td>https://www.sbd4nano.eu/bel/#correlates</td>
     <td>zeta potential</td>
@@ -10010,107 +12481,9 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>pH value</td>
-    <td>https://www.sbd4nano.eu/bel/#correlates</td>
-    <td>zeta potential</td>
-    <td>Metal Oxide</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>pH</td>
-    <td>https://www.sbd4nano.eu/bel/#correlates</td>
-    <td>zeta potential</td>
-    <td>Metal Oxide</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>pH value</td>
-    <td>https://www.sbd4nano.eu/bel/#correlates</td>
-    <td>zeta potential</td>
-    <td>metal oxide nanoparticle</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>pH</td>
-    <td>https://www.sbd4nano.eu/bel/#correlates</td>
-    <td>zeta potential</td>
-    <td>metal oxide nanoparticle</td>
-    <td></td>
-  </tr>
-  <tr>
     <td>zeta potential</td>
     <td>https://www.sbd4nano.eu/bel/#correlates</td>
     <td>aggregation</td>
-    <td>metal oxide nanoparticle</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>zeta potential</td>
-    <td>https://www.sbd4nano.eu/bel/#correlates</td>
-    <td>aggregation</td>
-    <td>metal oxide nanoparticle</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>zeta potential</td>
-    <td>https://www.sbd4nano.eu/bel/#correlates</td>
-    <td>aggregation</td>
-    <td>Metal Oxide</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>zeta potential</td>
-    <td>https://www.sbd4nano.eu/bel/#correlates</td>
-    <td>aggregation</td>
-    <td>Metal Oxide</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>zeta potential</td>
-    <td>https://www.sbd4nano.eu/bel/#correlates</td>
-    <td>aggregation</td>
-    <td>metal oxide nanoparticle</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>zeta potential</td>
-    <td>https://www.sbd4nano.eu/bel/#correlates</td>
-    <td>aggregation</td>
-    <td>metal oxide nanoparticle</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>zeta potential</td>
-    <td>https://www.sbd4nano.eu/bel/#correlates</td>
-    <td>Aggregation</td>
-    <td>metal oxide nanoparticle</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>zeta potential</td>
-    <td>https://www.sbd4nano.eu/bel/#correlates</td>
-    <td>Aggregation</td>
-    <td>metal oxide nanoparticle</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>zeta potential</td>
-    <td>https://www.sbd4nano.eu/bel/#correlates</td>
-    <td>aggregation</td>
-    <td>Metal Oxide</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>zeta potential</td>
-    <td>https://www.sbd4nano.eu/bel/#correlates</td>
-    <td>aggregation</td>
-    <td>Metal Oxide</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>zeta potential</td>
-    <td>https://www.sbd4nano.eu/bel/#correlates</td>
-    <td>Aggregation</td>
     <td>Metal Oxide</td>
     <td></td>
   </tr>

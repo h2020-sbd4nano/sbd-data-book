@@ -23,6 +23,24 @@ SELECT ?title ?url WHERE {
 
 <table>
   <tr>
+    <td><b>title</b></td>
+    <td><b>url</b></td>
+  </tr>
+  <tr>
+    <td>calibrate - eNanoMapper database</td>
+    <td>https://search.data.enanomapper.net/projects/calibrate</td>
+  </tr>
+  <tr>
+    <td>enanomapper - eNanoMapper database</td>
+    <td>https://search.data.enanomapper.net/projects/enanomapper</td>
+  </tr>
+  <tr>
+    <td>nanoreg - eNanoMapper database</td>
+    <td>https://search.data.enanomapper.net/projects/nanoreg</td>
+  </tr>
+  <tr>
+    <td>nanoreg2 - eNanoMapper database</td>
+    <td>https://search.data.enanomapper.net/projects/nanoreg2</td>
   </tr>
 </table>
 

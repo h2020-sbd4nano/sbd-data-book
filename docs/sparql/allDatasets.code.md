@@ -175,22 +175,6 @@ SELECT ?title ?url WHERE {
     <td>https://identifiers.org/geo:GSE99997</td>
   </tr>
   <tr>
-    <td>calibrate - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/calibrate</td>
-  </tr>
-  <tr>
-    <td>enanomapper - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/enanomapper</td>
-  </tr>
-  <tr>
-    <td>nanoreg - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/nanoreg</td>
-  </tr>
-  <tr>
-    <td>nanoreg2 - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/nanoreg2</td>
-  </tr>
-  <tr>
     <td>RDF version of the data from Choi, JS. et al. Towards a generalized toxicity prediction model for oxide nanomaterials using integrated data from different sources (2018)</td>
     <td>https://zenodo.org/record/5743204</td>
   </tr>
@@ -205,6 +189,14 @@ SELECT ?title ?url WHERE {
   <tr>
     <td>Raw data of in vitro investigations on immune activation by bare and surface-functionalized SiO2 NP-allergen conjugates using human monocyte-derived dendritic cells as model antigen-presenting cells. Data repository for Punz B. et al., 2022</td>
     <td>https://zenodo.org/record/6473305</td>
+  </tr>
+  <tr>
+    <td>Extracting interpretable rules with Bayesian Networks. A case study of intrinsic human hazardous properties of silver nanoforms for the Safety Dimension of Safe and Sustainable by design paradigm</td>
+    <td>https://zenodo.org/record/7335039</td>
+  </tr>
+  <tr>
+    <td>RDF version of the supplementary data from Shin, Hyun Kil and Seo et al. Meta-analysis of Daphnia magna nanotoxicity experiments in accordance with test guidelines (2018)</td>
+    <td>https://zenodo.org/record/7602354</td>
   </tr>
 </table>
 

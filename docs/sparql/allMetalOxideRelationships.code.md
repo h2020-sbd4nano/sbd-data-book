@@ -23,16 +23,6 @@ WHERE {
 
 ### Output
 
-<table>
-  <tr>
-    <td><b>nm</b></td>
-    <td><b>relations</b></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.bioontology.org/ontology/npo#NPO_1541">metal oxide nanoparticle</a></td>
-    <td>1</td>
-  </tr>
-</table>
 
 ## Code examples
 
