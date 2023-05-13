@@ -8,7 +8,7 @@ METAS := references.dat toc.txt indexList.i.md sections.txt
 
 SUBDIRS := sparql
 
-all: ${SUBDIRS} ${METAS} ${TARGETS} docs/index.md docs/urlList.txt book.pdf
+all: ${SUBDIRS} ${METAS} ${TARGETS} docs/index.md docs/urlList.txt
 	@cp sparql/*.code.en.md docs/sparql
 	@rename -f "s/\.en.md/\.md/" docs/sparql/*.en.md
 	@for lang in $(L10N) ; do \
