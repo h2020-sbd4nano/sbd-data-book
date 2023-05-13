@@ -45,7 +45,7 @@ This gives us:
 
 ## Relationships by cause
 
-**SPARQL** [sparql/relationshipsByCause.rq](sparql/relationshipsByCause.code.html) ([run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20sbd%3A%20%20%20%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Frdf%2F%23%3E%0APREFIX%20sbdbel%3A%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Fbel%2F%23%3E%0APREFIX%20dc%3A%20%20%20%20%20%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%3E%0APREFIX%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0A%0ASELECT%20%3Fcause%20%28COUNT%28DISTINCT%20%3Frelation%29%20AS%20%3Fcount%29%0AWHERE%20%7B%0A%20%20%3Frelation%20a%20sbdbel%3ACausalAssertion%20%3B%0A%20%20%20%20sbdbel%3Acause%20%2F%20rdfs%3Alabel%20%3Fcause%20.%0A%7D%20GROUP%20BY%20%3Fcause%0A%20%20ORDER%20BY%20DESC%28%3Fcount%29%0A))
+**SPARQL** [sparql/relationshipsByCause.rq](sparql/relationshipsByCause.code.html) ([run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20sbd%3A%20%20%20%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Frdf%2F%23%3E%0APREFIX%20sbdbel%3A%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Fbel%2F%23%3E%0APREFIX%20dc%3A%20%20%20%20%20%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%3E%0APREFIX%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0A%0ASELECT%20%3Fcause%20%28COUNT%28DISTINCT%20%3Frelation%29%20AS%20%3Fcount%29%0AWHERE%20%7B%0A%20%20%3Frelation%20a%20sbdbel%3ACausalAssertion%20%3B%0A%20%20%20%20sbdbel%3Acause%20%2F%20rdfs%3Alabel%20%3Fcause%20.%0A%7D%20GROUP%20BY%20%3Fcause%0A%20%20ORDER%20BY%20DESC%28%3Fcount%29%20ASC%28%3Fcause%29%0A))
 ```sparql
 PREFIX sbd:     <https://www.sbd4nano.eu/rdf/#>
 PREFIX sbdbel:  <https://www.sbd4nano.eu/bel/#>
@@ -56,7 +56,7 @@ WHERE {
   ?relation a sbdbel:CausalAssertion ;
     sbdbel:cause / rdfs:label ?cause .
 } GROUP BY ?cause
-  ORDER BY DESC(?count)
+  ORDER BY DESC(?count) ASC(?cause)
 ```
 
 This gives us:
@@ -87,6 +87,14 @@ This gives us:
     <td>12</td>
   </tr>
   <tr>
+    <td>Activation, LXR</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>Cell injury/death</td>
+    <td>10</td>
+  </tr>
+  <tr>
     <td>Increase, DNA damage</td>
     <td>10</td>
   </tr>
@@ -95,27 +103,15 @@ This gives us:
     <td>10</td>
   </tr>
   <tr>
-    <td>Cell injury/death</td>
-    <td>10</td>
-  </tr>
-  <tr>
-    <td>Activation, LXR</td>
-    <td>10</td>
-  </tr>
-  <tr>
     <td>Deposition of Ionizing Energy</td>
     <td>9</td>
   </tr>
   <tr>
-    <td>Histone deacetylase inhibition</td>
-    <td>8</td>
-  </tr>
-  <tr>
-    <td>Increase, Reactive Oxygen Species production</td>
-    <td>8</td>
-  </tr>
-  <tr>
     <td>Acetylcholinesterase (AchE) Inhibition</td>
+    <td>8</td>
+  </tr>
+  <tr>
+    <td>Histone deacetylase inhibition</td>
     <td>8</td>
   </tr>
   <tr>
@@ -123,11 +119,15 @@ This gives us:
     <td>8</td>
   </tr>
   <tr>
-    <td>Apoptosis</td>
-    <td>7</td>
+    <td>Increase, Reactive Oxygen Species production</td>
+    <td>8</td>
   </tr>
   <tr>
     <td>Activation, PPARα</td>
+    <td>7</td>
+  </tr>
+  <tr>
+    <td>Apoptosis</td>
     <td>7</td>
   </tr>
   <tr>
@@ -135,15 +135,11 @@ This gives us:
     <td>7</td>
   </tr>
   <tr>
-    <td>Increase, Apoptosis</td>
+    <td>Agonism, Androgen receptor</td>
     <td>6</td>
   </tr>
   <tr>
-    <td>Thyroid hormone synthesis, Decreased</td>
-    <td>6</td>
-  </tr>
-  <tr>
-    <td>Reduced levels of BDNF</td>
+    <td>Decrease, Adenosine triphosphate pool</td>
     <td>6</td>
   </tr>
   <tr>
@@ -151,11 +147,15 @@ This gives us:
     <td>6</td>
   </tr>
   <tr>
-    <td>Peptide Oxidation</td>
+    <td>Increase, Apoptosis</td>
     <td>6</td>
   </tr>
   <tr>
-    <td>Agonism, Androgen receptor</td>
+    <td>Increase, Cell Proliferation</td>
+    <td>6</td>
+  </tr>
+  <tr>
+    <td>Increase, Cell death</td>
     <td>6</td>
   </tr>
   <tr><td colspan="2">This table is truncated. See the full table at <a href="sparql/relationshipsByCause.code.html">sparql/relationshipsByCause.rq</a></td></tr>
@@ -205,6 +205,10 @@ This gives us:
     <td>11</td>
   </tr>
   <tr>
+    <td>Apoptosis</td>
+    <td>9</td>
+  </tr>
+  <tr>
     <td>Increase, Apoptosis</td>
     <td>9</td>
   </tr>
@@ -214,10 +218,6 @@ This gives us:
   </tr>
   <tr>
     <td>impaired, Fertility</td>
-    <td>9</td>
-  </tr>
-  <tr>
-    <td>Apoptosis</td>
     <td>9</td>
   </tr>
   <tr>
@@ -237,19 +237,19 @@ This gives us:
     <td>8</td>
   </tr>
   <tr>
-    <td>Increase, Mortality</td>
-    <td>7</td>
-  </tr>
-  <tr>
     <td>Oxidative Stress </td>
     <td>7</td>
   </tr>
   <tr>
-    <td>Accumulation, Fatty acid</td>
+    <td>Decrease of neuronal network function</td>
     <td>7</td>
   </tr>
   <tr>
-    <td>Decrease of neuronal network function</td>
+    <td>Increase, Mortality</td>
+    <td>7</td>
+  </tr>
+  <tr>
+    <td>Accumulation, Fatty acid</td>
     <td>7</td>
   </tr>
   <tr>
@@ -265,15 +265,15 @@ This gives us:
     <td>7</td>
   </tr>
   <tr>
-    <td>Occurrence, Kidney toxicity</td>
-    <td>6</td>
-  </tr>
-  <tr>
     <td>Reduction, 17beta-estradiol synthesis by ovarian granulosa cells</td>
     <td>6</td>
   </tr>
   <tr>
-    <td>Neuroinflammation</td>
+    <td>Occurrence, Kidney toxicity</td>
+    <td>6</td>
+  </tr>
+  <tr>
+    <td>Decrease, Lung function</td>
     <td>6</td>
   </tr>
   <tr><td colspan="2">This table is truncated. See the full table at <a href="sparql/relationshipsByOutcome.code.html">sparql/relationshipsByOutcome.rq</a></td></tr>

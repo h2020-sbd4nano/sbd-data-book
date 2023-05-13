@@ -93,6 +93,17 @@ WHERE {
     <td>0</td>
   </tr>
   <tr>
+    <td><a href="https://search.data.enanomapper.net/closed/">Closed datasets hosted at the Nanosafety Data Interface</a></td>
+    <td>18</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+  <tr>
     <td><a href="https://nanosolveit.eu/resources/tools-services/">NanoSolveIT Tools</a></td>
     <td>0</td>
     <td>0</td>
@@ -126,10 +137,10 @@ WHERE {
     <td>0</td>
   </tr>
   <tr>
-    <td><a href="https://nanocommons.github.io/datasets/">Overview of open datasets released by NanoSafety Cluster projects</a></td>
+    <td><a href="https://atena.urv.cat/model/">SbD4nano Nanocompound</a></td>
     <td>0</td>
-    <td>20</td>
     <td>0</td>
+    <td>10</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
@@ -137,10 +148,10 @@ WHERE {
     <td>0</td>
   </tr>
   <tr>
-    <td><a href="https://atena.urv.cat/model/">SbD4nano Nanocompound</a></td>
+    <td><a href="https://nanocommons.github.io/datasets/">Overview of open datasets released by NanoSafety Cluster projects</a></td>
     <td>0</td>
+    <td>20</td>
     <td>0</td>
-    <td>10</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>

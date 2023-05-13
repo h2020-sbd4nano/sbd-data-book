@@ -26,21 +26,38 @@ This gives us a list of databases, here showing the first 10:
     <td><b>url</b></td>
   </tr>
   <tr>
+    <td>aurora - eNanoMapper database</td>
+    <td>https://search.data.enanomapper.net/projects/aurora</td>
+  </tr>
+  <tr>
+    <td>biorima - eNanoMapper database</td>
+    <td>https://search.data.enanomapper.net/projects/biorima</td>
+  </tr>
+  <tr>
     <td>calibrate - eNanoMapper database</td>
     <td>https://search.data.enanomapper.net/projects/calibrate</td>
+  </tr>
+  <tr>
+    <td>charisma - eNanoMapper database</td>
+    <td>https://search.data.enanomapper.net/projects/charisma</td>
+  </tr>
+  <tr>
+    <td>cusp - eNanoMapper database</td>
+    <td>https://search.data.enanomapper.net/projects/cusp</td>
   </tr>
   <tr>
     <td>enanomapper - eNanoMapper database</td>
     <td>https://search.data.enanomapper.net/projects/enanomapper</td>
   </tr>
   <tr>
-    <td>nanoreg - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/nanoreg</td>
+    <td>gov4nano - eNanoMapper database</td>
+    <td>https://search.data.enanomapper.net/projects/gov4nano</td>
   </tr>
   <tr>
-    <td>nanoreg2 - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/nanoreg2</td>
+    <td>gracious - eNanoMapper database</td>
+    <td>https://search.data.enanomapper.net/projects/gracious</td>
   </tr>
+  <tr><td colspan="2">This table is truncated. See the full table at <a href="sparql/allDatabases.code.html">sparql/allDatabases.rq</a></td></tr>
 </table>
 
 

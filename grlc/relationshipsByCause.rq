@@ -15,5 +15,5 @@ WHERE {
   ?relation a sbdbel:CausalAssertion ;
     sbdbel:cause / rdfs:label ?cause .
 } GROUP BY ?cause
-  ORDER BY DESC(?count)
+  ORDER BY DESC(?count) ASC(?cause)
 

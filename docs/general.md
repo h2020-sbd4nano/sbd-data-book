@@ -68,15 +68,11 @@ This gives us:
   </tr>
   <tr>
     <td><a href="https://doi.org/10.6084/m9.figshare.11897205.v1">NanoWiki v6 causal relationships</a></td>
-    <td><img width="200" src="http://www.enanomapper.net/sites/default/files/eNanoMapper_LOGO.png" /></td>
+    <td><img width="200" src="https://search.data.enanomapper.net/assets/img/logo.png" /></td>
   </tr>
   <tr>
     <td><a href="http://www.smartnanotox.eu/?page_id=131">SmartNanoTox Transcriptomics datasets</a></td>
     <td><img width="200" src="https://www.ucd.ie/sbi/t4media/SNT%20870x400.png" /></td>
-  </tr>
-  <tr>
-    <td>Overview of open datasets released by NanoSafety Cluster projects</td>
-    <td><img width="200" src="https://upload.wikimedia.org/wikipedia/commons/e/e1/NanoCommons-Logo-Large_-_White_Circle_01.png" /></td>
   </tr>
   <tr>
     <td><a href="https://nanosolveit.eu/resources/tools-services/">NanoSolveIT Tools</a></td>
@@ -87,8 +83,16 @@ This gives us:
     <td><img width="200" src="https://search.data.enanomapper.net/assets/img/logo.png" /></td>
   </tr>
   <tr>
+    <td>Closed datasets hosted at the Nanosafety Data Interface</td>
+    <td><img width="200" src="https://search.data.enanomapper.net/assets/img/logo.png" /></td>
+  </tr>
+  <tr>
+    <td>Overview of open datasets released by NanoSafety Cluster projects</td>
+    <td><img width="200" src="https://upload.wikimedia.org/wikipedia/commons/e/e1/NanoCommons-Logo-Large_-_White_Circle_01.png" /></td>
+  </tr>
+  <tr>
     <td>Cloud services provided by VHP4Safety</td>
-    <td><img width="200" src="https://vhp4safety.nl/wp-content/uploads/sites/725/2021/05/VHP-LOGO-100mm-RGB.png" /></td>
+    <td><img width="200" src="https://images.nieuwsbrieven.rivm.nl/101500/0/5763/fe1e7915ce28f7a96ca25ed234631504.png" /></td>
   </tr>
 </table>
 
@@ -97,11 +101,11 @@ This gives us:
 Not all resources have licenses that allow us to immediately use them, but require acquiring a license.
 This query lists all license information in the current knowledge base:
 
-**SPARQL** [sparql/allLicenses.rq](sparql/allLicenses.code.html) ([run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20sbdbel%3A%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Fbel%2F%23%3E%0APREFIX%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0A%0ASELECT%20%3Flicense%20%28COUNT%28DISTINCT%20%3Fresource%29%20AS%20%3Fcount%29%0AWHERE%20%7B%0A%20%20%3Fresource%20a%20%3Ftype%20.%0A%20%20MINUS%20%7B%20%3Fresource%20a%20sbdbel%3ACausalRelationship%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fresource%20dcterms%3Alicense%20%3Flicense%20%7D%0A%7D%20GROUP%20BY%20%3Flicense%0A%20%20ORDER%20BY%20DESC%28%3Fcount%29%0A))
+**SPARQL** [sparql/allLicenses.rq](sparql/allLicenses.code.html) ([run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20sbdbel%3A%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Fbel%2F%23%3E%0APREFIX%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0A%0ASELECT%20%28COUNT%28DISTINCT%20%3Fresource%29%20AS%20%3Fcount%29%20%3Flicense%0AWHERE%20%7B%0A%20%20%3Fresource%20a%20%3Ftype%20.%0A%20%20MINUS%20%7B%20%3Fresource%20a%20sbdbel%3ACausalRelationship%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fresource%20dcterms%3Alicense%20%3Flicense%20%7D%0A%7D%20GROUP%20BY%20%3Flicense%0A%20%20ORDER%20BY%20DESC%28%3Fcount%29%0A))
 ```sparql
 PREFIX sbdbel:  <https://www.sbd4nano.eu/bel/#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
-SELECT ?license (COUNT(DISTINCT ?resource) AS ?count)
+SELECT (COUNT(DISTINCT ?resource) AS ?count) ?license
 WHERE {
   ?resource a ?type .
   MINUS { ?resource a sbdbel:CausalRelationship }
@@ -114,72 +118,144 @@ This gives us:
 
 <table>
   <tr>
-    <td><b>license</b></td>
     <td><b>count</b></td>
+    <td><b>license</b></td>
   </tr>
   <tr>
+    <td>6119</td>
     <td></td>
-    <td>6118</td>
   </tr>
   <tr>
-    <td>http://creativecommons.org/publicdomain/zero/1.0/</td>
     <td>1777</td>
+    <td>http://creativecommons.org/publicdomain/zero/1.0/</td>
   </tr>
   <tr>
-    <td>https://creativecommons.org/licenses/by/4.0/</td>
     <td>261</td>
+    <td>https://creativecommons.org/licenses/by/4.0/</td>
   </tr>
   <tr>
-    <td>https://www.wikidata.org/entity/Q50423863</td>
     <td>23</td>
+    <td>https://www.wikidata.org/entity/Q50423863</td>
   </tr>
   <tr>
-    <td>http://example.com/unknown</td>
     <td>17</td>
+    <td>http://example.com/unknown</td>
   </tr>
   <tr>
-    <td>https://creativecommons.org/licenses/by/4.0/legalcode</td>
     <td>14</td>
+    <td>https://creativecommons.org/licenses/by/4.0/legalcode</td>
   </tr>
   <tr>
-    <td>https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode</td>
     <td>1</td>
-  </tr>
-  <tr>
-    <td>https://creativecommons.org/licenses/by-nc/4.0/legalcode</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>https://springernature.figshare.com/articles/dataset/MOESM1_of_Role_of_chemical_composition_and_redox_modification_of_poorly_soluble_nanomaterials_on_their_ability_to_enhance_allergic_airway_sensitisation_in_mice/10071023</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>https://springernature.figshare.com/articles/dataset/MOESM1_of_Role_of_chemical_composition_and_redox_modification_of_poorly_soluble_nanomaterials_on_their_ability_to_enhance_allergic_airway_sensitisation_in_mice/10071032</td>
-    <td>1</td>
-  </tr>
-  <tr>
     <td>https://creativecommons.org/publicdomain/zero/1.0/</td>
-    <td>1</td>
   </tr>
   <tr>
-    <td>https://creativecommons.org/share-your-work/public-domain/cc0</td>
     <td>1</td>
+    <td>https://search.data.enanomapper.net/about/aurora</td>
   </tr>
   <tr>
+    <td>1</td>
+    <td>https://search.data.enanomapper.net/about/biorima</td>
+  </tr>
+  <tr>
+    <td>1</td>
     <td>https://search.data.enanomapper.net/about/calibrate</td>
-    <td>1</td>
   </tr>
   <tr>
+    <td>1</td>
+    <td>https://search.data.enanomapper.net/about/charisma</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://search.data.enanomapper.net/about/cusp</td>
+  </tr>
+  <tr>
+    <td>1</td>
     <td>https://search.data.enanomapper.net/about/enanomapper</td>
-    <td>1</td>
   </tr>
   <tr>
+    <td>1</td>
+    <td>https://search.data.enanomapper.net/about/gov4nano</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://search.data.enanomapper.net/about/gracious</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://search.data.enanomapper.net/about/harmless</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://search.data.enanomapper.net/about/imptox</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://search.data.enanomapper.net/about/nanoinformatix</td>
+  </tr>
+  <tr>
+    <td>1</td>
     <td>https://search.data.enanomapper.net/about/nanoreg</td>
-    <td>1</td>
   </tr>
   <tr>
-    <td>https://search.data.enanomapper.net/about/nanoreg2</td>
     <td>1</td>
+    <td>https://search.data.enanomapper.net/about/nanoreg2</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://search.data.enanomapper.net/about/patrols</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://search.data.enanomapper.net/about/plasticfate</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://search.data.enanomapper.net/about/plasticheal</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://search.data.enanomapper.net/about/polyrisk</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://search.data.enanomapper.net/about/riskgone</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://search.data.enanomapper.net/about/sabydoma</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://search.data.enanomapper.net/about/sabyna</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://search.data.enanomapper.net/about/sbd4nano</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://search.data.enanomapper.net/about/sunshine</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://creativecommons.org/licenses/by-nc/4.0/legalcode</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://springernature.figshare.com/articles/dataset/MOESM1_of_Role_of_chemical_composition_and_redox_modification_of_poorly_soluble_nanomaterials_on_their_ability_to_enhance_allergic_airway_sensitisation_in_mice/10071023</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://springernature.figshare.com/articles/dataset/MOESM1_of_Role_of_chemical_composition_and_redox_modification_of_poorly_soluble_nanomaterials_on_their_ability_to_enhance_allergic_airway_sensitisation_in_mice/10071032</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://creativecommons.org/share-your-work/public-domain/cc0</td>
   </tr>
 </table>
 
@@ -236,6 +312,17 @@ source what information is provided as basic <a name="tp4">statistics</a>:
     <td>0</td>
   </tr>
   <tr>
+    <td><a href="https://search.data.enanomapper.net/closed/">Closed datasets hosted at the Nanosafety Data Interface</a></td>
+    <td>18</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+  <tr>
     <td><a href="https://nanosolveit.eu/resources/tools-services/">NanoSolveIT Tools</a></td>
     <td>0</td>
     <td>0</td>
@@ -269,10 +356,10 @@ source what information is provided as basic <a name="tp4">statistics</a>:
     <td>0</td>
   </tr>
   <tr>
-    <td><a href="https://nanocommons.github.io/datasets/">Overview of open datasets released by NanoSafety Cluster projects</a></td>
+    <td><a href="https://atena.urv.cat/model/">SbD4nano Nanocompound</a></td>
     <td>0</td>
-    <td>20</td>
     <td>0</td>
+    <td>10</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
@@ -280,10 +367,10 @@ source what information is provided as basic <a name="tp4">statistics</a>:
     <td>0</td>
   </tr>
   <tr>
-    <td><a href="https://atena.urv.cat/model/">SbD4nano Nanocompound</a></td>
+    <td><a href="https://nanocommons.github.io/datasets/">Overview of open datasets released by NanoSafety Cluster projects</a></td>
     <td>0</td>
+    <td>20</td>
     <td>0</td>
-    <td>10</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
