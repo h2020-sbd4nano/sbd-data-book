@@ -63,56 +63,47 @@ This gives us a list of databases, here showing the first 10:
 
 ## Datasets
 
-**SPARQL** [sparql/allDatasets.rq](sparql/allDatasets.code.html) ([run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20sbd%3A%20%20%20%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Frdf%2F%23%3E%0APREFIX%20foaf%3A%20%20%20%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F%3E%20%0APREFIX%20rdfs%3A%20%20%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%20%0A%0ASELECT%20%3Ftitle%20%3Furl%20WHERE%20%7B%0A%20%20%3Fdataset%20a%20sbd%3ADataset%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20rdfs%3Alabel%20%3Ftitle%20.%0A%20%20OPTIONAL%20%7B%20%3Fdataset%20foaf%3Apage%20%3Furl%20%7D%0A%7D%20ORDER%20BY%20%3Furl%0A))
+**SPARQL** [sparql/allDatasets.rq](sparql/allDatasets.code.html) ([run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20sbd%3A%20%20%20%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Frdf%2F%23%3E%0APREFIX%20foaf%3A%20%20%20%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F%3E%20%0APREFIX%20rdfs%3A%20%20%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%20%0A%0ASELECT%20%3Fdataset%20%3FdatasetLabel%20WHERE%20%7B%0A%20%20%3Fdataset_%20a%20sbd%3ADataset%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20rdfs%3Alabel%20%3FdatasetLabel%20.%0A%20%20OPTIONAL%20%7B%20%3Fdataset_%20foaf%3Apage%20%3Fdataset%20%7D%0A%7D%20ORDER%20BY%20%3Fdataset%0A))
 ```sparql
 PREFIX sbd:     <https://www.sbd4nano.eu/rdf/#>
 PREFIX foaf:   <http://xmlns.com/foaf/0.1/> 
 PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#> 
-SELECT ?title ?url WHERE {
-  ?dataset a sbd:Dataset ;
-           rdfs:label ?title .
-  OPTIONAL { ?dataset foaf:page ?url }
-} ORDER BY ?url
+SELECT ?dataset ?datasetLabel WHERE {
+  ?dataset_ a sbd:Dataset ;
+           rdfs:label ?datasetLabel .
+  OPTIONAL { ?dataset_ foaf:page ?dataset }
+} ORDER BY ?dataset
 ```
 
 This gives us a list of datasets, here showing the first 10:
 
 <table>
   <tr>
-    <td><b>title</b></td>
-    <td><b>url</b></td>
+    <td><b>dataset</b></td>
   </tr>
   <tr>
-    <td>All NanoPUZZLES ISA-TAB-Nano datasets</td>
-    <td>http://doi.org/10.5281/zenodo.35493</td>
+    <td><a href="http://doi.org/10.5281/zenodo.35493">All NanoPUZZLES ISA-TAB-Nano datasets</a></td>
   </tr>
   <tr>
-    <td>AOP-Wiki AOP-AO dataset</td>
-    <td>https://aopwiki.rdf.bigcat-bioinformatics.org/sparql?default-graph-uri=&query=SELECT+%3FAOP+%3FAOPTitle+%3FAO+%3FAOTitle+WHERE+%7B%0D%0A%3FAOP+a+aopo%3AAdverseOutcomePathway+%3B%0D%0Adc%3Atitle+%3FAOPTitle+%3B%0D%0Aaopo%3Ahas_adverse_outcome+%3FAO.%0D%0A%3FAO+dc%3Atitle+%3FAOTitle+.%7D&should-sponge=&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+</td>
+    <td><a href="https://aopwiki.rdf.bigcat-bioinformatics.org/sparql?default-graph-uri=&query=SELECT+%3FAOP+%3FAOPTitle+%3FAO+%3FAOTitle+WHERE+%7B%0D%0A%3FAOP+a+aopo%3AAdverseOutcomePathway+%3B%0D%0Adc%3Atitle+%3FAOPTitle+%3B%0D%0Aaopo%3Ahas_adverse_outcome+%3FAO.%0D%0A%3FAO+dc%3Atitle+%3FAOTitle+.%7D&should-sponge=&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+">AOP-Wiki AOP-AO dataset</a></td>
   </tr>
   <tr>
-    <td>AOP-Wiki AOP-KE dataset</td>
-    <td>https://aopwiki.rdf.bigcat-bioinformatics.org/sparql?default-graph-uri=&query=SELECT+%3FAOP+%3FAOPTitle+%3FKE+%3FKETitle+WHERE+%7B%0D%0A%3FAOP+a+aopo%3AAdverseOutcomePathway+%3B%0D%0Adc%3Atitle+%3FAOPTitle+%3B%0D%0Aaopo%3Ahas_key_event+%3FKE.%0D%0A%3FKE+dc%3Atitle+%3FKETitle+.%7D&should-sponge=&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+</td>
+    <td><a href="https://aopwiki.rdf.bigcat-bioinformatics.org/sparql?default-graph-uri=&query=SELECT+%3FAOP+%3FAOPTitle+%3FKE+%3FKETitle+WHERE+%7B%0D%0A%3FAOP+a+aopo%3AAdverseOutcomePathway+%3B%0D%0Adc%3Atitle+%3FAOPTitle+%3B%0D%0Aaopo%3Ahas_key_event+%3FKE.%0D%0A%3FKE+dc%3Atitle+%3FKETitle+.%7D&should-sponge=&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+">AOP-Wiki AOP-KE dataset</a></td>
   </tr>
   <tr>
-    <td>AOP-Wiki MIE-KE dataset</td>
-    <td>https://aopwiki.rdf.bigcat-bioinformatics.org/sparql?default-graph-uri=&query=SELECT+%3FMIE+%3FMolecularInitiatingEventName+%3FKE+%3FKeyEventName+WHERE+%7B%0D%0A%3FMIE+dc%3Atitle+%3FMolecularInitiatingEventName+.%0D%0A%3FAOP+a+aopo%3AAdverseOutcomePathway+%3B%0D%0Aaopo%3Ahas_molecular_initiating_event+%3FMIE%3B%0D%0Aaopo%3Ahas_key_event+%3FKE.%0D%0A%3FKE+dc%3Atitle+%3FKeyEventName+.%0D%0AFILTER+%28%3FMIE+%21%3D+%3FKE%29%7D&should-sponge=&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+</td>
+    <td><a href="https://aopwiki.rdf.bigcat-bioinformatics.org/sparql?default-graph-uri=&query=SELECT+%3FMIE+%3FMolecularInitiatingEventName+%3FKE+%3FKeyEventName+WHERE+%7B%0D%0A%3FMIE+dc%3Atitle+%3FMolecularInitiatingEventName+.%0D%0A%3FAOP+a+aopo%3AAdverseOutcomePathway+%3B%0D%0Aaopo%3Ahas_molecular_initiating_event+%3FMIE%3B%0D%0Aaopo%3Ahas_key_event+%3FKE.%0D%0A%3FKE+dc%3Atitle+%3FKeyEventName+.%0D%0AFILTER+%28%3FMIE+%21%3D+%3FKE%29%7D&should-sponge=&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+">AOP-Wiki MIE-KE dataset</a></td>
   </tr>
   <tr>
-    <td>NANoREG - eNanoMapper database</td>
-    <td>https://doi.org/10.5281/zenodo.3467015</td>
+    <td><a href="https://doi.org/10.5281/zenodo.3467015">NANoREG - eNanoMapper database</a></td>
   </tr>
   <tr>
-    <td>Toxicogenomic assessment of engineered nanomaterials</td>
-    <td>https://doi.org/10.5281/zenodo.4146981</td>
+    <td><a href="https://doi.org/10.5281/zenodo.4146981">Toxicogenomic assessment of engineered nanomaterials</a></td>
   </tr>
   <tr>
-    <td>Status quo in data availability and predictive models of nano-mixture toxicity</td>
-    <td>https://doi.org/10.5281/zenodo.4421969</td>
+    <td><a href="https://doi.org/10.5281/zenodo.4421969">Status quo in data availability and predictive models of nano-mixture toxicity</a></td>
   </tr>
   <tr>
-    <td>Raw data and metadata of SiO2 NP physicochemical characterisation, in vitro investigations and in silico predictions on protein corona formation</td>
-    <td>https://doi.org/10.5281/zenodo.4609840</td>
+    <td><a href="https://doi.org/10.5281/zenodo.4609840">Raw data and metadata of SiO2 NP physicochemical characterisation, in vitro investigations and in silico predictions on protein corona formation</a></td>
   </tr>
   <tr><td colspan="2">This table is truncated. See the full table at <a href="sparql/allDatasets.code.html">sparql/allDatasets.rq</a></td></tr>
 </table>
