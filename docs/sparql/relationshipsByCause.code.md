@@ -369,6 +369,10 @@ WHERE {
     <td>4</td>
   </tr>
   <tr>
+    <td>particle size</td>
+    <td>3</td>
+  </tr>
+  <tr>
     <td>7α-hydroxypregnenolone synthesis in the brain, decreased</td>
     <td>3</td>
   </tr>
@@ -1315,6 +1319,14 @@ WHERE {
   <tr>
     <td>reduction, testosterone levels </td>
     <td>2</td>
+  </tr>
+  <tr>
+    <td>pH value</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>zeta potential</td>
+    <td>1</td>
   </tr>
   <tr>
     <td> MLL chromosomal translocation</td>
