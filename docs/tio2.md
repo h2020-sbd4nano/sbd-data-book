@@ -81,24 +81,26 @@ This gives us this list of nanomaterials:
   </tr>
 </table>
 
-This approach can be used to find datasets, models, causal relationships, etc applicable to a certain
-nanomaterial or nanomaterial class. For example, we can list all relationships for all metal oxides:
+## Causal relationships
 
-**SPARQL** [sparql/allMetalOxideRelationships.rq](sparql/allMetalOxideRelationships.code.html) ([run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20sbdbel%3A%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Fbel%2F%23%3E%0APREFIX%20npo%3A%20%3Chttp%3A%2F%2Fpurl.bioontology.org%2Fontology%2Fnpo%23%3E%0A%0ASELECT%20DISTINCT%20%3Fnm%0A%20%20%28SAMPLE%28%3FnmLabel_%29%20AS%20%3FnmLabel%29%0A%20%20%28COUNT%28DISTINCT%20%3Frelation%29%20AS%20%3Frelations%29%0AWHERE%20%7B%0A%20%20VALUES%20%3Fsuperclass%20%7B%20npo%3ANPO_1541%20%7D%0A%20%20%3Fnm%20rdfs%3AsubClassOf*%20%3Fsuperclass%20%3B%20rdfs%3Alabel%20%3FnmLabel_%20.%0A%20%20%3Frelation%20a%20sbdbel%3ACausalAssertion%20%3B%20sbdbel%3ANP%20%3Fnm%20.%0A%7D%20GROUP%20BY%20%3Fnm%0A))
+This approach can be used to find datasets, models, causal relationships, etc applicable to a certain
+nanomaterial or nanomaterial class. For example, we can list all relationships for <a name="tp2">JRCNM01005a</a>:
+
+**SPARQL** [sparql/allJRCNM01005aRelationships.rq](sparql/allJRCNM01005aRelationships.code.html) ([run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20sbdbel%3A%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Fbel%2F%23%3E%0APREFIX%20enm%3A%20%20%20%20%20%3Chttp%3A%2F%2Fpurl.enanomapper.org%2Fonto%2F%3E%0A%0ASELECT%20DISTINCT%0A%20%20%3Fnm%20%28SAMPLE%28%3FnmLabel_%29%20AS%20%3FnmLabel%29%0A%20%20%28COUNT%28DISTINCT%20%3Frelation%29%20AS%20%3Frelations%29%0AWHERE%20%7B%0A%20%20VALUES%20%3Fnm%20%7B%20enm%3AENM_9000077%20%7D%0A%20%20%3Fnm%20rdfs%3Alabel%20%3FnmLabel_%20.%0A%20%20OPTIONAL%20%7B%20%3Frelation%20a%20sbdbel%3ACausalAssertion%20%3B%20sbdbel%3ANP%20%3Fnm%20.%20%7D%0A%7D%20GROUP%20BY%20%3Fsuperclass%20%3Fnm%0A))
 ```sparql
 PREFIX sbdbel:  <https://www.sbd4nano.eu/bel/#>
-PREFIX npo: <http://purl.bioontology.org/ontology/npo#>
-SELECT DISTINCT ?nm
-  (SAMPLE(?nmLabel_) AS ?nmLabel)
+PREFIX enm:     <http://purl.enanomapper.org/onto/>
+SELECT DISTINCT
+  ?nm (SAMPLE(?nmLabel_) AS ?nmLabel)
   (COUNT(DISTINCT ?relation) AS ?relations)
 WHERE {
-  VALUES ?superclass { npo:NPO_1541 }
-  ?nm rdfs:subClassOf* ?superclass ; rdfs:label ?nmLabel_ .
-  ?relation a sbdbel:CausalAssertion ; sbdbel:NP ?nm .
-} GROUP BY ?nm
+  VALUES ?nm { enm:ENM_9000077 }
+  ?nm rdfs:label ?nmLabel_ .
+  OPTIONAL { ?relation a sbdbel:CausalAssertion ; sbdbel:NP ?nm . }
+} GROUP BY ?superclass ?nm
 ```
 
-This gives us:
+But for a specific material, such relationships may not exist:
 
 <table>
   <tr>
@@ -106,6 +108,45 @@ This gives us:
     <td><b>relations</b></td>
   </tr>
   <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000077">JRCNM01005a</a></td>
+    <td>0</td>
+  </tr>
+</table>
+
+In that case, we can better look for relationships for the class of nanoforms this
+material is part of.
+
+### All metal oxides
+
+For example, we can list all relationships for all metal oxides:
+
+**SPARQL** [sparql/allMetalOxideRelationships.rq](sparql/allMetalOxideRelationships.code.html) ([run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20sbdbel%3A%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Fbel%2F%23%3E%0APREFIX%20npo%3A%20%3Chttp%3A%2F%2Fpurl.bioontology.org%2Fontology%2Fnpo%23%3E%0A%0ASELECT%20DISTINCT%0A%20%20%3Fsuperclass%20%28SAMPLE%28%3FsuperclassLabel_%29%20AS%20%3FsuperclassLabel%29%0A%20%20%3Fnm%20%28SAMPLE%28%3FnmLabel_%29%20AS%20%3FnmLabel%29%0A%20%20%28COUNT%28DISTINCT%20%3Frelation%29%20AS%20%3Frelations%29%0AWHERE%20%7B%0A%20%20VALUES%20%3Fsuperclass%20%7B%20npo%3ANPO_1541%20%7D%0A%20%20%3Fnm%20rdfs%3AsubClassOf*%20%3Fsuperclass%20%3B%20rdfs%3Alabel%20%3FnmLabel_%20.%0A%20%20%3Fsuperclass%20rdfs%3Alabel%20%3FsuperclassLabel_%20.%0A%20%20%3Frelation%20a%20sbdbel%3ACausalAssertion%20%3B%20sbdbel%3ANP%20%3Fnm%20.%0A%7D%20GROUP%20BY%20%3Fsuperclass%20%3Fnm%0A))
+```sparql
+PREFIX sbdbel:  <https://www.sbd4nano.eu/bel/#>
+PREFIX npo: <http://purl.bioontology.org/ontology/npo#>
+SELECT DISTINCT
+  ?superclass (SAMPLE(?superclassLabel_) AS ?superclassLabel)
+  ?nm (SAMPLE(?nmLabel_) AS ?nmLabel)
+  (COUNT(DISTINCT ?relation) AS ?relations)
+WHERE {
+  VALUES ?superclass { npo:NPO_1541 }
+  ?nm rdfs:subClassOf* ?superclass ; rdfs:label ?nmLabel_ .
+  ?superclass rdfs:label ?superclassLabel_ .
+  ?relation a sbdbel:CausalAssertion ; sbdbel:NP ?nm .
+} GROUP BY ?superclass ?nm
+```
+
+We find here that basically all relationships are defined at a
+<a name="tp3">metal oxide</a> level:
+
+<table>
+  <tr>
+    <td><b>superclass</b></td>
+    <td><b>nm</b></td>
+    <td><b>relations</b></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.bioontology.org/ontology/npo#NPO_1541">Metal Oxide</a></td>
     <td><a href="http://purl.bioontology.org/ontology/npo#NPO_1541">Metal Oxide</a></td>
     <td>6</td>
   </tr>

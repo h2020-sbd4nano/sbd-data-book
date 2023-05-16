@@ -32,6 +32,8 @@ Issues, comments, questions can be reported [here](https://github.com/h2020-sbd4
 5.3. [Relationships by outcome](relationships.md#relationships-by-outcome) <br />
 5.4. [All relationships](relationships.md#all-relationships) <br />
 6. [Titanium Oxide](tio2.md) <br />
+6.1. [Causal relationships](tio2.md#causal-relationships) <br />
+6.1.1. [All metal oxides](tio2.md#all-metal-oxides) <br />
 
 [Index](indexList.md) <br />
 

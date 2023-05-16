@@ -6,16 +6,14 @@
 
 
 PREFIX sbdbel:  <https://www.sbd4nano.eu/bel/#>
-PREFIX npo: <http://purl.bioontology.org/ontology/npo#>
+PREFIX enm:     <http://purl.enanomapper.org/onto/>
 
 SELECT DISTINCT
-  ?superclass (SAMPLE(?superclassLabel_) AS ?superclassLabel)
   ?nm (SAMPLE(?nmLabel_) AS ?nmLabel)
   (COUNT(DISTINCT ?relation) AS ?relations)
 WHERE {
-  VALUES ?superclass { npo:NPO_1541 }
-  ?nm rdfs:subClassOf* ?superclass ; rdfs:label ?nmLabel_ .
-  ?superclass rdfs:label ?superclassLabel_ .
-  ?relation a sbdbel:CausalAssertion ; sbdbel:NP ?nm .
+  VALUES ?nm { enm:ENM_9000077 }
+  ?nm rdfs:label ?nmLabel_ .
+  OPTIONAL { ?relation a sbdbel:CausalAssertion ; sbdbel:NP ?nm . }
 } GROUP BY ?superclass ?nm
 

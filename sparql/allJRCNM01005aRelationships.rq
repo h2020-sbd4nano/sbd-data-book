@@ -1,0 +1,11 @@
+PREFIX sbdbel:  <https://www.sbd4nano.eu/bel/#>
+PREFIX enm:     <http://purl.enanomapper.org/onto/>
+
+SELECT DISTINCT
+  ?nm (SAMPLE(?nmLabel_) AS ?nmLabel)
+  (COUNT(DISTINCT ?relation) AS ?relations)
+WHERE {
+  VALUES ?nm { enm:ENM_9000077 }
+  ?nm rdfs:label ?nmLabel_ .
+  OPTIONAL { ?relation a sbdbel:CausalAssertion ; sbdbel:NP ?nm . }
+} GROUP BY ?superclass ?nm
