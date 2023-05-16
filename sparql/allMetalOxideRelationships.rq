@@ -8,4 +8,4 @@ WHERE {
   VALUES ?superclass { npo:NPO_1541 }
   ?nm rdfs:subClassOf* ?superclass ; rdfs:label ?nmLabel_ .
   ?relation a sbdbel:CausalAssertion ; sbdbel:NP ?nm .
-}
+} GROUP BY ?nm

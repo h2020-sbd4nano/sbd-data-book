@@ -11,5 +11,5 @@ SELECT DISTINCT ?nm (SAMPLE(?nmLabel_) AS ?nmLabel)
 WHERE {
   VALUES ?superclass { npo:NPO_1486 }
   ?nm rdfs:subClassOf* ?superclass ; rdfs:label ?nmLabel_ .
-}
+} GROUP BY ?nm
 
