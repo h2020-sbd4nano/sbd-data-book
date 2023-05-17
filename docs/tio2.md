@@ -84,7 +84,8 @@ This gives us this list of nanomaterials:
 ## Causal relationships
 
 This approach can be used to find datasets, models, causal relationships, etc applicable to a certain
-nanomaterial or nanomaterial class. For example, we can list all relationships for <a name="tp2">JRCNM01005a</a>:
+nanomaterial or nanomaterial class. For example, we can list all relationships for <a name="tp2">JRCNM01005a</a>
+[<a href="#citeref2">2</a>,<a href="#citeref3">3</a>]:
 
 **SPARQL** [sparql/allJRCNM01005aRelationships.rq](sparql/allJRCNM01005aRelationships.code.html) ([run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20sbdbel%3A%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Fbel%2F%23%3E%0APREFIX%20enm%3A%20%20%20%20%20%3Chttp%3A%2F%2Fpurl.enanomapper.org%2Fonto%2F%3E%0A%0ASELECT%20DISTINCT%0A%20%20%3Fnm%20%28SAMPLE%28%3FnmLabel_%29%20AS%20%3FnmLabel%29%0A%20%20%28COUNT%28DISTINCT%20%3Frelation%29%20AS%20%3Frelations%29%0AWHERE%20%7B%0A%20%20VALUES%20%3Fnm%20%7B%20enm%3AENM_9000077%20%7D%0A%20%20%3Fnm%20rdfs%3Alabel%20%3FnmLabel_%20.%0A%20%20OPTIONAL%20%7B%20%3Frelation%20a%20sbdbel%3ACausalAssertion%20%3B%20sbdbel%3ANP%20%3Fnm%20.%20%7D%0A%7D%20GROUP%20BY%20%3Fsuperclass%20%3Fnm%0A))
 ```sparql
@@ -155,4 +156,6 @@ We find here that basically all relationships are defined at a
 ## References
 
 1. <a name="citeref1"></a>Hastings J, Jeliazkova N, Owen G, Tsiliki G, Munteanu CR, Steinbeck C, et al. eNanoMapper: harnessing ontologies to enable data integration for nanomaterial risk assessment. J Biomed Semantics. 2015;6(1):10.  doi:[10.1186/S13326-015-0005-5](https://doi.org/10.1186/S13326-015-0005-5) ([Scholia](https://scholia.toolforge.org/doi/10.1186/S13326-015-0005-5))
+2. <a name="citeref2"></a>Totaro S, Cotogno G, Rasmussen K, Pianella F, Roncaglia M, Olsson H, et al. The JRC Nanomaterials Repository: A unique facility providing representative test materials for nanoEHS research. Regul  Toxicol Pharmacol. 2016 Nov;81:334–40.  doi:[10.1016/J.YRTPH.2016.08.008](https://doi.org/10.1016/J.YRTPH.2016.08.008) ([Scholia](https://scholia.toolforge.org/doi/10.1016/J.YRTPH.2016.08.008))
+3. <a name="citeref3"></a>Ontology IRIs for the JRC representative industrial nanomaterials [Internet]. 2023 Feb. Available from: http://nanocommons.github.io/specifications/2023/WD-jrc-20230226/
 

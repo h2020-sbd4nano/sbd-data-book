@@ -13,7 +13,8 @@ This gives us this list of nanomaterials:
 ## Causal relationships
 
 This approach can be used to find datasets, models, causal relationships, etc applicable to a certain
-nanomaterial or nanomaterial class. For example, we can list all relationships for <topic>JRCNM01005a</topic>:
+nanomaterial or nanomaterial class. For example, we can list all relationships for <topic>JRCNM01005a</topic>
+[<cite>Q47461473</cite>,<cite>Q118419211</cite>]:
 
 <sparql>allJRCNM01005aRelationships</sparql>
 
