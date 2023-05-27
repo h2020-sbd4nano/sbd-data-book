@@ -47,6 +47,24 @@ This gives:
 
 <out>allTitaniaData</out>
 
+## TiO2 Models
+
+We can list all <topic>models</topic> for titanium dioxide with the following query:
+
+<sparql>allTitaniaModels</sparql>
+
+This gives us:
+
+<out limit="25">allTitaniaModels</out>
+
+But more general metal oxide models may be useful too:
+
+<sparql>allMetalOxideModels</sparql>
+
+This gives us:
+
+<out limit="25">allMetalOxideModels</out>
+
 ## References
 
 <references/>

@@ -193,6 +193,144 @@ This gives:
   </tr>
 </table>
 
+## TiO2 Models
+
+We can list all <a name="tp4">models</a> for titanium dioxide with the following query:
+
+**SPARQL** [sparql/allTitaniaModels.rq](sparql/allTitaniaModels.code.html) ([run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20npo%3A%20%3Chttp%3A%2F%2Fpurl.bioontology.org%2Fontology%2Fnpo%23%3E%0APREFIX%20obo%3A%20%3Chttp%3A%2F%2Fpurl.obolibrary.org%2Fobo%2F%3E%0APREFIX%20rdfs%3A%20%20%20%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0APREFIX%20sbd%3A%20%20%20%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Frdf%2F%23%3E%0APREFIX%20sbdbel%3A%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Fbel%2F%23%3E%0APREFIX%20dc%3A%20%20%20%20%20%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%3E%0APREFIX%20dct%3A%20%20%20%20%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0A%0ASELECT%20%3Fmodel%20%3FmodelLabel%20%3Fprovider%0A%20%20%20%20%20%20%20%28group_concat%28distinct%20%3Fmaterial_%3Bseparator%3D%22%2C%20%22%29%20AS%20%3Fmaterial%29%0AWHERE%20%7B%0A%20%20VALUES%20%3Fsuperclass%20%7B%20npo%3ANPO_1486%20obo%3ACHEBI_51050%20%7D%0A%20%20%3FmaterialIRI%20rdfs%3AsubClassOf*%20%3Fsuperclass%20%3B%20rdfs%3Alabel%20%3Fmaterial_%20.%0A%20%20%3Fmodel%20a%20sbd%3AModel%20%3B%20rdfs%3Alabel%20%3FmodelLabel%20%3B%0A%20%20%20%20%20dc%3Asource%2Fdct%3Atitle%20%3Fprovider%20%3B%0A%20%20%20%20%20sbdbel%3ANP%20%3FmaterialIRI%20.%0A%7D%20GROUP%20BY%20%3Fmodel%20%3FmodelLabel%20%3Fprovider%0A%20%20ORDER%20BY%20%3Fmodel%0A))
+```sparql
+PREFIX npo: <http://purl.bioontology.org/ontology/npo#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX rdfs:    <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sbd:     <https://www.sbd4nano.eu/rdf/#>
+PREFIX sbdbel:  <https://www.sbd4nano.eu/bel/#>
+PREFIX dc:      <http://purl.org/dc/elements/1.1/>
+PREFIX dct:     <http://purl.org/dc/terms/>
+SELECT ?model ?modelLabel ?provider
+       (group_concat(distinct ?material_;separator=", ") AS ?material)
+WHERE {
+  VALUES ?superclass { npo:NPO_1486 obo:CHEBI_51050 }
+  ?materialIRI rdfs:subClassOf* ?superclass ; rdfs:label ?material_ .
+  ?model a sbd:Model ; rdfs:label ?modelLabel ;
+     dc:source/dct:title ?provider ;
+     sbdbel:NP ?materialIRI .
+} GROUP BY ?model ?modelLabel ?provider
+  ORDER BY ?model
+```
+
+This gives us:
+
+<table>
+  <tr>
+    <td><b>model</b></td>
+    <td><b>provider</b></td>
+    <td><b>material</b></td>
+  </tr>
+  <tr>
+    <td><a href="https://atena.urv.cat/model/#Papa2015-TiO2">Nanocompound: LDH(TiO2)</a></td>
+    <td>SbD4nano Nanocompound</td>
+    <td>titanium dioxide nanoparticle</td>
+  </tr>
+  <tr>
+    <td><a href="https://atena.urv.cat/model/#Papa2015-TiO2ZnO">Nanocompound: LDH(TiO2+ZnO)</a></td>
+    <td>SbD4nano Nanocompound</td>
+    <td>titanium dioxide nanoparticle</td>
+  </tr>
+  <tr>
+    <td><a href="https://atena.urv.cat/model/#Serratosa2022-TiO2">Nanocompound: LDH(TiO2): Serratosa2022</a></td>
+    <td>SbD4nano Nanocompound</td>
+    <td>titanium dioxide nanoparticle</td>
+  </tr>
+  <tr>
+    <td><a href="https://atena.urv.cat/model/#Serratosa2022-TiO2ZnO">Nanocompound: LDH(TiO2+ZnO): Serratosa2022</a></td>
+    <td>SbD4nano Nanocompound</td>
+    <td>titanium dioxide nanoparticle</td>
+  </tr>
+</table>
+
+But more general metal oxide models may be useful too:
+
+**SPARQL** [sparql/allMetalOxideModels.rq](sparql/allMetalOxideModels.code.html) ([run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20npo%3A%20%3Chttp%3A%2F%2Fpurl.bioontology.org%2Fontology%2Fnpo%23%3E%0APREFIX%20obo%3A%20%3Chttp%3A%2F%2Fpurl.obolibrary.org%2Fobo%2F%3E%0APREFIX%20rdfs%3A%20%20%20%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0APREFIX%20sbd%3A%20%20%20%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Frdf%2F%23%3E%0APREFIX%20sbdbel%3A%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Fbel%2F%23%3E%0APREFIX%20dc%3A%20%20%20%20%20%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%3E%0APREFIX%20dct%3A%20%20%20%20%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0A%0ASELECT%20%3Fmodel%20%3FmodelLabel%20%3Fprovider%0A%20%20%20%20%20%20%20%28group_concat%28distinct%20%3Fmaterial_%3Bseparator%3D%22%2C%20%22%29%20AS%20%3Fmaterial%29%0AWHERE%20%7B%0A%20%20VALUES%20%3Fsuperclass%20%7B%20npo%3ANPO_1541%20%7D%0A%20%20%3FmaterialIRI%20rdfs%3AsubClassOf*%20%3Fsuperclass%20%3B%20rdfs%3Alabel%20%3Fmaterial_%20.%0A%20%20%3Fmodel%20a%20sbd%3AModel%20%3B%20rdfs%3Alabel%20%3FmodelLabel%20%3B%0A%20%20%20%20%20dc%3Asource%2Fdct%3Atitle%20%3Fprovider%20%3B%0A%20%20%20%20%20sbdbel%3ANP%20%3FmaterialIRI%20.%0A%7D%20GROUP%20BY%20%3Fmodel%20%3FmodelLabel%20%3Fprovider%0A%20%20ORDER%20BY%20%3Fmodel%0A))
+```sparql
+PREFIX npo: <http://purl.bioontology.org/ontology/npo#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX rdfs:    <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sbd:     <https://www.sbd4nano.eu/rdf/#>
+PREFIX sbdbel:  <https://www.sbd4nano.eu/bel/#>
+PREFIX dc:      <http://purl.org/dc/elements/1.1/>
+PREFIX dct:     <http://purl.org/dc/terms/>
+SELECT ?model ?modelLabel ?provider
+       (group_concat(distinct ?material_;separator=", ") AS ?material)
+WHERE {
+  VALUES ?superclass { npo:NPO_1541 }
+  ?materialIRI rdfs:subClassOf* ?superclass ; rdfs:label ?material_ .
+  ?model a sbd:Model ; rdfs:label ?modelLabel ;
+     dc:source/dct:title ?provider ;
+     sbdbel:NP ?materialIRI .
+} GROUP BY ?model ?modelLabel ?provider
+  ORDER BY ?model
+```
+
+This gives us:
+
+<table>
+  <tr>
+    <td><b>model</b></td>
+    <td><b>provider</b></td>
+    <td><b>material</b></td>
+  </tr>
+  <tr>
+    <td><a href="https://atena.urv.cat/model/#Anantha2021">Nanocompound: Toxicity Metal-Oxide: Anantha 2021</a></td>
+    <td>SbD4nano Nanocompound</td>
+    <td>Metal Oxide, metal oxide nanoparticle</td>
+  </tr>
+  <tr>
+    <td><a href="https://atena.urv.cat/model/#Gajewicz2015">Nanocompound: Toxicity Metal-Oxide: Gajewicz 2015</a></td>
+    <td>SbD4nano Nanocompound</td>
+    <td>Metal Oxide, metal oxide nanoparticle</td>
+  </tr>
+  <tr>
+    <td><a href="https://atena.urv.cat/model/#Papa2015-TiO2">Nanocompound: LDH(TiO2)</a></td>
+    <td>SbD4nano Nanocompound</td>
+    <td>titanium dioxide nanoparticle</td>
+  </tr>
+  <tr>
+    <td><a href="https://atena.urv.cat/model/#Papa2015-TiO2ZnO">Nanocompound: LDH(TiO2+ZnO)</a></td>
+    <td>SbD4nano Nanocompound</td>
+    <td>ZnO, zinc oxide nanoparticle, titanium dioxide nanoparticle</td>
+  </tr>
+  <tr>
+    <td><a href="https://atena.urv.cat/model/#Papa2015-ZnO">Nanocompound: LDH(TiO2+ZnO)</a></td>
+    <td>SbD4nano Nanocompound</td>
+    <td>ZnO, zinc oxide nanoparticle</td>
+  </tr>
+  <tr>
+    <td><a href="https://atena.urv.cat/model/#Puzyn2011">Nanocompound: Toxicity Metal-Oxide: Puzyn 2011</a></td>
+    <td>SbD4nano Nanocompound</td>
+    <td>Metal Oxide, metal oxide nanoparticle</td>
+  </tr>
+  <tr>
+    <td><a href="https://atena.urv.cat/model/#Serratosa2022">Nanocompound: Toxicity Metal-Oxide: Serratosa2022</a></td>
+    <td>SbD4nano Nanocompound</td>
+    <td>Metal Oxide, metal oxide nanoparticle</td>
+  </tr>
+  <tr>
+    <td><a href="https://atena.urv.cat/model/#Serratosa2022-TiO2">Nanocompound: LDH(TiO2): Serratosa2022</a></td>
+    <td>SbD4nano Nanocompound</td>
+    <td>titanium dioxide nanoparticle</td>
+  </tr>
+  <tr>
+    <td><a href="https://atena.urv.cat/model/#Serratosa2022-TiO2ZnO">Nanocompound: LDH(TiO2+ZnO): Serratosa2022</a></td>
+    <td>SbD4nano Nanocompound</td>
+    <td>ZnO, zinc oxide nanoparticle, titanium dioxide nanoparticle</td>
+  </tr>
+  <tr>
+    <td><a href="https://atena.urv.cat/model/#Serratosa2022-ZnO">Nanocompound: LDH(ZnO): Serratosa2022</a></td>
+    <td>SbD4nano Nanocompound</td>
+    <td>ZnO, zinc oxide nanoparticle</td>
+  </tr>
+</table>
+
 ## References
 
 1. <a name="citeref1"></a>Hastings J, Jeliazkova N, Owen G, Tsiliki G, Munteanu CR, Steinbeck C, et al. eNanoMapper: harnessing ontologies to enable data integration for nanomaterial risk assessment. J Biomed Semantics. 2015;6(1):10.  doi:[10.1186/S13326-015-0005-5](https://doi.org/10.1186/S13326-015-0005-5) ([Scholia](https://scholia.toolforge.org/doi/10.1186/S13326-015-0005-5))

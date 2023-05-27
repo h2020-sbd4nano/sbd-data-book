@@ -35,6 +35,7 @@ Issues, comments, questions can be reported [here](https://github.com/h2020-sbd4
 6.1. [Causal relationships](tio2.md#causal-relationships) <br />
 6.1.1. [All metal oxides](tio2.md#all-metal-oxides) <br />
 6.2. [TiO2 datasets](tio2.md#tio2-datasets) <br />
+6.3. [TiO2 Models](tio2.md#tio2-models) <br />
 7. [Carbon nanotubes](cnt.md) <br />
 7.1. [Causal relationships](cnt.md#causal-relationships) <br />
 7.2. [Carbon nanotube datasets](cnt.md#carbon-nanotube-datasets) <br />
