@@ -1,7 +1,7 @@
 # Titanium Oxide
 
 Because the eNanoMapper ontology [<cite>Q27062683</cite>] is loaded, we can take advantage of the
-hierarchy of the ontology. For example, we can list all <topic>titania</topic>'s (npo:NPO_1541)
+hierarchy of the ontology. For example, we can list all <topic>titania</topic>'s (npo:NPO_1486)
 with this SPARQL:
 
 <sparql>allTitanias</sparql>
@@ -35,6 +35,17 @@ We find here that basically all relationships are defined at a
 <topic>metal oxide</topic> level:
 
 <out>allMetalOxideRelationships</out>
+
+## TiO2 datasets
+
+Toxicity of titanium dioxide has been extensively studied. Noting that for many resources we do not
+have detailed annotation of the nanoforms described by those sources, some do:
+
+<sparql>allTitaniaData</sparql>
+
+This gives:
+
+<out>allTitaniaData</out>
 
 ## References
 

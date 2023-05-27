@@ -3,15 +3,16 @@
 # Titanium Oxide
 
 Because the eNanoMapper ontology [<a href="#citeref1">1</a>] is loaded, we can take advantage of the
-hierarchy of the ontology. For example, we can list all <a name="tp1">titania</a>'s (npo:NPO_1541)
+hierarchy of the ontology. For example, we can list all <a name="tp1">titania</a>'s (npo:NPO_1486)
 with this SPARQL:
 
-**SPARQL** [sparql/allTitanias.rq](sparql/allTitanias.code.html) ([run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20npo%3A%20%3Chttp%3A%2F%2Fpurl.bioontology.org%2Fontology%2Fnpo%23%3E%0A%0ASELECT%20DISTINCT%20%3Fnm%20%28SAMPLE%28%3FnmLabel_%29%20AS%20%3FnmLabel%29%0AWHERE%20%7B%0A%20%20VALUES%20%3Fsuperclass%20%7B%20npo%3ANPO_1486%20%7D%0A%20%20%3Fnm%20rdfs%3AsubClassOf*%20%3Fsuperclass%20%3B%20rdfs%3Alabel%20%3FnmLabel_%20.%0A%7D%20GROUP%20BY%20%3Fnm%0A))
+**SPARQL** [sparql/allTitanias.rq](sparql/allTitanias.code.html) ([run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20npo%3A%20%3Chttp%3A%2F%2Fpurl.bioontology.org%2Fontology%2Fnpo%23%3E%0APREFIX%20obo%3A%20%3Chttp%3A%2F%2Fpurl.obolibrary.org%2Fobo%2F%3E%0A%0ASELECT%20DISTINCT%20%3Fnm%20%28SAMPLE%28%3FnmLabel_%29%20AS%20%3FnmLabel%29%0AWHERE%20%7B%0A%20%20VALUES%20%3Fsuperclass%20%7B%20npo%3ANPO_1486%20obo%3ACHEBI_51050%20%7D%0A%20%20%3Fnm%20rdfs%3AsubClassOf*%20%3Fsuperclass%20%3B%20rdfs%3Alabel%20%3FnmLabel_%20.%0A%7D%20GROUP%20BY%20%3Fnm%0A))
 ```sparql
 PREFIX npo: <http://purl.bioontology.org/ontology/npo#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
 SELECT DISTINCT ?nm (SAMPLE(?nmLabel_) AS ?nmLabel)
 WHERE {
-  VALUES ?superclass { npo:NPO_1486 }
+  VALUES ?superclass { npo:NPO_1486 obo:CHEBI_51050 }
   ?nm rdfs:subClassOf* ?superclass ; rdfs:label ?nmLabel_ .
 } GROUP BY ?nm
 ```
@@ -24,6 +25,27 @@ This gives us this list of nanomaterials:
   </tr>
   <tr>
     <td><a href="http://purl.bioontology.org/ontology/npo#NPO_1486">R-TiO2</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000201">NM-100</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000202">NM-101</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000203">NM-102</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000204">NM-105</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000208">NM-103</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000209">NM-104</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000099">coated titanium dioxide nanoparticle</a></td>
   </tr>
   <tr>
     <td><a href="http://purl.enanomapper.org/onto/ENM_9000074">JRCNM01000a</a></td>
@@ -53,31 +75,13 @@ This gives us this list of nanomaterials:
     <td><a href="http://purl.enanomapper.org/onto/ENM_9000096">JRCNM62002a</a></td>
   </tr>
   <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000099">coated titanium dioxide nanoparticle</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000201">NM-100</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000202">NM-101</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000203">NM-102</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000204">NM-105</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000208">NM-103</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000209">NM-104</a></td>
-  </tr>
-  <tr>
     <td><a href="http://purl.enanomapper.org/onto/ENM_9000231">JRCNM10200a</a></td>
   </tr>
   <tr>
     <td><a href="http://purl.enanomapper.org/onto/ENM_9000232">JRCNM10202a</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.obolibrary.org/obo/CHEBI_51050">titanium dioxide nanoparticle</a></td>
   </tr>
 </table>
 
@@ -150,6 +154,42 @@ We find here that basically all relationships are defined at a
     <td><a href="http://purl.bioontology.org/ontology/npo#NPO_1541">Metal Oxide</a></td>
     <td><a href="http://purl.bioontology.org/ontology/npo#NPO_1541">Metal Oxide</a></td>
     <td>6</td>
+  </tr>
+</table>
+
+## TiO2 datasets
+
+Toxicity of titanium dioxide has been extensively studied. Noting that for many resources we do not
+have detailed annotation of the nanoforms described by those sources, some do:
+
+**SPARQL** [sparql/allTitaniaData.rq](sparql/allTitaniaData.code.html) ([run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20npo%3A%20%3Chttp%3A%2F%2Fpurl.bioontology.org%2Fontology%2Fnpo%23%3E%0APREFIX%20obo%3A%20%3Chttp%3A%2F%2Fpurl.obolibrary.org%2Fobo%2F%3E%0APREFIX%20sbd%3A%20%20%20%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Frdf%2F%23%3E%0APREFIX%20sbdbel%3A%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Fbel%2F%23%3E%0APREFIX%20foaf%3A%20%20%20%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F%3E%20%0APREFIX%20rdfs%3A%20%20%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%20%0A%0ASELECT%20%3FmaterialIRI%20%3Fmaterial%20%3Fdataset_%20%3FdatasetLabel%20WHERE%20%7B%0A%20%20VALUES%20%3Fsuperclass%20%7B%20npo%3ANPO_1486%20obo%3ACHEBI_51050%20%7D%0A%20%20VALUES%20%3Ftype%20%7B%20sbd%3ADataset%20sbd%3ADatabase%20%7D%0A%20%20%3Fdataset_%20sbdbel%3ANP%20%3FmaterialIRI%20%3B%20a%20%3Ftype%20%3B%20rdfs%3Alabel%20%3FdatasetLabel%20.%0A%20%20%3FmaterialIRI%20rdfs%3AsubClassOf*%20%3Fsuperclass%20%3B%20rdfs%3Alabel%20%3Fmaterial%20.%0A%7D%20ORDER%20BY%20%3Fdataset%0A))
+```sparql
+PREFIX npo: <http://purl.bioontology.org/ontology/npo#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX sbd:     <https://www.sbd4nano.eu/rdf/#>
+PREFIX sbdbel:  <https://www.sbd4nano.eu/bel/#>
+PREFIX foaf:   <http://xmlns.com/foaf/0.1/> 
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#> 
+SELECT ?materialIRI ?material ?dataset_ ?datasetLabel WHERE {
+  VALUES ?superclass { npo:NPO_1486 obo:CHEBI_51050 }
+  VALUES ?type { sbd:Dataset sbd:Database }
+  ?dataset_ sbdbel:NP ?materialIRI ; a ?type ; rdfs:label ?datasetLabel .
+  ?materialIRI rdfs:subClassOf* ?superclass ; rdfs:label ?material .
+} ORDER BY ?dataset
+```
+
+This gives:
+
+<table>
+  <tr>
+    <td><b>materialIRI</b></td>
+    <td><b>material</b></td>
+    <td><b>dataset_</b></td>
+  </tr>
+  <tr>
+    <td>obo:CHEBI_51050</td>
+    <td>titanium dioxide nanoparticle</td>
+    <td>https://search.data.enanomapper.net/about/nanoreg</td>
   </tr>
 </table>
 

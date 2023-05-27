@@ -6,15 +6,16 @@
 
 ```sparql
 PREFIX npo: <http://purl.bioontology.org/ontology/npo#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
 
 SELECT DISTINCT ?nm (SAMPLE(?nmLabel_) AS ?nmLabel)
 WHERE {
-  VALUES ?superclass { npo:NPO_1486 }
+  VALUES ?superclass { npo:NPO_1486 obo:CHEBI_51050 }
   ?nm rdfs:subClassOf* ?superclass ; rdfs:label ?nmLabel_ .
 } GROUP BY ?nm
 ```
 
-[run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20npo%3A%20%3Chttp%3A%2F%2Fpurl.bioontology.org%2Fontology%2Fnpo%23%3E%0A%0ASELECT%20DISTINCT%20%3Fnm%20%28SAMPLE%28%3FnmLabel_%29%20AS%20%3FnmLabel%29%0AWHERE%20%7B%0A%20%20VALUES%20%3Fsuperclass%20%7B%20npo%3ANPO_1486%20%7D%0A%20%20%3Fnm%20rdfs%3AsubClassOf*%20%3Fsuperclass%20%3B%20rdfs%3Alabel%20%3FnmLabel_%20.%0A%7D%20GROUP%20BY%20%3Fnm%0A)
+[run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20npo%3A%20%3Chttp%3A%2F%2Fpurl.bioontology.org%2Fontology%2Fnpo%23%3E%0APREFIX%20obo%3A%20%3Chttp%3A%2F%2Fpurl.obolibrary.org%2Fobo%2F%3E%0A%0ASELECT%20DISTINCT%20%3Fnm%20%28SAMPLE%28%3FnmLabel_%29%20AS%20%3FnmLabel%29%0AWHERE%20%7B%0A%20%20VALUES%20%3Fsuperclass%20%7B%20npo%3ANPO_1486%20obo%3ACHEBI_51050%20%7D%0A%20%20%3Fnm%20rdfs%3AsubClassOf*%20%3Fsuperclass%20%3B%20rdfs%3Alabel%20%3FnmLabel_%20.%0A%7D%20GROUP%20BY%20%3Fnm%0A)
 
 
 ### Output
@@ -25,6 +26,27 @@ WHERE {
   </tr>
   <tr>
     <td><a href="http://purl.bioontology.org/ontology/npo#NPO_1486">R-TiO2</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000201">NM-100</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000202">NM-101</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000203">NM-102</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000204">NM-105</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000208">NM-103</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000209">NM-104</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000099">coated titanium dioxide nanoparticle</a></td>
   </tr>
   <tr>
     <td><a href="http://purl.enanomapper.org/onto/ENM_9000074">JRCNM01000a</a></td>
@@ -54,31 +76,13 @@ WHERE {
     <td><a href="http://purl.enanomapper.org/onto/ENM_9000096">JRCNM62002a</a></td>
   </tr>
   <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000099">coated titanium dioxide nanoparticle</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000201">NM-100</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000202">NM-101</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000203">NM-102</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000204">NM-105</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000208">NM-103</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000209">NM-104</a></td>
-  </tr>
-  <tr>
     <td><a href="http://purl.enanomapper.org/onto/ENM_9000231">JRCNM10200a</a></td>
   </tr>
   <tr>
     <td><a href="http://purl.enanomapper.org/onto/ENM_9000232">JRCNM10202a</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.obolibrary.org/obo/CHEBI_51050">titanium dioxide nanoparticle</a></td>
   </tr>
 </table>
 

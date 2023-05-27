@@ -10,7 +10,7 @@ PREFIX obo: <http://purl.obolibrary.org/obo/>
 
 SELECT DISTINCT ?nm (SAMPLE(?nmLabel_) AS ?nmLabel)
 WHERE {
-  VALUES ?superclass { npo:NPO_1486 obo:CHEBI_51050 }
+  VALUES ?superclass { npo:NPO_606 }
   ?nm rdfs:subClassOf* ?superclass ; rdfs:label ?nmLabel_ .
 } GROUP BY ?nm
 

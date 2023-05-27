@@ -1,0 +1,13 @@
+PREFIX npo: <http://purl.bioontology.org/ontology/npo#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX sbd:     <https://www.sbd4nano.eu/rdf/#>
+PREFIX sbdbel:  <https://www.sbd4nano.eu/bel/#>
+PREFIX foaf:   <http://xmlns.com/foaf/0.1/> 
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#> 
+
+SELECT ?materialIRI ?material ?dataset_ ?datasetLabel WHERE {
+  VALUES ?superclass { npo:NPO_1486 obo:CHEBI_51050 }
+  VALUES ?type { sbd:Dataset sbd:Database }
+  ?dataset_ sbdbel:NP ?materialIRI ; a ?type ; rdfs:label ?datasetLabel .
+  ?materialIRI rdfs:subClassOf* ?superclass ; rdfs:label ?material .
+} ORDER BY ?dataset
