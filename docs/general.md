@@ -47,6 +47,10 @@ This gives us:
     <td><b>img</b></td>
   </tr>
   <tr>
+    <td><a href="https://doi.org/10.1016/j.comtox.2018.12.002">Computational models for the assessment of manufactured nanomaterials</a></td>
+    <td></td>
+  </tr>
+  <tr>
     <td>SbD4nano Nanocompound</td>
     <td><img width="200" src="https://www.urv.cat/media/img/logo-urv-nav.png" /></td>
   </tr>
@@ -89,10 +93,6 @@ This gives us:
   <tr>
     <td>Cloud services provided by VHP4Safety</td>
     <td><img width="200" src="https://images.nieuwsbrieven.rivm.nl/101500/0/5763/fe1e7915ce28f7a96ca25ed234631504.png" /></td>
-  </tr>
-  <tr>
-    <td><a href="https://doi.org/10.1016/j.comtox.2018.12.002">Computational models for the assessment of manufactured nanomaterials</a></td>
-    <td></td>
   </tr>
 </table>
 

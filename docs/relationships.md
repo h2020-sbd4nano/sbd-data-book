@@ -229,15 +229,15 @@ This gives us:
     <td>9</td>
   </tr>
   <tr>
+    <td>Increased, Oxidative Stress</td>
+    <td>8</td>
+  </tr>
+  <tr>
     <td>N/A, Mitochondrial dysfunction 1</td>
     <td>8</td>
   </tr>
   <tr>
     <td>Increase, Mutations</td>
-    <td>8</td>
-  </tr>
-  <tr>
-    <td>Increased, Oxidative Stress</td>
     <td>8</td>
   </tr>
   <tr>
@@ -261,11 +261,11 @@ This gives us:
     <td>7</td>
   </tr>
   <tr>
-    <td>Increase, Oocyte apoptosis</td>
+    <td>Increased, Liver Steatosis</td>
     <td>7</td>
   </tr>
   <tr>
-    <td>Increased, Liver Steatosis</td>
+    <td>Increase, Oocyte apoptosis</td>
     <td>7</td>
   </tr>
   <tr>
@@ -277,11 +277,11 @@ This gives us:
     <td>6</td>
   </tr>
   <tr>
-    <td>Decrease, Lung function</td>
+    <td>Occurrence, Kidney toxicity</td>
     <td>6</td>
   </tr>
   <tr>
-    <td> Thyroxine (T4) in serum, Decreased</td>
+    <td>Decrease, Lung function</td>
     <td>6</td>
   </tr>
   <tr><td colspan="2">This table is truncated. See the full table at <a href="sparql/relationshipsByOutcome.code.html">sparql/relationshipsByOutcome.rq</a></td></tr>

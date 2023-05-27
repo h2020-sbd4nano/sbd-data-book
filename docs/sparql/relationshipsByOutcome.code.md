@@ -65,15 +65,15 @@ WHERE {
     <td>9</td>
   </tr>
   <tr>
+    <td>Increased, Oxidative Stress</td>
+    <td>8</td>
+  </tr>
+  <tr>
     <td>N/A, Mitochondrial dysfunction 1</td>
     <td>8</td>
   </tr>
   <tr>
     <td>Increase, Mutations</td>
-    <td>8</td>
-  </tr>
-  <tr>
-    <td>Increased, Oxidative Stress</td>
     <td>8</td>
   </tr>
   <tr>
@@ -97,11 +97,11 @@ WHERE {
     <td>7</td>
   </tr>
   <tr>
-    <td>Increase, Oocyte apoptosis</td>
+    <td>Increased, Liver Steatosis</td>
     <td>7</td>
   </tr>
   <tr>
-    <td>Increased, Liver Steatosis</td>
+    <td>Increase, Oocyte apoptosis</td>
     <td>7</td>
   </tr>
   <tr>
@@ -113,19 +113,11 @@ WHERE {
     <td>6</td>
   </tr>
   <tr>
-    <td>Decrease, Lung function</td>
-    <td>6</td>
-  </tr>
-  <tr>
-    <td> Thyroxine (T4) in serum, Decreased</td>
-    <td>6</td>
-  </tr>
-  <tr>
-    <td>Cognitive Function, Decreased </td>
-    <td>6</td>
-  </tr>
-  <tr>
     <td>Occurrence, Kidney toxicity</td>
+    <td>6</td>
+  </tr>
+  <tr>
+    <td>Decrease, Lung function</td>
     <td>6</td>
   </tr>
   <tr>
@@ -137,7 +129,15 @@ WHERE {
     <td>6</td>
   </tr>
   <tr>
+    <td> Thyroxine (T4) in serum, Decreased</td>
+    <td>6</td>
+  </tr>
+  <tr>
     <td>Increase, Cell Proliferation</td>
+    <td>6</td>
+  </tr>
+  <tr>
+    <td>Cognitive Function, Decreased </td>
     <td>6</td>
   </tr>
   <tr>
@@ -161,10 +161,6 @@ WHERE {
     <td>5</td>
   </tr>
   <tr>
-    <td>Altered, Gene Expression</td>
-    <td>5</td>
-  </tr>
-  <tr>
     <td>Decrease, Oogenesis</td>
     <td>5</td>
   </tr>
@@ -177,27 +173,11 @@ WHERE {
     <td>5</td>
   </tr>
   <tr>
-    <td>Increase, hepatocellular adenomas and carcinomas</td>
-    <td>5</td>
-  </tr>
-  <tr>
     <td>Tissue resident cell activation</td>
     <td>5</td>
   </tr>
   <tr>
     <td>Inadequate DNA repair</td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>Decrease, Growth</td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>Decreased spermatogenesis </td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>Occurrence of Cataracts</td>
     <td>5</td>
   </tr>
   <tr>
@@ -209,52 +189,32 @@ WHERE {
     <td>5</td>
   </tr>
   <tr>
+    <td>Decreased spermatogenesis </td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>Increase, hepatocellular adenomas and carcinomas</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>Decrease, Growth</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>Occurrence of Cataracts</td>
+    <td>5</td>
+  </tr>
+  <tr>
     <td>Increase, Endothelial Dysfunction</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>Altered, Gene Expression</td>
     <td>5</td>
   </tr>
   <tr>
     <td>Decrease of egg production and cummulative fecundity</td>
     <td>5</td>
-  </tr>
-  <tr>
-    <td>Increased, De Novo FA synthesis</td>
-    <td>4</td>
-  </tr>
-  <tr>
-    <td>Up Regulation, SCD-1</td>
-    <td>4</td>
-  </tr>
-  <tr>
-    <td>Up Regulation, CD36</td>
-    <td>4</td>
-  </tr>
-  <tr>
-    <td>Synthesis, De Novo FA</td>
-    <td>4</td>
-  </tr>
-  <tr>
-    <td>Increase, Incomplete ecdysis</td>
-    <td>4</td>
-  </tr>
-  <tr>
-    <td>Decrease, Oxidative phosphorylation</td>
-    <td>4</td>
-  </tr>
-  <tr>
-    <td>Unfolded Protein Response</td>
-    <td>4</td>
-  </tr>
-  <tr>
-    <td>Decrease in mitochondrial oxidative phosphorylation</td>
-    <td>4</td>
-  </tr>
-  <tr>
-    <td>Inhibition, Nuclear factor kappa B (NF-kB)</td>
-    <td>4</td>
-  </tr>
-  <tr>
-    <td>Decrease, Mitochondrial ATP production</td>
-    <td>4</td>
   </tr>
   <tr>
     <td>Reduced, Swimming performance</td>
@@ -273,6 +233,14 @@ WHERE {
     <td>4</td>
   </tr>
   <tr>
+    <td>Synthesis, De Novo FA</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>Increase, Incomplete ecdysis</td>
+    <td>4</td>
+  </tr>
+  <tr>
     <td>Decreased, Reproductive Success</td>
     <td>4</td>
   </tr>
@@ -285,10 +253,6 @@ WHERE {
     <td>4</td>
   </tr>
   <tr>
-    <td>Altered, Amphibian metamorphosis</td>
-    <td>4</td>
-  </tr>
-  <tr>
     <td>Increase, Cell Proliferation (Epithelial Cells)</td>
     <td>4</td>
   </tr>
@@ -297,19 +261,11 @@ WHERE {
     <td>4</td>
   </tr>
   <tr>
-    <td>Abnormal, Foraging activity and behavior</td>
-    <td>4</td>
-  </tr>
-  <tr>
-    <td>Death/Failure, Colony</td>
-    <td>4</td>
-  </tr>
-  <tr>
-    <td>Increase, cell proliferation (hepatocytes)</td>
-    <td>4</td>
-  </tr>
-  <tr>
     <td>Increased Pro-inflammatory mediators</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>Unfolded Protein Response</td>
     <td>4</td>
   </tr>
   <tr>
@@ -325,7 +281,27 @@ WHERE {
     <td>4</td>
   </tr>
   <tr>
+    <td>Decrease, Mitochondrial ATP production</td>
+    <td>4</td>
+  </tr>
+  <tr>
     <td>Induction, Epithelial Mesenchymal Transition</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>Decrease, Oxidative phosphorylation</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>Increased, De Novo FA synthesis</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>decreased dopamine</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>Altered, Amphibian metamorphosis</td>
     <td>4</td>
   </tr>
   <tr>
@@ -333,11 +309,7 @@ WHERE {
     <td>4</td>
   </tr>
   <tr>
-    <td>Decrease, Cell proliferation</td>
-    <td>4</td>
-  </tr>
-  <tr>
-    <td>Respiratory distress/arrest</td>
+    <td>Inhibition, Nuclear factor kappa B (NF-kB)</td>
     <td>4</td>
   </tr>
   <tr>
@@ -349,19 +321,35 @@ WHERE {
     <td>4</td>
   </tr>
   <tr>
-    <td>Increased, predation</td>
-    <td>4</td>
-  </tr>
-  <tr>
-    <td>Reduced, Reproductive Success</td>
-    <td>4</td>
-  </tr>
-  <tr>
-    <td>decreased dopamine</td>
+    <td>Decrease, Cell proliferation</td>
     <td>4</td>
   </tr>
   <tr>
     <td>Increased, Intracellular Calcium overload</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>Respiratory distress/arrest</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>Up Regulation, SCD-1</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>Up Regulation, CD36</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>Decrease in mitochondrial oxidative phosphorylation</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>Increase, lung cancer</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>Increase, cell proliferation (hepatocytes)</td>
     <td>4</td>
   </tr>
   <tr>
@@ -373,7 +361,15 @@ WHERE {
     <td>4</td>
   </tr>
   <tr>
-    <td>Increase, lung cancer</td>
+    <td>Abnormal, Foraging activity and behavior</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>Death/Failure, Colony</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>Reduced, Reproductive Success</td>
     <td>4</td>
   </tr>
   <tr>
@@ -383,6 +379,34 @@ WHERE {
   <tr>
     <td>Formation, Mallory body</td>
     <td>4</td>
+  </tr>
+  <tr>
+    <td>Increased, predation</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>bioassay profile</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>Decreased, Triiodothyronine (T3)</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>Reduced, Posterior swim bladder inflation</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>Increased, circulating estrogen levels</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>Increased, Adenomas/carcinomas (mammary)</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>Increased, Chloride conductance</td>
+    <td>3</td>
   </tr>
   <tr>
     <td>Increased, valve movement</td>
@@ -405,6 +429,10 @@ WHERE {
     <td>3</td>
   </tr>
   <tr>
+    <td>Activation, TGF-beta pathway</td>
+    <td>3</td>
+  </tr>
+  <tr>
     <td>Reduction, Vitellogenin synthesis in liver</td>
     <td>3</td>
   </tr>
@@ -413,19 +441,7 @@ WHERE {
     <td>3</td>
   </tr>
   <tr>
-    <td>Inhibition, Mitochondrial fatty acid beta-oxidation</td>
-    <td>3</td>
-  </tr>
-  <tr>
-    <td>Activation, SREBF1</td>
-    <td>3</td>
-  </tr>
-  <tr>
     <td>Hippocampal gene expression, Altered </td>
-    <td>3</td>
-  </tr>
-  <tr>
-    <td>Increased, Chloride conductance</td>
     <td>3</td>
   </tr>
   <tr>
@@ -433,51 +449,7 @@ WHERE {
     <td>3</td>
   </tr>
   <tr>
-    <td>Increased Respiratory irritability and Chronic Cough, </td>
-    <td>3</td>
-  </tr>
-  <tr>
-    <td>Activation, TGF-beta pathway</td>
-    <td>3</td>
-  </tr>
-  <tr>
     <td>Reduced, BDNF (Brain-derived neurotrophic factor)</td>
-    <td>3</td>
-  </tr>
-  <tr>
-    <td>Cell cycle, disrupted</td>
-    <td>3</td>
-  </tr>
-  <tr>
-    <td>Reduction, Plasma 17beta-estradiol concentrations</td>
-    <td>3</td>
-  </tr>
-  <tr>
-    <td>Activation, Stellate cells</td>
-    <td>3</td>
-  </tr>
-  <tr>
-    <td>Reduced levels of BDNF</td>
-    <td>3</td>
-  </tr>
-  <tr>
-    <td>bioassay profile</td>
-    <td>3</td>
-  </tr>
-  <tr>
-    <td>Decreased, Triiodothyronine (T3)</td>
-    <td>3</td>
-  </tr>
-  <tr>
-    <td>Reduced, Posterior swim bladder inflation</td>
-    <td>3</td>
-  </tr>
-  <tr>
-    <td>Increased, circulating estrogen levels</td>
-    <td>3</td>
-  </tr>
-  <tr>
-    <td>Increased, Adenomas/carcinomas (mammary)</td>
     <td>3</td>
   </tr>
   <tr>
@@ -505,15 +477,7 @@ WHERE {
     <td>3</td>
   </tr>
   <tr>
-    <td>Increased, Invasion</td>
-    <td>3</td>
-  </tr>
-  <tr>
-    <td>Mitochondrial impairment</td>
-    <td>3</td>
-  </tr>
-  <tr>
-    <td>Increase, predation</td>
+    <td>Increased Respiratory irritability and Chronic Cough, </td>
     <td>3</td>
   </tr>
   <tr>
@@ -530,6 +494,14 @@ WHERE {
   </tr>
   <tr>
     <td>Increase, Chromosomal aberrations</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>Reduction, Plasma 17beta-estradiol concentrations</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>Activation, Stellate cells</td>
     <td>3</td>
   </tr>
   <tr>
@@ -557,27 +529,7 @@ WHERE {
     <td>3</td>
   </tr>
   <tr>
-    <td>Decrease, Mitochondrial membrane potential</td>
-    <td>3</td>
-  </tr>
-  <tr>
-    <td>N/A, Neurodegeneration</td>
-    <td>3</td>
-  </tr>
-  <tr>
-    <td>Increased, Clearance of thyroxine from serum</td>
-    <td>3</td>
-  </tr>
-  <tr>
-    <td>Tumorigenesis, Hepatocellular carcinoma</td>
-    <td>3</td>
-  </tr>
-  <tr>
-    <td>Increased, Triglyceride formation</td>
-    <td>3</td>
-  </tr>
-  <tr>
-    <td>Decrease, Number of worker bees</td>
+    <td>Activation, SREBF1</td>
     <td>3</td>
   </tr>
   <tr>
@@ -593,11 +545,11 @@ WHERE {
     <td>3</td>
   </tr>
   <tr>
-    <td>Increase activation, Nuclear factor kappa B (NF-kB)</td>
+    <td>Increased, Triglyceride formation</td>
     <td>3</td>
   </tr>
   <tr>
-    <td>Increased, DNA damage and mutation</td>
+    <td>Increase activation, Nuclear factor kappa B (NF-kB)</td>
     <td>3</td>
   </tr>
   <tr>
@@ -617,6 +569,10 @@ WHERE {
     <td>3</td>
   </tr>
   <tr>
+    <td>Increased, Clearance of thyroxine from serum</td>
+    <td>3</td>
+  </tr>
+  <tr>
     <td>Increase, Oxidative damage to DNA</td>
     <td>3</td>
   </tr>
@@ -629,7 +585,31 @@ WHERE {
     <td>3</td>
   </tr>
   <tr>
-    <td>Increase in inflammation</td>
+    <td>Increased, Invasion</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>Cell cycle, disrupted</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>Decrease, Mitochondrial membrane potential</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>N/A, Neurodegeneration</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>Reduced levels of BDNF</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>Inhibition, Mitochondrial fatty acid beta-oxidation</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>Increased, DNA damage and mutation</td>
     <td>3</td>
   </tr>
   <tr>
@@ -641,6 +621,14 @@ WHERE {
     <td>3</td>
   </tr>
   <tr>
+    <td>Increase, DNA double-strand break</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>Increase in inflammation</td>
+    <td>3</td>
+  </tr>
+  <tr>
     <td>Hyperinflammation</td>
     <td>3</td>
   </tr>
@@ -649,15 +637,11 @@ WHERE {
     <td>3</td>
   </tr>
   <tr>
-    <td>Cilia Beat Frequency, Decreased</td>
-    <td>3</td>
-  </tr>
-  <tr>
-    <td>Increased, Kidney Failure</td>
-    <td>3</td>
-  </tr>
-  <tr>
     <td>Cholestasis, Pathology</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>Tumorigenesis, Hepatocellular carcinoma</td>
     <td>3</td>
   </tr>
   <tr>
@@ -665,7 +649,35 @@ WHERE {
     <td>3</td>
   </tr>
   <tr>
-    <td>Increase, DNA double-strand break</td>
+    <td>Mitochondrial impairment</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>Increase, predation</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>Increased, Kidney Failure</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>Decreased, Glomerular filtration</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>Decreased, Renal plasma flow</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>Decreased, Sodium reabsorption</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>Decreased, Renal ability to dilute urine</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>Cilia Beat Frequency, Decreased</td>
     <td>3</td>
   </tr>
   <tr>
@@ -689,19 +701,7 @@ WHERE {
     <td>3</td>
   </tr>
   <tr>
-    <td>Decreased, Glomerular filtration</td>
-    <td>3</td>
-  </tr>
-  <tr>
-    <td>Decreased, Renal plasma flow</td>
-    <td>3</td>
-  </tr>
-  <tr>
-    <td>Decreased, Sodium reabsorption</td>
-    <td>3</td>
-  </tr>
-  <tr>
-    <td>Decreased, Renal ability to dilute urine</td>
+    <td>Decrease, Number of worker bees</td>
     <td>3</td>
   </tr>
   <tr>
@@ -715,182 +715,6 @@ WHERE {
   <tr>
     <td>Chronic obstructive pulmonary disease</td>
     <td>3</td>
-  </tr>
-  <tr>
-    <td>Impairment, Endothelial network</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Increased, oocyte maturation</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Altered, Ca2+-calmodulin activated signal transduction</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>increased mantel display</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>N/A, Hepatotoxicity, Hepatopathy, including a constellation of observable effects</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Increased Cholinergic Signaling</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Increased, FA Influx</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Decreased, Sodium conductance 1</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Increase, cilia movement</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Increased, muscular waves in foot</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Altered, Chromosome number</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Increase, Preneoplastic foci (hepatocytes)</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Decrease of GABAergic interneurons</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Alterations, Cellular proliferation / hyperplasia</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Formation, Hepatocellular and Bile duct tumors</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Decreased, Ketogenesis (production of ketone bodies)</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>KE4 : Uncoupling, eNOS</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>KE6 : Depletion, Nitric Oxide</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Increase, Mucin production</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Activation, JNK</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Increased, extracellular serotonin</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Increased, intracellular sodium (Na+)</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Increased, intracellular chloride (Cl-)</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Reduction, Plasma vitellogenin concentrations</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>impaired, Hive thermoregulation</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Lung fibrosis</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Perturbation of cholesterol</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Hepatotoxicity</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Hepatocytotoxicity</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>increased adipogenesis</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Testicular atrophy</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Oxidative Stress in Brain</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>General Apoptosis</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Spermatocyte depletion</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Decrease, Cuticular chitin content</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Neural crest cell migration, reduced</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Collagen production, reduced</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Decreased Na/K ATPase activity</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Damaging, Mitochondria</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Reduction, Testosterone synthesis by ovarian theca cells</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Increase, Allergic Respiratory Hypersensitivity Response</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Decreased, survival</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Hippocampal anatomy, Altered </td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Hippocampal Physiology, Altered</td>
-    <td>2</td>
   </tr>
   <tr>
     <td>LDH release</td>
@@ -945,15 +769,123 @@ WHERE {
     <td>2</td>
   </tr>
   <tr>
+    <td>Impairment, Endothelial network</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Increased, oocyte maturation</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Altered, Ca2+-calmodulin activated signal transduction</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>increased mantel display</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>N/A, Hepatotoxicity, Hepatopathy, including a constellation of observable effects</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Increase, cilia movement</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Increased, muscular waves in foot</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Altered, Chromosome number</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Increase, Preneoplastic foci (hepatocytes)</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Decrease of GABAergic interneurons</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Alterations, Cellular proliferation / hyperplasia</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Formation, Hepatocellular and Bile duct tumors</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Decreased, Ketogenesis (production of ketone bodies)</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>KE4 : Uncoupling, eNOS</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>KE6 : Depletion, Nitric Oxide</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Increase, Mucin production</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Perturbation of cholesterol</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Hepatotoxicity</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Activation, JNK</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Increased, extracellular serotonin</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Increased, intracellular sodium (Na+)</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Increased, intracellular chloride (Cl-)</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Decreased, extracellular serotonin</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Damaging, Mitochondria</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Reduction, Plasma vitellogenin concentrations</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Reduction, Testosterone synthesis by ovarian theca cells</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>impaired, Hive thermoregulation</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Hepatocytotoxicity</td>
+    <td>2</td>
+  </tr>
+  <tr>
     <td>Decreased, neuroplasticity</td>
     <td>2</td>
   </tr>
   <tr>
     <td>Activation, 5-HT2A (Serotonin 2A)</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Decreased, extracellular serotonin</td>
     <td>2</td>
   </tr>
   <tr>
@@ -981,47 +913,15 @@ WHERE {
     <td>2</td>
   </tr>
   <tr>
-    <td>Decreased, Triiodothyronine (T3) in tissues</td>
+    <td>Testicular atrophy</td>
     <td>2</td>
   </tr>
   <tr>
-    <td>Increased, Hepatic thyroid hormone uptake/transport</td>
+    <td>General Apoptosis</td>
     <td>2</td>
   </tr>
   <tr>
-    <td>Increased, Reproductive Success</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Increased, ER binding to T.F. to DNA (non-classical pathway)</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Increased, Non-genomic signaling</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Increased, Ductal Hyperplasia </td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Increased, Angiogenesis</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Increased, Motility</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Induction, Upregulation of glucuronyltransferase activity</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Decrease of Thyroidal iodide</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Increased, foot detachment</td>
+    <td>Decrease, Cuticular chitin content</td>
     <td>2</td>
   </tr>
   <tr>
@@ -1073,7 +973,7 @@ WHERE {
     <td>2</td>
   </tr>
   <tr>
-    <td>Increased, Thyroid-stimulating hormone (TSH)</td>
+    <td>Activation of specific nuclear receptors, PPAR-gamma activation</td>
     <td>2</td>
   </tr>
   <tr>
@@ -1081,95 +981,15 @@ WHERE {
     <td>2</td>
   </tr>
   <tr>
-    <td>Synaptic dysfunction</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Decreased, Gonadotropins</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Impaired, Reproduction</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Secondary genotoxicity</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Emphysema</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Airway remodeling</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Decrease, sox9 expression</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Decrease, palatal shelf outgrowth</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Feminisation or incomplete development, Primary and accessory male sex organs</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Alteration, Wnt pathway</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Occurrence, Cytoplasmic vacuolization (Renal tubule)</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Occurrence, Cystic dilatation (renal tubule)</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Occurrence, Cytoplasmic vacuolization (podocyte)</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Decreased, Mitochondrial fatty acid beta-oxidation</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Clonal Expansion/Cell Proliferation, to form Altered Hepatic Foci (AHF)</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Abnormal, Roll change within caste</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>impaired, Larval development</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Reduced, survival</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Decreased, locomotion</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Reduced, Prostaglandin F2alpha concentration, plasma </td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Reduced, Ability to attract spawning mates</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Activation of specific nuclear receptors, PPAR-gamma activation</td>
+    <td>increased adipogenesis</td>
     <td>2</td>
   </tr>
   <tr>
     <td>Loss of alveolar capillary membrane integrity</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Increased, FA Influx</td>
     <td>2</td>
   </tr>
   <tr>
@@ -1209,11 +1029,27 @@ WHERE {
     <td>2</td>
   </tr>
   <tr>
+    <td>Decreased, locomotion</td>
+    <td>2</td>
+  </tr>
+  <tr>
     <td>hyperpolarisation, neuron</td>
     <td>2</td>
   </tr>
   <tr>
     <td>Disturbance, Lysosomal function</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Increased, Thyroid-stimulating hormone (TSH)</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Increased, Hepatic thyroid hormone uptake/transport</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Spermatocyte depletion</td>
     <td>2</td>
   </tr>
   <tr>
@@ -1253,7 +1089,27 @@ WHERE {
     <td>2</td>
   </tr>
   <tr>
+    <td>Occurrence, Cytoplasmic vacuolization (Renal tubule)</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Occurrence, Cystic dilatation (renal tubule)</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Occurrence, Cytoplasmic vacuolization (podocyte)</td>
+    <td>2</td>
+  </tr>
+  <tr>
     <td>Increased, Free serum thyroxine (T4)</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Decreased Na/K ATPase activity</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Decrease, palatal shelf outgrowth</td>
     <td>2</td>
   </tr>
   <tr>
@@ -1289,7 +1145,119 @@ WHERE {
     <td>2</td>
   </tr>
   <tr>
+    <td>Increased, Motility</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Oxidative Stress in Brain</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Synaptic dysfunction</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Decreased, Gonadotropins</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Impaired, Reproduction</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Secondary genotoxicity</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Emphysema</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Airway remodeling</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Decrease, sox9 expression</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Feminisation or incomplete development, Primary and accessory male sex organs</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Alteration, Wnt pathway</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Increased Cholinergic Signaling</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Decrease of Thyroidal iodide</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Decreased, Sodium conductance 1</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Lung fibrosis</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Neural crest cell migration, reduced</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Collagen production, reduced</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Increase, Allergic Respiratory Hypersensitivity Response</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Decreased, survival</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Hippocampal anatomy, Altered </td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Hippocampal Physiology, Altered</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Epithelial-mesenchymal transition</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Porcupine-induced Wnt secretion and Wnt signaling activation</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Increase, Caspase transcription</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Decrease, Oogenesis (F3)</td>
+    <td>2</td>
+  </tr>
+  <tr>
     <td>Latent Transforming growth Factor beta expression</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Increase, Heritable mutations in offspring</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Increase, Regenerative cell proliferation (urothelial cells)</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Decreased, cholesterol</td>
     <td>2</td>
   </tr>
   <tr>
@@ -1317,35 +1285,11 @@ WHERE {
     <td>2</td>
   </tr>
   <tr>
-    <td>Increase, Heritable mutations in offspring</td>
-    <td>2</td>
-  </tr>
-  <tr>
     <td>Decrease, Digestion of old cuticle</td>
     <td>2</td>
   </tr>
   <tr>
     <td>Decreased, Population size</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Porcupine-induced Wnt secretion and Wnt signaling activation</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Platelet-neutrophil interactions, Increased </td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>NLRP3 inflammasome activity, increased</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Damaging, Red blood cells; hemolysis</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>irregularities, ovarian cycle</td>
     <td>2</td>
   </tr>
   <tr>
@@ -1357,43 +1301,43 @@ WHERE {
     <td>2</td>
   </tr>
   <tr>
+    <td>irregularities, ovarian cycle</td>
+    <td>2</td>
+  </tr>
+  <tr>
     <td>Reduction, Cholesterol transport in mitochondria</td>
     <td>2</td>
   </tr>
   <tr>
-    <td>Epithelial-mesenchymal transition</td>
+    <td>Decreased, Triiodothyronine (T3) in tissues</td>
     <td>2</td>
   </tr>
   <tr>
-    <td>Increase, Caspase transcription</td>
+    <td>Increased, Reproductive Success</td>
     <td>2</td>
   </tr>
   <tr>
-    <td>Decrease, Oogenesis (F3)</td>
+    <td>Increased, ER binding to T.F. to DNA (non-classical pathway)</td>
     <td>2</td>
   </tr>
   <tr>
-    <td>Increase, Regenerative cell proliferation (urothelial cells)</td>
+    <td>Increased, Non-genomic signaling</td>
     <td>2</td>
   </tr>
   <tr>
-    <td>Decreased, cholesterol</td>
+    <td>Increased, Ductal Hyperplasia </td>
     <td>2</td>
   </tr>
   <tr>
-    <td>Increase, Cytotoxicity</td>
+    <td>Increased, Angiogenesis</td>
     <td>2</td>
   </tr>
   <tr>
-    <td>Formation, Liver fibrosis</td>
+    <td>Induction, Upregulation of glucuronyltransferase activity</td>
     <td>2</td>
   </tr>
   <tr>
-    <td>Increase, Site of Contact Nasal Tumors</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Increase, Cancer</td>
+    <td>Increased, foot detachment</td>
     <td>2</td>
   </tr>
   <tr>
@@ -1409,11 +1353,67 @@ WHERE {
     <td>2</td>
   </tr>
   <tr>
+    <td>Increase, Cytotoxicity</td>
+    <td>2</td>
+  </tr>
+  <tr>
     <td>Increase, Papillomas/carcinomas (squamous cells)</td>
     <td>2</td>
   </tr>
   <tr>
     <td>Increased, HIF-1 heterodimer</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Platelet-neutrophil interactions, Increased </td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>NLRP3 inflammasome activity, increased</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Damaging, Red blood cells; hemolysis</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Decreased, Mitochondrial fatty acid beta-oxidation</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Formation, Liver fibrosis</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Increase, Site of Contact Nasal Tumors</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Increase, Cancer</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Clonal Expansion/Cell Proliferation, to form Altered Hepatic Foci (AHF)</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Abnormal, Roll change within caste</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>impaired, Larval development</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Reduced, survival</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Reduced, Prostaglandin F2alpha concentration, plasma </td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Reduced, Ability to attract spawning mates</td>
     <td>2</td>
   </tr>
   <tr>
@@ -1427,334 +1427,6 @@ WHERE {
   <tr>
     <td>Pulmonary inflammation</td>
     <td>2</td>
-  </tr>
-  <tr>
-    <td>stabilization, PPAR alpha co-repressor</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increased, Neuronal synaptic inhibition</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Abnormal, Role change within caste</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increase, FA Influx</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increase, Phenotypic enzyme activity</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Decrease, Circulating crustacean cardioactive peptide</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Bile accumulation, Pathological condition</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Decreased, PCK1 expression (control point for glycolysis/gluconeogenesis pathway)</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Reduction, Prostaglandin E2 concentration</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Suppression, VLDL secretion</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Up Regulation, FAS</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Up Regulation, LDLR (low density lipoprotein receptor)</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Inhibition, PPAR alpha</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Up Regulation, Acetyl-CoA carboxylase-1 (ACC-1)</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increase, Ca++ (intracellular)</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Decreased, Neuronal network function in adult brain</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increased, serotonin (5-HT) </td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Reduced, Prostaglandin F2alpha synthesis, ovary  </td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Decreased, Prostaglandin F2alpha synthesis, ovary  </td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Generation, Amplified excitatory postsynaptic potential (EPSP)</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Reduced, Prostaglandins, ovary</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Reduced, Prostaglandin E2 concentration, hypothalamus</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increased, Serum creatinine</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>sensitisation, skin</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Induction, CYP1A2/CYP1A5</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Changes/Inhibition, Cellular Homeostasis and Apoptosis</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Inhibition, NADH-ubiquinone oxidoreductase  (complex I)</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>KE3 : Decrease, Tetrahydrobiopterin</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>dimerization, AHR/ARNT</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>reduced dimerization, ARNT/HIF1-alpha</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Alteration, Food-web structures</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Activation, FOXO</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Inhibition, Wnt pathway</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Defect of Embryogenesis</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Decreased, extracellular sodium (Na+) </td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Decreased, extracellular chloride (Cl-)</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Decreased, intracellular serotonin</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Decreased, packaged serotonin</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Decreased, synaptic release</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Decrease, histaminergic neuron excitation</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Accumulation, Highly carboxylated porphyrins</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Activation, FAS</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Suppression, IL-2 and IL-4 production</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>SP (Substance P) release, Local increase of SP</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Trigeminal and/or vagal nerve excitation causes Airway Hyper-responsiveness,Cough, Dyspnea</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increase, Fushi tarazu factor-1 gene expression</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Decrease, Ecdysis motoneuron bursts</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Decrease, Excitatory postsynaptic potential</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increase, COX-2 expression</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Activation of TGF-β signaling</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>ROS formation</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increase, Oxidative Stress / Activation, PMK-1 P38 MAPK</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Activation, HIF-1</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increased, DNA Damage-Repair</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Up Regulation, Unsaturated fatty acid</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Glutathione synthesis</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Activation, 3-hydroxy-3-methylglutaryl-CoA reductase gene</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Glutathione homeostasis</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increased CGRP, neuronal release of CGRP</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Irritation of nasal mucosa inducing sneeze reflex</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increased neurokinin A (NKA) by neuronal cells</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>DNA double-strand break </td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Growth, reduction</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increased, Oncotic Necrosis</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increased, activation of T (T) helper (h) type 2 cells</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increased, fibroblast proliferation and myofibroblast differentiation</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Histone acetylation, increase</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Lipid Peroxidation</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Neurodegeneration</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Fatty Acid Beta Oxidation, Decreased</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Altered differentiation</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Activation, Muscarinic Acetylcholine Receptors</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Accumulation of misfolded proteins</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Activation of hepatic stellate cells</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Activation, SCD-1</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Activation, SREBP-1c</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Reduction, Ca and HCO3 transport to shell gland</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Activation, ChREBP</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Interference, nuclear localization of NFAT</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Impairment, T-cell dependent antibody response</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Decrease, Circulating ecdysis triggering hormone</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Decrease, Abdominal muscle contraction</td>
-    <td>1</td>
   </tr>
   <tr>
     <td>aggregation</td>
@@ -1977,6 +1649,166 @@ WHERE {
     <td>1</td>
   </tr>
   <tr>
+    <td>stabilization, PPAR alpha co-repressor</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Increased, Neuronal synaptic inhibition</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Abnormal, Role change within caste</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Increase, FA Influx</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Increase, Phenotypic enzyme activity</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Decrease, Circulating crustacean cardioactive peptide</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Bile accumulation, Pathological condition</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Reduction, Prostaglandin E2 concentration</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Decreased, Neuronal network function in adult brain</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Increased, serotonin (5-HT) </td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Reduced, Prostaglandin F2alpha synthesis, ovary  </td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Decreased, Prostaglandin F2alpha synthesis, ovary  </td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Generation, Amplified excitatory postsynaptic potential (EPSP)</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Reduced, Prostaglandins, ovary</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Reduced, Prostaglandin E2 concentration, hypothalamus</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Increased, Serum creatinine</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>sensitisation, skin</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Induction, CYP1A2/CYP1A5</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Changes/Inhibition, Cellular Homeostasis and Apoptosis</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Inhibition, NADH-ubiquinone oxidoreductase  (complex I)</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>KE3 : Decrease, Tetrahydrobiopterin</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>dimerization, AHR/ARNT</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>reduced dimerization, ARNT/HIF1-alpha</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Alteration, Food-web structures</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Activation, HIF-1</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Increased, DNA Damage-Repair</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Up Regulation, Unsaturated fatty acid</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Glutathione synthesis</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Activation, 3-hydroxy-3-methylglutaryl-CoA reductase gene</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Glutathione homeostasis</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Activation, FOXO</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Inhibition, Wnt pathway</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Defect of Embryogenesis</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Decreased, extracellular sodium (Na+) </td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Decreased, extracellular chloride (Cl-)</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Decreased, intracellular serotonin</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Decreased, packaged serotonin</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Decreased, synaptic release</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Decrease, histaminergic neuron excitation</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Accumulation, Highly carboxylated porphyrins</td>
+    <td>1</td>
+  </tr>
+  <tr>
     <td>Activation, Glucocorticoid Receptor</td>
     <td>1</td>
   </tr>
@@ -2157,139 +1989,11 @@ WHERE {
     <td>1</td>
   </tr>
   <tr>
+    <td>Activated, LXR</td>
+    <td>1</td>
+  </tr>
+  <tr>
     <td>Decreased, 3-hydroxyacyl-CoA dehydrogenase type-2 activity</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Under carboxylated clotting factors will not assemble on cell surfaces to form clot, Failure of secondary hemostasis  </td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Failure in vascular repair mechanisms, Unresolved blood loss (hemorrhage)</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Failure in gamma-glutamyl carboxylation of  clotting factors II, VII, IX and X, Under carboxylation of clotting factors (e.g., des-gamma-carboxy prothrombin) </td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Blood loss and development of anemia, Impaired oxygen delivery and nutrient delivery to tissue, impaired carbon dioxide and waste product removal</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Hemostasis, Depletion from blood of fully functional carboxylated clotting factors</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Reduced fitness or even mortality, Acidosis, hypovolemic shock and organ dysfunction</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Impaired recruitment , Population trajectory</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increased, water retention in foot</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increased, Triiodothyronine (T3) in tissues</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increased, Population</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increase, Clonal Expansion of Altered Hepatic Foci</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Decreased, sodium conductance 2</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Decreased, GABA release</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Decreased, Apoptosis (Epithelial Cells)</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increased, ER binding to DNA (classical pathway) </td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increased, Proliferation (Endothelial cells) </td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Induction, Doublesex1 gene</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increased, Male offspring</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Induction, Male reproductive tract</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Altered gene expression specific to CAR activation, Hepatocytes</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Opening of calcium channel, Calcium influx</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Trigeminal nerve activation</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Altered, Protein Production</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increased, Second Messenger Production</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Infant leukaemia</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Necrosis</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increase, Nuclear receptor E75b gene expression</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>N/A, Reproductive failure</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Insufficiency, Vascular</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increase, Vitellogenin synthesis in liver</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Decline, Population</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Altered, Reproductive behaviour</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Impaired development of, Reproductive organs</td>
     <td>1</td>
   </tr>
   <tr>
@@ -2314,10 +2018,6 @@ WHERE {
   </tr>
   <tr>
     <td>Activation, Caspase 8 pathway</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Protein Adduct Formation</td>
     <td>1</td>
   </tr>
   <tr>
@@ -2441,314 +2141,6 @@ WHERE {
     <td>1</td>
   </tr>
   <tr>
-    <td>Antagonism, Estrogen receptor</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increased, Migration (Endothelial Cells)</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Activation of Cyp2E1</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Induction, IKB inhibitory protein</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increase, D1 protein deactivation</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>abnormal, placental labyrinth vasculature morphology</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increase, Pollen abnormal</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>transposition of the great arteries</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increased, tumor growth</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increased, Steroidogenic acute regulatory protein (StAR) </td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Activation of Tumor Protein 53</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increased, Kisspeptin signalling</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Endoplasmic reticulum stress</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increase, slincR expression</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Activation of calpain signalling</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Decrease, Glucose pool</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Decreased, oxygen binding capacity by hemocyanin</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Cognitive, sensed as hypoxic/low oxygen environment</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increase, hemocyanin mRNA</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increase, pulmonate breathing</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Hypospadias, increased</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Promotion, Ovarian Cancer </td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increase, goblet cell number</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Reduction, Angiogenesis</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Thyroxine (T4) in neuronal tissue, Decreased </td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Aberrant, Dendritic morphology</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Reduced, Presynaptic release of glutamate</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increase, Hypertrophy and proliferation (follicular cell)</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Reduction, Eggshell thickness</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Desensitization, Nicotinic acetylcholine receptor</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Reduction, Neuronal synaptic inhibition</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Hyperplasia, Hyperplasia</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Disruption, Mitochondrial electron transport chain</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Activation, PPARα</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Malformation, Male reproductive tract</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increased, Induced Mutations in Critical Genes</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increased, Atrioventricular block and bradycardia</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Inhibition, FoxA2</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Down Regulation, CPT1A</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Down Regulation, HMGCS2</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Decreased, Ketogenesis</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Activation, NR1H4</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Activation, SHP</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Activation, LXR alpha</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Activation, AKT2</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Decrease, Ovulation</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increased, Insufficient repair or mis-repair of pro-mutagenic DNA adducts</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Reduced, Food storage</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Reduced, Brood care</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Accumulation, Damaged mitochondrial DNA</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Accelerated, Aging</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increased, Appetite and hunger</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increased, Viral susceptibility</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>impaired, Development</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Decreased, Hydrogen peroxide production</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Reduced, Antiseptic incorporated in food</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Reduced, swimming speed</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Reduced, feeding 1</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>N/A, hypoxia</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increased, amputations</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>prolonged, Depolarization of neuronal membrane</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Overactivation, Neuronotransmitter release</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Overactivation, muscle contraction</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increased, Ataxia, paralysis, or hyperactivity</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Occurrence, Epileptic seizure</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Occurrence, A paroxysmal depolarizing shift</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increased, locomotion</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Decreased, anxiety</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Decreased, sheltering</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>N/A, sedation</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Reduction, Ionotropic GABA receptor chloride channel conductance</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Overwhelmed, Mitochondrial DNA repair mechanisms</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Reduced, Spawning behavior</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Reduced, Pheromone release</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Reduced, Gonadotropin releasing hormone, hypothalamus</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Reduced, Luteinizing hormone (LH), plasma </td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Reduced, Maturation inducing steroid, plasma</td>
-    <td>1</td>
-  </tr>
-  <tr>
     <td> MLL chromosomal translocation</td>
     <td>1</td>
   </tr>
@@ -2762,10 +2154,6 @@ WHERE {
   </tr>
   <tr>
     <td>Increased, steatosis</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Activated, LXR</td>
     <td>1</td>
   </tr>
   <tr>
@@ -2865,6 +2253,10 @@ WHERE {
     <td>1</td>
   </tr>
   <tr>
+    <td>Protein Adduct Formation</td>
+    <td>1</td>
+  </tr>
+  <tr>
     <td>Induction, Sustained Hepatotoxicity</td>
     <td>1</td>
   </tr>
@@ -2889,23 +2281,11 @@ WHERE {
     <td>1</td>
   </tr>
   <tr>
-    <td>Impaired inguinoscrotal testicular descent phase</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Treatment-resistant gastric cancer</td>
-    <td>1</td>
-  </tr>
-  <tr>
     <td>Inhibition of lung surfactant function</td>
     <td>1</td>
   </tr>
   <tr>
     <td>decrease, transcription of genes by AR </td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increase, DNA methyltransferase expression</td>
     <td>1</td>
   </tr>
   <tr>
@@ -3021,11 +2401,19 @@ WHERE {
     <td>1</td>
   </tr>
   <tr>
+    <td>Increase, D1 protein deactivation</td>
+    <td>1</td>
+  </tr>
+  <tr>
     <td>Increase, Programmed cell death</td>
     <td>1</td>
   </tr>
   <tr>
     <td>Altered, retinal layer structure</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>abnormal, placental labyrinth vasculature morphology</td>
     <td>1</td>
   </tr>
   <tr>
@@ -3037,7 +2425,7 @@ WHERE {
     <td>1</td>
   </tr>
   <tr>
-    <td>Up Regulation, CYP1A1</td>
+    <td>Increase, Hypertrophy and proliferation (follicular cell)</td>
     <td>1</td>
   </tr>
   <tr>
@@ -3193,383 +2581,287 @@ WHERE {
     <td>1</td>
   </tr>
   <tr>
-    <td>Toll Like Receptor (TLR) Dysregulation</td>
+    <td>Antagonism, Estrogen receptor</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Increase, Reactive oxygen species</td>
+    <td>Increased, Migration (Endothelial Cells)</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Chronic kidney disease</td>
+    <td>Activation of Cyp2E1</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Immune cell activation</td>
+    <td>Induction, IKB inhibitory protein</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>IFNγ signaling</td>
+    <td>Increase, Pollen abnormal</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Immune mediated hepatitis</td>
+    <td>transposition of the great arteries</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Increase, Global DNA methylation</td>
+    <td>Increased, tumor growth</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Cortisol and 11β-(OH) testosterone decreased</td>
+    <td>Increased, Steroidogenic acute regulatory protein (StAR) </td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Decreased plasma Cortisol level</td>
+    <td>Activation of Tumor Protein 53</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>decreased oocyte maturation</td>
+    <td>Increased, Kisspeptin signalling</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Coagulation</td>
+    <td>Endoplasmic reticulum stress</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Thrombosis and Disseminated Intravascular Coagulation</td>
+    <td>Increase, slincR expression</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Impaired gustatory nerve</td>
+    <td>Activation of calpain signalling</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>dysgeusia</td>
+    <td>Decrease, Glucose pool</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Imbalanced salty and sweet taste responses</td>
+    <td>Decreased, oxygen binding capacity by hemocyanin</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Decrease, Photosystem II efficiency</td>
+    <td>Cognitive, sensed as hypoxic/low oxygen environment</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Fibrinolysis, decreased</td>
+    <td>Increase, hemocyanin mRNA</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Bradykinin system, hyperactivated</td>
+    <td>Increase, pulmonate breathing</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>olfactory sensory neurons, decrease </td>
+    <td>Hypospadias, increased</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Olfactory epithelium degeneration</td>
+    <td>Promotion, Ovarian Cancer </td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Decreased, Mitochondrial Fatty Acid Beta Oxidation</td>
+    <td>Increase, goblet cell number</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Reduced, Hearing</td>
+    <td>Decreased, PCK1 expression (control point for glycolysis/gluconeogenesis pathway)</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Formation, Formation of hemoglobin adducts</td>
+    <td>Reduction, Angiogenesis</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Down Regulation, Gulcose-6-phosphate dehydrogenase</td>
+    <td>Thyroxine (T4) in neuronal tissue, Decreased </td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Increase, Necrosis</td>
+    <td>Aberrant, Dendritic morphology</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Increase plasma Ang II</td>
+    <td>Reduced, Presynaptic release of glutamate</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Sustentacular cells, decrease </td>
+    <td>Suppression, VLDL secretion</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Decreased, all-trans retinoic acid (atRA) concentration</td>
+    <td>Up Regulation, FAS</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Disrupted meiotic initiation of fetal oogonia of the ovary</td>
+    <td>Up Regulation, LDLR (low density lipoprotein receptor)</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Reduced size of the ovarian follicle pool </td>
+    <td>Inhibition, PPAR alpha</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Inhibition of Plxna2</td>
+    <td>Up Regulation, Acetyl-CoA carboxylase-1 (ACC-1)</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Overexpression of rasl11b</td>
+    <td>Increase, Ca++ (intracellular)</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Premature initiation of meiosis in fetal male germ cells</td>
+    <td>Activation, FAS</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>increase, placental insufficiency</td>
+    <td>Suppression, IL-2 and IL-4 production</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>increase, Preeclampsia</td>
+    <td>SP (Substance P) release, Local increase of SP</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Genomic instability</td>
+    <td>Trigeminal and/or vagal nerve excitation causes Airway Hyper-responsiveness,Cough, Dyspnea</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>increased MyD88 activation</td>
+    <td>Increase, Fushi tarazu factor-1 gene expression</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Interferon-I antiviral response, antagonized by SARS-CoV-2</td>
+    <td>Decrease, Ecdysis motoneuron bursts</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Repression of Gbx2 expression</td>
+    <td>Decrease, Excitatory postsynaptic potential</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>foxi1 expression, increased</td>
+    <td>Increase, COX-2 expression</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>six1b expression, increased</td>
+    <td>Activation of TGF-β signaling</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>eya1 expression, inhibited</td>
+    <td>ROS formation</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Cystic Fibrosis Transmembrane Regulator Function, Decreased</td>
+    <td>Increase, Oxidative Stress / Activation, PMK-1 P38 MAPK</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Airway Surface Liquid Height, Decreased </td>
+    <td>Increased CGRP, neuronal release of CGRP</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Mucociliary Clearance, Decreased</td>
+    <td>Irritation of nasal mucosa inducing sneeze reflex</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>FOXJ1 Protein, Decreased</td>
+    <td>Increased neurokinin A (NKA) by neuronal cells</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Motile Cilia Number/Length, Decreased</td>
+    <td>DNA double-strand break </td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Platelet activation, Increased</td>
+    <td>Growth, reduction</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Neutrophil activation, Increased </td>
+    <td>Increased, Oncotic Necrosis</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Thromboinflammation, Increased </td>
+    <td>Increased, activation of T (T) helper (h) type 2 cells</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>altered, inner ear development</td>
+    <td>Increased, fibroblast proliferation and myofibroblast differentiation</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Intestinal barrier, disruption</td>
+    <td>Histone acetylation, increase</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Viral infection and host-to-host transmission, proliferated</td>
+    <td>Lipid Peroxidation</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Memory Loss</td>
+    <td>Neurodegeneration</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Accumulation, Cytosolic toxic Tau oligomers</td>
+    <td>Fatty Acid Beta Oxidation, Decreased</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Hyperphosphorylation of Tau</td>
+    <td>Altered differentiation</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Decrease, GLUT4</td>
+    <td>Activation, Muscarinic Acetylcholine Receptors</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Decrease, Glucose uptake</td>
+    <td>Accumulation of misfolded proteins</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Abnormal, Glucose homeostasis</td>
+    <td>Activation of hepatic stellate cells</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Gestational diabetes mellitus</td>
+    <td>Impaired inguinoscrotal testicular descent phase</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Gut microbiota, alteration</td>
+    <td>Treatment-resistant gastric cancer</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Prolongation of QT interval</td>
+    <td>Increase, DNA methyltransferase expression</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Torsades de Pointes</td>
+    <td>Activation, SCD-1</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Sudden cardiac death</td>
+    <td>Activation, SREBP-1c</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Altered regulation, Alpha hemoglobin</td>
+    <td>Reduction, Ca and HCO3 transport to shell gland</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Propagation, Oxidative stress</td>
+    <td>Activation, ChREBP</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Increase, Renal pathology due to VTG deposition</td>
+    <td>Up Regulation, CYP1A1</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Activation of specific nuclear receptors, Transcriptional change</td>
+    <td>Interference, nuclear localization of NFAT</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Loss, Cochlear function</td>
+    <td>Impairment, T-cell dependent antibody response</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Reduction, Gonadotropins, circulating concentrations</td>
+    <td>Decrease, Circulating ecdysis triggering hormone</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Activation, LXR</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Activation/Proliferation, T-cells</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Atherosclerosis</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Suppression, Inflammatory cytokines</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Decreased, Lymphocytes</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Decreased, Nitric Oxide</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Prolongation of Action Potential Duration</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Occurrence, (Micro)vascular dysfunction</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increase, Pro-Inflammatory Mediators</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Inhibition of rapid delayed rectifying potassium current </td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increase, Plasma vitellogenin concentrations</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>peroxisome proliferator activated receptor promoter demethylation</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Decrease, Steroidogenic acute regulatory protein (STAR)</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Induction, Sustained Cell Proliferation</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Decrease, Translocator protein (TSPO)</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Formation, Liver tumor</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increased, Oxidative damage</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Formation, Pro-mutagenic DNA Adducts</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Suppression, Immune system</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increase, Luteinizing hormone (LH) </td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Hyperplasia, Leydig cell</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increase proliferation, Leydig cell </td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Reduction, testosterone level</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increased, LDL uptake</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Proliferation, Cell proliferation in the absence of cytotoxicity</td>
+    <td>Decrease, Abdominal muscle contraction</td>
     <td>1</td>
   </tr>
   <tr>
@@ -3725,91 +3017,323 @@ WHERE {
     <td>1</td>
   </tr>
   <tr>
-    <td>Activation, Keratinocytes</td>
+    <td>Toll Like Receptor (TLR) Dysregulation</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>KE2 : Decrease, GTPCH-1</td>
+    <td>Increase, Reactive oxygen species</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>reduced production, VEGF</td>
+    <td>Chronic kidney disease</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>KE5 : Decrease, AKT/eNOS activity</td>
+    <td>Immune cell activation</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Induction, Liver “Dysfunctional” Changes by CGA 330050</td>
+    <td>IFNγ signaling</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Production, Reactive oxygen species</td>
+    <td>Immune mediated hepatitis</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Uroporphyria</td>
+    <td>Increase, Global DNA methylation</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Damage, Lipid bilayer</td>
+    <td>Cortisol and 11β-(OH) testosterone decreased</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Injury, Mitochondria</td>
+    <td>Decreased plasma Cortisol level</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Oxidation, Uroporphyrinogen</td>
+    <td>decreased oocyte maturation</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Inhibition, UROD</td>
+    <td>Coagulation</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Not Increased, Circulating Ketone Bodies</td>
+    <td>Thrombosis and Disseminated Intravascular Coagulation</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Increased, Catabolism of Muscle Protein</td>
+    <td>Impaired gustatory nerve</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Decreased, Body Weight</td>
+    <td>dysgeusia</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Increase, Tissue Degeneration, Necrosis & Atrophy </td>
+    <td>Imbalanced salty and sweet taste responses</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Increase, Respiratory or Squamous Metaplasia</td>
+    <td>Decrease, Photosystem II efficiency</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Increase, Mutations in Critical Genes</td>
+    <td>Fibrinolysis, decreased</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Inhibition, SREBP1c</td>
+    <td>Bradykinin system, hyperactivated</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Impaired, Proteostasis</td>
+    <td>olfactory sensory neurons, decrease </td>
     <td>1</td>
   </tr>
   <tr>
-    <td>KE7 : Impaired, Vasodilation</td>
+    <td>Olfactory epithelium degeneration</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>KE8 : Increase, Vascular Resistance</td>
+    <td>Decreased, Mitochondrial Fatty Acid Beta Oxidation</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>Hypertension</td>
+    <td>Activation, LXR</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Activation/Proliferation, T-cells</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Reduction, Gonadotropins, circulating concentrations</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Atherosclerosis</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Suppression, Inflammatory cytokines</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Decreased, Lymphocytes</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Decreased, Nitric Oxide</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Prolongation of Action Potential Duration</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Occurrence, (Micro)vascular dysfunction</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Increase, Pro-Inflammatory Mediators</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Inhibition of rapid delayed rectifying potassium current </td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Increase, Plasma vitellogenin concentrations</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>peroxisome proliferator activated receptor promoter demethylation</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Decrease, Steroidogenic acute regulatory protein (STAR)</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Induction, Sustained Cell Proliferation</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Decrease, Translocator protein (TSPO)</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Formation, Liver tumor</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Increased, Oxidative damage</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Formation, Pro-mutagenic DNA Adducts</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Suppression, Immune system</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Increase, Luteinizing hormone (LH) </td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Hyperplasia, Leydig cell</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Increase proliferation, Leydig cell </td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Reduction, testosterone level</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Increased, LDL uptake</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Proliferation, Cell proliferation in the absence of cytotoxicity</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Under carboxylated clotting factors will not assemble on cell surfaces to form clot, Failure of secondary hemostasis  </td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Failure in vascular repair mechanisms, Unresolved blood loss (hemorrhage)</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Failure in gamma-glutamyl carboxylation of  clotting factors II, VII, IX and X, Under carboxylation of clotting factors (e.g., des-gamma-carboxy prothrombin) </td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Blood loss and development of anemia, Impaired oxygen delivery and nutrient delivery to tissue, impaired carbon dioxide and waste product removal</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Hemostasis, Depletion from blood of fully functional carboxylated clotting factors</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Reduced fitness or even mortality, Acidosis, hypovolemic shock and organ dysfunction</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Impaired recruitment , Population trajectory</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Increased, water retention in foot</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Increased, Triiodothyronine (T3) in tissues</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Increased, Population</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Increase, Clonal Expansion of Altered Hepatic Foci</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Decreased, sodium conductance 2</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Decreased, GABA release</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Decreased, Apoptosis (Epithelial Cells)</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Increased, ER binding to DNA (classical pathway) </td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Increased, Proliferation (Endothelial cells) </td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Induction, Doublesex1 gene</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Increased, Male offspring</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Induction, Male reproductive tract</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Altered gene expression specific to CAR activation, Hepatocytes</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Opening of calcium channel, Calcium influx</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Trigeminal nerve activation</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Altered, Protein Production</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Increased, Second Messenger Production</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Infant leukaemia</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Necrosis</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Increase, Nuclear receptor E75b gene expression</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>N/A, Reproductive failure</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Insufficiency, Vascular</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Increase, Vitellogenin synthesis in liver</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Decline, Population</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Altered, Reproductive behaviour</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Impaired development of, Reproductive organs</td>
     <td>1</td>
   </tr>
   <tr>
@@ -4006,6 +3530,482 @@ WHERE {
   </tr>
   <tr>
     <td>malformed, Male reproductive tract</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Reduced, Hearing</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Formation, Formation of hemoglobin adducts</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Down Regulation, Gulcose-6-phosphate dehydrogenase</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Increase, Necrosis</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Increase plasma Ang II</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Sustentacular cells, decrease </td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Decreased, all-trans retinoic acid (atRA) concentration</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Disrupted meiotic initiation of fetal oogonia of the ovary</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Reduced size of the ovarian follicle pool </td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Inhibition of Plxna2</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Overexpression of rasl11b</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Premature initiation of meiosis in fetal male germ cells</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>increase, placental insufficiency</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>increase, Preeclampsia</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Genomic instability</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>increased MyD88 activation</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Interferon-I antiviral response, antagonized by SARS-CoV-2</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Repression of Gbx2 expression</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>foxi1 expression, increased</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>six1b expression, increased</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>eya1 expression, inhibited</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Cystic Fibrosis Transmembrane Regulator Function, Decreased</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Airway Surface Liquid Height, Decreased </td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Mucociliary Clearance, Decreased</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>FOXJ1 Protein, Decreased</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Motile Cilia Number/Length, Decreased</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Platelet activation, Increased</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Neutrophil activation, Increased </td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Thromboinflammation, Increased </td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>altered, inner ear development</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Intestinal barrier, disruption</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Viral infection and host-to-host transmission, proliferated</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Memory Loss</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Accumulation, Cytosolic toxic Tau oligomers</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Hyperphosphorylation of Tau</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Decrease, GLUT4</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Decrease, Glucose uptake</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Abnormal, Glucose homeostasis</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Gestational diabetes mellitus</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Gut microbiota, alteration</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Prolongation of QT interval</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Torsades de Pointes</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Sudden cardiac death</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Altered regulation, Alpha hemoglobin</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Propagation, Oxidative stress</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Increase, Renal pathology due to VTG deposition</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Activation of specific nuclear receptors, Transcriptional change</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Loss, Cochlear function</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Activation, Keratinocytes</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>KE2 : Decrease, GTPCH-1</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>reduced production, VEGF</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>KE5 : Decrease, AKT/eNOS activity</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Induction, Liver “Dysfunctional” Changes by CGA 330050</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Production, Reactive oxygen species</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Uroporphyria</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Damage, Lipid bilayer</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Injury, Mitochondria</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Oxidation, Uroporphyrinogen</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Inhibition, UROD</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Not Increased, Circulating Ketone Bodies</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Increased, Catabolism of Muscle Protein</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Decreased, Body Weight</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Increase, Tissue Degeneration, Necrosis & Atrophy </td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Increase, Respiratory or Squamous Metaplasia</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Increase, Mutations in Critical Genes</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Inhibition, SREBP1c</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Impaired, Proteostasis</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>KE7 : Impaired, Vasodilation</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>KE8 : Increase, Vascular Resistance</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Hypertension</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Reduction, Eggshell thickness</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Desensitization, Nicotinic acetylcholine receptor</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Reduction, Neuronal synaptic inhibition</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Hyperplasia, Hyperplasia</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Disruption, Mitochondrial electron transport chain</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Activation, PPARα</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Malformation, Male reproductive tract</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Increased, Induced Mutations in Critical Genes</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Increased, Atrioventricular block and bradycardia</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Inhibition, FoxA2</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Down Regulation, CPT1A</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Down Regulation, HMGCS2</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Decreased, Ketogenesis</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Activation, NR1H4</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Activation, SHP</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Activation, LXR alpha</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Activation, AKT2</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Decrease, Ovulation</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Increased, Insufficient repair or mis-repair of pro-mutagenic DNA adducts</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Reduced, Food storage</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Reduced, Brood care</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Accumulation, Damaged mitochondrial DNA</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Accelerated, Aging</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Increased, Appetite and hunger</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Increased, Viral susceptibility</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>impaired, Development</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Decreased, Hydrogen peroxide production</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Reduced, Antiseptic incorporated in food</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Reduced, swimming speed</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Reduced, feeding 1</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>N/A, hypoxia</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Increased, amputations</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>prolonged, Depolarization of neuronal membrane</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Overactivation, Neuronotransmitter release</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Overactivation, muscle contraction</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Increased, Ataxia, paralysis, or hyperactivity</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Occurrence, Epileptic seizure</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Occurrence, A paroxysmal depolarizing shift</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Increased, locomotion</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Decreased, anxiety</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Decreased, sheltering</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>N/A, sedation</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Reduction, Ionotropic GABA receptor chloride channel conductance</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Overwhelmed, Mitochondrial DNA repair mechanisms</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Reduced, Spawning behavior</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Reduced, Pheromone release</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Reduced, Gonadotropin releasing hormone, hypothalamus</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Reduced, Luteinizing hormone (LH), plasma </td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Reduced, Maturation inducing steroid, plasma</td>
     <td>1</td>
   </tr>
   <tr>
