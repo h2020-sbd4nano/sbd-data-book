@@ -3,7 +3,7 @@ PREFIX sbd:     <https://www.sbd4nano.eu/rdf/#>
 PREFIX dc:      <http://purl.org/dc/elements/1.1/>
 PREFIX dct:     <http://purl.org/dc/terms/>
 
-SELECT ?model ?label ?provider WHERE {
-  ?model a sbd:Model ; rdfs:label ?label ;
+SELECT ?model ?modeLabel ?provider WHERE {
+  ?model a sbd:Model ; rdfs:label ?modelLabel ;
      dc:source/dct:title ?provider
 } ORDER BY ?model
