@@ -1,0 +1,21 @@
+#+ endpoint: https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/sparql
+#+ endpoint_in_url: False
+#+ enumerate:
+#+   - lang:
+#+     - en,en
+
+
+PREFIX void:    <http://rdfs.org/ns/void#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX dc:      <http://purl.org/dc/elements/1.1/>
+
+SELECT ?type ?resource ?resourceLabel WHERE {
+  VALUES ?provider {
+    <https://h2020-sbd4nano.github.io/sbd-data-smartnanotox/>
+  }
+  ?provider a void:DatasetDescription ;
+    dcterms:title|dc:title ?providerLabel .
+  ?resource dc:source ?provider ; a / rdfs:label ?type ;
+    rdfs:label ?resourceLabel .
+} ORDER BY ASC(?type) ASC(?resource)
+

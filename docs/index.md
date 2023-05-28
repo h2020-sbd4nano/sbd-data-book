@@ -17,7 +17,10 @@ Issues, comments, questions can be reported [here](https://github.com/h2020-sbd4
 1.1. [General requirements](general.md#general-requirements) <br />
 1.2. [Information sources and plugins](general.md#information-sources-and-plugins) <br />
 1.3. [Data sources](general.md#data-sources) <br />
-1.3.1. [Licenses](general.md#licenses) <br />
+1.3.1. [SmartNanoTox](general.md#smartnanotox) <br />
+1.3.2. [NanoSolveIT](general.md#nanosolveit) <br />
+1.3.3. [The Nanosafety Data Interface](general.md#the-nanosafety-data-interface) <br />
+1.3.4. [Licenses](general.md#licenses) <br />
 1.4. [Statistics](general.md#statistics) <br />
 2. [Data](data.md) <br />
 2.1. [Databases](data.md#databases) <br />

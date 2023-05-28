@@ -96,6 +96,234 @@ This gives us:
   </tr>
 </table>
 
+The following sections highlight a few EU NanoSafety Cluster projects.
+
+### SmartNanoTox
+
+<a name="tp4">SmartNanoTox</a> provides a few datasets:
+
+<table>
+  <tr>
+    <td><b>type</b></td>
+    <td><b>resource</b></td>
+  </tr>
+  <tr>
+    <td>Dataset</td>
+    <td><a href="https://identifiers.org/geo:GSE117487">Effect of cell passage number on gene expression in NR8383 macrophages</a></td>
+  </tr>
+  <tr>
+    <td>Dataset</td>
+    <td><a href="https://identifiers.org/geo:GSE156457">Transcriptomic study of NR8383 rat macrophages cells following exposure to Printex90</a></td>
+  </tr>
+  <tr>
+    <td>Dataset</td>
+    <td><a href="https://identifiers.org/geo:GSE156458">Transcriptomic study of NR8383 rat macrophages cells in control condition (DMEM culture medium supplemented with 10% of fetal bovine serum)</a></td>
+  </tr>
+  <tr>
+    <td>Dataset</td>
+    <td><a href="https://identifiers.org/geo:GSE156489">Transcriptomic study of NR8383 rat macrophages cells in control condition (water, H2O)</a></td>
+  </tr>
+  <tr>
+    <td>Dataset</td>
+    <td><a href="https://identifiers.org/geo:GSE156493">Transcriptomic study of NR8383 rat macrophages cells in submerged condition (control)</a></td>
+  </tr>
+  <tr>
+    <td>Dataset</td>
+    <td><a href="https://identifiers.org/geo:GSE156509">Transcriptomic study of NR8383 rat macrophages cells following exposure to TiO2 (NM105, p25 anatase/rutile)</a></td>
+  </tr>
+  <tr>
+    <td>Dataset</td>
+    <td><a href="https://identifiers.org/geo:GSE156511">Transcriptomic study of NR8383 rat macrophages cells following exposure to NM403 carbon nanotubes</a></td>
+  </tr>
+  <tr>
+    <td>Dataset</td>
+    <td><a href="https://identifiers.org/geo:GSE156564">Transcriptomic study of NR8383 rat macrophages cells following exposure to TiO2 (NRCWE001)</a></td>
+  </tr>
+  <tr>
+    <td>Dataset</td>
+    <td><a href="https://identifiers.org/geo:GSE156571">Transcriptomic study of NR8383 rat macrophages cells following exposure to multi-walled carbon nanotubes (NRCWE006)</a></td>
+  </tr>
+  <tr>
+    <td>Dataset</td>
+    <td><a href="https://identifiers.org/geo:GSE156573">Transcriptomic study of NR8383 rat macrophages cells following exposure to NiZnFe2O4.</a></td>
+  </tr>
+  <tr>
+    <td>Dataset</td>
+    <td><a href="https://identifiers.org/geo:GSE156587">Transcriptomic study of NR8383 rat macrophages cells following exposure to Fe2O3 (NRCWE018).</a></td>
+  </tr>
+  <tr>
+    <td>Dataset</td>
+    <td><a href="https://identifiers.org/geo:GSE156659">Transcriptomic study of NR8383 rat macrophages cells following exposure to zinc iron oxide (ZnFe2O4, NRCWE021)</a></td>
+  </tr>
+  <tr>
+    <td>Dataset</td>
+    <td><a href="https://identifiers.org/geo:GSE156660">Transcriptomic study of NR8383 rat macrophages cells following exposure to COOH-functionalized carbon nanotubes (NRCWE042)</a></td>
+  </tr>
+  <tr>
+    <td>Dataset</td>
+    <td><a href="https://identifiers.org/geo:GSE156666">Transcriptomic study of NR8383 rat macrophages cells following exposure to NH2-functionalized carbon nanotubes (NRCWE049)</a></td>
+  </tr>
+  <tr>
+    <td>Dataset</td>
+    <td><a href="https://identifiers.org/geo:GSE156691">Transcriptomic study of NR8383 rat macrophages cells following exposure to pristine single-walled carbon nanotubes (NRCWE055)</a></td>
+  </tr>
+  <tr>
+    <td>Dataset</td>
+    <td><a href="https://identifiers.org/geo:GSE156694">Transcriptomic study of NR8383 rat macrophages cells following exposure to carbon black (Printex 90)</a></td>
+  </tr>
+  <tr>
+    <td>Dataset</td>
+    <td><a href="https://identifiers.org/geo:GSE156695">Transcriptomic study of NR8383 rat macrophages cells following exposure to ZnO 4 µg/mL and ZnO 16 µg/mL</a></td>
+  </tr>
+  <tr>
+    <td>Dataset</td>
+    <td><a href="https://identifiers.org/geo:GSE97852">Transcriptomic study of NR8383 cells following exposure to zinc oxide nanoparticles NM110</a></td>
+  </tr>
+  <tr>
+    <td>Dataset</td>
+    <td><a href="https://identifiers.org/geo:GSE99435">Transcriptomic study of PMA-differentiated THP-1 cells following exposure to zinc oxide nanoparticles NM110</a></td>
+  </tr>
+  <tr>
+    <td>Dataset</td>
+    <td><a href="https://identifiers.org/geo:GSE99997">TiO2-induced gene expression profiles in rat lung: a subacute inhalation study</a></td>
+  </tr>
+</table>
+
+### NanoSolveIT
+
+<a name="tp5">NanoSolveIT</a> provides several computational models [<a href="#citeref1">1</a>]:
+
+<table>
+  <tr>
+    <td><b>type</b></td>
+    <td><b>resource</b></td>
+  </tr>
+  <tr>
+    <td>Model</td>
+    <td><a href="http://enaloscloud.novamechanics.com/EnalosWebApps/ZetaPotential/">PhysChem: Zeta potential NanoXtract model</a></td>
+  </tr>
+  <tr>
+    <td>Model</td>
+    <td><a href="https://aerosol.cloud.nanosolveit.eu/">NanoSolveIT Tool for Assessment of Human Exposure to Nanomaterials</a></td>
+  </tr>
+  <tr>
+    <td>Model</td>
+    <td><a href="https://cellviability.cloud.nanosolveit.eu/">NanoSolveIT Cytotoxicity (Cell Viability) Prediction for Metal Oxide NPs</a></td>
+  </tr>
+  <tr>
+    <td>Model</td>
+    <td><a href="https://deepdaph.cloud.nanosolveit.eu/">DeepDaph</a></td>
+  </tr>
+  <tr>
+    <td>Model</td>
+    <td><a href="https://funmappone.cloud.nanosolveit.eu/">FunMappOne</a></td>
+  </tr>
+  <tr>
+    <td>Model</td>
+    <td><a href="https://nanofase.cloud.nanosolveit.eu/">NanoFASE Soil-water-organism model</a></td>
+  </tr>
+</table>
+
+### The Nanosafety Data Interface
+
+The <a name="tp6">Nanosafety Data Interface</a> provides access to data from a number of 
+EU NanoSafety Cluster projects [<a href="#citeref2">2</a>]:
+
+<table>
+  <tr>
+    <td><b>type</b></td>
+    <td><b>resource</b></td>
+  </tr>
+  <tr>
+    <td>Database</td>
+    <td><a href="https://search.data.enanomapper.net/about/aurora">aurora - eNanoMapper database</a></td>
+  </tr>
+  <tr>
+    <td>Database</td>
+    <td><a href="https://search.data.enanomapper.net/about/biorima">biorima - eNanoMapper database</a></td>
+  </tr>
+  <tr>
+    <td>Database</td>
+    <td><a href="https://search.data.enanomapper.net/about/calibrate">calibrate - eNanoMapper database</a></td>
+  </tr>
+  <tr>
+    <td>Database</td>
+    <td><a href="https://search.data.enanomapper.net/about/charisma">charisma - eNanoMapper database</a></td>
+  </tr>
+  <tr>
+    <td>Database</td>
+    <td><a href="https://search.data.enanomapper.net/about/cusp">cusp - eNanoMapper database</a></td>
+  </tr>
+  <tr>
+    <td>Database</td>
+    <td><a href="https://search.data.enanomapper.net/about/enanomapper">enanomapper - eNanoMapper database</a></td>
+  </tr>
+  <tr>
+    <td>Database</td>
+    <td><a href="https://search.data.enanomapper.net/about/gov4nano">gov4nano - eNanoMapper database</a></td>
+  </tr>
+  <tr>
+    <td>Database</td>
+    <td><a href="https://search.data.enanomapper.net/about/gracious">gracious - eNanoMapper database</a></td>
+  </tr>
+  <tr>
+    <td>Database</td>
+    <td><a href="https://search.data.enanomapper.net/about/harmless">harmless - eNanoMapper database</a></td>
+  </tr>
+  <tr>
+    <td>Database</td>
+    <td><a href="https://search.data.enanomapper.net/about/imptox">imptox - eNanoMapper database</a></td>
+  </tr>
+  <tr>
+    <td>Database</td>
+    <td><a href="https://search.data.enanomapper.net/about/nanoinformatix">nanoinformatix - eNanoMapper database</a></td>
+  </tr>
+  <tr>
+    <td>Database</td>
+    <td><a href="https://search.data.enanomapper.net/about/nanoreg">nanoreg - eNanoMapper database</a></td>
+  </tr>
+  <tr>
+    <td>Database</td>
+    <td><a href="https://search.data.enanomapper.net/about/nanoreg2">nanoreg2 - eNanoMapper database</a></td>
+  </tr>
+  <tr>
+    <td>Database</td>
+    <td><a href="https://search.data.enanomapper.net/about/patrols">patrols - eNanoMapper database</a></td>
+  </tr>
+  <tr>
+    <td>Database</td>
+    <td><a href="https://search.data.enanomapper.net/about/plasticfate">plasticfate - eNanoMapper database</a></td>
+  </tr>
+  <tr>
+    <td>Database</td>
+    <td><a href="https://search.data.enanomapper.net/about/plasticheal">plasticheal - eNanoMapper database</a></td>
+  </tr>
+  <tr>
+    <td>Database</td>
+    <td><a href="https://search.data.enanomapper.net/about/polyrisk">polyrisk - eNanoMapper database</a></td>
+  </tr>
+  <tr>
+    <td>Database</td>
+    <td><a href="https://search.data.enanomapper.net/about/riskgone">riskgone - eNanoMapper database</a></td>
+  </tr>
+  <tr>
+    <td>Database</td>
+    <td><a href="https://search.data.enanomapper.net/about/sabydoma">sabydoma - eNanoMapper database</a></td>
+  </tr>
+  <tr>
+    <td>Database</td>
+    <td><a href="https://search.data.enanomapper.net/about/sabyna">sabyna - eNanoMapper database</a></td>
+  </tr>
+  <tr>
+    <td>Database</td>
+    <td><a href="https://search.data.enanomapper.net/about/sbd4nano">sbd4nano - eNanoMapper database</a></td>
+  </tr>
+  <tr>
+    <td>Database</td>
+    <td><a href="https://search.data.enanomapper.net/about/sunshine">sunshine - eNanoMapper database</a></td>
+  </tr>
+</table>
+
 ### Licenses
 
 Not all resources have licenses that allow us to immediately use them, but require acquiring a license.
@@ -153,110 +381,7 @@ This gives us:
     <td>1</td>
     <td>https://search.data.enanomapper.net/about/aurora</td>
   </tr>
-  <tr>
-    <td>1</td>
-    <td>https://search.data.enanomapper.net/about/biorima</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://search.data.enanomapper.net/about/calibrate</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://search.data.enanomapper.net/about/charisma</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://search.data.enanomapper.net/about/cusp</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://search.data.enanomapper.net/about/enanomapper</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://search.data.enanomapper.net/about/gov4nano</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://search.data.enanomapper.net/about/gracious</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://search.data.enanomapper.net/about/harmless</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://search.data.enanomapper.net/about/imptox</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://search.data.enanomapper.net/about/nanoinformatix</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://search.data.enanomapper.net/about/nanoreg</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://search.data.enanomapper.net/about/nanoreg2</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://search.data.enanomapper.net/about/patrols</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://search.data.enanomapper.net/about/plasticfate</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://search.data.enanomapper.net/about/plasticheal</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://search.data.enanomapper.net/about/polyrisk</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://search.data.enanomapper.net/about/riskgone</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://search.data.enanomapper.net/about/sabydoma</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://search.data.enanomapper.net/about/sabyna</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://search.data.enanomapper.net/about/sbd4nano</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://search.data.enanomapper.net/about/sunshine</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://creativecommons.org/licenses/by-nc/4.0/legalcode</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://springernature.figshare.com/articles/dataset/MOESM1_of_Role_of_chemical_composition_and_redox_modification_of_poorly_soluble_nanomaterials_on_their_ability_to_enhance_allergic_airway_sensitisation_in_mice/10071023</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://springernature.figshare.com/articles/dataset/MOESM1_of_Role_of_chemical_composition_and_redox_modification_of_poorly_soluble_nanomaterials_on_their_ability_to_enhance_allergic_airway_sensitisation_in_mice/10071032</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://creativecommons.org/share-your-work/public-domain/cc0</td>
-  </tr>
+  <tr><td colspan="2">This table is truncated. See the full table at <a href="sparql/allLicenses.code.html">sparql/allLicenses.rq</a></td></tr>
 </table>
 
 
@@ -264,7 +389,7 @@ This gives us:
 
 Each data source can provide information about different
 resource types. This table gives an overview for each metadata
-source what information is provided as basic <a name="tp4">statistics</a>:
+source what information is provided as basic <a name="tp7">statistics</a>:
 
 <table>
   <tr>
@@ -381,3 +506,10 @@ source what information is provided as basic <a name="tp4">statistics</a>:
 
 If metadata sources are not listed here, then they are likely not
 described by a data descriptor header file.
+
+
+## References
+
+1. <a name="citeref1"></a>Afantitis A, Melagraki G, Isigonis P, Tsoumanis A, Varsou DD, Valsami-Jones E, et al. NanoSolveIT Project: Driving nanoinformatics research to develop innovative and integrated tools for in silico nanosafety assessment. Comput Struct Biotechnol J. 2020 Mar 7;18:583–602.  doi:[10.1016/J.CSBJ.2020.02.023](https://doi.org/10.1016/J.CSBJ.2020.02.023) ([Scholia](https://scholia.toolforge.org/doi/10.1016/J.CSBJ.2020.02.023))
+2. <a name="citeref2"></a>Jeliazkova N, Apostolova MD, Andreoli C, Barone F, Barrick A, Battistelli C, et al. Towards FAIR nanosafety data. Nat Nanotechnol. 2021 May 20;16(6):644–54.  doi:[10.1038/S41565-021-00911-6](https://doi.org/10.1038/S41565-021-00911-6) ([Scholia](https://scholia.toolforge.org/doi/10.1038/S41565-021-00911-6))
+

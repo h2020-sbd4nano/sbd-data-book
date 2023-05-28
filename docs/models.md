@@ -4,14 +4,14 @@
 
 We can list all <a name="tp1">models</a> with the following query:
 
-**SPARQL** [sparql/allModels.rq](sparql/allModels.code.html) ([run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20rdfs%3A%20%20%20%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0APREFIX%20sbd%3A%20%20%20%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Frdf%2F%23%3E%0APREFIX%20dc%3A%20%20%20%20%20%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%3E%0APREFIX%20dct%3A%20%20%20%20%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0A%0ASELECT%20%3Fmodel%20%3Flabel%20%3Fprovider%20WHERE%20%7B%0A%20%20%3Fmodel%20a%20sbd%3AModel%20%3B%20rdfs%3Alabel%20%3Flabel%20%3B%0A%20%20%20%20%20dc%3Asource%2Fdct%3Atitle%20%3Fprovider%0A%7D%20ORDER%20BY%20%3Fmodel%0A))
+**SPARQL** [sparql/allModels.rq](sparql/allModels.code.html) ([run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20rdfs%3A%20%20%20%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0APREFIX%20sbd%3A%20%20%20%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Frdf%2F%23%3E%0APREFIX%20dc%3A%20%20%20%20%20%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%3E%0APREFIX%20dct%3A%20%20%20%20%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0A%0ASELECT%20%3Fmodel%20%3FmodeLabel%20%3Fprovider%20WHERE%20%7B%0A%20%20%3Fmodel%20a%20sbd%3AModel%20%3B%20rdfs%3Alabel%20%3FmodelLabel%20%3B%0A%20%20%20%20%20dc%3Asource%2Fdct%3Atitle%20%3Fprovider%0A%7D%20ORDER%20BY%20%3Fmodel%0A))
 ```sparql
 PREFIX rdfs:    <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX sbd:     <https://www.sbd4nano.eu/rdf/#>
 PREFIX dc:      <http://purl.org/dc/elements/1.1/>
 PREFIX dct:     <http://purl.org/dc/terms/>
-SELECT ?model ?label ?provider WHERE {
-  ?model a sbd:Model ; rdfs:label ?label ;
+SELECT ?model ?modeLabel ?provider WHERE {
+  ?model a sbd:Model ; rdfs:label ?modelLabel ;
      dc:source/dct:title ?provider
 } ORDER BY ?model
 ```
@@ -21,122 +21,98 @@ This gives us:
 <table>
   <tr>
     <td><b>model</b></td>
-    <td><b>label</b></td>
     <td><b>provider</b></td>
   </tr>
   <tr>
     <td>http://enaloscloud.novamechanics.com/EnalosWebApps/ZetaPotential/</td>
-    <td>PhysChem: Zeta potential NanoXtract model</td>
     <td>NanoSolveIT Tools</td>
   </tr>
   <tr>
     <td>https://aerosol.cloud.nanosolveit.eu/</td>
-    <td>NanoSolveIT Tool for Assessment of Human Exposure to Nanomaterials</td>
     <td>NanoSolveIT Tools</td>
   </tr>
   <tr>
     <td>https://atena.urv.cat/model/#Anantha2021</td>
-    <td>Nanocompound: Toxicity Metal-Oxide: Anantha 2021</td>
     <td>SbD4nano Nanocompound</td>
   </tr>
   <tr>
     <td>https://atena.urv.cat/model/#Gajewicz2015</td>
-    <td>Nanocompound: Toxicity Metal-Oxide: Gajewicz 2015</td>
     <td>SbD4nano Nanocompound</td>
   </tr>
   <tr>
     <td>https://atena.urv.cat/model/#Papa2015-TiO2</td>
-    <td>Nanocompound: LDH(TiO2)</td>
     <td>SbD4nano Nanocompound</td>
   </tr>
   <tr>
     <td>https://atena.urv.cat/model/#Papa2015-TiO2ZnO</td>
-    <td>Nanocompound: LDH(TiO2+ZnO)</td>
     <td>SbD4nano Nanocompound</td>
   </tr>
   <tr>
     <td>https://atena.urv.cat/model/#Papa2015-ZnO</td>
-    <td>Nanocompound: LDH(TiO2+ZnO)</td>
     <td>SbD4nano Nanocompound</td>
   </tr>
   <tr>
     <td>https://atena.urv.cat/model/#Puzyn2011</td>
-    <td>Nanocompound: Toxicity Metal-Oxide: Puzyn 2011</td>
     <td>SbD4nano Nanocompound</td>
   </tr>
   <tr>
     <td>https://atena.urv.cat/model/#Serratosa2022</td>
-    <td>Nanocompound: Toxicity Metal-Oxide: Serratosa2022</td>
     <td>SbD4nano Nanocompound</td>
   </tr>
   <tr>
     <td>https://atena.urv.cat/model/#Serratosa2022-TiO2</td>
-    <td>Nanocompound: LDH(TiO2): Serratosa2022</td>
     <td>SbD4nano Nanocompound</td>
   </tr>
   <tr>
     <td>https://atena.urv.cat/model/#Serratosa2022-TiO2ZnO</td>
-    <td>Nanocompound: LDH(TiO2+ZnO): Serratosa2022</td>
     <td>SbD4nano Nanocompound</td>
   </tr>
   <tr>
     <td>https://atena.urv.cat/model/#Serratosa2022-ZnO</td>
-    <td>Nanocompound: LDH(ZnO): Serratosa2022</td>
     <td>SbD4nano Nanocompound</td>
   </tr>
   <tr>
     <td>https://cellviability.cloud.nanosolveit.eu/</td>
-    <td>NanoSolveIT Cytotoxicity (Cell Viability) Prediction for Metal Oxide NPs</td>
     <td>NanoSolveIT Tools</td>
   </tr>
   <tr>
     <td>https://deepdaph.cloud.nanosolveit.eu/</td>
-    <td>DeepDaph</td>
     <td>NanoSolveIT Tools</td>
   </tr>
   <tr>
     <td>https://funmappone.cloud.nanosolveit.eu/</td>
-    <td>FunMappOne</td>
     <td>NanoSolveIT Tools</td>
   </tr>
   <tr>
     <td>https://identifiers.org/aop/10</td>
-    <td>Binding to the picrotoxin site of ionotropic GABA receptors leading to epileptic seizures in adult brain</td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
     <td>https://identifiers.org/aop/100</td>
-    <td>Cyclooxygenase inhibition leading to reproductive dysfunction via inhibition of female spawning behavior</td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
     <td>https://identifiers.org/aop/101</td>
-    <td>Cyclooxygenase inhibition leading to reproductive dysfunction via inhibition of pheromone release</td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
     <td>https://identifiers.org/aop/102</td>
-    <td>Cyclooxygenase inhibition leading to reproductive dysfunction via interference with meiotic prophase I /metaphase I transition</td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
     <td>https://identifiers.org/aop/103</td>
-    <td>Cyclooxygenase inhibition leading to reproductive dysfunction via interference with spindle assembly checkpoint</td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
     <td>https://identifiers.org/aop/104</td>
-    <td>Altered ion channel activity leading impaired heart function</td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
     <td>https://identifiers.org/aop/106</td>
-    <td>Chemical binding to tubulin in oocytes leading to aneuploid offspring</td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
     <td>https://identifiers.org/aop/107</td>
-    <td>Constitutive androstane receptor activation leading to hepatocellular adenomas and carcinomas in the mouse and the rat</td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr><td colspan="2">This table is truncated. See the full table at <a href="sparql/allModels.code.html">sparql/allModels.rq</a></td></tr>
