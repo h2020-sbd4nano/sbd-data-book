@@ -12,8 +12,8 @@ PREFIX dcterms: <http://purl.org/dc/terms/>
 
 SELECT DISTINCT ?cause ?type ?outcome ?material ?evidence
 WHERE {
-  ?relation a sbdbel:CausalAssertion ;
-              sbdbel:relationship ?type .
+  VALUES ?ca { sbdbel:CausalAssertion sbd:CausalAssertion }
+  ?relation a ?ca ; sbdbel:relationship ?type .
   OPTIONAL { ?relation sbdbel:cause / rdfs:label ?cause . }
   OPTIONAL { ?relation sbdbel:outcome / rdfs:label ?outcome . }
   OPTIONAL { ?relation sbdbel:NP / rdfs:label ?material . }

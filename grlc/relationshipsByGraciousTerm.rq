@@ -12,7 +12,8 @@ PREFIX dcterms: <http://purl.org/dc/terms/>
 
 SELECT ?category ?term (COUNT(DISTINCT ?relation) AS ?count)
 WHERE {
-  ?relation a sbdbel:CausalAssertion ;
+  VALUES ?ca { sbdbel:CausalAssertion sbd:CausalAssertion }
+  ?relation a ?ca ;
     sbdbel:outcome ?outcome .
   ?outcome sbdbel:term ?term ;
        sbdbel:termCat ?category .

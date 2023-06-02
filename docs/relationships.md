@@ -7,7 +7,7 @@ by, for example, nanomaterial they are applicable too, by cause, and by effect.
 
 ## Relationships for nanomaterials
 
-**SPARQL** [sparql/relationshipsByMaterial.rq](sparql/relationshipsByMaterial.code.html) ([run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20sbd%3A%20%20%20%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Frdf%2F%23%3E%0APREFIX%20sbdbel%3A%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Fbel%2F%23%3E%0APREFIX%20dc%3A%20%20%20%20%20%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%3E%0APREFIX%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0A%0ASELECT%20%3Fmaterial%20%28COUNT%28DISTINCT%20%3Frelation%29%20AS%20%3Fcount%29%0AWHERE%20%7B%0A%20%20%3Frelation%20a%20sbdbel%3ACausalAssertion%20%3B%0A%20%20%20%20sbdbel%3ANP%20%3FmaterialIRI%20.%0A%20%20%3FmaterialIRI%20rdfs%3Alabel%20%3Fmaterial%20.%0A%7D%20GROUP%20BY%20%3Fmaterial%0A%20%20ORDER%20BY%20DESC%28%3Fcount%29%0A))
+**SPARQL** [sparql/relationshipsByMaterial.rq](sparql/relationshipsByMaterial.code.html) ([run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20sbd%3A%20%20%20%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Frdf%2F%23%3E%0APREFIX%20sbdbel%3A%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Fbel%2F%23%3E%0APREFIX%20dc%3A%20%20%20%20%20%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%3E%0APREFIX%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0A%0ASELECT%20%3Fmaterial%20%28COUNT%28DISTINCT%20%3Frelation%29%20AS%20%3Fcount%29%0AWHERE%20%7B%0A%20%20VALUES%20%3Fca%20%7B%20sbdbel%3ACausalAssertion%20sbd%3ACausalAssertion%20%7D%0A%20%20%3Frelation%20a%20%3Fca%20%3B%0A%20%20%20%20sbdbel%3ANP%20%3FmaterialIRI%20.%0A%20%20%3FmaterialIRI%20rdfs%3Alabel%20%3Fmaterial%20.%0A%7D%20GROUP%20BY%20%3Fmaterial%0A%20%20ORDER%20BY%20DESC%28%3Fcount%29%0A))
 ```sparql
 PREFIX sbd:     <https://www.sbd4nano.eu/rdf/#>
 PREFIX sbdbel:  <https://www.sbd4nano.eu/bel/#>
@@ -15,7 +15,8 @@ PREFIX dc:      <http://purl.org/dc/elements/1.1/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 SELECT ?material (COUNT(DISTINCT ?relation) AS ?count)
 WHERE {
-  ?relation a sbdbel:CausalAssertion ;
+  VALUES ?ca { sbdbel:CausalAssertion sbd:CausalAssertion }
+  ?relation a ?ca ;
     sbdbel:NP ?materialIRI .
   ?materialIRI rdfs:label ?material .
 } GROUP BY ?material
@@ -53,7 +54,7 @@ This gives us:
 
 ## Relationships by cause
 
-**SPARQL** [sparql/relationshipsByCause.rq](sparql/relationshipsByCause.code.html) ([run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20sbd%3A%20%20%20%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Frdf%2F%23%3E%0APREFIX%20sbdbel%3A%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Fbel%2F%23%3E%0APREFIX%20dc%3A%20%20%20%20%20%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%3E%0APREFIX%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0A%0ASELECT%20%3Fcause%20%28COUNT%28DISTINCT%20%3Frelation%29%20AS%20%3Fcount%29%0AWHERE%20%7B%0A%20%20%3Frelation%20a%20sbdbel%3ACausalAssertion%20%3B%0A%20%20%20%20sbdbel%3Acause%20%2F%20rdfs%3Alabel%20%3Fcause%20.%0A%7D%20GROUP%20BY%20%3Fcause%0A%20%20ORDER%20BY%20DESC%28%3Fcount%29%20ASC%28%3Fcause%29%0A))
+**SPARQL** [sparql/relationshipsByCause.rq](sparql/relationshipsByCause.code.html) ([run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20sbd%3A%20%20%20%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Frdf%2F%23%3E%0APREFIX%20sbdbel%3A%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Fbel%2F%23%3E%0APREFIX%20dc%3A%20%20%20%20%20%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%3E%0APREFIX%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0A%0ASELECT%20%3Fcause%20%28COUNT%28DISTINCT%20%3Frelation%29%20AS%20%3Fcount%29%0AWHERE%20%7B%0A%20%20VALUES%20%3Fca%20%7B%20sbdbel%3ACausalAssertion%20sbd%3ACausalAssertion%20%7D%0A%20%20%3Frelation%20a%20%3Fca%20%3B%0A%20%20%20%20sbdbel%3Acause%20%2F%20rdfs%3Alabel%20%3Fcause%20.%0A%7D%20GROUP%20BY%20%3Fcause%0A%20%20ORDER%20BY%20DESC%28%3Fcount%29%20ASC%28%3Fcause%29%0A))
 ```sparql
 PREFIX sbd:     <https://www.sbd4nano.eu/rdf/#>
 PREFIX sbdbel:  <https://www.sbd4nano.eu/bel/#>
@@ -61,7 +62,8 @@ PREFIX dc:      <http://purl.org/dc/elements/1.1/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 SELECT ?cause (COUNT(DISTINCT ?relation) AS ?count)
 WHERE {
-  ?relation a sbdbel:CausalAssertion ;
+  VALUES ?ca { sbdbel:CausalAssertion sbd:CausalAssertion }
+  ?relation a ?ca ;
     sbdbel:cause / rdfs:label ?cause .
 } GROUP BY ?cause
   ORDER BY DESC(?count) ASC(?cause)
@@ -87,6 +89,14 @@ This gives us:
     <td>18</td>
   </tr>
   <tr>
+    <td>Dose</td>
+    <td>14</td>
+  </tr>
+  <tr>
+    <td>exposure</td>
+    <td>13</td>
+  </tr>
+  <tr>
     <td>N/A, Mitochondrial dysfunction 1</td>
     <td>13</td>
   </tr>
@@ -109,6 +119,18 @@ This gives us:
   <tr>
     <td>Increased, Reactive oxygen species</td>
     <td>10</td>
+  </tr>
+  <tr>
+    <td>coating/surface chemistry</td>
+    <td>9</td>
+  </tr>
+  <tr>
+    <td>core composition</td>
+    <td>9</td>
+  </tr>
+  <tr>
+    <td>size</td>
+    <td>9</td>
   </tr>
   <tr>
     <td>Deposition of Ionizing Energy</td>
@@ -143,27 +165,7 @@ This gives us:
     <td>7</td>
   </tr>
   <tr>
-    <td>Agonism, Androgen receptor</td>
-    <td>6</td>
-  </tr>
-  <tr>
-    <td>Decrease, Adenosine triphosphate pool</td>
-    <td>6</td>
-  </tr>
-  <tr>
-    <td>Decreased, serotonin transporter activity</td>
-    <td>6</td>
-  </tr>
-  <tr>
-    <td>Increase, Apoptosis</td>
-    <td>6</td>
-  </tr>
-  <tr>
-    <td>Increase, Cell Proliferation</td>
-    <td>6</td>
-  </tr>
-  <tr>
-    <td>Increase, Cell death</td>
+    <td>lateral dimension</td>
     <td>6</td>
   </tr>
   <tr><td colspan="2">This table is truncated. See the full table at <a href="sparql/relationshipsByCause.code.html">sparql/relationshipsByCause.rq</a></td></tr>
@@ -171,7 +173,7 @@ This gives us:
 
 ## Relationships by outcome
 
-**SPARQL** [sparql/relationshipsByOutcome.rq](sparql/relationshipsByOutcome.code.html) ([run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20sbd%3A%20%20%20%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Frdf%2F%23%3E%0APREFIX%20sbdbel%3A%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Fbel%2F%23%3E%0APREFIX%20dc%3A%20%20%20%20%20%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%3E%0APREFIX%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0A%0ASELECT%20%3Foutcome%20%28COUNT%28DISTINCT%20%3Frelation%29%20AS%20%3Fcount%29%0AWHERE%20%7B%0A%20%20%3Frelation%20a%20sbdbel%3ACausalAssertion%20%3B%0A%20%20%20%20sbdbel%3Aoutcome%20%2F%20rdfs%3Alabel%20%3Foutcome%20.%0A%7D%20GROUP%20BY%20%3Foutcome%0A%20%20ORDER%20BY%20DESC%28%3Fcount%29%0A))
+**SPARQL** [sparql/relationshipsByOutcome.rq](sparql/relationshipsByOutcome.code.html) ([run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20sbd%3A%20%20%20%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Frdf%2F%23%3E%0APREFIX%20sbdbel%3A%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Fbel%2F%23%3E%0APREFIX%20dc%3A%20%20%20%20%20%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%3E%0APREFIX%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0A%0ASELECT%20%3Foutcome%20%28COUNT%28DISTINCT%20%3Frelation%29%20AS%20%3Fcount%29%0AWHERE%20%7B%0A%20%20VALUES%20%3Fca%20%7B%20sbdbel%3ACausalAssertion%20sbd%3ACausalAssertion%20%7D%0A%20%20%3Frelation%20a%20%3Fca%20%3B%0A%20%20%20%20sbdbel%3Aoutcome%20%2F%20rdfs%3Alabel%20%3Foutcome%20.%0A%7D%20GROUP%20BY%20%3Foutcome%0A%20%20ORDER%20BY%20DESC%28%3Fcount%29%0A))
 ```sparql
 PREFIX sbd:     <https://www.sbd4nano.eu/rdf/#>
 PREFIX sbdbel:  <https://www.sbd4nano.eu/bel/#>
@@ -179,7 +181,8 @@ PREFIX dc:      <http://purl.org/dc/elements/1.1/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 SELECT ?outcome (COUNT(DISTINCT ?relation) AS ?count)
 WHERE {
-  ?relation a sbdbel:CausalAssertion ;
+  VALUES ?ca { sbdbel:CausalAssertion sbd:CausalAssertion }
+  ?relation a ?ca ;
     sbdbel:outcome / rdfs:label ?outcome .
 } GROUP BY ?outcome
   ORDER BY DESC(?count)
@@ -201,6 +204,14 @@ This gives us:
     <td>16</td>
   </tr>
   <tr>
+    <td>toxicity</td>
+    <td>16</td>
+  </tr>
+  <tr>
+    <td>cell uptake (amount)</td>
+    <td>15</td>
+  </tr>
+  <tr>
     <td>Cell injury/death</td>
     <td>14</td>
   </tr>
@@ -213,11 +224,15 @@ This gives us:
     <td>11</td>
   </tr>
   <tr>
-    <td>Apoptosis</td>
-    <td>9</td>
+    <td>ROS production</td>
+    <td>10</td>
   </tr>
   <tr>
     <td>Increased, secretion of proinflammatory mediators</td>
+    <td>9</td>
+  </tr>
+  <tr>
+    <td>Apoptosis</td>
     <td>9</td>
   </tr>
   <tr>
@@ -229,15 +244,11 @@ This gives us:
     <td>9</td>
   </tr>
   <tr>
-    <td>Increase, Cell death</td>
-    <td>8</td>
-  </tr>
-  <tr>
     <td>N/A, Mitochondrial dysfunction 1</td>
     <td>8</td>
   </tr>
   <tr>
-    <td>Increased, Oxidative Stress</td>
+    <td>Increase, Cell death</td>
     <td>8</td>
   </tr>
   <tr>
@@ -245,11 +256,11 @@ This gives us:
     <td>8</td>
   </tr>
   <tr>
-    <td>Oxidative Stress </td>
-    <td>7</td>
+    <td>Increased, Oxidative Stress</td>
+    <td>8</td>
   </tr>
   <tr>
-    <td>Increase, Oocyte apoptosis</td>
+    <td>Oxidative Stress </td>
     <td>7</td>
   </tr>
   <tr>
@@ -257,7 +268,7 @@ This gives us:
     <td>7</td>
   </tr>
   <tr>
-    <td>Increase, Mortality</td>
+    <td>Increase, Oocyte apoptosis</td>
     <td>7</td>
   </tr>
   <tr>
@@ -265,24 +276,16 @@ This gives us:
     <td>7</td>
   </tr>
   <tr>
+    <td>Increase, Mortality</td>
+    <td>7</td>
+  </tr>
+  <tr>
+    <td>protein corona</td>
+    <td>7</td>
+  </tr>
+  <tr>
     <td>Increased, Liver Steatosis</td>
     <td>7</td>
-  </tr>
-  <tr>
-    <td>Decrease, Reproduction</td>
-    <td>7</td>
-  </tr>
-  <tr>
-    <td>Decrease, Lung function</td>
-    <td>6</td>
-  </tr>
-  <tr>
-    <td>Decrease, Adenosine triphosphate pool</td>
-    <td>6</td>
-  </tr>
-  <tr>
-    <td>Neuroinflammation</td>
-    <td>6</td>
   </tr>
   <tr><td colspan="2">This table is truncated. See the full table at <a href="sparql/relationshipsByOutcome.code.html">sparql/relationshipsByOutcome.rq</a></td></tr>
 </table>
@@ -298,7 +301,7 @@ Or by Gracious [<a href="#citeref1">1</a>] term:
 
 We can also list all relationships:
 
-**SPARQL** [sparql/allCausalRelationships.rq](sparql/allCausalRelationships.code.html) ([run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20sbd%3A%20%20%20%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Frdf%2F%23%3E%0APREFIX%20sbdbel%3A%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Fbel%2F%23%3E%0APREFIX%20dc%3A%20%20%20%20%20%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%3E%0APREFIX%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0A%0ASELECT%20DISTINCT%20%3Fcause%20%3Ftype%20%3Foutcome%20%3Fmaterial%20%3Fevidence%0AWHERE%20%7B%0A%20%20%3Frelation%20a%20sbdbel%3ACausalAssertion%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20sbdbel%3Arelationship%20%3Ftype%20.%0A%20%20OPTIONAL%20%7B%20%3Frelation%20sbdbel%3Acause%20%2F%20rdfs%3Alabel%20%3Fcause%20.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Frelation%20sbdbel%3Aoutcome%20%2F%20rdfs%3Alabel%20%3Foutcome%20.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Frelation%20sbdbel%3ANP%20%2F%20rdfs%3Alabel%20%3Fmaterial%20.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Frelation%20sbdbel%3Aevidence%20%3Fevidence%20.%20%7D%0A%7D%20ORDER%20BY%20DESC%28%3Frelation%29%0A))
+**SPARQL** [sparql/allCausalRelationships.rq](sparql/allCausalRelationships.code.html) ([run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20sbd%3A%20%20%20%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Frdf%2F%23%3E%0APREFIX%20sbdbel%3A%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Fbel%2F%23%3E%0APREFIX%20dc%3A%20%20%20%20%20%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%3E%0APREFIX%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0A%0ASELECT%20DISTINCT%20%3Fcause%20%3Ftype%20%3Foutcome%20%3Fmaterial%20%3Fevidence%0AWHERE%20%7B%0A%20%20VALUES%20%3Fca%20%7B%20sbdbel%3ACausalAssertion%20sbd%3ACausalAssertion%20%7D%0A%20%20%3Frelation%20a%20%3Fca%20%3B%20sbdbel%3Arelationship%20%3Ftype%20.%0A%20%20OPTIONAL%20%7B%20%3Frelation%20sbdbel%3Acause%20%2F%20rdfs%3Alabel%20%3Fcause%20.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Frelation%20sbdbel%3Aoutcome%20%2F%20rdfs%3Alabel%20%3Foutcome%20.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Frelation%20sbdbel%3ANP%20%2F%20rdfs%3Alabel%20%3Fmaterial%20.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Frelation%20sbdbel%3Aevidence%20%3Fevidence%20.%20%7D%0A%7D%20ORDER%20BY%20DESC%28%3Frelation%29%0A))
 ```sparql
 PREFIX sbd:     <https://www.sbd4nano.eu/rdf/#>
 PREFIX sbdbel:  <https://www.sbd4nano.eu/bel/#>
@@ -306,8 +309,8 @@ PREFIX dc:      <http://purl.org/dc/elements/1.1/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 SELECT DISTINCT ?cause ?type ?outcome ?material ?evidence
 WHERE {
-  ?relation a sbdbel:CausalAssertion ;
-              sbdbel:relationship ?type .
+  VALUES ?ca { sbdbel:CausalAssertion sbd:CausalAssertion }
+  ?relation a ?ca ; sbdbel:relationship ?type .
   OPTIONAL { ?relation sbdbel:cause / rdfs:label ?cause . }
   OPTIONAL { ?relation sbdbel:outcome / rdfs:label ?outcome . }
   OPTIONAL { ?relation sbdbel:NP / rdfs:label ?material . }

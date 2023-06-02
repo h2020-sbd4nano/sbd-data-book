@@ -12,8 +12,8 @@ PREFIX dcterms: <http://purl.org/dc/terms/>
 
 SELECT DISTINCT ?cause ?type ?outcome ?material ?evidence
 WHERE {
-  ?relation a sbdbel:CausalAssertion ;
-              sbdbel:relationship ?type .
+  VALUES ?ca { sbdbel:CausalAssertion sbd:CausalAssertion }
+  ?relation a ?ca ; sbdbel:relationship ?type .
   OPTIONAL { ?relation sbdbel:cause / rdfs:label ?cause . }
   OPTIONAL { ?relation sbdbel:outcome / rdfs:label ?outcome . }
   OPTIONAL { ?relation sbdbel:NP / rdfs:label ?material . }
@@ -21,7 +21,7 @@ WHERE {
 } ORDER BY DESC(?relation)
 ```
 
-[run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20sbd%3A%20%20%20%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Frdf%2F%23%3E%0APREFIX%20sbdbel%3A%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Fbel%2F%23%3E%0APREFIX%20dc%3A%20%20%20%20%20%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%3E%0APREFIX%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0A%0ASELECT%20DISTINCT%20%3Fcause%20%3Ftype%20%3Foutcome%20%3Fmaterial%20%3Fevidence%0AWHERE%20%7B%0A%20%20%3Frelation%20a%20sbdbel%3ACausalAssertion%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20sbdbel%3Arelationship%20%3Ftype%20.%0A%20%20OPTIONAL%20%7B%20%3Frelation%20sbdbel%3Acause%20%2F%20rdfs%3Alabel%20%3Fcause%20.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Frelation%20sbdbel%3Aoutcome%20%2F%20rdfs%3Alabel%20%3Foutcome%20.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Frelation%20sbdbel%3ANP%20%2F%20rdfs%3Alabel%20%3Fmaterial%20.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Frelation%20sbdbel%3Aevidence%20%3Fevidence%20.%20%7D%0A%7D%20ORDER%20BY%20DESC%28%3Frelation%29%0A)
+[run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20sbd%3A%20%20%20%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Frdf%2F%23%3E%0APREFIX%20sbdbel%3A%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Fbel%2F%23%3E%0APREFIX%20dc%3A%20%20%20%20%20%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%3E%0APREFIX%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0A%0ASELECT%20DISTINCT%20%3Fcause%20%3Ftype%20%3Foutcome%20%3Fmaterial%20%3Fevidence%0AWHERE%20%7B%0A%20%20VALUES%20%3Fca%20%7B%20sbdbel%3ACausalAssertion%20sbd%3ACausalAssertion%20%7D%0A%20%20%3Frelation%20a%20%3Fca%20%3B%20sbdbel%3Arelationship%20%3Ftype%20.%0A%20%20OPTIONAL%20%7B%20%3Frelation%20sbdbel%3Acause%20%2F%20rdfs%3Alabel%20%3Fcause%20.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Frelation%20sbdbel%3Aoutcome%20%2F%20rdfs%3Alabel%20%3Foutcome%20.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Frelation%20sbdbel%3ANP%20%2F%20rdfs%3Alabel%20%3Fmaterial%20.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Frelation%20sbdbel%3Aevidence%20%3Fevidence%20.%20%7D%0A%7D%20ORDER%20BY%20DESC%28%3Frelation%29%0A)
 
 
 ### Output
@@ -12337,6 +12337,2855 @@ WHERE {
     <td>Increase, Incomplete ecdysis</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
     <td>Increase, Mortality</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>lysosomal damage</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>ROS production</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>cathepsins</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>mitochondrial damage</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dose</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>ROS production</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dose</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>ROS production</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>coating/surface chemistry</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>ROS production</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>coating/surface chemistry</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>ROS production</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dose</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>aggregation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dose</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>aggregation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>coating/surface chemistry</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>aggregation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>coating/surface chemistry</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>aggregation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>lysosomal damage</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>cathepsins</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>cell uptake (amount)</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>lysosomal damage</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Phagocytosis</td>
+    <td>https://www.sbd4nano.eu/bel/#kindOf</td>
+    <td>cell uptake (type)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>size</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>Phagocytosis</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Pottasium</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>inflammasome activation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>caspase-1</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>mature IL-1β</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>pro-caspase-1</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>caspase-1</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>pro-interleukin (IL)-1β</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>mature IL-1β</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>NF-κB activation</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>pro-interleukin (IL)-1β</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>NF-κB activation</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>NLRP3 expression</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>core composition</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>cell viability</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>core composition</td>
+    <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
+    <td>cell viability</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>lateral dimension</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>cell viability</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>lateral dimension</td>
+    <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
+    <td>cell viability</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>core composition</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>Zeta-potential</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>core composition</td>
+    <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
+    <td>Zeta-potential</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>lateral dimension</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>Zeta-potential</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>lateral dimension</td>
+    <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
+    <td>Zeta-potential</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>inflammasome activation</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>pro-caspase-1</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>inflammasome activation</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>apoptosis-associated speck-like protein containing a CARD</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>inflammasome activation</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>NLRP3 expression</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>ROS production</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>inflammasome activation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>ROS production</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>oxidative stress</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>NADPH oxidase (NOX1) activation</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>ROS production</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>aspect ratio (HARN)</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>NADPH oxidase (NOX1) activation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>aspect ratio (HARN)</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>frustrated phagocytosis</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Toll-like receptors</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>NF-κB activation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Toll-like receptors</td>
+    <td>https://www.sbd4nano.eu/bel/#partOf</td>
+    <td>cell membrane</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>charge</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#DoesNotCorrelate</td>
+    <td>charge</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>core composition</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>charge</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>core composition</td>
+    <td>https://www.sbd4nano.eu/bel/#DoesNotCorrelate</td>
+    <td>charge</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>cell uptake (amount)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#DoesNotCorrelate</td>
+    <td>cell uptake (amount)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>core composition</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>cell uptake (amount)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>core composition</td>
+    <td>https://www.sbd4nano.eu/bel/#DoesNotCorrelate</td>
+    <td>cell uptake (amount)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Pathogen-associated molecular patterns</td>
+    <td>https://www.sbd4nano.eu/bel/#recognizedBy</td>
+    <td>Toll-like receptors</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>lipopolysaccharides</td>
+    <td>https://www.sbd4nano.eu/bel/#kindOf</td>
+    <td>Pathogen-associated molecular patterns</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>medium</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>light</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>light</td>
+    <td>https://www.sbd4nano.eu/bel/#positivelyCorrelates</td>
+    <td>photo-reactivity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>surface charge</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>cytotoxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>surface charge</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>cell uptake (amount)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>surface charge</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>charge</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Zeta-potential</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>sedimentation rate</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>deformability</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>shape</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>deformability</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>size</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>ROS production</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>ROS production</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>core composition</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>ROS production</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>core composition</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>ROS production</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>dissolution</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>dissolution</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>core composition</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>dissolution</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>core composition</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>dissolution</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>charge</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>protein corona</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>protein corona</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>cell uptake (amount)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>cell uptake (type)</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>cell uptake (amount)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>liver/spleen activity</td>
+    <td>https://www.sbd4nano.eu/bel/#negativelyCorrelates</td>
+    <td>concentration</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>surface area</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>dissolution</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>surface area</td>
+    <td>https://www.sbd4nano.eu/bel/#positivelyCorrelates</td>
+    <td>photo-reactivity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>size</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>protein corona</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>ROS production</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>cell uptake (type)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>ROS production</td>
+    <td>https://www.sbd4nano.eu/bel/#unknown</td>
+    <td>cell uptake (type)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>size</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>cell uptake (type)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>size</td>
+    <td>https://www.sbd4nano.eu/bel/#unknown</td>
+    <td>cell uptake (type)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>ROS production</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>cytotoxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>ROS production</td>
+    <td>https://www.sbd4nano.eu/bel/#unknown</td>
+    <td>cytotoxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>size</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>cytotoxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>size</td>
+    <td>https://www.sbd4nano.eu/bel/#unknown</td>
+    <td>cytotoxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>size</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>ROS production</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>size</td>
+    <td>https://www.sbd4nano.eu/bel/#unknown</td>
+    <td>ROS production</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#unknown</td>
+    <td>ROS production</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>size</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>liver/spleen activity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>size</td>
+    <td>https://www.sbd4nano.eu/bel/#unknown</td>
+    <td>liver/spleen activity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>liver/spleen activity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#unknown</td>
+    <td>liver/spleen activity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>size</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>size</td>
+    <td>https://www.sbd4nano.eu/bel/#unknown</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>time of exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>time of exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#unknown</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>size</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>surface area</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>size</td>
+    <td>https://www.sbd4nano.eu/bel/#unknown</td>
+    <td>surface area</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>time of exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>surface area</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>time of exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#unknown</td>
+    <td>surface area</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>quantum and tunneling effects</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>quantum and tunneling effects</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>core composition</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>quantum and tunneling effects</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>core composition</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>quantum and tunneling effects</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>lactate dehydrogenase</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>lactate dehydrogenase</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>core composition</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>lactate dehydrogenase</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>core composition</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>lactate dehydrogenase</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dose</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>kidney activity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dose</td>
+    <td>https://www.sbd4nano.eu/bel/#unknown</td>
+    <td>kidney activity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>size</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>kidney activity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>size</td>
+    <td>https://www.sbd4nano.eu/bel/#unknown</td>
+    <td>kidney activity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dose</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dose</td>
+    <td>https://www.sbd4nano.eu/bel/#unknown</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>cell type</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>cell type</td>
+    <td>https://www.sbd4nano.eu/bel/#unknown</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>cell type</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>dissolution</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>cell type</td>
+    <td>https://www.sbd4nano.eu/bel/#unknown</td>
+    <td>dissolution</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>size</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>dissolution</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>size</td>
+    <td>https://www.sbd4nano.eu/bel/#unknown</td>
+    <td>dissolution</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>size</td>
+    <td>https://www.sbd4nano.eu/bel/#negativelyCorrelates</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>layers</td>
+    <td>https://www.sbd4nano.eu/bel/#negativelyCorrelates</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>layers</td>
+    <td>https://www.sbd4nano.eu/bel/#unknown</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>size</td>
+    <td>https://www.sbd4nano.eu/bel/#negativelyCorrelates</td>
+    <td>photo-reactivity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>size</td>
+    <td>https://www.sbd4nano.eu/bel/#unknown</td>
+    <td>photo-reactivity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>layers</td>
+    <td>https://www.sbd4nano.eu/bel/#negativelyCorrelates</td>
+    <td>photo-reactivity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>layers</td>
+    <td>https://www.sbd4nano.eu/bel/#unknown</td>
+    <td>photo-reactivity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>size</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>aggregation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>size</td>
+    <td>https://www.sbd4nano.eu/bel/#unknown</td>
+    <td>aggregation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>lateral dimension</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>aggregation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>lateral dimension</td>
+    <td>https://www.sbd4nano.eu/bel/#unknown</td>
+    <td>aggregation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>lateral dimension</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>lateral dimension</td>
+    <td>https://www.sbd4nano.eu/bel/#unknown</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>coating/surface chemistry</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>coating/surface chemistry</td>
+    <td>https://www.sbd4nano.eu/bel/#unknown</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>enzyme degredation</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>enzyme degredation</td>
+    <td>https://www.sbd4nano.eu/bel/#unknown</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>coating/surface chemistry</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>concentration</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>coating/surface chemistry</td>
+    <td>https://www.sbd4nano.eu/bel/#unknown</td>
+    <td>concentration</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>enzyme degredation</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>concentration</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>enzyme degredation</td>
+    <td>https://www.sbd4nano.eu/bel/#unknown</td>
+    <td>concentration</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>kidney activity</td>
+    <td>https://www.sbd4nano.eu/bel/#negativelyCorrelates</td>
+    <td>concentration</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>kidney activity</td>
+    <td>https://www.sbd4nano.eu/bel/#unknown</td>
+    <td>concentration</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>ROS production</td>
+    <td>https://www.sbd4nano.eu/bel/#negativelyCorrelates</td>
+    <td>concentration</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>ROS production</td>
+    <td>https://www.sbd4nano.eu/bel/#unknown</td>
+    <td>concentration</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>kidney activity</td>
+    <td>https://www.sbd4nano.eu/bel/#negativelyCorrelates</td>
+    <td>oxidative stress</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>kidney activity</td>
+    <td>https://www.sbd4nano.eu/bel/#unknown</td>
+    <td>oxidative stress</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>ROS production</td>
+    <td>https://www.sbd4nano.eu/bel/#negativelyCorrelates</td>
+    <td>oxidative stress</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>ROS production</td>
+    <td>https://www.sbd4nano.eu/bel/#unknown</td>
+    <td>oxidative stress</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>dissolution</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>ROS production</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>dissolution</td>
+    <td>https://www.sbd4nano.eu/bel/#unknown</td>
+    <td>ROS production</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>dissolution</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>crystal structure</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>dissolution</td>
+    <td>https://www.sbd4nano.eu/bel/#unknown</td>
+    <td>crystal structure</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>crystal structure</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#unknown</td>
+    <td>crystal structure</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>amination</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>amination</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>dissolution</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>dissolution</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>amination</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>cell uptake (type)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>amination</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>cell uptake (type)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>dissolution</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>cell uptake (type)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>dissolution</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>cell uptake (type)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>dissolution</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>environmental fate</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>dissolution</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>environmental fate</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dose</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>environmental fate</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dose</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>environmental fate</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dose</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dose</td>
+    <td>https://www.sbd4nano.eu/bel/#positivelyCorrelates</td>
+    <td>cell uptake (amount)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dose</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>cell uptake (amount)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>membrane crossing</td>
+    <td>https://www.sbd4nano.eu/bel/#positivelyCorrelates</td>
+    <td>cell uptake (amount)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>membrane crossing</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>cell uptake (amount)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dose</td>
+    <td>https://www.sbd4nano.eu/bel/#positivelyCorrelates</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>membrane crossing</td>
+    <td>https://www.sbd4nano.eu/bel/#positivelyCorrelates</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>membrane crossing</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>activation of caspase-3</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>activation of caspase-3</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>core composition</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>activation of caspase-3</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>core composition</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>activation of caspase-3</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>reactivity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>reactivity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>core composition</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>reactivity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>core composition</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>reactivity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>PEGylation</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>concentration</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>PEGylation</td>
+    <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
+    <td>concentration</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>cell uptake (amount)</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>concentration</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>cell uptake (amount)</td>
+    <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
+    <td>concentration</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>PEGylation</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>PEGylation</td>
+    <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>cell uptake (amount)</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>cell uptake (amount)</td>
+    <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>time of exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#positivelyCorrelates</td>
+    <td>cell viability</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>photo-reactivity</td>
+    <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
+    <td>ROS production</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>photo-reactivity</td>
+    <td>https://www.sbd4nano.eu/bel/#positivelyCorrelates</td>
+    <td>ROS production</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>time of exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
+    <td>ROS production</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>time of exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#positivelyCorrelates</td>
+    <td>ROS production</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>photo-reactivity</td>
+    <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
+    <td>cell viability</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>photo-reactivity</td>
+    <td>https://www.sbd4nano.eu/bel/#positivelyCorrelates</td>
+    <td>cell viability</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>time of exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
+    <td>cell viability</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dose</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>organ (type)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dose</td>
+    <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
+    <td>organ (type)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure route</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>organ (type)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure route</td>
+    <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
+    <td>organ (type)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dose</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>cell viability</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dose</td>
+    <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
+    <td>cell viability</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure route</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>cell viability</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure route</td>
+    <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
+    <td>cell viability</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dose</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>cytotoxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dose</td>
+    <td>https://www.sbd4nano.eu/bel/#DoesNotCorrelate</td>
+    <td>cytotoxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure route</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>cytotoxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure route</td>
+    <td>https://www.sbd4nano.eu/bel/#DoesNotCorrelate</td>
+    <td>cytotoxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dose</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>cell uptake (amount)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dose</td>
+    <td>https://www.sbd4nano.eu/bel/#DoesNotCorrelate</td>
+    <td>cell uptake (amount)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure route</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>cell uptake (amount)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure route</td>
+    <td>https://www.sbd4nano.eu/bel/#DoesNotCorrelate</td>
+    <td>cell uptake (amount)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#DoesNotCorrelate</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure route</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure route</td>
+    <td>https://www.sbd4nano.eu/bel/#DoesNotCorrelate</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>concentration</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#DoesNotCorrelate</td>
+    <td>concentration</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure route</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>concentration</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure route</td>
+    <td>https://www.sbd4nano.eu/bel/#DoesNotCorrelate</td>
+    <td>concentration</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dose</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>medium</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dose</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>medium</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure route</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>medium</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure route</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>medium</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure route</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>immunoproteasome LMP7</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
+    <td>immunoproteasome LMP7</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>concentration</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>immunoproteasome LMP7</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>concentration</td>
+    <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
+    <td>immunoproteasome LMP7</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>protein corona</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
+    <td>protein corona</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>concentration</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>protein corona</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>concentration</td>
+    <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
+    <td>protein corona</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
+    <td>cell uptake (amount)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#positivelyCorrelates</td>
+    <td>cell uptake (amount)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>concentration</td>
+    <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
+    <td>cell uptake (amount)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>concentration</td>
+    <td>https://www.sbd4nano.eu/bel/#positivelyCorrelates</td>
+    <td>cell uptake (amount)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#positivelyCorrelates</td>
+    <td>immunoproteasome LMP7</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>concentration</td>
+    <td>https://www.sbd4nano.eu/bel/#positivelyCorrelates</td>
+    <td>immunoproteasome LMP7</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>aggregation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>aggregation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>concentration</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>aggregation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>concentration</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>aggregation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>Toll-like receptors</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>Toll-like receptors</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>concentration</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>Toll-like receptors</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>concentration</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>Toll-like receptors</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>protein corona</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>medium</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>protein corona</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>medium</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>protein corona</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>autophagy</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>autophagy</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>medium</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>autophagy</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>medium</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>autophagy</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>core composition</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>exfoliation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>core composition</td>
+    <td>https://www.sbd4nano.eu/bel/#Correlates</td>
+    <td>exfoliation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Hydrophilicity</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>exfoliation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Hydrophilicity</td>
+    <td>https://www.sbd4nano.eu/bel/#Correlates</td>
+    <td>exfoliation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>core composition</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>interaction potential</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>core composition</td>
+    <td>https://www.sbd4nano.eu/bel/#Correlates</td>
+    <td>interaction potential</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Hydrophilicity</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>interaction potential</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Hydrophilicity</td>
+    <td>https://www.sbd4nano.eu/bel/#Correlates</td>
+    <td>interaction potential</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dose</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>granuloma formation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dose</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>granuloma formation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>medium</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>granuloma formation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>medium</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>granuloma formation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dose</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>dissolution</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dose</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>dissolution</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>medium</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>dissolution</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>medium</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>dissolution</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>medium</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>medium</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>medium</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>aggregation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>medium</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>aggregation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dose</td>
+    <td>https://www.sbd4nano.eu/bel/#DoesNotCorrelate</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>aggregation</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>aggregation</td>
+    <td>https://www.sbd4nano.eu/bel/#DoesNotCorrelate</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dose</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>membrane crossing</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dose</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>membrane crossing</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>aggregation</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>membrane crossing</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>aggregation</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>membrane crossing</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dose</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>apoptosis</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dose</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>apoptosis</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>aggregation</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>apoptosis</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>aggregation</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>apoptosis</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dose</td>
+    <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
+    <td>environmental fate</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>aggregation</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>environmental fate</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>aggregation</td>
+    <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
+    <td>environmental fate</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dose</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>cell adhesion</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dose</td>
+    <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
+    <td>cell adhesion</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>aggregation</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>cell adhesion</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>aggregation</td>
+    <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
+    <td>cell adhesion</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dose</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>cytotoxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>aggregation</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>cytotoxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>aggregation</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>cytotoxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>aggregation</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>cell uptake (amount)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>aggregation</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>cell uptake (amount)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dose</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>reactivity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dose</td>
+    <td>https://www.sbd4nano.eu/bel/#DoesNotCorrelate</td>
+    <td>reactivity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>aggregation</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>reactivity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>aggregation</td>
+    <td>https://www.sbd4nano.eu/bel/#DoesNotCorrelate</td>
+    <td>reactivity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>aggregation</td>
+    <td>https://www.sbd4nano.eu/bel/#DoesNotCorrelate</td>
+    <td>cytotoxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>interaction potential</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>ROS production</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>interaction potential</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>ROS production</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>interaction potential</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>aggregation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>interaction potential</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>aggregation</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>photo-reactivity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>photo-reactivity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>crystal structure</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>photo-reactivity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>crystal structure</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>photo-reactivity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>crystal structure</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>ROS production</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>crystal structure</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>ROS production</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>stacks</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>cell uptake (amount)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>stacks</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>cell uptake (amount)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>temperature</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>cell uptake (amount)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>temperature</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>cell uptake (amount)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>stacks</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>size</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>stacks</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>size</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>temperature</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>size</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>temperature</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>size</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>core composition</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>Hydrophilicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>core composition</td>
+    <td>https://www.sbd4nano.eu/bel/#Correlates</td>
+    <td>Hydrophilicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Surface charge</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>Hydrophilicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Surface charge</td>
+    <td>https://www.sbd4nano.eu/bel/#Correlates</td>
+    <td>Hydrophilicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>core composition</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>crystal structure</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>core composition</td>
+    <td>https://www.sbd4nano.eu/bel/#Correlates</td>
+    <td>crystal structure</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Surface charge</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>crystal structure</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Surface charge</td>
+    <td>https://www.sbd4nano.eu/bel/#Correlates</td>
+    <td>crystal structure</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>lateral dimension</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>cell uptake (amount)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>lateral dimension</td>
+    <td>https://www.sbd4nano.eu/bel/#DoesNotCorrelate</td>
+    <td>cell uptake (amount)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>length</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>cell uptake (amount)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>length</td>
+    <td>https://www.sbd4nano.eu/bel/#DoesNotCorrelate</td>
+    <td>cell uptake (amount)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>lateral dimension</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>size</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>lateral dimension</td>
+    <td>https://www.sbd4nano.eu/bel/#DoesNotCorrelate</td>
+    <td>size</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>length</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>size</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>length</td>
+    <td>https://www.sbd4nano.eu/bel/#DoesNotCorrelate</td>
+    <td>size</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>cell type</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>size</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>cell type</td>
+    <td>https://www.sbd4nano.eu/bel/#Correlates</td>
+    <td>size</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>diameter</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>size</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>diameter</td>
+    <td>https://www.sbd4nano.eu/bel/#Correlates</td>
+    <td>size</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>cell type</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>cell uptake (amount)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>cell type</td>
+    <td>https://www.sbd4nano.eu/bel/#Correlates</td>
+    <td>cell uptake (amount)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>diameter</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>cell uptake (amount)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>diameter</td>
+    <td>https://www.sbd4nano.eu/bel/#Correlates</td>
+    <td>cell uptake (amount)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>diameter</td>
+    <td>https://www.sbd4nano.eu/bel/#DoesNotCorrelate</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>diameter</td>
+    <td>https://www.sbd4nano.eu/bel/#positivelyCorrelates</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>lateral dimension</td>
+    <td>https://www.sbd4nano.eu/bel/#DoesNotCorrelate</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>lateral dimension</td>
+    <td>https://www.sbd4nano.eu/bel/#positivelyCorrelates</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>diameter</td>
+    <td>https://www.sbd4nano.eu/bel/#DoesNotCorrelate</td>
+    <td>cell uptake (amount)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>diameter</td>
+    <td>https://www.sbd4nano.eu/bel/#positivelyCorrelates</td>
+    <td>cell uptake (amount)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>lateral dimension</td>
+    <td>https://www.sbd4nano.eu/bel/#positivelyCorrelates</td>
+    <td>cell uptake (amount)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>shape</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>cell uptake (amount)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>shape</td>
+    <td>https://www.sbd4nano.eu/bel/#Correlates</td>
+    <td>cell uptake (amount)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>shape</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>protein corona</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>shape</td>
+    <td>https://www.sbd4nano.eu/bel/#Correlates</td>
+    <td>protein corona</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>shape</td>
+    <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
+    <td>cell uptake (amount)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Surface charge</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>cell uptake (amount)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Surface charge</td>
+    <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
+    <td>cell uptake (amount)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>shape</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>cell uptake (type)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>shape</td>
+    <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
+    <td>cell uptake (type)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Surface charge</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>cell uptake (type)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Surface charge</td>
+    <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
+    <td>cell uptake (type)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>coating/surface chemistry</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>ultraviolet shielding function</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>coating/surface chemistry</td>
+    <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
+    <td>ultraviolet shielding function</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Mn-impurity</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>ultraviolet shielding function</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Mn-impurity</td>
+    <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
+    <td>ultraviolet shielding function</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>coating/surface chemistry</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>cell viability</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>coating/surface chemistry</td>
+    <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
+    <td>cell viability</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Mn-impurity</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>cell viability</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Mn-impurity</td>
+    <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
+    <td>cell viability</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Mn-impurity</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Mn-impurity</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>coating/surface chemistry</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Mn-impurity</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>protein corona</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Mn-impurity</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>protein corona</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>coating/surface chemistry</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>protein corona</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>coating/surface chemistry</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>protein corona</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>lateral dimension</td>
+    <td>https://www.sbd4nano.eu/bel/#DoesNotCorrelate</td>
+    <td>cell viability</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>coating/surface chemistry</td>
+    <td>https://www.sbd4nano.eu/bel/#DoesNotCorrelate</td>
+    <td>cell viability</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>lateral dimension</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>cell uptake (type)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>lateral dimension</td>
+    <td>https://www.sbd4nano.eu/bel/#DoesNotCorrelate</td>
+    <td>cell uptake (type)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>coating/surface chemistry</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>cell uptake (type)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>coating/surface chemistry</td>
+    <td>https://www.sbd4nano.eu/bel/#DoesNotCorrelate</td>
+    <td>cell uptake (type)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>coating/surface chemistry</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>dissolution</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>coating/surface chemistry</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>dissolution</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>activation of caspase-3</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>dissolution</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>activation of caspase-3</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>dissolution</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>coating/surface chemistry</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>Apoptosis</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>coating/surface chemistry</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>Apoptosis</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>activation of caspase-3</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>Apoptosis</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>activation of caspase-3</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>Apoptosis</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>coating/surface chemistry</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>cell uptake (amount)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>coating/surface chemistry</td>
+    <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
+    <td>cell uptake (amount)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>lateral dimension</td>
+    <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
+    <td>cell uptake (amount)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>coating/surface chemistry</td>
+    <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
+    <td>ROS production</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>lateral dimension</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>ROS production</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>lateral dimension</td>
+    <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
+    <td>ROS production</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>coating/surface chemistry</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>Surface charge</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>coating/surface chemistry</td>
+    <td>https://www.sbd4nano.eu/bel/#Correlates</td>
+    <td>Surface charge</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>core composition</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>Surface charge</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>core composition</td>
+    <td>https://www.sbd4nano.eu/bel/#Correlates</td>
+    <td>Surface charge</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>coating/surface chemistry</td>
+    <td>https://www.sbd4nano.eu/bel/#Correlates</td>
+    <td>protein corona</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>core composition</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>protein corona</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>core composition</td>
+    <td>https://www.sbd4nano.eu/bel/#Correlates</td>
+    <td>protein corona</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>coating/surface chemistry</td>
+    <td>https://www.sbd4nano.eu/bel/#Correlates</td>
+    <td>dissolution</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>core composition</td>
+    <td>https://www.sbd4nano.eu/bel/#Correlates</td>
+    <td>dissolution</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>coating/surface chemistry</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>Suspension</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>coating/surface chemistry</td>
+    <td>https://www.sbd4nano.eu/bel/#Correlates</td>
+    <td>Suspension</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>core composition</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>Suspension</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>core composition</td>
+    <td>https://www.sbd4nano.eu/bel/#Correlates</td>
+    <td>Suspension</td>
     <td></td>
     <td></td>
   </tr>

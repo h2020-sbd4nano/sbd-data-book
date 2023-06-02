@@ -333,14 +333,16 @@ EU NanoSafety Cluster projects [<a href="#citeref2">2</a>]:
 Not all resources have licenses that allow us to immediately use them, but require acquiring a license.
 This query lists all license information in the current knowledge base:
 
-**SPARQL** [sparql/allLicenses.rq](sparql/allLicenses.code.html) ([run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20sbdbel%3A%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Fbel%2F%23%3E%0APREFIX%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0A%0ASELECT%20%28COUNT%28DISTINCT%20%3Fresource%29%20AS%20%3Fcount%29%20%3Flicense%0AWHERE%20%7B%0A%20%20%3Fresource%20a%20%3Ftype%20.%0A%20%20MINUS%20%7B%20%3Fresource%20a%20sbdbel%3ACausalRelationship%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fresource%20dcterms%3Alicense%20%3Flicense%20%7D%0A%7D%20GROUP%20BY%20%3Flicense%0A%20%20ORDER%20BY%20DESC%28%3Fcount%29%0A))
+**SPARQL** [sparql/allLicenses.rq](sparql/allLicenses.code.html) ([run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20sbd%3A%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Frdf%2F%23%3E%0APREFIX%20sbdbel%3A%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Fbel%2F%23%3E%0APREFIX%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0A%0ASELECT%20%28COUNT%28DISTINCT%20%3Fresource%29%20AS%20%3Fcount%29%20%3Flicense%0AWHERE%20%7B%0A%20%20VALUES%20%3Fca%20%7B%20sbdbel%3ACausalAssertion%20sbd%3ACausalAssertion%20%7D%0A%20%20%3Fresource%20a%20%3Ftype%20.%0A%20%20MINUS%20%7B%20%3Fresource%20a%20%3Fca%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fresource%20dcterms%3Alicense%20%3Flicense%20%7D%0A%7D%20GROUP%20BY%20%3Flicense%0A%20%20ORDER%20BY%20DESC%28%3Fcount%29%0A))
 ```sparql
+PREFIX sbd:  <https://www.sbd4nano.eu/rdf/#>
 PREFIX sbdbel:  <https://www.sbd4nano.eu/bel/#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 SELECT (COUNT(DISTINCT ?resource) AS ?count) ?license
 WHERE {
+  VALUES ?ca { sbdbel:CausalAssertion sbd:CausalAssertion }
   ?resource a ?type .
-  MINUS { ?resource a sbdbel:CausalRelationship }
+  MINUS { ?resource a ?ca }
   OPTIONAL { ?resource dcterms:license ?license }
 } GROUP BY ?license
   ORDER BY DESC(?count)
@@ -379,11 +381,11 @@ This gives us:
   </tr>
   <tr>
     <td>1</td>
-    <td>https://creativecommons.org/publicdomain/zero/1.0/</td>
+    <td>https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode</td>
   </tr>
   <tr>
     <td>1</td>
-    <td>https://search.data.enanomapper.net/about/aurora</td>
+    <td>https://creativecommons.org/licenses/by-nc/4.0/legalcode</td>
   </tr>
   <tr><td colspan="2">This table is truncated. See the full table at <a href="sparql/allLicenses.code.html">sparql/allLicenses.rq</a></td></tr>
 </table>

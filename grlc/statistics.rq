@@ -23,7 +23,8 @@ WHERE {
       {
         ?source ^dc:source ?database . ?database a sbd:Database .
       } UNION {
-        ?source ^dc:source ?relationship . ?relationship a sbdbel:CausalAssertion .
+        VALUES ?ca { sbdbel:CausalAssertion sbd:CausalAssertion }
+        ?source ^dc:source ?relationship . ?relationship a ?ca .
       } UNION {
         ?source ^dc:source ?model . ?model a sbd:Model .
       } UNION {

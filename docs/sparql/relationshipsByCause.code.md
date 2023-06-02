@@ -12,13 +12,14 @@ PREFIX dcterms: <http://purl.org/dc/terms/>
 
 SELECT ?cause (COUNT(DISTINCT ?relation) AS ?count)
 WHERE {
-  ?relation a sbdbel:CausalAssertion ;
+  VALUES ?ca { sbdbel:CausalAssertion sbd:CausalAssertion }
+  ?relation a ?ca ;
     sbdbel:cause / rdfs:label ?cause .
 } GROUP BY ?cause
   ORDER BY DESC(?count) ASC(?cause)
 ```
 
-[run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20sbd%3A%20%20%20%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Frdf%2F%23%3E%0APREFIX%20sbdbel%3A%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Fbel%2F%23%3E%0APREFIX%20dc%3A%20%20%20%20%20%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%3E%0APREFIX%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0A%0ASELECT%20%3Fcause%20%28COUNT%28DISTINCT%20%3Frelation%29%20AS%20%3Fcount%29%0AWHERE%20%7B%0A%20%20%3Frelation%20a%20sbdbel%3ACausalAssertion%20%3B%0A%20%20%20%20sbdbel%3Acause%20%2F%20rdfs%3Alabel%20%3Fcause%20.%0A%7D%20GROUP%20BY%20%3Fcause%0A%20%20ORDER%20BY%20DESC%28%3Fcount%29%20ASC%28%3Fcause%29%0A)
+[run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20sbd%3A%20%20%20%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Frdf%2F%23%3E%0APREFIX%20sbdbel%3A%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Fbel%2F%23%3E%0APREFIX%20dc%3A%20%20%20%20%20%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%3E%0APREFIX%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0A%0ASELECT%20%3Fcause%20%28COUNT%28DISTINCT%20%3Frelation%29%20AS%20%3Fcount%29%0AWHERE%20%7B%0A%20%20VALUES%20%3Fca%20%7B%20sbdbel%3ACausalAssertion%20sbd%3ACausalAssertion%20%7D%0A%20%20%3Frelation%20a%20%3Fca%20%3B%0A%20%20%20%20sbdbel%3Acause%20%2F%20rdfs%3Alabel%20%3Fcause%20.%0A%7D%20GROUP%20BY%20%3Fcause%0A%20%20ORDER%20BY%20DESC%28%3Fcount%29%20ASC%28%3Fcause%29%0A)
 
 
 ### Output
@@ -39,6 +40,14 @@ WHERE {
   <tr>
     <td>Activation, AhR</td>
     <td>18</td>
+  </tr>
+  <tr>
+    <td>Dose</td>
+    <td>14</td>
+  </tr>
+  <tr>
+    <td>exposure</td>
+    <td>13</td>
   </tr>
   <tr>
     <td>N/A, Mitochondrial dysfunction 1</td>
@@ -63,6 +72,18 @@ WHERE {
   <tr>
     <td>Increased, Reactive oxygen species</td>
     <td>10</td>
+  </tr>
+  <tr>
+    <td>coating/surface chemistry</td>
+    <td>9</td>
+  </tr>
+  <tr>
+    <td>core composition</td>
+    <td>9</td>
+  </tr>
+  <tr>
+    <td>size</td>
+    <td>9</td>
   </tr>
   <tr>
     <td>Deposition of Ionizing Energy</td>
@@ -95,6 +116,10 @@ WHERE {
   <tr>
     <td>Increased Pro-inflammatory mediators</td>
     <td>7</td>
+  </tr>
+  <tr>
+    <td>lateral dimension</td>
+    <td>6</td>
   </tr>
   <tr>
     <td>Agonism, Androgen receptor</td>
@@ -161,6 +186,10 @@ WHERE {
     <td>6</td>
   </tr>
   <tr>
+    <td>aggregation</td>
+    <td>5</td>
+  </tr>
+  <tr>
     <td>Altered, Transcription of genes by AR</td>
     <td>5</td>
   </tr>
@@ -215,6 +244,18 @@ WHERE {
   <tr>
     <td>Inhibition, Cyclooxygenase activity</td>
     <td>5</td>
+  </tr>
+  <tr>
+    <td>ROS production</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>exposure route</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>medium</td>
+    <td>4</td>
   </tr>
   <tr>
     <td>Activation, Estrogen receptor</td>
@@ -369,7 +410,23 @@ WHERE {
     <td>4</td>
   </tr>
   <tr>
+    <td>concentration</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>dissolution</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>inflammasome activation</td>
+    <td>3</td>
+  </tr>
+  <tr>
     <td>particle size</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>surface charge</td>
     <td>3</td>
   </tr>
   <tr>
@@ -587,6 +644,58 @@ WHERE {
   <tr>
     <td>surface modification</td>
     <td>3</td>
+  </tr>
+  <tr>
+    <td>Mn-impurity</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>NF-κB activation</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Surface charge</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Toll-like receptors</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>aspect ratio (HARN)</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>cell type</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>cell uptake (amount)</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>deformability</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>diameter</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>lysosomal damage</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>shape</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>surface area</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>time of exposure</td>
+    <td>2</td>
   </tr>
   <tr>
     <td>Abnormal, Roll change within caste</td>
@@ -1321,7 +1430,123 @@ WHERE {
     <td>2</td>
   </tr>
   <tr>
+    <td>Hydrophilicity</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>NADPH oxidase (NOX1) activation</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>PEGylation</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Pathogen-associated molecular patterns</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Phagocytosis</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Pottasium</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Zeta-potential</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>activation of caspase-3</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>amination</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>caspase-1</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>cathepsins</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>cell uptake (type)</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>charge</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>crystal structure</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>enzyme degredation</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>interaction potential</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>kidney activity</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>layers</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>length</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>light</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>lipopolysaccharides</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>liver/spleen activity</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>membrane crossing</td>
+    <td>1</td>
+  </tr>
+  <tr>
     <td>pH value</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>photo-reactivity</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>pro-caspase-1</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>pro-interleukin (IL)-1β</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>protein corona</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>stacks</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>temperature</td>
     <td>1</td>
   </tr>
   <tr>
