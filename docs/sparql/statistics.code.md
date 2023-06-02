@@ -94,7 +94,7 @@ WHERE {
   </tr>
   <tr>
     <td><a href="https://search.data.enanomapper.net/closed/">Closed datasets hosted at the Nanosafety Data Interface</a></td>
-    <td>18</td>
+    <td>17</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
@@ -127,7 +127,7 @@ WHERE {
   </tr>
   <tr>
     <td><a href="https://search.data.enanomapper.net/">Open datasets hosted at the Nanosafety Data Interface</a></td>
-    <td>4</td>
+    <td>5</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
@@ -141,6 +141,17 @@ WHERE {
     <td>0</td>
     <td>0</td>
     <td>10</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-smartnanotox/">SmartNanoTox Transcriptomics datasets</a></td>
+    <td>0</td>
+    <td>20</td>
+    <td>0</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>

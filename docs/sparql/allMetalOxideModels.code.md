@@ -37,6 +37,11 @@ WHERE {
     <td><b>material</b></td>
   </tr>
   <tr>
+    <td><a href="http://enaloscloud.novamechanics.com/EnalosWebApps/ZetaPotential/">PhysChem: Zeta potential NanoXtract model</a></td>
+    <td>NanoSolveIT Tools</td>
+    <td>Metal Oxide, metal oxide nanoparticle</td>
+  </tr>
+  <tr>
     <td><a href="https://atena.urv.cat/model/#Anantha2021">Nanocompound: Toxicity Metal-Oxide: Anantha 2021</a></td>
     <td>SbD4nano Nanocompound</td>
     <td>Metal Oxide, metal oxide nanoparticle</td>
@@ -85,6 +90,11 @@ WHERE {
     <td><a href="https://atena.urv.cat/model/#Serratosa2022-ZnO">Nanocompound: LDH(ZnO): Serratosa2022</a></td>
     <td>SbD4nano Nanocompound</td>
     <td>ZnO, zinc oxide nanoparticle</td>
+  </tr>
+  <tr>
+    <td><a href="https://cellviability.cloud.nanosolveit.eu/">NanoSolveIT Cytotoxicity (Cell Viability) Prediction for Metal Oxide NPs</a></td>
+    <td>NanoSolveIT Tools</td>
+    <td>Metal Oxide, metal oxide nanoparticle</td>
   </tr>
 </table>
 

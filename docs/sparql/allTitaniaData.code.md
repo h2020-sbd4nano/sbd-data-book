@@ -34,7 +34,22 @@ SELECT ?materialIRI ?material ?dataset_ ?datasetLabel WHERE {
   <tr>
     <td>obo:CHEBI_51050</td>
     <td>titanium dioxide nanoparticle</td>
+    <td>https://identifiers.org/geo:GSE156564</td>
+  </tr>
+  <tr>
+    <td>obo:CHEBI_51050</td>
+    <td>titanium dioxide nanoparticle</td>
+    <td>https://identifiers.org/geo:GSE99997</td>
+  </tr>
+  <tr>
+    <td>obo:CHEBI_51050</td>
+    <td>titanium dioxide nanoparticle</td>
     <td>https://search.data.enanomapper.net/about/nanoreg</td>
+  </tr>
+  <tr>
+    <td>http://purl.enanomapper.org/onto/ENM_9000204</td>
+    <td>NM-105</td>
+    <td>https://identifiers.org/geo:GSE156509</td>
   </tr>
 </table>
 

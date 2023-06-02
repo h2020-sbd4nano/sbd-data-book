@@ -27,24 +27,6 @@ This gives us this list of nanomaterials:
     <td><a href="http://purl.bioontology.org/ontology/npo#NPO_1486">R-TiO2</a></td>
   </tr>
   <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000201">NM-100</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000202">NM-101</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000203">NM-102</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000204">NM-105</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000208">NM-103</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000209">NM-104</a></td>
-  </tr>
-  <tr>
     <td><a href="http://purl.enanomapper.org/onto/ENM_9000099">coated titanium dioxide nanoparticle</a></td>
   </tr>
   <tr>
@@ -79,6 +61,24 @@ This gives us this list of nanomaterials:
   </tr>
   <tr>
     <td><a href="http://purl.enanomapper.org/onto/ENM_9000232">JRCNM10202a</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000204">NM-105</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000201">NM-100</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000202">NM-101</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000203">NM-102</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000208">NM-103</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000209">NM-104</a></td>
   </tr>
   <tr>
     <td><a href="http://purl.obolibrary.org/obo/CHEBI_51050">titanium dioxide nanoparticle</a></td>
@@ -189,7 +189,22 @@ This gives:
   <tr>
     <td>obo:CHEBI_51050</td>
     <td>titanium dioxide nanoparticle</td>
+    <td>https://identifiers.org/geo:GSE156564</td>
+  </tr>
+  <tr>
+    <td>obo:CHEBI_51050</td>
+    <td>titanium dioxide nanoparticle</td>
+    <td>https://identifiers.org/geo:GSE99997</td>
+  </tr>
+  <tr>
+    <td>obo:CHEBI_51050</td>
+    <td>titanium dioxide nanoparticle</td>
     <td>https://search.data.enanomapper.net/about/nanoreg</td>
+  </tr>
+  <tr>
+    <td>http://purl.enanomapper.org/onto/ENM_9000204</td>
+    <td>NM-105</td>
+    <td>https://identifiers.org/geo:GSE156509</td>
   </tr>
 </table>
 
@@ -280,6 +295,11 @@ This gives us:
     <td><b>material</b></td>
   </tr>
   <tr>
+    <td><a href="http://enaloscloud.novamechanics.com/EnalosWebApps/ZetaPotential/">PhysChem: Zeta potential NanoXtract model</a></td>
+    <td>NanoSolveIT Tools</td>
+    <td>Metal Oxide, metal oxide nanoparticle</td>
+  </tr>
+  <tr>
     <td><a href="https://atena.urv.cat/model/#Anantha2021">Nanocompound: Toxicity Metal-Oxide: Anantha 2021</a></td>
     <td>SbD4nano Nanocompound</td>
     <td>Metal Oxide, metal oxide nanoparticle</td>
@@ -328,6 +348,11 @@ This gives us:
     <td><a href="https://atena.urv.cat/model/#Serratosa2022-ZnO">Nanocompound: LDH(ZnO): Serratosa2022</a></td>
     <td>SbD4nano Nanocompound</td>
     <td>ZnO, zinc oxide nanoparticle</td>
+  </tr>
+  <tr>
+    <td><a href="https://cellviability.cloud.nanosolveit.eu/">NanoSolveIT Cytotoxicity (Cell Viability) Prediction for Metal Oxide NPs</a></td>
+    <td>NanoSolveIT Tools</td>
+    <td>Metal Oxide, metal oxide nanoparticle</td>
   </tr>
 </table>
 

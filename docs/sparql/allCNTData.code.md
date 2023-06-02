@@ -34,7 +34,27 @@ SELECT ?materialIRI ?material ?dataset_ ?datasetLabel WHERE {
   <tr>
     <td>npo:NPO_606</td>
     <td>CNT: Carbon nanotubes</td>
+    <td>https://identifiers.org/geo:GSE156660</td>
+  </tr>
+  <tr>
+    <td>npo:NPO_606</td>
+    <td>CNT: Carbon nanotubes</td>
+    <td>https://identifiers.org/geo:GSE156666</td>
+  </tr>
+  <tr>
+    <td>npo:NPO_606</td>
+    <td>CNT: Carbon nanotubes</td>
     <td>https://search.data.enanomapper.net/about/nanoreg</td>
+  </tr>
+  <tr>
+    <td>npo:NPO_606</td>
+    <td>Single/Multiwalled nanotubes</td>
+    <td>https://identifiers.org/geo:GSE156660</td>
+  </tr>
+  <tr>
+    <td>npo:NPO_606</td>
+    <td>Single/Multiwalled nanotubes</td>
+    <td>https://identifiers.org/geo:GSE156666</td>
   </tr>
   <tr>
     <td>npo:NPO_606</td>
@@ -44,7 +64,22 @@ SELECT ?materialIRI ?material ?dataset_ ?datasetLabel WHERE {
   <tr>
     <td>npo:NPO_606</td>
     <td>carbon nanotube</td>
+    <td>https://identifiers.org/geo:GSE156660</td>
+  </tr>
+  <tr>
+    <td>npo:NPO_606</td>
+    <td>carbon nanotube</td>
+    <td>https://identifiers.org/geo:GSE156666</td>
+  </tr>
+  <tr>
+    <td>npo:NPO_606</td>
+    <td>carbon nanotube</td>
     <td>https://search.data.enanomapper.net/about/nanoreg</td>
+  </tr>
+  <tr>
+    <td>npo:NPO_354</td>
+    <td>MWCNT40nm-COOH</td>
+    <td>https://identifiers.org/geo:GSE156571</td>
   </tr>
   <tr>
     <td>npo:NPO_354</td>
@@ -54,7 +89,17 @@ SELECT ?materialIRI ?material ?dataset_ ?datasetLabel WHERE {
   <tr>
     <td>npo:NPO_354</td>
     <td>MWCNTs (Multi-walled carbon nanotubes)</td>
+    <td>https://identifiers.org/geo:GSE156571</td>
+  </tr>
+  <tr>
+    <td>npo:NPO_354</td>
+    <td>MWCNTs (Multi-walled carbon nanotubes)</td>
     <td>https://search.data.enanomapper.net/about/nanoreg</td>
+  </tr>
+  <tr>
+    <td>npo:NPO_354</td>
+    <td>multi-walled carbon nanotube</td>
+    <td>https://identifiers.org/geo:GSE156571</td>
   </tr>
   <tr>
     <td>npo:NPO_354</td>
@@ -64,7 +109,17 @@ SELECT ?materialIRI ?material ?dataset_ ?datasetLabel WHERE {
   <tr>
     <td>npo:NPO_943</td>
     <td>single-walled carbon nanotube</td>
+    <td>https://identifiers.org/geo:GSE156691</td>
+  </tr>
+  <tr>
+    <td>npo:NPO_943</td>
+    <td>single-walled carbon nanotube</td>
     <td>https://search.data.enanomapper.net/about/nanoreg</td>
+  </tr>
+  <tr>
+    <td>http://purl.enanomapper.org/onto/ENM_9000230</td>
+    <td>NM-403</td>
+    <td>https://identifiers.org/geo:GSE156511</td>
   </tr>
 </table>
 

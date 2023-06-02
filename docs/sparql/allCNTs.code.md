@@ -34,6 +34,9 @@ WHERE {
     <td><a href="http://purl.bioontology.org/ontology/npo#NPO_943">single-walled carbon nanotube</a></td>
   </tr>
   <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000230">NM-403</a></td>
+  </tr>
+  <tr>
     <td><a href="http://purl.enanomapper.org/onto/ENM_9000239">Mitsui MWCNT-7</a></td>
   </tr>
   <tr>
@@ -83,9 +86,6 @@ WHERE {
   </tr>
   <tr>
     <td><a href="http://purl.enanomapper.org/onto/ENM_9000229">NM-402</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000230">NM-403</a></td>
   </tr>
   <tr>
     <td><a href="http://purl.enanomapper.org/onto/ENM_9000258">JRCNM40011a</a></td>

@@ -12686,6 +12686,20 @@ WHERE {
   <tr>
     <td>zeta potential</td>
     <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>aggregation</td>
+    <td>Metal Oxide</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>zeta potential</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>aggregation</td>
+    <td>Metal Oxide</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>zeta potential</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
     <td>Aggregation</td>
     <td>Metal Oxide</td>
     <td></td>
@@ -12701,14 +12715,14 @@ WHERE {
     <td>zeta potential</td>
     <td>https://www.sbd4nano.eu/bel/#correlates</td>
     <td>aggregation</td>
-    <td>Metal Oxide</td>
+    <td>metal oxide nanoparticle</td>
     <td></td>
   </tr>
   <tr>
     <td>zeta potential</td>
     <td>https://www.sbd4nano.eu/bel/#correlates</td>
     <td>aggregation</td>
-    <td>Metal Oxide</td>
+    <td>metal oxide nanoparticle</td>
     <td></td>
   </tr>
   <tr>
@@ -12736,20 +12750,6 @@ WHERE {
     <td>zeta potential</td>
     <td>https://www.sbd4nano.eu/bel/#correlates</td>
     <td>Aggregation</td>
-    <td>metal oxide nanoparticle</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>zeta potential</td>
-    <td>https://www.sbd4nano.eu/bel/#correlates</td>
-    <td>aggregation</td>
-    <td>metal oxide nanoparticle</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>zeta potential</td>
-    <td>https://www.sbd4nano.eu/bel/#correlates</td>
-    <td>aggregation</td>
     <td>metal oxide nanoparticle</td>
     <td></td>
   </tr>

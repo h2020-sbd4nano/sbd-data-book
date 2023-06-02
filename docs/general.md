@@ -51,7 +51,11 @@ This gives us:
     <td></td>
   </tr>
   <tr>
-    <td>SbD4nano Nanocompound</td>
+    <td><a href="https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260">SbD4nano WP2 Causal Relationships</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="https://atena.urv.cat/model/">SbD4nano Nanocompound</a></td>
     <td><img width="200" src="https://www.urv.cat/media/img/logo-urv-nav.png" /></td>
   </tr>
   <tr>
@@ -79,19 +83,19 @@ This gives us:
     <td><img width="200" src="https://nanosolveit.eu/wp-content/uploads/2019/06/NanoSolveIT-300x114-Transparent-Half.png" /></td>
   </tr>
   <tr>
-    <td>Open datasets hosted at the Nanosafety Data Interface</td>
+    <td><a href="https://search.data.enanomapper.net/">Open datasets hosted at the Nanosafety Data Interface</a></td>
     <td><img width="200" src="https://search.data.enanomapper.net/assets/img/logo.png" /></td>
   </tr>
   <tr>
-    <td>Closed datasets hosted at the Nanosafety Data Interface</td>
+    <td><a href="https://search.data.enanomapper.net/">Closed datasets hosted at the Nanosafety Data Interface</a></td>
     <td><img width="200" src="https://search.data.enanomapper.net/assets/img/logo.png" /></td>
   </tr>
   <tr>
-    <td>Overview of open datasets released by NanoSafety Cluster projects</td>
+    <td><a href="https://nanocommons.github.io/datasets/">Overview of open datasets released by NanoSafety Cluster projects</a></td>
     <td><img width="200" src="https://upload.wikimedia.org/wikipedia/commons/e/e1/NanoCommons-Logo-Large_-_White_Circle_01.png" /></td>
   </tr>
   <tr>
-    <td>Cloud services provided by VHP4Safety</td>
+    <td><a href="https://cloud.vhp4safety.nl/">Cloud services provided by VHP4Safety</a></td>
     <td><img width="200" src="https://images.nieuwsbrieven.rivm.nl/101500/0/5763/fe1e7915ce28f7a96ca25ed234631504.png" /></td>
   </tr>
 </table>
@@ -350,7 +354,7 @@ This gives us:
     <td><b>license</b></td>
   </tr>
   <tr>
-    <td>33876</td>
+    <td>34028</td>
     <td></td>
   </tr>
   <tr>
@@ -438,7 +442,7 @@ source what information is provided as basic <a name="tp7">statistics</a>:
   </tr>
   <tr>
     <td><a href="https://search.data.enanomapper.net/closed/">Closed datasets hosted at the Nanosafety Data Interface</a></td>
-    <td>18</td>
+    <td>17</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
@@ -471,7 +475,7 @@ source what information is provided as basic <a name="tp7">statistics</a>:
   </tr>
   <tr>
     <td><a href="https://search.data.enanomapper.net/">Open datasets hosted at the Nanosafety Data Interface</a></td>
-    <td>4</td>
+    <td>5</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
@@ -485,6 +489,17 @@ source what information is provided as basic <a name="tp7">statistics</a>:
     <td>0</td>
     <td>0</td>
     <td>10</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-smartnanotox/">SmartNanoTox Transcriptomics datasets</a></td>
+    <td>0</td>
+    <td>20</td>
+    <td>0</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>

@@ -217,11 +217,11 @@ This gives us:
     <td>9</td>
   </tr>
   <tr>
-    <td>Increase, Apoptosis</td>
+    <td>Increased, secretion of proinflammatory mediators</td>
     <td>9</td>
   </tr>
   <tr>
-    <td>Increased, secretion of proinflammatory mediators</td>
+    <td>Increase, Apoptosis</td>
     <td>9</td>
   </tr>
   <tr>
@@ -229,7 +229,7 @@ This gives us:
     <td>9</td>
   </tr>
   <tr>
-    <td>Increased, Oxidative Stress</td>
+    <td>Increase, Cell death</td>
     <td>8</td>
   </tr>
   <tr>
@@ -237,12 +237,20 @@ This gives us:
     <td>8</td>
   </tr>
   <tr>
+    <td>Increased, Oxidative Stress</td>
+    <td>8</td>
+  </tr>
+  <tr>
     <td>Increase, Mutations</td>
     <td>8</td>
   </tr>
   <tr>
-    <td>Increase, Cell death</td>
-    <td>8</td>
+    <td>Oxidative Stress </td>
+    <td>7</td>
+  </tr>
+  <tr>
+    <td>Increase, Oocyte apoptosis</td>
+    <td>7</td>
   </tr>
   <tr>
     <td>Decrease of neuronal network function</td>
@@ -250,10 +258,6 @@ This gives us:
   </tr>
   <tr>
     <td>Increase, Mortality</td>
-    <td>7</td>
-  </tr>
-  <tr>
-    <td>Oxidative Stress </td>
     <td>7</td>
   </tr>
   <tr>
@@ -265,23 +269,19 @@ This gives us:
     <td>7</td>
   </tr>
   <tr>
-    <td>Increase, Oocyte apoptosis</td>
-    <td>7</td>
-  </tr>
-  <tr>
     <td>Decrease, Reproduction</td>
     <td>7</td>
   </tr>
   <tr>
-    <td>Reduction, 17beta-estradiol synthesis by ovarian granulosa cells</td>
-    <td>6</td>
-  </tr>
-  <tr>
-    <td>Occurrence, Kidney toxicity</td>
-    <td>6</td>
-  </tr>
-  <tr>
     <td>Decrease, Lung function</td>
+    <td>6</td>
+  </tr>
+  <tr>
+    <td>Decrease, Adenosine triphosphate pool</td>
+    <td>6</td>
+  </tr>
+  <tr>
+    <td>Neuroinflammation</td>
     <td>6</td>
   </tr>
   <tr><td colspan="2">This table is truncated. See the full table at <a href="sparql/relationshipsByOutcome.code.html">sparql/relationshipsByOutcome.rq</a></td></tr>
