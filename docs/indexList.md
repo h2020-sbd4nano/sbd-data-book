@@ -15,6 +15,7 @@ metal oxide [tio2](tio2.md#tp3)<br />
 models [models](models.md#tp1) [tio2](tio2.md#tp4)<br />
 Nanosafety Data Interface [general](general.md#tp6)<br />
 NanoSolveIT [general](general.md#tp5)<br />
+silver nanoparticles [ag](ag.md#tp1)<br />
 SmartNanoTox [general](general.md#tp4)<br />
 statistics [general](general.md#tp7)<br />
 titania [tio2](tio2.md#tp1)
