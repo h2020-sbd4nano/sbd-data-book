@@ -43,9 +43,11 @@ Issues, comments, questions can be reported [here](https://github.com/h2020-sbd4
 7. [Carbon nanotubes](cnt.md) <br />
 7.1. [Causal relationships](cnt.md#causal-relationships) <br />
 7.2. [Carbon nanotube datasets](cnt.md#carbon-nanotube-datasets) <br />
+7.3. [Carbon nanotube models](cnt.md#carbon-nanotube-models) <br />
 8. [Silver nanoparticles](ag.md) <br />
 8.1. [Causal relationships](ag.md#causal-relationships) <br />
 8.2. [AgNP datasets](ag.md#agnp-datasets) <br />
+8.3. [AgNP models](ag.md#agnp-models) <br />
 
 [Index](indexList.md) <br />
 

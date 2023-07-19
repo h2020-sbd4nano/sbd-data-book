@@ -28,6 +28,17 @@ This gives:
 
 <out>allAgData</out>
 
+## AgNP models  
+
+All models for carbon nanotubes can be listed with:
+
+<sparql>allAgNPModels</sparql>
+
+This gives:
+
+<out>allAgNPModels</out>
+
+
 ## References
 
 <references/>

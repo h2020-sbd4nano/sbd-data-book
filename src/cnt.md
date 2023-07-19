@@ -30,6 +30,16 @@ This gives:
 
 <out>allCNTData</out>
 
+## Carbon nanotube models
+
+All models for carbon nanotubes can be listed with:
+
+<sparql>allCNTModels</sparql>
+
+This gives:
+
+<out>allCNTModels</out>
+
 ## References
 
 <references/>
