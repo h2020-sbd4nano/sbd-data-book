@@ -4,15 +4,18 @@
 
 We can list all <a name="tp1">models</a> with the following query:
 
-**SPARQL** [sparql/allModels.rq](sparql/allModels.code.html) ([run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20rdfs%3A%20%20%20%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0APREFIX%20sbd%3A%20%20%20%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Frdf%2F%23%3E%0APREFIX%20dc%3A%20%20%20%20%20%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%3E%0APREFIX%20dct%3A%20%20%20%20%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0A%0ASELECT%20%3Fmodel%20%3FmodeLabel%20%3Fprovider%20WHERE%20%7B%0A%20%20%3Fmodel%20a%20sbd%3AModel%20%3B%20rdfs%3Alabel%20%3FmodelLabel%20%3B%0A%20%20%20%20%20dc%3Asource%2Fdct%3Atitle%20%3Fprovider%0A%7D%20ORDER%20BY%20%3Fmodel%0A))
+**SPARQL** [sparql/allModels.rq](sparql/allModels.code.html) ([run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20rdfs%3A%20%20%20%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0APREFIX%20sbd%3A%20%20%20%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Frdf%2F%23%3E%0APREFIX%20dc%3A%20%20%20%20%20%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%3E%0APREFIX%20dct%3A%20%20%20%20%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0ASELECT%20%3Fmodel%20%3FmodelLabel%20%3Fprovider%20WHERE%20%7B%0A%20%20%3Fmodel%20a%20sbd%3AModel%20%3B%0A%20%20%20%20%20dc%3Asource%20%3FproviderRes.%0A%20%20OPTIONAL%20%7B%20%3Fmodel%20rdfs%3Alabel%20%3FrdfsLabel%20%7D%0A%20%20BIND%28COALESCE%28%3FrdfsLabel%2C%20str%28%3Fmodel%29%29%20AS%20%3FmodelLabel%29%0A%20%20%3FproviderRes%20dct%3Atitle%20%7C%20dc%3Atitle%20%3Fprovider%20.%0A%7D%20ORDER%20BY%20%3Fmodel%0A))
 ```sparql
 PREFIX rdfs:    <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX sbd:     <https://www.sbd4nano.eu/rdf/#>
 PREFIX dc:      <http://purl.org/dc/elements/1.1/>
 PREFIX dct:     <http://purl.org/dc/terms/>
-SELECT ?model ?modeLabel ?provider WHERE {
-  ?model a sbd:Model ; rdfs:label ?modelLabel ;
-     dc:source/dct:title ?provider
+SELECT ?model ?modelLabel ?provider WHERE {
+  ?model a sbd:Model ;
+     dc:source ?providerRes.
+  OPTIONAL { ?model rdfs:label ?rdfsLabel }
+  BIND(COALESCE(?rdfsLabel, str(?model)) AS ?modelLabel)
+  ?providerRes dct:title | dc:title ?provider .
 } ORDER BY ?model
 ```
 
@@ -24,96 +27,96 @@ This gives us:
     <td><b>provider</b></td>
   </tr>
   <tr>
-    <td>http://enaloscloud.novamechanics.com/EnalosWebApps/ZetaPotential/</td>
+    <td><a href="http://enaloscloud.novamechanics.com/EnalosWebApps/ZetaPotential/">PhysChem: Zeta potential NanoXtract model</a></td>
     <td>NanoSolveIT Tools</td>
   </tr>
   <tr>
-    <td>https://aerosol.cloud.nanosolveit.eu/</td>
+    <td><a href="https://aerosol.cloud.nanosolveit.eu/">NanoSolveIT Tool for Assessment of Human Exposure to Nanomaterials</a></td>
     <td>NanoSolveIT Tools</td>
   </tr>
   <tr>
-    <td>https://atena.urv.cat/model/#Anantha2021</td>
+    <td><a href="https://atena.urv.cat/model/#Anantha2021">Nanocompound: Toxicity Metal-Oxide: Anantha 2021</a></td>
     <td>SbD4nano Nanocompound</td>
   </tr>
   <tr>
-    <td>https://atena.urv.cat/model/#Gajewicz2015</td>
+    <td><a href="https://atena.urv.cat/model/#Gajewicz2015">Nanocompound: Toxicity Metal-Oxide: Gajewicz 2015</a></td>
     <td>SbD4nano Nanocompound</td>
   </tr>
   <tr>
-    <td>https://atena.urv.cat/model/#Papa2015-TiO2</td>
+    <td><a href="https://atena.urv.cat/model/#Papa2015-TiO2">Nanocompound: LDH(TiO2)</a></td>
     <td>SbD4nano Nanocompound</td>
   </tr>
   <tr>
-    <td>https://atena.urv.cat/model/#Papa2015-TiO2ZnO</td>
+    <td><a href="https://atena.urv.cat/model/#Papa2015-TiO2ZnO">Nanocompound: LDH(TiO2+ZnO)</a></td>
     <td>SbD4nano Nanocompound</td>
   </tr>
   <tr>
-    <td>https://atena.urv.cat/model/#Papa2015-ZnO</td>
+    <td><a href="https://atena.urv.cat/model/#Papa2015-ZnO">Nanocompound: LDH(TiO2+ZnO)</a></td>
     <td>SbD4nano Nanocompound</td>
   </tr>
   <tr>
-    <td>https://atena.urv.cat/model/#Puzyn2011</td>
+    <td><a href="https://atena.urv.cat/model/#Puzyn2011">Nanocompound: Toxicity Metal-Oxide: Puzyn 2011</a></td>
     <td>SbD4nano Nanocompound</td>
   </tr>
   <tr>
-    <td>https://atena.urv.cat/model/#Serratosa2022</td>
+    <td><a href="https://atena.urv.cat/model/#Serratosa2022">Nanocompound: Toxicity Metal-Oxide: Serratosa2022</a></td>
     <td>SbD4nano Nanocompound</td>
   </tr>
   <tr>
-    <td>https://atena.urv.cat/model/#Serratosa2022-TiO2</td>
+    <td><a href="https://atena.urv.cat/model/#Serratosa2022-TiO2">Nanocompound: LDH(TiO2): Serratosa2022</a></td>
     <td>SbD4nano Nanocompound</td>
   </tr>
   <tr>
-    <td>https://atena.urv.cat/model/#Serratosa2022-TiO2ZnO</td>
+    <td><a href="https://atena.urv.cat/model/#Serratosa2022-TiO2ZnO">Nanocompound: LDH(TiO2+ZnO): Serratosa2022</a></td>
     <td>SbD4nano Nanocompound</td>
   </tr>
   <tr>
-    <td>https://atena.urv.cat/model/#Serratosa2022-ZnO</td>
+    <td><a href="https://atena.urv.cat/model/#Serratosa2022-ZnO">Nanocompound: LDH(ZnO): Serratosa2022</a></td>
     <td>SbD4nano Nanocompound</td>
   </tr>
   <tr>
-    <td>https://cellviability.cloud.nanosolveit.eu/</td>
+    <td><a href="https://cellviability.cloud.nanosolveit.eu/">NanoSolveIT Cytotoxicity (Cell Viability) Prediction for Metal Oxide NPs</a></td>
     <td>NanoSolveIT Tools</td>
   </tr>
   <tr>
-    <td>https://deepdaph.cloud.nanosolveit.eu/</td>
+    <td><a href="https://deepdaph.cloud.nanosolveit.eu/">DeepDaph</a></td>
     <td>NanoSolveIT Tools</td>
   </tr>
   <tr>
-    <td>https://example.org/nanoinformatix-platform.greendecision.eu/SimpleBMD</td>
+    <td><a href="https://example.org/nanoinformatix-platform.greendecision.eu/SimpleBMD">SimpleBMD</a></td>
     <td>NanoInformaTIX Tools</td>
   </tr>
   <tr>
-    <td>https://funmappone.cloud.nanosolveit.eu/</td>
+    <td><a href="https://funmappone.cloud.nanosolveit.eu/">FunMappOne</a></td>
     <td>NanoSolveIT Tools</td>
   </tr>
   <tr>
-    <td>https://identifiers.org/aop/10</td>
-    <td>AOP-Wiki AOPs</td>
+    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_10">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_10</a></td>
+    <td>Computational models for the assessment of manufactured nanomaterials</td>
   </tr>
   <tr>
-    <td>https://identifiers.org/aop/100</td>
-    <td>AOP-Wiki AOPs</td>
+    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_11">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_11</a></td>
+    <td>Computational models for the assessment of manufactured nanomaterials</td>
   </tr>
   <tr>
-    <td>https://identifiers.org/aop/101</td>
-    <td>AOP-Wiki AOPs</td>
+    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_12">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_12</a></td>
+    <td>Computational models for the assessment of manufactured nanomaterials</td>
   </tr>
   <tr>
-    <td>https://identifiers.org/aop/102</td>
-    <td>AOP-Wiki AOPs</td>
+    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_13">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_13</a></td>
+    <td>Computational models for the assessment of manufactured nanomaterials</td>
   </tr>
   <tr>
-    <td>https://identifiers.org/aop/103</td>
-    <td>AOP-Wiki AOPs</td>
+    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_14">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_14</a></td>
+    <td>Computational models for the assessment of manufactured nanomaterials</td>
   </tr>
   <tr>
-    <td>https://identifiers.org/aop/104</td>
-    <td>AOP-Wiki AOPs</td>
+    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_15">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_15</a></td>
+    <td>Computational models for the assessment of manufactured nanomaterials</td>
   </tr>
   <tr>
-    <td>https://identifiers.org/aop/106</td>
-    <td>AOP-Wiki AOPs</td>
+    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_16">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_16</a></td>
+    <td>Computational models for the assessment of manufactured nanomaterials</td>
   </tr>
   <tr><td colspan="2">This table is truncated. See the full table at <a href="sparql/allModels.code.html">sparql/allModels.rq</a></td></tr>
 </table>
