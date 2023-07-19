@@ -1,0 +1,26 @@
+#+ endpoint: https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/sparql
+#+ endpoint_in_url: False
+#+ enumerate:
+#+   - lang:
+#+     - en,en
+
+
+PREFIX npo: <http://purl.bioontology.org/ontology/npo#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX rdfs:    <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sbd:     <https://www.sbd4nano.eu/rdf/#>
+PREFIX sbdbel:  <https://www.sbd4nano.eu/bel/#>
+PREFIX dc:      <http://purl.org/dc/elements/1.1/>
+PREFIX dct:     <http://purl.org/dc/terms/>
+PREFIX skos:    <http://www.w3.org/2004/02/skos/core#>
+
+SELECT ?material (SAMPLE(?material_) AS ?materialLabel) (COUNT(DISTINCT ?model) AS ?count)
+WHERE {
+  ?material rdfs:label ?material_ .
+  ?model a sbd:Model .
+  { ?model sbdbel:NP ?material . } UNION { ?model dct:subject / skos:narrower ?material . }
+  OPTIONAL { ?model rdfs:label ?rdfsLabel }
+  BIND(COALESCE(?rdfsLabel, str(?model)) AS ?modelLabel)
+} GROUP BY ?material
+  ORDER BY DESC(?count)
+

@@ -26,6 +26,7 @@ Issues, comments, questions can be reported [here](https://github.com/h2020-sbd4
 2.1. [Databases](data.md#databases) <br />
 2.2. [Datasets](data.md#datasets) <br />
 3. [Models](models.md) <br />
+3.1. [NanoMaterials](models.md#nanomaterials) <br />
 4. [Guidances](guidance.md) <br />
 4.1. [Guidance tools](guidance.md#guidance-tools) <br />
 4.2. [Guidance documents](guidance.md#guidance-documents) <br />

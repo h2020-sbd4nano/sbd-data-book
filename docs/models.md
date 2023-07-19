@@ -121,3 +121,90 @@ This gives us:
   <tr><td colspan="2">This table is truncated. See the full table at <a href="sparql/allModels.code.html">sparql/allModels.rq</a></td></tr>
 </table>
 
+## NanoMaterials
+
+We can also list the number of models that can make some prediction
+for a particular material:
+
+**SPARQL** [sparql/modelsForNanomaterials.rq](sparql/modelsForNanomaterials.code.html) ([run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20npo%3A%20%3Chttp%3A%2F%2Fpurl.bioontology.org%2Fontology%2Fnpo%23%3E%0APREFIX%20obo%3A%20%3Chttp%3A%2F%2Fpurl.obolibrary.org%2Fobo%2F%3E%0APREFIX%20rdfs%3A%20%20%20%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0APREFIX%20sbd%3A%20%20%20%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Frdf%2F%23%3E%0APREFIX%20sbdbel%3A%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Fbel%2F%23%3E%0APREFIX%20dc%3A%20%20%20%20%20%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%3E%0APREFIX%20dct%3A%20%20%20%20%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0APREFIX%20skos%3A%20%20%20%20%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0A%0ASELECT%20%3Fmaterial%20%28SAMPLE%28%3Fmaterial_%29%20AS%20%3FmaterialLabel%29%20%28COUNT%28DISTINCT%20%3Fmodel%29%20AS%20%3Fcount%29%0AWHERE%20%7B%0A%20%20%3Fmaterial%20rdfs%3Alabel%20%3Fmaterial_%20.%0A%20%20%3Fmodel%20a%20sbd%3AModel%20.%0A%20%20%7B%20%3Fmodel%20sbdbel%3ANP%20%3Fmaterial%20.%20%7D%20UNION%20%7B%20%3Fmodel%20dct%3Asubject%20%2F%20skos%3Anarrower%20%3Fmaterial%20.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fmodel%20rdfs%3Alabel%20%3FrdfsLabel%20%7D%0A%20%20BIND%28COALESCE%28%3FrdfsLabel%2C%20str%28%3Fmodel%29%29%20AS%20%3FmodelLabel%29%0A%7D%20GROUP%20BY%20%3Fmaterial%0A%20%20ORDER%20BY%20DESC%28%3Fcount%29%0A))
+```sparql
+PREFIX npo: <http://purl.bioontology.org/ontology/npo#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX rdfs:    <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sbd:     <https://www.sbd4nano.eu/rdf/#>
+PREFIX sbdbel:  <https://www.sbd4nano.eu/bel/#>
+PREFIX dc:      <http://purl.org/dc/elements/1.1/>
+PREFIX dct:     <http://purl.org/dc/terms/>
+PREFIX skos:    <http://www.w3.org/2004/02/skos/core#>
+SELECT ?material (SAMPLE(?material_) AS ?materialLabel) (COUNT(DISTINCT ?model) AS ?count)
+WHERE {
+  ?material rdfs:label ?material_ .
+  ?model a sbd:Model .
+  { ?model sbdbel:NP ?material . } UNION { ?model dct:subject / skos:narrower ?material . }
+  OPTIONAL { ?model rdfs:label ?rdfsLabel }
+  BIND(COALESCE(?rdfsLabel, str(?model)) AS ?modelLabel)
+} GROUP BY ?material
+  ORDER BY DESC(?count)
+```
+
+This gives:
+
+<table>
+  <tr>
+    <td><b>material</b></td>
+    <td><b>count</b></td>
+  </tr>
+  <tr>
+    <td><a href="npo:NPO_1542">ZnO</a></td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td><a href="npo:NPO_1486">R-TiO2</a></td>
+    <td>46</td>
+  </tr>
+  <tr>
+    <td><a href="npo:NPO_1550">Fe2O3</a></td>
+    <td>39</td>
+  </tr>
+  <tr>
+    <td><a href="npo:NPO_1373">SiO2</a></td>
+    <td>34</td>
+  </tr>
+  <tr>
+    <td><a href="obo:CHEBI_30187">Al2O3</a></td>
+    <td>33</td>
+  </tr>
+  <tr>
+    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/157925">lanthanum(3+);oxygen(2-)</a></td>
+    <td>32</td>
+  </tr>
+  <tr>
+    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/14805">oxonickel</a></td>
+    <td>31</td>
+  </tr>
+  <tr>
+    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/159375">oxygen(2-);yttrium(3+)</a></td>
+    <td>31</td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_0000118">Cobalt (II) oxide nanoparticle</a></td>
+    <td>30</td>
+  </tr>
+  <tr>
+    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/150906">indium(3+);oxygen(2-)</a></td>
+    <td>30</td>
+  </tr>
+  <tr>
+    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/166955">chromium(3+);oxygen(2-)</a></td>
+    <td>30</td>
+  </tr>
+  <tr>
+    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/29131">dioxotin</a></td>
+    <td>30</td>
+  </tr>
+  <tr>
+    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/62762">dioxozirconium</a></td>
+    <td>30</td>
+  </tr>
+  <tr><td colspan="2">This table is truncated. See the full table at <a href="sparql/modelsForNanomaterials.code.html">sparql/modelsForNanomaterials.rq</a></td></tr>
+</table>
