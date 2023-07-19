@@ -388,7 +388,7 @@ This gives us:
     <td><b>license</b></td>
   </tr>
   <tr>
-    <td>39256</td>
+    <td>44458</td>
     <td></td>
   </tr>
   <tr>
@@ -440,6 +440,17 @@ source what information is provided as basic <a name="tp7">statistics</a>:
     <td><b>guidancetools</b></td>
     <td><b>guidancedocs</b></td>
     <td><b>lcanalyses</b></td>
+  </tr>
+  <tr>
+    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape">Computational models for the assessment of manufactured nanomaterials</a></td>
+    <td>0</td>
+    <td>0</td>
+    <td>204</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
   </tr>
   <tr>
     <td><a href="https://nanocommons.github.io/datasets/">Overview of open datasets released by NanoSafety Cluster projects</a></td>

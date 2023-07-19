@@ -30,7 +30,7 @@ WHERE {
     <td><b>license</b></td>
   </tr>
   <tr>
-    <td>39256</td>
+    <td>44458</td>
     <td></td>
   </tr>
   <tr>
@@ -123,6 +123,10 @@ WHERE {
   </tr>
   <tr>
     <td>1</td>
+    <td>http://onlinelibrary.wiley.com/termsAndConditions#am</td>
+  </tr>
+  <tr>
+    <td>1</td>
     <td>https://www.echemportal.org/echemportal/page/12</td>
   </tr>
   <tr>
@@ -148,14 +152,6 @@ WHERE {
   <tr>
     <td>1</td>
     <td>https://www.ncis.org.au/about-us/copyright/</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>http://onlinelibrary.wiley.com/termsAndConditions#am</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://creativecommons.org/licenses/by-nc-nd/4.0/</td>
   </tr>
   <tr>
     <td>1</td>
@@ -252,6 +248,10 @@ WHERE {
   <tr>
     <td>1</td>
     <td>https://search.data.enanomapper.net/about/sunshine</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://creativecommons.org/licenses/by-nc-nd/4.0/</td>
   </tr>
   <tr>
     <td>1</td>

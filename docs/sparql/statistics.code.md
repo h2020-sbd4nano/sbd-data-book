@@ -61,6 +61,17 @@ WHERE {
     <td><b>lcanalyses</b></td>
   </tr>
   <tr>
+    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape">Computational models for the assessment of manufactured nanomaterials</a></td>
+    <td>0</td>
+    <td>0</td>
+    <td>204</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+  <tr>
     <td><a href="https://nanocommons.github.io/datasets/">Overview of open datasets released by NanoSafety Cluster projects</a></td>
     <td>0</td>
     <td>42</td>

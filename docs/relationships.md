@@ -228,15 +228,15 @@ This gives us:
     <td>10</td>
   </tr>
   <tr>
-    <td>Increased, secretion of proinflammatory mediators</td>
-    <td>9</td>
-  </tr>
-  <tr>
     <td>Apoptosis</td>
     <td>9</td>
   </tr>
   <tr>
     <td>Increase, Apoptosis</td>
+    <td>9</td>
+  </tr>
+  <tr>
+    <td>Increased, secretion of proinflammatory mediators</td>
     <td>9</td>
   </tr>
   <tr>
@@ -268,7 +268,7 @@ This gives us:
     <td>7</td>
   </tr>
   <tr>
-    <td>Increase, Oocyte apoptosis</td>
+    <td>Decrease of neuronal network function</td>
     <td>7</td>
   </tr>
   <tr>
@@ -276,15 +276,15 @@ This gives us:
     <td>7</td>
   </tr>
   <tr>
-    <td>Decrease of neuronal network function</td>
+    <td>protein corona</td>
+    <td>7</td>
+  </tr>
+  <tr>
+    <td>Increase, Oocyte apoptosis</td>
     <td>7</td>
   </tr>
   <tr>
     <td>Increased, Liver Steatosis</td>
-    <td>7</td>
-  </tr>
-  <tr>
-    <td>Decrease, Reproduction</td>
     <td>7</td>
   </tr>
   <tr><td colspan="2">This table is truncated. See the full table at <a href="sparql/relationshipsByOutcome.code.html">sparql/relationshipsByOutcome.rq</a></td></tr>
