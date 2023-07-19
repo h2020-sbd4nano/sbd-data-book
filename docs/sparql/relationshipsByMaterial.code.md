@@ -39,11 +39,11 @@ WHERE {
     <td>6</td>
   </tr>
   <tr>
-    <td>Nanomaterial</td>
+    <td>Nanoparticle</td>
     <td>5</td>
   </tr>
   <tr>
-    <td>Nanoparticle</td>
+    <td>Nanomaterial</td>
     <td>5</td>
   </tr>
   <tr>

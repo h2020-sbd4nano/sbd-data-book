@@ -83,6 +83,10 @@ SELECT ?model ?modeLabel ?provider WHERE {
     <td>NanoSolveIT Tools</td>
   </tr>
   <tr>
+    <td>https://example.org/nanoinformatix-platform.greendecision.eu/SimpleBMD</td>
+    <td>NanoInformaTIX Tools</td>
+  </tr>
+  <tr>
     <td>https://funmappone.cloud.nanosolveit.eu/</td>
     <td>NanoSolveIT Tools</td>
   </tr>

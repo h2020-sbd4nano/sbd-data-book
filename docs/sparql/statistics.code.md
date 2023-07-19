@@ -61,6 +61,39 @@ WHERE {
     <td><b>lcanalyses</b></td>
   </tr>
   <tr>
+    <td><a href="https://nanocommons.github.io/datasets/">Overview of open datasets released by NanoSafety Cluster projects</a></td>
+    <td>0</td>
+    <td>42</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td><a href="https://atena.urv.cat/model/">SbD4nano Nanocompound</a></td>
+    <td>0</td>
+    <td>0</td>
+    <td>10</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-smartnanotox/">SmartNanoTox Transcriptomics datasets</a></td>
+    <td>0</td>
+    <td>20</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+  <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/">AOP-Wiki AOPs</a></td>
     <td>0</td>
     <td>0</td>
@@ -105,6 +138,39 @@ WHERE {
     <td>0</td>
   </tr>
   <tr>
+    <td><a href="https://ammar257ammar.github.io/Nanosafety-data-reusability-34-datasets/">Data completeness and reusability assessment for 34 nanosafety datasets</a></td>
+    <td>0</td>
+    <td>34</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td><a href="https://fairsharing.org/">FAIRsharing</a></td>
+    <td>25</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td><a href="https://nanoinformatix-platform.greendecision.eu/">NanoInformaTIX Tools</a></td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+  <tr>
     <td><a href="https://nanosolveit.eu/resources/tools-services/">NanoSolveIT Tools</a></td>
     <td>0</td>
     <td>0</td>
@@ -130,39 +196,6 @@ WHERE {
     <td><a href="https://search.data.enanomapper.net/">Open datasets hosted at the Nanosafety Data Interface</a></td>
     <td>5</td>
     <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-  </tr>
-  <tr>
-    <td><a href="https://atena.urv.cat/model/">SbD4nano Nanocompound</a></td>
-    <td>0</td>
-    <td>0</td>
-    <td>10</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-  </tr>
-  <tr>
-    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-smartnanotox/">SmartNanoTox Transcriptomics datasets</a></td>
-    <td>0</td>
-    <td>20</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-  </tr>
-  <tr>
-    <td><a href="https://nanocommons.github.io/datasets/">Overview of open datasets released by NanoSafety Cluster projects</a></td>
-    <td>0</td>
-    <td>20</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>

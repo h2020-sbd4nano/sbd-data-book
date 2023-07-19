@@ -30,52 +30,140 @@ WHERE {
     <td><b>license</b></td>
   </tr>
   <tr>
-    <td>34028</td>
+    <td>39256</td>
     <td></td>
   </tr>
   <tr>
-    <td>1777</td>
+    <td>1778</td>
     <td>http://creativecommons.org/publicdomain/zero/1.0/</td>
   </tr>
   <tr>
-    <td>261</td>
+    <td>271</td>
     <td>https://creativecommons.org/licenses/by/4.0/</td>
   </tr>
   <tr>
-    <td>23</td>
+    <td>77</td>
+    <td>http://example.com/unknown</td>
+  </tr>
+  <tr>
+    <td>29</td>
     <td>https://www.wikidata.org/entity/Q50423863</td>
   </tr>
   <tr>
-    <td>17</td>
-    <td>http://example.com/unknown</td>
+    <td>22</td>
+    <td>https://creativecommons.org/licenses/by-nc/3.0/de/legalcode</td>
   </tr>
   <tr>
     <td>14</td>
     <td>https://creativecommons.org/licenses/by/4.0/legalcode</td>
   </tr>
   <tr>
-    <td>1</td>
-    <td>https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode</td>
+    <td>9</td>
+    <td>https://opensource.org/licenses/MIT</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>https://opensource.org/licenses/GPL-3.0</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>https://www.elsevier.com/tdm/userlicense/1.0/</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>http://rdflicense.appspot.com/rdflicense/cc-by-nc-nd3.0</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>https://spdx.org/licenses/Unlicense</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>https://creativecommons.org/licenses/by/4.0</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>https://doi.org/10.15223/policy-029</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>http://www.apache.org/licenses/LICENSE-2.0</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>https://creativecommons.org/licenses/by-nc/4.0/</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>http://rsc.li/journals-terms-of-use</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>http://creativecommons.org/licenses/by-nc-nd/4.0/</td>
   </tr>
   <tr>
     <td>1</td>
-    <td>https://creativecommons.org/licenses/by-nc/4.0/legalcode</td>
+    <td>https://opensource.org/licenses/CECILL-2.1</td>
   </tr>
   <tr>
     <td>1</td>
-    <td>https://springernature.figshare.com/articles/dataset/MOESM1_of_Role_of_chemical_composition_and_redox_modification_of_poorly_soluble_nanomaterials_on_their_ability_to_enhance_allergic_airway_sensitisation_in_mice/10071023</td>
+    <td>https://opensource.org/licenses/AGPL-3.0</td>
   </tr>
   <tr>
     <td>1</td>
-    <td>https://springernature.figshare.com/articles/dataset/MOESM1_of_Role_of_chemical_composition_and_redox_modification_of_poorly_soluble_nanomaterials_on_their_ability_to_enhance_allergic_airway_sensitisation_in_mice/10071032</td>
+    <td>http://creativecommons.org/licenses/by/3.0/</td>
   </tr>
   <tr>
     <td>1</td>
-    <td>https://creativecommons.org/share-your-work/public-domain/cc0</td>
+    <td>https://opensource.org/license/bsd-3-clause/</td>
   </tr>
   <tr>
     <td>1</td>
-    <td>https://creativecommons.org/publicdomain/zero/1.0/</td>
+    <td>https://opensource.org/license/bsd-2-clause/</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://www.echemportal.org/echemportal/page/12</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://www.epa.gov/web-policies-and-procedures/epa-disclaimers</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://www.goreni.org/gr3_data_protection.php</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://qsardb.food.dtu.dk/db/index.html</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://creativecommons.org/licenses/by-nc-sa/4.0/</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://creativecommons.org/licenses/by/3.0/</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://www.ncis.org.au/about-us/copyright/</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>http://onlinelibrary.wiley.com/termsAndConditions#am</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://creativecommons.org/licenses/by-nc-nd/4.0/</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>http://toxico.nibiohn.go.jp/english/agreement.html</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>http://opendatacommons.org/licenses/pddl/1.0/</td>
   </tr>
   <tr>
     <td>1</td>
@@ -164,6 +252,46 @@ WHERE {
   <tr>
     <td>1</td>
     <td>https://search.data.enanomapper.net/about/sunshine</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>http://doi.wiley.com/10.1002/tdm_license_1.1</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>http://creativecommons.org/licenses/by/2.0</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://creativecommons.org/licenses/by-nc/4.0/legalcode</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://springernature.figshare.com/articles/dataset/MOESM1_of_Role_of_chemical_composition_and_redox_modification_of_poorly_soluble_nanomaterials_on_their_ability_to_enhance_allergic_airway_sensitisation_in_mice/10071023</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://springernature.figshare.com/articles/dataset/MOESM1_of_Role_of_chemical_composition_and_redox_modification_of_poorly_soluble_nanomaterials_on_their_ability_to_enhance_allergic_airway_sensitisation_in_mice/10071032</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://creativecommons.org/publicdomain/zero/1.0/</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://creativecommons.org/share-your-work/public-domain/cc0</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://github.com/ammar257ammar/Nanosafety-data-reusability-34-datasets/blob/main/LICENSE</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>http://creativecommons.org/licenses/by-sa/4.0/</td>
   </tr>
 </table>
 

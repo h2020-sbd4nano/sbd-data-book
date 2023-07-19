@@ -114,6 +114,106 @@ SELECT ?title ?url WHERE {
     <td>sunshine - eNanoMapper database</td>
     <td>https://search.data.enanomapper.net/projects/sunshine</td>
   </tr>
+  <tr>
+    <td>Exposure Ontology</td>
+    <td>http://bioportal.bioontology.org/ontologies/1575</td>
+  </tr>
+  <tr>
+    <td>The Blood Exposome Database</td>
+    <td>http://bloodexposome.org/</td>
+  </tr>
+  <tr>
+    <td>Comparative Toxicogenomics Database</td>
+    <td>http://ctdbase.org/</td>
+  </tr>
+  <tr>
+    <td>Chromium Epigenomics Toxicology</td>
+    <td>http://epichromium.org</td>
+  </tr>
+  <tr>
+    <td>Exposome Explorer</td>
+    <td>http://exposome-explorer.iarc.fr/</td>
+  </tr>
+  <tr>
+    <td>Tox Biology Checklist</td>
+    <td>http://mibbi.sf.net/projects/TBC.shtml</td>
+  </tr>
+  <tr>
+    <td>Minimum Information about an array-based toxicogenomics experiment</td>
+    <td>http://mibbi.sourceforge.net/projects/MIAME-Tox.shtml</td>
+  </tr>
+  <tr>
+    <td>Danish (Q)SAR Database</td>
+    <td>http://qsar.food.dtu.dk/</td>
+  </tr>
+  <tr>
+    <td>Open Toxicogenomics Project-Genomics Assisted Toxicity Evaluation system</td>
+    <td>http://toxico.nibiohn.go.jp/english/</td>
+  </tr>
+  <tr>
+    <td>Toxicology Data Markup Language</td>
+    <td>http://toxml.org</td>
+  </tr>
+  <tr>
+    <td>International Harmonization of Nomenclature and Diagnostic criteria</td>
+    <td>http://www.goreni.org/</td>
+  </tr>
+  <tr>
+    <td>Minimum Information About a Bioactive Entity</td>
+    <td>http://www.psidev.info/miabe</td>
+  </tr>
+  <tr>
+    <td>ECOTOXicology Knowledgebase</td>
+    <td>https://cfpub.epa.gov/ecotox/</td>
+  </tr>
+  <tr>
+    <td>EPA Comptox Chemicals Dashboard</td>
+    <td>https://comptox.epa.gov/dashboard</td>
+  </tr>
+  <tr>
+    <td>data.eNanoMapper.net</td>
+    <td>https://data.enanomapper.net/</td>
+  </tr>
+  <tr>
+    <td>Translational Data Catalog</td>
+    <td>https://datacatalog.elixir-luxembourg.org/</td>
+  </tr>
+  <tr>
+    <td>Chemical Effects in Biological Systems</td>
+    <td>https://doi.org/10.22427/NTP-DATA-1</td>
+  </tr>
+  <tr>
+    <td>Toxicology</td>
+    <td>https://github.com/elixir-europe/toxicology-community</td>
+  </tr>
+  <tr>
+    <td>Minimum Information about Animal Toxicology Experiments In Vivo</td>
+    <td>https://github.com/zacharewskilab/MIATE</td>
+  </tr>
+  <tr>
+    <td>National Center for Advancing Translational Sciences COVID-19 OpenData Portal</td>
+    <td>https://opendata.ncats.nih.gov/covid19/</td>
+  </tr>
+  <tr>
+    <td>Ecotoxicology thesaurus</td>
+    <td>https://skosmos.loterre.fr/3WV/en/</td>
+  </tr>
+  <tr>
+    <td>OECD eChemPortal</td>
+    <td>https://www.echemportal.org/echemportal/</td>
+  </tr>
+  <tr>
+    <td>EFSA OpenFoodTox</td>
+    <td>https://www.efsa.europa.eu/en/microstrategy/openfoodtox</td>
+  </tr>
+  <tr>
+    <td>NanoCommons Knowledge Base</td>
+    <td>https://www.nanocommons.eu/nanocommons-knowledge-base/</td>
+  </tr>
+  <tr>
+    <td>National Coronial Information System</td>
+    <td>https://www.ncis.org.au/</td>
+  </tr>
 </table>
 
 ## Code examples

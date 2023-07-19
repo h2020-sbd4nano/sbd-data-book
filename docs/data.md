@@ -85,25 +85,25 @@ This gives us a list of datasets, here showing the first 10:
     <td><a href="http://doi.org/10.5281/zenodo.35493">All NanoPUZZLES ISA-TAB-Nano datasets</a></td>
   </tr>
   <tr>
-    <td><a href="https://aopwiki.rdf.bigcat-bioinformatics.org/sparql?default-graph-uri=&query=SELECT+%3FAOP+%3FAOPTitle+%3FAO+%3FAOTitle+WHERE+%7B%0D%0A%3FAOP+a+aopo%3AAdverseOutcomePathway+%3B%0D%0Adc%3Atitle+%3FAOPTitle+%3B%0D%0Aaopo%3Ahas_adverse_outcome+%3FAO.%0D%0A%3FAO+dc%3Atitle+%3FAOTitle+.%7D&should-sponge=&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+">AOP-Wiki AOP-AO dataset</a></td>
+    <td><a href="http://dx.doi.org/10.1016/j.chemosphere.2018.11.014">Quasi-QSAR for predicting the cell viability of human lung and skin cells exposed to different metal oxide nanomaterials</a></td>
   </tr>
   <tr>
-    <td><a href="https://aopwiki.rdf.bigcat-bioinformatics.org/sparql?default-graph-uri=&query=SELECT+%3FAOP+%3FAOPTitle+%3FKE+%3FKETitle+WHERE+%7B%0D%0A%3FAOP+a+aopo%3AAdverseOutcomePathway+%3B%0D%0Adc%3Atitle+%3FAOPTitle+%3B%0D%0Aaopo%3Ahas_key_event+%3FKE.%0D%0A%3FKE+dc%3Atitle+%3FKETitle+.%7D&should-sponge=&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+">AOP-Wiki AOP-KE dataset</a></td>
+    <td><a href="http://dx.doi.org/10.1016/j.chemosphere.2019.125489">A unified in silico model based on perturbation theory for assessing the genotoxicity of metal oxide nanoparticles</a></td>
   </tr>
   <tr>
-    <td><a href="https://aopwiki.rdf.bigcat-bioinformatics.org/sparql?default-graph-uri=&query=SELECT+%3FMIE+%3FMolecularInitiatingEventName+%3FKE+%3FKeyEventName+WHERE+%7B%0D%0A%3FMIE+dc%3Atitle+%3FMolecularInitiatingEventName+.%0D%0A%3FAOP+a+aopo%3AAdverseOutcomePathway+%3B%0D%0Aaopo%3Ahas_molecular_initiating_event+%3FMIE%3B%0D%0Aaopo%3Ahas_key_event+%3FKE.%0D%0A%3FKE+dc%3Atitle+%3FKeyEventName+.%0D%0AFILTER+%28%3FMIE+%21%3D+%3FKE%29%7D&should-sponge=&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+">AOP-Wiki MIE-KE dataset</a></td>
+    <td><a href="http://dx.doi.org/10.1016/j.chemosphere.2021.131452">Ecotoxicological read-across models for predicting acute toxicity of freshly dispersed versus medium-aged NMs to Daphnia magna</a></td>
   </tr>
   <tr>
-    <td><a href="https://doi.org/10.5281/zenodo.3467015">NANoREG - eNanoMapper database</a></td>
+    <td><a href="http://dx.doi.org/10.1016/j.envint.2014.08.009">Computational ecotoxicology: Simultaneous prediction of ecotoxic effects of nanoparticles under different experimental conditions</a></td>
   </tr>
   <tr>
-    <td><a href="https://doi.org/10.5281/zenodo.4146981">Toxicogenomic assessment of engineered nanomaterials</a></td>
+    <td><a href="http://dx.doi.org/10.1016/j.fct.2017.08.008">Modelling the toxicity of a large set of metal and metal oxide nanoparticles using the OCHEM platform</a></td>
   </tr>
   <tr>
-    <td><a href="https://doi.org/10.5281/zenodo.4421969">Status quo in data availability and predictive models of nano-mixture toxicity</a></td>
+    <td><a href="http://dx.doi.org/10.1016/j.impact.2021.100298">Use of size-dependent electron configuration fingerprint to develop general prediction models for nanomaterials</a></td>
   </tr>
   <tr>
-    <td><a href="https://doi.org/10.5281/zenodo.4609840">Raw data and metadata of SiO2 NP physicochemical characterisation, in vitro investigations and in silico predictions on protein corona formation</a></td>
+    <td><a href="http://dx.doi.org/10.1016/j.impact.2021.100308">Computational enrichment of physicochemical data for the development of a ζ-potential read-across predictive model with Isalos Analytics Platform</a></td>
   </tr>
   <tr><td colspan="2">This table is truncated. See the full table at <a href="sparql/allDatasets.code.html">sparql/allDatasets.rq</a></td></tr>
 </table>

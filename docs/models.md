@@ -80,6 +80,10 @@ This gives us:
     <td>NanoSolveIT Tools</td>
   </tr>
   <tr>
+    <td>https://example.org/nanoinformatix-platform.greendecision.eu/SimpleBMD</td>
+    <td>NanoInformaTIX Tools</td>
+  </tr>
+  <tr>
     <td>https://funmappone.cloud.nanosolveit.eu/</td>
     <td>NanoSolveIT Tools</td>
   </tr>
@@ -109,10 +113,6 @@ This gives us:
   </tr>
   <tr>
     <td>https://identifiers.org/aop/106</td>
-    <td>AOP-Wiki AOPs</td>
-  </tr>
-  <tr>
-    <td>https://identifiers.org/aop/107</td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr><td colspan="2">This table is truncated. See the full table at <a href="sparql/allModels.code.html">sparql/allModels.rq</a></td></tr>

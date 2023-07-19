@@ -55,8 +55,32 @@ This gives us:
     <td></td>
   </tr>
   <tr>
+    <td><a href="https://ammar257ammar.github.io/Nanosafety-data-reusability-34-datasets/">Data completeness and reusability assessment for 34 nanosafety datasets</a></td>
+    <td></td>
+  </tr>
+  <tr>
     <td><a href="https://atena.urv.cat/model/">SbD4nano Nanocompound</a></td>
     <td><img width="200" src="https://www.urv.cat/media/img/logo-urv-nav.png" /></td>
+  </tr>
+  <tr>
+    <td><a href="https://bio.tools/t?domain=toxicology">The bio.tools Toxicology Collection</a></td>
+    <td><img width="200" src="https://bio.tools/img/elixir_biotools_transparent.png" /></td>
+  </tr>
+  <tr>
+    <td><a href="https://diamonds.tno.nl/">COVID-19</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="https://diamonds.tno.nl/">Scientific Models</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="https://diamonds.tno.nl/">Exposure</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="https://fairsharing.org/">FAIRsharing</a></td>
+    <td><img width="200" src="https://api.fairsharing.org/img/fairsharing-attribution.svg" /></td>
   </tr>
   <tr>
     <td><a href="https://aopwiki.rdf.bigcat-bioinformatics.org/">AOP-Wiki data</a></td>
@@ -79,6 +103,14 @@ This gives us:
     <td><img width="200" src="https://www.ucd.ie/sbi/t4media/SNT%20870x400.png" /></td>
   </tr>
   <tr>
+    <td><a href="https://nanocommons.github.io/datasets/">Overview of open datasets released by NanoSafety Cluster projects</a></td>
+    <td><img width="200" src="https://upload.wikimedia.org/wikipedia/commons/e/e1/NanoCommons-Logo-Large_-_White_Circle_01.png" /></td>
+  </tr>
+  <tr>
+    <td><a href="https://nanoinformatix-platform.greendecision.eu/">NanoInformaTIX Tools</a></td>
+    <td><img width="200" src="https://nanoinformatix-platform.greendecision.eu/Nix-logo-DEF.jpg" /></td>
+  </tr>
+  <tr>
     <td><a href="https://nanosolveit.eu/resources/tools-services/">NanoSolveIT Tools</a></td>
     <td><img width="200" src="https://nanosolveit.eu/wp-content/uploads/2019/06/NanoSolveIT-300x114-Transparent-Half.png" /></td>
   </tr>
@@ -91,12 +123,12 @@ This gives us:
     <td><img width="200" src="https://search.data.enanomapper.net/assets/img/logo.png" /></td>
   </tr>
   <tr>
-    <td><a href="https://nanocommons.github.io/datasets/">Overview of open datasets released by NanoSafety Cluster projects</a></td>
-    <td><img width="200" src="https://upload.wikimedia.org/wikipedia/commons/e/e1/NanoCommons-Logo-Large_-_White_Circle_01.png" /></td>
-  </tr>
-  <tr>
     <td><a href="https://cloud.vhp4safety.nl/">Cloud services provided by VHP4Safety</a></td>
     <td><img width="200" src="https://images.nieuwsbrieven.rivm.nl/101500/0/5763/fe1e7915ce28f7a96ca25ed234631504.png" /></td>
+  </tr>
+  <tr>
+    <td><a href="https://www.health-ri.nl/">Health-RI tools and services</a></td>
+    <td><img width="200" src="https://www.health-ri.nl/sites/healthri/files/styles/service_single_logo/public/images/HealthRI_Primary_RGB.jpg.PNG?itok=veW2kxsV" /></td>
   </tr>
 </table>
 
@@ -356,36 +388,36 @@ This gives us:
     <td><b>license</b></td>
   </tr>
   <tr>
-    <td>34028</td>
+    <td>39256</td>
     <td></td>
   </tr>
   <tr>
-    <td>1777</td>
+    <td>1778</td>
     <td>http://creativecommons.org/publicdomain/zero/1.0/</td>
   </tr>
   <tr>
-    <td>261</td>
+    <td>271</td>
     <td>https://creativecommons.org/licenses/by/4.0/</td>
   </tr>
   <tr>
-    <td>23</td>
+    <td>77</td>
+    <td>http://example.com/unknown</td>
+  </tr>
+  <tr>
+    <td>29</td>
     <td>https://www.wikidata.org/entity/Q50423863</td>
   </tr>
   <tr>
-    <td>17</td>
-    <td>http://example.com/unknown</td>
+    <td>22</td>
+    <td>https://creativecommons.org/licenses/by-nc/3.0/de/legalcode</td>
   </tr>
   <tr>
     <td>14</td>
     <td>https://creativecommons.org/licenses/by/4.0/legalcode</td>
   </tr>
   <tr>
-    <td>1</td>
-    <td>https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://creativecommons.org/licenses/by-nc/4.0/legalcode</td>
+    <td>9</td>
+    <td>https://opensource.org/licenses/MIT</td>
   </tr>
   <tr><td colspan="2">This table is truncated. See the full table at <a href="sparql/allLicenses.code.html">sparql/allLicenses.rq</a></td></tr>
 </table>
@@ -408,6 +440,39 @@ source what information is provided as basic <a name="tp7">statistics</a>:
     <td><b>guidancetools</b></td>
     <td><b>guidancedocs</b></td>
     <td><b>lcanalyses</b></td>
+  </tr>
+  <tr>
+    <td><a href="https://nanocommons.github.io/datasets/">Overview of open datasets released by NanoSafety Cluster projects</a></td>
+    <td>0</td>
+    <td>42</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td><a href="https://atena.urv.cat/model/">SbD4nano Nanocompound</a></td>
+    <td>0</td>
+    <td>0</td>
+    <td>10</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-smartnanotox/">SmartNanoTox Transcriptomics datasets</a></td>
+    <td>0</td>
+    <td>20</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/">AOP-Wiki AOPs</a></td>
@@ -454,6 +519,39 @@ source what information is provided as basic <a name="tp7">statistics</a>:
     <td>0</td>
   </tr>
   <tr>
+    <td><a href="https://ammar257ammar.github.io/Nanosafety-data-reusability-34-datasets/">Data completeness and reusability assessment for 34 nanosafety datasets</a></td>
+    <td>0</td>
+    <td>34</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td><a href="https://fairsharing.org/">FAIRsharing</a></td>
+    <td>25</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td><a href="https://nanoinformatix-platform.greendecision.eu/">NanoInformaTIX Tools</a></td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+  <tr>
     <td><a href="https://nanosolveit.eu/resources/tools-services/">NanoSolveIT Tools</a></td>
     <td>0</td>
     <td>0</td>
@@ -479,39 +577,6 @@ source what information is provided as basic <a name="tp7">statistics</a>:
     <td><a href="https://search.data.enanomapper.net/">Open datasets hosted at the Nanosafety Data Interface</a></td>
     <td>5</td>
     <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-  </tr>
-  <tr>
-    <td><a href="https://atena.urv.cat/model/">SbD4nano Nanocompound</a></td>
-    <td>0</td>
-    <td>0</td>
-    <td>10</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-  </tr>
-  <tr>
-    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-smartnanotox/">SmartNanoTox Transcriptomics datasets</a></td>
-    <td>0</td>
-    <td>20</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-  </tr>
-  <tr>
-    <td><a href="https://nanocommons.github.io/datasets/">Overview of open datasets released by NanoSafety Cluster projects</a></td>
-    <td>0</td>
-    <td>20</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
