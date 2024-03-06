@@ -1,10 +1,18 @@
 # sbd-data-book
 
-## Setting up a SPARQL end point
+This book shows a number of competencies and simple SPARQL queries to demonstrate what
+data is on the SbD4Nano semantic landscape and how data, knowledge, models, tools, and more
+can be found about nanomaterials.
 
-This book is based on the public (open) data of the landscape cache, available
-at https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/.
-The output can be found at https://h2020-sbd4nano.github.io/sbd-data-book/
+The repository https://github.com/h2020-sbd4nano/sbd-data-book holds the source code of
+this book and the output can be found at https://h2020-sbd4nano.github.io/sbd-data-book/
+
+## Setting up a local SPARQL endpoint
+
+Below are links to instructions to set up a local SPARQL endpoint (all open source):
+
+* [Blazegraph](https://github.com/h2020-sbd4nano/sbd-data-landscape-blazegraph) (Java, no longer maintained)
+* [Qlever](https://github.com/h2020-sbd4nano/sbd-data-landscape-qlever) (under daily development, does not support all SPARQL syntax yet)
 
 ### Get a copy of the eNanoMapper ontology
 
