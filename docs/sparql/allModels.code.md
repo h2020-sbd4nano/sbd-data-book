@@ -1405,7 +1405,7 @@ SELECT ?model ?modelLabel ?provider WHERE {
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
-    <td><a href="https://identifiers.org/aop/323">PPARalpha Agonism Impairs Fish Reproduction</a></td>
+    <td><a href="https://identifiers.org/aop/323">PPARalpha Agonism Leading to Decreased Viable Offspring via Decreased 11-Ketotestosterone</a></td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
@@ -1625,11 +1625,15 @@ SELECT ?model ?modelLabel ?provider WHERE {
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
+    <td><a href="https://identifiers.org/aop/4">Ecdysone receptor agonism leading to incomplete ecdysis associated mortality</a></td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
     <td><a href="https://identifiers.org/aop/40">Covalent Protein binding leading to Skin Sensitisation</a></td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
-    <td><a href="https://identifiers.org/aop/401">G protein-coupled estrogen receptor 1 (GPER) signal pathway in the endocrine disrupting effect </a></td>
+    <td><a href="https://identifiers.org/aop/401">G protein-coupled estrogen receptor 1 (GPER) signal pathway in the lipid metabolism disrupting effects</a></td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
@@ -1741,11 +1745,11 @@ SELECT ?model ?modelLabel ?provider WHERE {
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
-    <td><a href="https://identifiers.org/aop/442">Inhibition of voltage gate sodium channels leading to impairment in learning and memory during development</a></td>
+    <td><a href="https://identifiers.org/aop/442">Binding to voltage gate sodium channels during development leads to cognitive impairment </a></td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
-    <td><a href="https://identifiers.org/aop/443">Alcohol Induced DNA damage and mutations leading to Metastatic Breast Cancer</a></td>
+    <td><a href="https://identifiers.org/aop/443"> DNA damage and mutations leading to Metastatic Breast Cancer</a></td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
@@ -1761,11 +1765,23 @@ SELECT ?model ?modelLabel ?provider WHERE {
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
-    <td><a href="https://identifiers.org/aop/455">Aryl hydrocarbon receptor activation leading to early life stage mortality via impeded craniofacial development</a></td>
+    <td><a href="https://identifiers.org/aop/455">Aryl hydrocarbon receptor activation leading to early life stage mortality via sox9 repression induced impeded craniofacial development</a></td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
-    <td><a href="https://identifiers.org/aop/456">Aryl hydrocarbon receptor activation leading to early life stage mortality via cardiovascular toxicity</a></td>
+    <td><a href="https://identifiers.org/aop/456">Aryl hydrocarbon receptor activation leading to early life stage mortality via sox9 repression induced cardiovascular toxicity</a></td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td><a href="https://identifiers.org/aop/457">Succinate dehydrogenase inhibition leading to increased insulin resistance through reduction in circulating thyroxine</a></td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td><a href="https://identifiers.org/aop/458">AhR activation in the liver leading to Subsequent Adverse Neurodevelopmental Outcomes in Mammals</a></td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td><a href="https://identifiers.org/aop/459">AhR activation in the thyroid leading to Subsequent Adverse Neurodevelopmental Outcomes in Mammals</a></td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
@@ -1786,6 +1802,10 @@ SELECT ?model ?modelLabel ?provider WHERE {
   </tr>
   <tr>
     <td><a href="https://identifiers.org/aop/470">Deposition of energy leads to vascular remodeling</a></td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td><a href="https://identifiers.org/aop/471">Various neuronal effects induced by elavl3, sox10, and mbp</a></td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
@@ -1849,7 +1869,7 @@ SELECT ?model ?modelLabel ?provider WHERE {
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
-    <td><a href="https://identifiers.org/aop/490">Increased glutamate leads to economic burden through reduced IQ and non-cholinergic mechanisms</a></td>
+    <td><a href="https://identifiers.org/aop/490">Co-activation of IP3R and RyR leads to economic burden through reduced IQ and non-cholinergic mechanisms</a></td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
@@ -1857,7 +1877,71 @@ SELECT ?model ?modelLabel ?provider WHERE {
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
+    <td><a href="https://identifiers.org/aop/492">Glutathione conjugation leading to reproductive dysfunction via oxidative stress</a></td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td><a href="https://identifiers.org/aop/494">AhR activation leading to liver fibrosis </a></td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td><a href="https://identifiers.org/aop/496">Androgen receptor agonism leading to reproduction dysfunction （in zebrafish）</a></td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td><a href="https://identifiers.org/aop/499">Activation of MEK-ERK1/2 leads to deficits in learning and cognition via disrupted neurotransmitter release</a></td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td><a href="https://identifiers.org/aop/500">Activation of MEK-ERK1/2 leads to deficits in learning and cognition via ROS and apoptosis</a></td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td><a href="https://identifiers.org/aop/502">Decrease, cholesterol synthesis leads to orofacial clefting</a></td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td><a href="https://identifiers.org/aop/505">Reactive Oxygen Species (ROS) formation leads to cancer via inflammation pathway</a></td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td><a href="https://identifiers.org/aop/506">Binding of Influenza A Virus (IAV) to Sialic Acid Glycan Receptor leads to viral infection proliferation</a></td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td><a href="https://identifiers.org/aop/507">Nrf2 inhibition leading to vascular disrupting effects via inflammation pathway</a></td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td><a href="https://identifiers.org/aop/508">Nrf2 inhibition leading to vascular disrupting effects through activating HIF1α, Semaphorin 6A, and Dll4-Notch pathway</a></td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td><a href="https://identifiers.org/aop/509">Nrf2 inhibition leading to vascular disrupting effects through activating apoptosis signal pathway and mitochondrial dysfunction</a></td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
     <td><a href="https://identifiers.org/aop/51">PPARα activation leading to impaired fertility in adult male rodents </a></td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td><a href="https://identifiers.org/aop/510">Demethylation of PPAR promotor leading to vascular disrupting effects</a></td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td><a href="https://identifiers.org/aop/511">The AOP framework on ROS-mediated oxidative stress induced vascular disrupting effects </a></td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td><a href="https://identifiers.org/aop/513">Reactive Oxygen (ROS) formation leads to cancer via Peroxisome proliferation-activated receptor (PPAR) pathway</a></td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td><a href="https://identifiers.org/aop/517">Pregnane X Receptor (PXR) activation leads to liver steatosis</a></td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td><a href="https://identifiers.org/aop/518">Liver X Receptor (LXR) activation leads to liver steatosis</a></td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>

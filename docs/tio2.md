@@ -26,63 +26,6 @@ This gives us this list of nanomaterials:
   <tr>
     <td><a href="http://purl.bioontology.org/ontology/npo#NPO_1486">R-TiO2</a></td>
   </tr>
-  <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000074">JRCNM01000a</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000075">JRCNM01001a</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000076">JRCNM01002a</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000077">JRCNM01005a</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000083">JRCNM01003a</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000084">JRCNM01004a</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000094">JRCNM10201a</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000095">JRCNM62001a</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000096">JRCNM62002a</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000231">JRCNM10200a</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000232">JRCNM10202a</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000204">NM-105</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000201">NM-100</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000202">NM-101</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000203">NM-102</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000208">NM-103</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000209">NM-104</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000099">coated titanium dioxide nanoparticle</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.obolibrary.org/obo/CHEBI_51050">titanium dioxide nanoparticle</a></td>
-  </tr>
 </table>
 
 ## Causal relationships
@@ -111,12 +54,6 @@ But for a specific material, such relationships may not exist:
 
 <table>
   <tr>
-    <td><b>nm</b></td>
-    <td><b>relations</b></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000077">JRCNM01005a</a></td>
-    <td>0</td>
   </tr>
 </table>
 
@@ -186,29 +123,6 @@ This gives:
 
 <table>
   <tr>
-    <td><b>materialIRI</b></td>
-    <td><b>material</b></td>
-    <td><b>dataset_</b></td>
-  </tr>
-  <tr>
-    <td>obo:CHEBI_51050</td>
-    <td>titanium dioxide nanoparticle</td>
-    <td>https://identifiers.org/geo:GSE156564</td>
-  </tr>
-  <tr>
-    <td>obo:CHEBI_51050</td>
-    <td>titanium dioxide nanoparticle</td>
-    <td>https://identifiers.org/geo:GSE99997</td>
-  </tr>
-  <tr>
-    <td>obo:CHEBI_51050</td>
-    <td>titanium dioxide nanoparticle</td>
-    <td>https://search.data.enanomapper.net/about/nanoreg</td>
-  </tr>
-  <tr>
-    <td>http://purl.enanomapper.org/onto/ENM_9000204</td>
-    <td>NM-105</td>
-    <td>https://identifiers.org/geo:GSE156509</td>
   </tr>
 </table>
 
@@ -250,119 +164,119 @@ This gives us:
     <td><b>material</b></td>
   </tr>
   <tr>
-    <td><a href="https://atena.urv.cat/model/#Papa2015-TiO2">Nanocompound: LDH(TiO2)</a></td>
-    <td>SbD4nano Nanocompound</td>
-    <td>titanium dioxide nanoparticle</td>
-  </tr>
-  <tr>
-    <td><a href="https://atena.urv.cat/model/#Papa2015-TiO2ZnO">Nanocompound: LDH(TiO2+ZnO)</a></td>
-    <td>SbD4nano Nanocompound</td>
-    <td>titanium dioxide nanoparticle</td>
-  </tr>
-  <tr>
-    <td><a href="https://atena.urv.cat/model/#Serratosa2022-TiO2">Nanocompound: LDH(TiO2): Serratosa2022</a></td>
-    <td>SbD4nano Nanocompound</td>
-    <td>titanium dioxide nanoparticle</td>
-  </tr>
-  <tr>
-    <td><a href="https://atena.urv.cat/model/#Serratosa2022-TiO2ZnO">Nanocompound: LDH(TiO2+ZnO): Serratosa2022</a></td>
-    <td>SbD4nano Nanocompound</td>
-    <td>titanium dioxide nanoparticle</td>
-  </tr>
-  <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_10">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_10</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>R-TiO2, TiO2, titanium oxide nanoparticle</td>
+    <td>R-TiO2, TiO2</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_12">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_12</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>R-TiO2, TiO2, titanium oxide nanoparticle</td>
+    <td>R-TiO2, TiO2</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_14">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_14</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>R-TiO2, TiO2, titanium oxide nanoparticle</td>
+    <td>R-TiO2, TiO2</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_16">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_16</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>R-TiO2, TiO2, titanium oxide nanoparticle</td>
+    <td>R-TiO2, TiO2</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_20">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_20</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>R-TiO2, TiO2, titanium oxide nanoparticle</td>
+    <td>R-TiO2, TiO2</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_21">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_21</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>R-TiO2, TiO2, titanium oxide nanoparticle</td>
+    <td>R-TiO2, TiO2</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_23a">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_23a</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>R-TiO2, TiO2, titanium oxide nanoparticle</td>
+    <td>R-TiO2, TiO2</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_23b">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_23b</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>R-TiO2, TiO2, titanium oxide nanoparticle</td>
+    <td>R-TiO2, TiO2</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_25e">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_25e</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>R-TiO2, TiO2, titanium oxide nanoparticle</td>
+    <td>R-TiO2, TiO2</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_29a">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_29a</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>R-TiO2, TiO2, titanium oxide nanoparticle</td>
+    <td>R-TiO2, TiO2</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_29b">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_29b</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>R-TiO2, TiO2, titanium oxide nanoparticle</td>
+    <td>R-TiO2, TiO2</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_2a">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_2a</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>R-TiO2, TiO2, titanium oxide nanoparticle</td>
+    <td>R-TiO2, TiO2</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_31a">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_31a</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>R-TiO2, TiO2, titanium oxide nanoparticle</td>
+    <td>R-TiO2, TiO2</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_31b">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_31b</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>R-TiO2, TiO2, titanium oxide nanoparticle</td>
+    <td>R-TiO2, TiO2</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_34a">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_34a</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>R-TiO2, TiO2, titanium oxide nanoparticle</td>
+    <td>R-TiO2, TiO2</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_34b">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_34b</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>R-TiO2, TiO2, titanium oxide nanoparticle</td>
+    <td>R-TiO2, TiO2</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_38a">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_38a</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>R-TiO2, TiO2, titanium oxide nanoparticle</td>
+    <td>R-TiO2, TiO2</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_38b">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_38b</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>R-TiO2, TiO2, titanium oxide nanoparticle</td>
+    <td>R-TiO2, TiO2</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_38d">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_38d</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>R-TiO2, TiO2, titanium oxide nanoparticle</td>
+    <td>R-TiO2, TiO2</td>
+  </tr>
+  <tr>
+    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_38e">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_38e</a></td>
+    <td>Computational models for the assessment of manufactured nanomaterials</td>
+    <td>R-TiO2, TiO2</td>
+  </tr>
+  <tr>
+    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_38g">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_38g</a></td>
+    <td>Computational models for the assessment of manufactured nanomaterials</td>
+    <td>R-TiO2, TiO2</td>
+  </tr>
+  <tr>
+    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_38h">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_38h</a></td>
+    <td>Computational models for the assessment of manufactured nanomaterials</td>
+    <td>R-TiO2, TiO2</td>
+  </tr>
+  <tr>
+    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_38j">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_38j</a></td>
+    <td>Computational models for the assessment of manufactured nanomaterials</td>
+    <td>R-TiO2, TiO2</td>
   </tr>
   <tr><td colspan="2">This table is truncated. See the full table at <a href="sparql/allTitaniaModels.code.html">sparql/allTitaniaModels.rq</a></td></tr>
 </table>
@@ -405,119 +319,33 @@ This gives us:
   <tr>
     <td><a href="http://enaloscloud.novamechanics.com/EnalosWebApps/ZetaPotential/">PhysChem: Zeta potential NanoXtract model</a></td>
     <td>NanoSolveIT Tools</td>
-    <td>Metal Oxide, metal oxide nanoparticle</td>
+    <td>Metal Oxide</td>
   </tr>
   <tr>
     <td><a href="https://atena.urv.cat/model/#Anantha2021">Nanocompound: Toxicity Metal-Oxide: Anantha 2021</a></td>
     <td>SbD4nano Nanocompound</td>
-    <td>Metal Oxide, metal oxide nanoparticle</td>
+    <td>Metal Oxide</td>
   </tr>
   <tr>
     <td><a href="https://atena.urv.cat/model/#Gajewicz2015">Nanocompound: Toxicity Metal-Oxide: Gajewicz 2015</a></td>
     <td>SbD4nano Nanocompound</td>
-    <td>Metal Oxide, metal oxide nanoparticle</td>
-  </tr>
-  <tr>
-    <td><a href="https://atena.urv.cat/model/#Papa2015-TiO2">Nanocompound: LDH(TiO2)</a></td>
-    <td>SbD4nano Nanocompound</td>
-    <td>titanium dioxide nanoparticle</td>
-  </tr>
-  <tr>
-    <td><a href="https://atena.urv.cat/model/#Papa2015-TiO2ZnO">Nanocompound: LDH(TiO2+ZnO)</a></td>
-    <td>SbD4nano Nanocompound</td>
-    <td>ZnO, zinc oxide nanoparticle, titanium dioxide nanoparticle</td>
-  </tr>
-  <tr>
-    <td><a href="https://atena.urv.cat/model/#Papa2015-ZnO">Nanocompound: LDH(TiO2+ZnO)</a></td>
-    <td>SbD4nano Nanocompound</td>
-    <td>ZnO, zinc oxide nanoparticle</td>
+    <td>Metal Oxide</td>
   </tr>
   <tr>
     <td><a href="https://atena.urv.cat/model/#Puzyn2011">Nanocompound: Toxicity Metal-Oxide: Puzyn 2011</a></td>
     <td>SbD4nano Nanocompound</td>
-    <td>Metal Oxide, metal oxide nanoparticle</td>
+    <td>Metal Oxide</td>
   </tr>
   <tr>
     <td><a href="https://atena.urv.cat/model/#Serratosa2022">Nanocompound: Toxicity Metal-Oxide: Serratosa2022</a></td>
     <td>SbD4nano Nanocompound</td>
-    <td>Metal Oxide, metal oxide nanoparticle</td>
-  </tr>
-  <tr>
-    <td><a href="https://atena.urv.cat/model/#Serratosa2022-TiO2">Nanocompound: LDH(TiO2): Serratosa2022</a></td>
-    <td>SbD4nano Nanocompound</td>
-    <td>titanium dioxide nanoparticle</td>
-  </tr>
-  <tr>
-    <td><a href="https://atena.urv.cat/model/#Serratosa2022-TiO2ZnO">Nanocompound: LDH(TiO2+ZnO): Serratosa2022</a></td>
-    <td>SbD4nano Nanocompound</td>
-    <td>ZnO, zinc oxide nanoparticle, titanium dioxide nanoparticle</td>
-  </tr>
-  <tr>
-    <td><a href="https://atena.urv.cat/model/#Serratosa2022-ZnO">Nanocompound: LDH(ZnO): Serratosa2022</a></td>
-    <td>SbD4nano Nanocompound</td>
-    <td>ZnO, zinc oxide nanoparticle</td>
+    <td>Metal Oxide</td>
   </tr>
   <tr>
     <td><a href="https://cellviability.cloud.nanosolveit.eu/">NanoSolveIT Cytotoxicity (Cell Viability) Prediction for Metal Oxide NPs</a></td>
     <td>NanoSolveIT Tools</td>
-    <td>Metal Oxide, metal oxide nanoparticle</td>
+    <td>Metal Oxide</td>
   </tr>
-  <tr>
-    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_10">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_10</a></td>
-    <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>Fe2O3, iron (III) oxide nanoparticle, ZnO, zinc oxide nanoparticle, Cobalt (II) oxide nanoparticle, cobalt oxide nanoparticle, R-TiO2, TiO2, titanium oxide nanoparticle</td>
-  </tr>
-  <tr>
-    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_11">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_11</a></td>
-    <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>(Fe2O3)n(Fe3O4)m, iron oxide nanoparticle</td>
-  </tr>
-  <tr>
-    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_12">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_12</a></td>
-    <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>Fe3O4, iron (II,III) oxide nanoparticle, Fe2O3, iron (III) oxide nanoparticle, ZnO, zinc oxide nanoparticle, Cobalt (II) oxide nanoparticle, cobalt oxide nanoparticle, Co3O4 nanoparticle, R-TiO2, TiO2, titanium oxide nanoparticle</td>
-  </tr>
-  <tr>
-    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_14">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_14</a></td>
-    <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>Fe3O4, iron (II,III) oxide nanoparticle, Fe2O3, iron (III) oxide nanoparticle, ZnO, zinc oxide nanoparticle, Cobalt (II) oxide nanoparticle, cobalt oxide nanoparticle, Co3O4 nanoparticle, R-TiO2, TiO2, titanium oxide nanoparticle</td>
-  </tr>
-  <tr>
-    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_15">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_15</a></td>
-    <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>Fe3O4, iron (II,III) oxide nanoparticle, Fe2O3, iron (III) oxide nanoparticle</td>
-  </tr>
-  <tr>
-    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_16">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_16</a></td>
-    <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>R-TiO2, TiO2, titanium oxide nanoparticle</td>
-  </tr>
-  <tr>
-    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_18">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_18</a></td>
-    <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>(Fe2O3)n(Fe3O4)m, iron oxide nanoparticle</td>
-  </tr>
-  <tr>
-    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_1a">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_1a</a></td>
-    <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>(Fe2O3)n(Fe3O4)m, iron oxide nanoparticle</td>
-  </tr>
-  <tr>
-    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_1b">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_1b</a></td>
-    <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>(Fe2O3)n(Fe3O4)m, iron oxide nanoparticle</td>
-  </tr>
-  <tr>
-    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_20">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_20</a></td>
-    <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>Fe3O4, iron (II,III) oxide nanoparticle, Fe2O3, iron (III) oxide nanoparticle, ZnO, zinc oxide nanoparticle, R-TiO2, TiO2, titanium oxide nanoparticle</td>
-  </tr>
-  <tr>
-    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_21">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_21</a></td>
-    <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>Fe3O4, iron (II,III) oxide nanoparticle, Fe2O3, iron (III) oxide nanoparticle, ZnO, zinc oxide nanoparticle, R-TiO2, TiO2, titanium oxide nanoparticle</td>
-  </tr>
-  <tr><td colspan="2">This table is truncated. See the full table at <a href="sparql/allMetalOxideModels.code.html">sparql/allMetalOxideModels.rq</a></td></tr>
 </table>
 
 ## References

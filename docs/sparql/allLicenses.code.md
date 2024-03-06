@@ -30,19 +30,23 @@ WHERE {
     <td><b>license</b></td>
   </tr>
   <tr>
-    <td>44458</td>
+    <td>11507</td>
     <td></td>
   </tr>
   <tr>
-    <td>1778</td>
+    <td>1971</td>
     <td>http://creativecommons.org/publicdomain/zero/1.0/</td>
   </tr>
   <tr>
-    <td>271</td>
+    <td>295</td>
     <td>https://creativecommons.org/licenses/by/4.0/</td>
   </tr>
   <tr>
-    <td>77</td>
+    <td>83</td>
+    <td>https://creativecommons.org/licenses/by/4.0/legalcode</td>
+  </tr>
+  <tr>
+    <td>82</td>
     <td>http://example.com/unknown</td>
   </tr>
   <tr>
@@ -52,10 +56,6 @@ WHERE {
   <tr>
     <td>22</td>
     <td>https://creativecommons.org/licenses/by-nc/3.0/de/legalcode</td>
-  </tr>
-  <tr>
-    <td>14</td>
-    <td>https://creativecommons.org/licenses/by/4.0/legalcode</td>
   </tr>
   <tr>
     <td>9</td>
@@ -68,10 +68,6 @@ WHERE {
   <tr>
     <td>7</td>
     <td>https://www.elsevier.com/tdm/userlicense/1.0/</td>
-  </tr>
-  <tr>
-    <td>6</td>
-    <td>http://rdflicense.appspot.com/rdflicense/cc-by-nc-nd3.0</td>
   </tr>
   <tr>
     <td>3</td>
@@ -102,6 +98,10 @@ WHERE {
     <td>http://creativecommons.org/licenses/by-nc-nd/4.0/</td>
   </tr>
   <tr>
+    <td>2</td>
+    <td>https://creativecommons.org/publicdomain/zero/1.0/</td>
+  </tr>
+  <tr>
     <td>1</td>
     <td>https://opensource.org/licenses/CECILL-2.1</td>
   </tr>
@@ -123,7 +123,99 @@ WHERE {
   </tr>
   <tr>
     <td>1</td>
+    <td>https://enanomapper.adma.ai/about/aurora</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://enanomapper.adma.ai/about/biorima</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://enanomapper.adma.ai/about/calibrate</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://enanomapper.adma.ai/about/charisma</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://enanomapper.adma.ai/about/cusp</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://enanomapper.adma.ai/about/enanomapper</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://enanomapper.adma.ai/about/gov4nano</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://enanomapper.adma.ai/about/gracious</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://enanomapper.adma.ai/about/harmless</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://enanomapper.adma.ai/about/imptox</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://enanomapper.adma.ai/about/nanoinformatix</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://enanomapper.adma.ai/about/nanoreg</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://enanomapper.adma.ai/about/nanoreg2</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://enanomapper.adma.ai/about/patrols</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://enanomapper.adma.ai/about/plasticfate</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://enanomapper.adma.ai/about/plasticheal</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://enanomapper.adma.ai/about/polyrisk</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://enanomapper.adma.ai/about/riskgone</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://enanomapper.adma.ai/about/sabydoma</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://enanomapper.adma.ai/about/sabyna</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://enanomapper.adma.ai/about/sbd4nano</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://enanomapper.adma.ai/about/sunshine</td>
+  </tr>
+  <tr>
+    <td>1</td>
     <td>http://onlinelibrary.wiley.com/termsAndConditions#am</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://creativecommons.org/licenses/by-nc-nd/4.0/</td>
   </tr>
   <tr>
     <td>1</td>
@@ -143,10 +235,6 @@ WHERE {
   </tr>
   <tr>
     <td>1</td>
-    <td>https://creativecommons.org/licenses/by-nc-sa/4.0/</td>
-  </tr>
-  <tr>
-    <td>1</td>
     <td>https://creativecommons.org/licenses/by/3.0/</td>
   </tr>
   <tr>
@@ -155,103 +243,7 @@ WHERE {
   </tr>
   <tr>
     <td>1</td>
-    <td>http://toxico.nibiohn.go.jp/english/agreement.html</td>
-  </tr>
-  <tr>
-    <td>1</td>
     <td>http://opendatacommons.org/licenses/pddl/1.0/</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://search.data.enanomapper.net/about/aurora</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://search.data.enanomapper.net/about/biorima</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://search.data.enanomapper.net/about/calibrate</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://search.data.enanomapper.net/about/charisma</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://search.data.enanomapper.net/about/cusp</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://search.data.enanomapper.net/about/enanomapper</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://search.data.enanomapper.net/about/gov4nano</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://search.data.enanomapper.net/about/gracious</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://search.data.enanomapper.net/about/harmless</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://search.data.enanomapper.net/about/imptox</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://search.data.enanomapper.net/about/nanoinformatix</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://search.data.enanomapper.net/about/nanoreg</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://search.data.enanomapper.net/about/nanoreg2</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://search.data.enanomapper.net/about/patrols</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://search.data.enanomapper.net/about/plasticfate</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://search.data.enanomapper.net/about/plasticheal</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://search.data.enanomapper.net/about/polyrisk</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://search.data.enanomapper.net/about/riskgone</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://search.data.enanomapper.net/about/sabydoma</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://search.data.enanomapper.net/about/sabyna</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://search.data.enanomapper.net/about/sbd4nano</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://search.data.enanomapper.net/about/sunshine</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://creativecommons.org/licenses/by-nc-nd/4.0/</td>
   </tr>
   <tr>
     <td>1</td>
@@ -276,10 +268,6 @@ WHERE {
   <tr>
     <td>1</td>
     <td>https://springernature.figshare.com/articles/dataset/MOESM1_of_Role_of_chemical_composition_and_redox_modification_of_poorly_soluble_nanomaterials_on_their_ability_to_enhance_allergic_airway_sensitisation_in_mice/10071032</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://creativecommons.org/publicdomain/zero/1.0/</td>
   </tr>
   <tr>
     <td>1</td>

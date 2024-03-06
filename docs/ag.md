@@ -24,39 +24,6 @@ This gives us this list of Ag nanomaterials:
   <tr>
     <td><a href="http://purl.bioontology.org/ontology/npo#NPO_1892">Ag nanoparticle</a></td>
   </tr>
-  <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000235">NM-300</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000236">NM-300K</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000255">JRCNM03000a</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.obolibrary.org/obo/CHEBI_82776">coated silver nanoparticle</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.obolibrary.org/obo/CHEBI_82778">citrate-coated silver nanoparticle</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.obolibrary.org/obo/CHEBI_82780">poly(vinylpyrrolidone)-coated Ag nanoparticle</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.obolibrary.org/obo/CHEBI_82781">gum arabic-coated Ag NP</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.obolibrary.org/obo/CHEBI_82783">PVP8-Ag NP</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.obolibrary.org/obo/CHEBI_82784">PVP38-Ag NP</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.obolibrary.org/obo/CHEBI_82785">GA5-Ag NP</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.obolibrary.org/obo/CHEBI_82786">GA22-Ag NP</a></td>
-  </tr>
 </table>
 
 ## Causal relationships
@@ -112,19 +79,6 @@ This gives:
 
 <table>
   <tr>
-    <td><b>materialIRI</b></td>
-    <td><b>material</b></td>
-    <td><b>dataset_</b></td>
-  </tr>
-  <tr>
-    <td>npo:NPO_1892</td>
-    <td>Ag nanoparticle</td>
-    <td>https://search.data.enanomapper.net/about/nanoreg</td>
-  </tr>
-  <tr>
-    <td>npo:NPO_1892</td>
-    <td>silver nanoparticle</td>
-    <td>https://search.data.enanomapper.net/about/nanoreg</td>
   </tr>
 </table>
 
@@ -168,22 +122,22 @@ This gives:
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_20">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_20</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>Ag nanoparticle, silver nanoparticle</td>
+    <td>Ag nanoparticle</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_21">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_21</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>Ag nanoparticle, silver nanoparticle</td>
+    <td>Ag nanoparticle</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_28a">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_28a</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>Ag nanoparticle, silver nanoparticle</td>
+    <td>Ag nanoparticle</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_28b">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_28b</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>Ag nanoparticle, silver nanoparticle</td>
+    <td>Ag nanoparticle</td>
   </tr>
 </table>
 

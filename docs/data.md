@@ -26,36 +26,36 @@ This gives us a list of databases, here showing the first 10:
     <td><b>url</b></td>
   </tr>
   <tr>
-    <td>aurora - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/aurora</td>
+    <td>Exposure Ontology</td>
+    <td>http://bioportal.bioontology.org/ontologies/1575</td>
   </tr>
   <tr>
-    <td>biorima - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/biorima</td>
+    <td>The Blood Exposome Database</td>
+    <td>http://bloodexposome.org/</td>
   </tr>
   <tr>
-    <td>calibrate - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/calibrate</td>
+    <td>Comparative Toxicogenomics Database</td>
+    <td>http://ctdbase.org/</td>
   </tr>
   <tr>
-    <td>charisma - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/charisma</td>
+    <td>Chromium Epigenomics Toxicology</td>
+    <td>http://epichromium.org</td>
   </tr>
   <tr>
-    <td>cusp - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/cusp</td>
+    <td>Exposome Explorer</td>
+    <td>http://exposome-explorer.iarc.fr/</td>
   </tr>
   <tr>
-    <td>enanomapper - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/enanomapper</td>
+    <td>Tox Biology Checklist</td>
+    <td>http://mibbi.sf.net/projects/TBC.shtml</td>
   </tr>
   <tr>
-    <td>gov4nano - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/gov4nano</td>
+    <td>Danish (Q)SAR Database</td>
+    <td>http://qsar.food.dtu.dk/</td>
   </tr>
   <tr>
-    <td>gracious - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/gracious</td>
+    <td>Toxicology Data Markup Language</td>
+    <td>http://toxml.org</td>
   </tr>
   <tr><td colspan="2">This table is truncated. See the full table at <a href="sparql/allDatabases.code.html">sparql/allDatabases.rq</a></td></tr>
 </table>

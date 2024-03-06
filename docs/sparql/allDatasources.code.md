@@ -48,18 +48,6 @@ SELECT ?resource ?resourceLabel ?img WHERE {
     <td><img width="200" src="https://bio.tools/img/elixir_biotools_transparent.png" /></td>
   </tr>
   <tr>
-    <td><a href="https://diamonds.tno.nl/">COVID-19</a></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><a href="https://diamonds.tno.nl/">Scientific Models</a></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><a href="https://diamonds.tno.nl/">Exposure</a></td>
-    <td></td>
-  </tr>
-  <tr>
     <td><a href="https://fairsharing.org/">FAIRsharing</a></td>
     <td><img width="200" src="https://api.fairsharing.org/img/fairsharing-attribution.svg" /></td>
   </tr>
@@ -102,6 +90,10 @@ SELECT ?resource ?resourceLabel ?img WHERE {
   <tr>
     <td><a href="https://search.data.enanomapper.net/">Closed datasets hosted at the Nanosafety Data Interface</a></td>
     <td><img width="200" src="https://search.data.enanomapper.net/assets/img/logo.png" /></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/">NanoCommons Knowledge Base - powered by BioXM™</a></td>
+    <td><img width="200" src="https://ssl.biomax.de/nanocommons/pic/biomax_logo_175px.png" /></td>
   </tr>
   <tr>
     <td><a href="https://cloud.vhp4safety.nl/">Cloud services provided by VHP4Safety</a></td>

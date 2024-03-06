@@ -35,19 +35,11 @@ WHERE {
     <td>6</td>
   </tr>
   <tr>
-    <td>metal oxide nanoparticle</td>
-    <td>6</td>
-  </tr>
-  <tr>
     <td>Nanoparticle</td>
     <td>5</td>
   </tr>
   <tr>
     <td>Nanomaterial</td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>nanoparticle</td>
     <td>5</td>
   </tr>
 </table>

@@ -67,18 +67,6 @@ This gives us:
     <td><img width="200" src="https://bio.tools/img/elixir_biotools_transparent.png" /></td>
   </tr>
   <tr>
-    <td><a href="https://diamonds.tno.nl/">COVID-19</a></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><a href="https://diamonds.tno.nl/">Scientific Models</a></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><a href="https://diamonds.tno.nl/">Exposure</a></td>
-    <td></td>
-  </tr>
-  <tr>
     <td><a href="https://fairsharing.org/">FAIRsharing</a></td>
     <td><img width="200" src="https://api.fairsharing.org/img/fairsharing-attribution.svg" /></td>
   </tr>
@@ -121,6 +109,10 @@ This gives us:
   <tr>
     <td><a href="https://search.data.enanomapper.net/">Closed datasets hosted at the Nanosafety Data Interface</a></td>
     <td><img width="200" src="https://search.data.enanomapper.net/assets/img/logo.png" /></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/">NanoCommons Knowledge Base - powered by BioXM™</a></td>
+    <td><img width="200" src="https://ssl.biomax.de/nanocommons/pic/biomax_logo_175px.png" /></td>
   </tr>
   <tr>
     <td><a href="https://cloud.vhp4safety.nl/">Cloud services provided by VHP4Safety</a></td>
@@ -272,91 +264,91 @@ EU NanoSafety Cluster projects [<a href="#citeref2">2</a>]:
   </tr>
   <tr>
     <td>Database</td>
-    <td><a href="https://search.data.enanomapper.net/about/aurora">aurora - eNanoMapper database</a></td>
+    <td><a href="https://enanomapper.adma.ai/about/aurora">aurora - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>Database</td>
-    <td><a href="https://search.data.enanomapper.net/about/biorima">biorima - eNanoMapper database</a></td>
+    <td><a href="https://enanomapper.adma.ai/about/biorima">biorima - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>Database</td>
-    <td><a href="https://search.data.enanomapper.net/about/calibrate">calibrate - eNanoMapper database</a></td>
+    <td><a href="https://enanomapper.adma.ai/about/calibrate">calibrate - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>Database</td>
-    <td><a href="https://search.data.enanomapper.net/about/charisma">charisma - eNanoMapper database</a></td>
+    <td><a href="https://enanomapper.adma.ai/about/charisma">charisma - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>Database</td>
-    <td><a href="https://search.data.enanomapper.net/about/cusp">cusp - eNanoMapper database</a></td>
+    <td><a href="https://enanomapper.adma.ai/about/cusp">cusp - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>Database</td>
-    <td><a href="https://search.data.enanomapper.net/about/enanomapper">enanomapper - eNanoMapper database</a></td>
+    <td><a href="https://enanomapper.adma.ai/about/enanomapper">enanomapper - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>Database</td>
-    <td><a href="https://search.data.enanomapper.net/about/gov4nano">gov4nano - eNanoMapper database</a></td>
+    <td><a href="https://enanomapper.adma.ai/about/gov4nano">gov4nano - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>Database</td>
-    <td><a href="https://search.data.enanomapper.net/about/gracious">gracious - eNanoMapper database</a></td>
+    <td><a href="https://enanomapper.adma.ai/about/gracious">gracious - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>Database</td>
-    <td><a href="https://search.data.enanomapper.net/about/harmless">harmless - eNanoMapper database</a></td>
+    <td><a href="https://enanomapper.adma.ai/about/harmless">harmless - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>Database</td>
-    <td><a href="https://search.data.enanomapper.net/about/imptox">imptox - eNanoMapper database</a></td>
+    <td><a href="https://enanomapper.adma.ai/about/imptox">imptox - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>Database</td>
-    <td><a href="https://search.data.enanomapper.net/about/nanoinformatix">nanoinformatix - eNanoMapper database</a></td>
+    <td><a href="https://enanomapper.adma.ai/about/nanoinformatix">nanoinformatix - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>Database</td>
-    <td><a href="https://search.data.enanomapper.net/about/nanoreg">nanoreg - eNanoMapper database</a></td>
+    <td><a href="https://enanomapper.adma.ai/about/nanoreg">nanoreg - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>Database</td>
-    <td><a href="https://search.data.enanomapper.net/about/nanoreg2">nanoreg2 - eNanoMapper database</a></td>
+    <td><a href="https://enanomapper.adma.ai/about/nanoreg2">nanoreg2 - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>Database</td>
-    <td><a href="https://search.data.enanomapper.net/about/patrols">patrols - eNanoMapper database</a></td>
+    <td><a href="https://enanomapper.adma.ai/about/patrols">patrols - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>Database</td>
-    <td><a href="https://search.data.enanomapper.net/about/plasticfate">plasticfate - eNanoMapper database</a></td>
+    <td><a href="https://enanomapper.adma.ai/about/plasticfate">plasticfate - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>Database</td>
-    <td><a href="https://search.data.enanomapper.net/about/plasticheal">plasticheal - eNanoMapper database</a></td>
+    <td><a href="https://enanomapper.adma.ai/about/plasticheal">plasticheal - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>Database</td>
-    <td><a href="https://search.data.enanomapper.net/about/polyrisk">polyrisk - eNanoMapper database</a></td>
+    <td><a href="https://enanomapper.adma.ai/about/polyrisk">polyrisk - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>Database</td>
-    <td><a href="https://search.data.enanomapper.net/about/riskgone">riskgone - eNanoMapper database</a></td>
+    <td><a href="https://enanomapper.adma.ai/about/riskgone">riskgone - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>Database</td>
-    <td><a href="https://search.data.enanomapper.net/about/sabydoma">sabydoma - eNanoMapper database</a></td>
+    <td><a href="https://enanomapper.adma.ai/about/sabydoma">sabydoma - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>Database</td>
-    <td><a href="https://search.data.enanomapper.net/about/sabyna">sabyna - eNanoMapper database</a></td>
+    <td><a href="https://enanomapper.adma.ai/about/sabyna">sabyna - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>Database</td>
-    <td><a href="https://search.data.enanomapper.net/about/sbd4nano">sbd4nano - eNanoMapper database</a></td>
+    <td><a href="https://enanomapper.adma.ai/about/sbd4nano">sbd4nano - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>Database</td>
-    <td><a href="https://search.data.enanomapper.net/about/sunshine">sunshine - eNanoMapper database</a></td>
+    <td><a href="https://enanomapper.adma.ai/about/sunshine">sunshine - eNanoMapper database</a></td>
   </tr>
 </table>
 
@@ -388,19 +380,23 @@ This gives us:
     <td><b>license</b></td>
   </tr>
   <tr>
-    <td>44458</td>
+    <td>11507</td>
     <td></td>
   </tr>
   <tr>
-    <td>1778</td>
+    <td>1971</td>
     <td>http://creativecommons.org/publicdomain/zero/1.0/</td>
   </tr>
   <tr>
-    <td>271</td>
+    <td>295</td>
     <td>https://creativecommons.org/licenses/by/4.0/</td>
   </tr>
   <tr>
-    <td>77</td>
+    <td>83</td>
+    <td>https://creativecommons.org/licenses/by/4.0/legalcode</td>
+  </tr>
+  <tr>
+    <td>82</td>
     <td>http://example.com/unknown</td>
   </tr>
   <tr>
@@ -410,10 +406,6 @@ This gives us:
   <tr>
     <td>22</td>
     <td>https://creativecommons.org/licenses/by-nc/3.0/de/legalcode</td>
-  </tr>
-  <tr>
-    <td>14</td>
-    <td>https://creativecommons.org/licenses/by/4.0/legalcode</td>
   </tr>
   <tr>
     <td>9</td>
@@ -453,28 +445,6 @@ source what information is provided as basic <a name="tp7">statistics</a>:
     <td>0</td>
   </tr>
   <tr>
-    <td><a href="https://nanocommons.github.io/datasets/">Overview of open datasets released by NanoSafety Cluster projects</a></td>
-    <td>0</td>
-    <td>42</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-  </tr>
-  <tr>
-    <td><a href="https://atena.urv.cat/model/">SbD4nano Nanocompound</a></td>
-    <td>0</td>
-    <td>0</td>
-    <td>10</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-  </tr>
-  <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-smartnanotox/">SmartNanoTox Transcriptomics datasets</a></td>
     <td>0</td>
     <td>20</td>
@@ -489,7 +459,7 @@ source what information is provided as basic <a name="tp7">statistics</a>:
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/">AOP-Wiki AOPs</a></td>
     <td>0</td>
     <td>0</td>
-    <td>261</td>
+    <td>282</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
@@ -512,7 +482,7 @@ source what information is provided as basic <a name="tp7">statistics</a>:
     <td>0</td>
     <td>0</td>
     <td>0</td>
-    <td>1758</td>
+    <td>1951</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
@@ -544,6 +514,17 @@ source what information is provided as basic <a name="tp7">statistics</a>:
     <td><a href="https://fairsharing.org/">FAIRsharing</a></td>
     <td>25</td>
     <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi">NanoCommons Knowledge Base - powered by BioXM™</a></td>
+    <td>0</td>
+    <td>59</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
@@ -589,6 +570,28 @@ source what information is provided as basic <a name="tp7">statistics</a>:
     <td>5</td>
     <td>0</td>
     <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td><a href="https://nanocommons.github.io/datasets/">Overview of open datasets released by NanoSafety Cluster projects</a></td>
+    <td>0</td>
+    <td>52</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td><a href="https://atena.urv.cat/model/">SbD4nano Nanocompound</a></td>
+    <td>0</td>
+    <td>0</td>
+    <td>10</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>

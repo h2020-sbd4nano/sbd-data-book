@@ -33,91 +33,91 @@ SELECT ?type ?resource ?resourceLabel WHERE {
   </tr>
   <tr>
     <td>Database</td>
-    <td><a href="https://search.data.enanomapper.net/about/aurora">aurora - eNanoMapper database</a></td>
+    <td><a href="https://enanomapper.adma.ai/about/aurora">aurora - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>Database</td>
-    <td><a href="https://search.data.enanomapper.net/about/biorima">biorima - eNanoMapper database</a></td>
+    <td><a href="https://enanomapper.adma.ai/about/biorima">biorima - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>Database</td>
-    <td><a href="https://search.data.enanomapper.net/about/calibrate">calibrate - eNanoMapper database</a></td>
+    <td><a href="https://enanomapper.adma.ai/about/calibrate">calibrate - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>Database</td>
-    <td><a href="https://search.data.enanomapper.net/about/charisma">charisma - eNanoMapper database</a></td>
+    <td><a href="https://enanomapper.adma.ai/about/charisma">charisma - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>Database</td>
-    <td><a href="https://search.data.enanomapper.net/about/cusp">cusp - eNanoMapper database</a></td>
+    <td><a href="https://enanomapper.adma.ai/about/cusp">cusp - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>Database</td>
-    <td><a href="https://search.data.enanomapper.net/about/enanomapper">enanomapper - eNanoMapper database</a></td>
+    <td><a href="https://enanomapper.adma.ai/about/enanomapper">enanomapper - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>Database</td>
-    <td><a href="https://search.data.enanomapper.net/about/gov4nano">gov4nano - eNanoMapper database</a></td>
+    <td><a href="https://enanomapper.adma.ai/about/gov4nano">gov4nano - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>Database</td>
-    <td><a href="https://search.data.enanomapper.net/about/gracious">gracious - eNanoMapper database</a></td>
+    <td><a href="https://enanomapper.adma.ai/about/gracious">gracious - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>Database</td>
-    <td><a href="https://search.data.enanomapper.net/about/harmless">harmless - eNanoMapper database</a></td>
+    <td><a href="https://enanomapper.adma.ai/about/harmless">harmless - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>Database</td>
-    <td><a href="https://search.data.enanomapper.net/about/imptox">imptox - eNanoMapper database</a></td>
+    <td><a href="https://enanomapper.adma.ai/about/imptox">imptox - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>Database</td>
-    <td><a href="https://search.data.enanomapper.net/about/nanoinformatix">nanoinformatix - eNanoMapper database</a></td>
+    <td><a href="https://enanomapper.adma.ai/about/nanoinformatix">nanoinformatix - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>Database</td>
-    <td><a href="https://search.data.enanomapper.net/about/nanoreg">nanoreg - eNanoMapper database</a></td>
+    <td><a href="https://enanomapper.adma.ai/about/nanoreg">nanoreg - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>Database</td>
-    <td><a href="https://search.data.enanomapper.net/about/nanoreg2">nanoreg2 - eNanoMapper database</a></td>
+    <td><a href="https://enanomapper.adma.ai/about/nanoreg2">nanoreg2 - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>Database</td>
-    <td><a href="https://search.data.enanomapper.net/about/patrols">patrols - eNanoMapper database</a></td>
+    <td><a href="https://enanomapper.adma.ai/about/patrols">patrols - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>Database</td>
-    <td><a href="https://search.data.enanomapper.net/about/plasticfate">plasticfate - eNanoMapper database</a></td>
+    <td><a href="https://enanomapper.adma.ai/about/plasticfate">plasticfate - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>Database</td>
-    <td><a href="https://search.data.enanomapper.net/about/plasticheal">plasticheal - eNanoMapper database</a></td>
+    <td><a href="https://enanomapper.adma.ai/about/plasticheal">plasticheal - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>Database</td>
-    <td><a href="https://search.data.enanomapper.net/about/polyrisk">polyrisk - eNanoMapper database</a></td>
+    <td><a href="https://enanomapper.adma.ai/about/polyrisk">polyrisk - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>Database</td>
-    <td><a href="https://search.data.enanomapper.net/about/riskgone">riskgone - eNanoMapper database</a></td>
+    <td><a href="https://enanomapper.adma.ai/about/riskgone">riskgone - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>Database</td>
-    <td><a href="https://search.data.enanomapper.net/about/sabydoma">sabydoma - eNanoMapper database</a></td>
+    <td><a href="https://enanomapper.adma.ai/about/sabydoma">sabydoma - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>Database</td>
-    <td><a href="https://search.data.enanomapper.net/about/sabyna">sabyna - eNanoMapper database</a></td>
+    <td><a href="https://enanomapper.adma.ai/about/sabyna">sabyna - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>Database</td>
-    <td><a href="https://search.data.enanomapper.net/about/sbd4nano">sbd4nano - eNanoMapper database</a></td>
+    <td><a href="https://enanomapper.adma.ai/about/sbd4nano">sbd4nano - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>Database</td>
-    <td><a href="https://search.data.enanomapper.net/about/sunshine">sunshine - eNanoMapper database</a></td>
+    <td><a href="https://enanomapper.adma.ai/about/sunshine">sunshine - eNanoMapper database</a></td>
   </tr>
 </table>
 

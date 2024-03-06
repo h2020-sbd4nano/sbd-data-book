@@ -42,22 +42,22 @@ WHERE {
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_20">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_20</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>Ag nanoparticle, silver nanoparticle</td>
+    <td>Ag nanoparticle</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_21">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_21</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>Ag nanoparticle, silver nanoparticle</td>
+    <td>Ag nanoparticle</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_28a">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_28a</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>Ag nanoparticle, silver nanoparticle</td>
+    <td>Ag nanoparticle</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_28b">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_28b</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>Ag nanoparticle, silver nanoparticle</td>
+    <td>Ag nanoparticle</td>
   </tr>
 </table>
 

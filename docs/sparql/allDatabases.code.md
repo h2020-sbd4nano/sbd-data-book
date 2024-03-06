@@ -27,94 +27,6 @@ SELECT ?title ?url WHERE {
     <td><b>url</b></td>
   </tr>
   <tr>
-    <td>aurora - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/aurora</td>
-  </tr>
-  <tr>
-    <td>biorima - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/biorima</td>
-  </tr>
-  <tr>
-    <td>calibrate - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/calibrate</td>
-  </tr>
-  <tr>
-    <td>charisma - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/charisma</td>
-  </tr>
-  <tr>
-    <td>cusp - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/cusp</td>
-  </tr>
-  <tr>
-    <td>enanomapper - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/enanomapper</td>
-  </tr>
-  <tr>
-    <td>gov4nano - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/gov4nano</td>
-  </tr>
-  <tr>
-    <td>gracious - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/gracious</td>
-  </tr>
-  <tr>
-    <td>harmless - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/harmless</td>
-  </tr>
-  <tr>
-    <td>imptox - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/imptox</td>
-  </tr>
-  <tr>
-    <td>nanoinformatix - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/nanoinformatix</td>
-  </tr>
-  <tr>
-    <td>nanoreg - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/nanoreg</td>
-  </tr>
-  <tr>
-    <td>nanoreg2 - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/nanoreg2</td>
-  </tr>
-  <tr>
-    <td>patrols - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/patrols</td>
-  </tr>
-  <tr>
-    <td>plasticfate - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/plasticfate</td>
-  </tr>
-  <tr>
-    <td>plasticheal - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/plasticheal</td>
-  </tr>
-  <tr>
-    <td>polyrisk - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/polyrisk</td>
-  </tr>
-  <tr>
-    <td>riskgone - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/riskgone</td>
-  </tr>
-  <tr>
-    <td>sabydoma - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/sabydoma</td>
-  </tr>
-  <tr>
-    <td>sabyna - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/sabyna</td>
-  </tr>
-  <tr>
-    <td>sbd4nano - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/sbd4nano</td>
-  </tr>
-  <tr>
-    <td>sunshine - eNanoMapper database</td>
-    <td>https://search.data.enanomapper.net/projects/sunshine</td>
-  </tr>
-  <tr>
     <td>Exposure Ontology</td>
     <td>http://bioportal.bioontology.org/ontologies/1575</td>
   </tr>
@@ -139,16 +51,8 @@ SELECT ?title ?url WHERE {
     <td>http://mibbi.sf.net/projects/TBC.shtml</td>
   </tr>
   <tr>
-    <td>Minimum Information about an array-based toxicogenomics experiment</td>
-    <td>http://mibbi.sourceforge.net/projects/MIAME-Tox.shtml</td>
-  </tr>
-  <tr>
     <td>Danish (Q)SAR Database</td>
     <td>http://qsar.food.dtu.dk/</td>
-  </tr>
-  <tr>
-    <td>Open Toxicogenomics Project-Genomics Assisted Toxicity Evaluation system</td>
-    <td>http://toxico.nibiohn.go.jp/english/</td>
   </tr>
   <tr>
     <td>Toxicology Data Markup Language</td>
@@ -175,16 +79,104 @@ SELECT ?title ?url WHERE {
     <td>https://data.enanomapper.net/</td>
   </tr>
   <tr>
-    <td>Translational Data Catalog</td>
-    <td>https://datacatalog.elixir-luxembourg.org/</td>
-  </tr>
-  <tr>
     <td>Chemical Effects in Biological Systems</td>
     <td>https://doi.org/10.22427/NTP-DATA-1</td>
   </tr>
   <tr>
-    <td>Toxicology</td>
-    <td>https://github.com/elixir-europe/toxicology-community</td>
+    <td>ELIXIR Toxicology Community</td>
+    <td>https://elixir-europe.org/communities/toxicology</td>
+  </tr>
+  <tr>
+    <td>aurora - eNanoMapper database</td>
+    <td>https://enanomapper.adma.ai/projects/aurora</td>
+  </tr>
+  <tr>
+    <td>biorima - eNanoMapper database</td>
+    <td>https://enanomapper.adma.ai/projects/biorima</td>
+  </tr>
+  <tr>
+    <td>calibrate - eNanoMapper database</td>
+    <td>https://enanomapper.adma.ai/projects/calibrate</td>
+  </tr>
+  <tr>
+    <td>charisma - eNanoMapper database</td>
+    <td>https://enanomapper.adma.ai/projects/charisma</td>
+  </tr>
+  <tr>
+    <td>cusp - eNanoMapper database</td>
+    <td>https://enanomapper.adma.ai/projects/cusp</td>
+  </tr>
+  <tr>
+    <td>enanomapper - eNanoMapper database</td>
+    <td>https://enanomapper.adma.ai/projects/enanomapper</td>
+  </tr>
+  <tr>
+    <td>gov4nano - eNanoMapper database</td>
+    <td>https://enanomapper.adma.ai/projects/gov4nano</td>
+  </tr>
+  <tr>
+    <td>gracious - eNanoMapper database</td>
+    <td>https://enanomapper.adma.ai/projects/gracious</td>
+  </tr>
+  <tr>
+    <td>harmless - eNanoMapper database</td>
+    <td>https://enanomapper.adma.ai/projects/harmless</td>
+  </tr>
+  <tr>
+    <td>imptox - eNanoMapper database</td>
+    <td>https://enanomapper.adma.ai/projects/imptox</td>
+  </tr>
+  <tr>
+    <td>nanoinformatix - eNanoMapper database</td>
+    <td>https://enanomapper.adma.ai/projects/nanoinformatix</td>
+  </tr>
+  <tr>
+    <td>nanoreg - eNanoMapper database</td>
+    <td>https://enanomapper.adma.ai/projects/nanoreg</td>
+  </tr>
+  <tr>
+    <td>nanoreg2 - eNanoMapper database</td>
+    <td>https://enanomapper.adma.ai/projects/nanoreg2</td>
+  </tr>
+  <tr>
+    <td>patrols - eNanoMapper database</td>
+    <td>https://enanomapper.adma.ai/projects/patrols</td>
+  </tr>
+  <tr>
+    <td>plasticfate - eNanoMapper database</td>
+    <td>https://enanomapper.adma.ai/projects/plasticfate</td>
+  </tr>
+  <tr>
+    <td>plasticheal - eNanoMapper database</td>
+    <td>https://enanomapper.adma.ai/projects/plasticheal</td>
+  </tr>
+  <tr>
+    <td>polyrisk - eNanoMapper database</td>
+    <td>https://enanomapper.adma.ai/projects/polyrisk</td>
+  </tr>
+  <tr>
+    <td>riskgone - eNanoMapper database</td>
+    <td>https://enanomapper.adma.ai/projects/riskgone</td>
+  </tr>
+  <tr>
+    <td>sabydoma - eNanoMapper database</td>
+    <td>https://enanomapper.adma.ai/projects/sabydoma</td>
+  </tr>
+  <tr>
+    <td>sabyna - eNanoMapper database</td>
+    <td>https://enanomapper.adma.ai/projects/sabyna</td>
+  </tr>
+  <tr>
+    <td>sbd4nano - eNanoMapper database</td>
+    <td>https://enanomapper.adma.ai/projects/sbd4nano</td>
+  </tr>
+  <tr>
+    <td>sunshine - eNanoMapper database</td>
+    <td>https://enanomapper.adma.ai/projects/sunshine</td>
+  </tr>
+  <tr>
+    <td>Environmental Conditions, Treatments, and exposures Ontology</td>
+    <td>https://github.com/EnvironmentOntology/environmental-exposure-ontology</td>
   </tr>
   <tr>
     <td>Minimum Information about Animal Toxicology Experiments In Vivo</td>
@@ -193,6 +185,10 @@ SELECT ?title ?url WHERE {
   <tr>
     <td>National Center for Advancing Translational Sciences COVID-19 OpenData Portal</td>
     <td>https://opendata.ncats.nih.gov/covid19/</td>
+  </tr>
+  <tr>
+    <td>Minimum Information Table for the Safety of Engineered Nanomaterials</td>
+    <td>https://particleandfibretoxicology.biomedcentral.com/articles/10.1186/s12989-021-00442-x</td>
   </tr>
   <tr>
     <td>Ecotoxicology thesaurus</td>
@@ -213,6 +209,10 @@ SELECT ?title ?url WHERE {
   <tr>
     <td>National Coronial Information System</td>
     <td>https://www.ncis.org.au/</td>
+  </tr>
+  <tr>
+    <td>Taylor & Francis - Evidence-Based Toxicology - Instructions for authors</td>
+    <td>https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=tebt20</td>
   </tr>
 </table>
 

@@ -72,28 +72,6 @@ WHERE {
     <td>0</td>
   </tr>
   <tr>
-    <td><a href="https://nanocommons.github.io/datasets/">Overview of open datasets released by NanoSafety Cluster projects</a></td>
-    <td>0</td>
-    <td>42</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-  </tr>
-  <tr>
-    <td><a href="https://atena.urv.cat/model/">SbD4nano Nanocompound</a></td>
-    <td>0</td>
-    <td>0</td>
-    <td>10</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-  </tr>
-  <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-smartnanotox/">SmartNanoTox Transcriptomics datasets</a></td>
     <td>0</td>
     <td>20</td>
@@ -108,7 +86,7 @@ WHERE {
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/">AOP-Wiki AOPs</a></td>
     <td>0</td>
     <td>0</td>
-    <td>261</td>
+    <td>282</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
@@ -131,7 +109,7 @@ WHERE {
     <td>0</td>
     <td>0</td>
     <td>0</td>
-    <td>1758</td>
+    <td>1951</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
@@ -163,6 +141,17 @@ WHERE {
     <td><a href="https://fairsharing.org/">FAIRsharing</a></td>
     <td>25</td>
     <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi">NanoCommons Knowledge Base - powered by BioXM™</a></td>
+    <td>0</td>
+    <td>59</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
@@ -208,6 +197,28 @@ WHERE {
     <td>5</td>
     <td>0</td>
     <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td><a href="https://nanocommons.github.io/datasets/">Overview of open datasets released by NanoSafety Cluster projects</a></td>
+    <td>0</td>
+    <td>52</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td><a href="https://atena.urv.cat/model/">SbD4nano Nanocompound</a></td>
+    <td>0</td>
+    <td>0</td>
+    <td>10</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>

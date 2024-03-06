@@ -42,82 +42,72 @@ WHERE {
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_19a">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_19a</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>CNT: Carbon nanotubes, Single/Multiwalled nanotubes, carbon nanotube</td>
+    <td>CNT: Carbon nanotubes, Single/Multiwalled nanotubes</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_19b">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_19b</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>CNT: Carbon nanotubes, Single/Multiwalled nanotubes, carbon nanotube</td>
+    <td>CNT: Carbon nanotubes, Single/Multiwalled nanotubes</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_19c">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_19c</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>CNT: Carbon nanotubes, Single/Multiwalled nanotubes, carbon nanotube</td>
+    <td>CNT: Carbon nanotubes, Single/Multiwalled nanotubes</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_19d">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_19d</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>CNT: Carbon nanotubes, Single/Multiwalled nanotubes, carbon nanotube</td>
+    <td>CNT: Carbon nanotubes, Single/Multiwalled nanotubes</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_19e">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_19e</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>CNT: Carbon nanotubes, Single/Multiwalled nanotubes, carbon nanotube</td>
+    <td>CNT: Carbon nanotubes, Single/Multiwalled nanotubes</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_19f">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_19f</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>CNT: Carbon nanotubes, Single/Multiwalled nanotubes, carbon nanotube</td>
+    <td>CNT: Carbon nanotubes, Single/Multiwalled nanotubes</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_19g">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_19g</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>CNT: Carbon nanotubes, Single/Multiwalled nanotubes, carbon nanotube</td>
+    <td>CNT: Carbon nanotubes, Single/Multiwalled nanotubes</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_19h">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_19h</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>CNT: Carbon nanotubes, Single/Multiwalled nanotubes, carbon nanotube</td>
-  </tr>
-  <tr>
-    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_46">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_46</a></td>
-    <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>MWCNT40nm-COOH, MWCNTs (Multi-walled carbon nanotubes), multi-walled carbon nanotube</td>
+    <td>CNT: Carbon nanotubes, Single/Multiwalled nanotubes</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_51a">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_51a</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>CNT: Carbon nanotubes, Single/Multiwalled nanotubes, carbon nanotube</td>
+    <td>CNT: Carbon nanotubes, Single/Multiwalled nanotubes</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_51b">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_51b</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>CNT: Carbon nanotubes, Single/Multiwalled nanotubes, carbon nanotube</td>
-  </tr>
-  <tr>
-    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_7">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_7</a></td>
-    <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>MWCNT40nm-COOH, MWCNTs (Multi-walled carbon nanotubes), multi-walled carbon nanotube</td>
+    <td>CNT: Carbon nanotubes, Single/Multiwalled nanotubes</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_75a">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_75a</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>CNT: Carbon nanotubes, Single/Multiwalled nanotubes, carbon nanotube</td>
+    <td>CNT: Carbon nanotubes, Single/Multiwalled nanotubes</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_75b">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_75b</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>CNT: Carbon nanotubes, Single/Multiwalled nanotubes, carbon nanotube</td>
+    <td>CNT: Carbon nanotubes, Single/Multiwalled nanotubes</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_75c">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_75c</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>CNT: Carbon nanotubes, Single/Multiwalled nanotubes, carbon nanotube</td>
+    <td>CNT: Carbon nanotubes, Single/Multiwalled nanotubes</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_75d">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_75d</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>CNT: Carbon nanotubes, Single/Multiwalled nanotubes, carbon nanotube</td>
+    <td>CNT: Carbon nanotubes, Single/Multiwalled nanotubes</td>
   </tr>
 </table>
 

@@ -152,6 +152,36 @@ SELECT ?dataset ?datasetLabel WHERE {
     <td><a href="https://doi.org/10.5281/zenodo.5744302">RDF version of the data from Hagar I. Labouta et al. Meta-Analysis of Nanoparticle Cytotoxicity via Data-Mining the Literature. NanoImpact (2019)</a></td>
   </tr>
   <tr>
+    <td><a href="https://doi.org/10.5281/zenodo.7674574">Data & code repository for the article "An ancestral molecular response to nanomaterial particulates"</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://doi.org/10.5281/zenodo.7980953">A Curated Gene and Biological System Annotation of Adverse Outcome Pathways Related to Human Health</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://doi.org/10.5281/zenodo.8297022">Photodegradation of phenol (τOH) by TiO2-based nanophotocatalysts determined in line with the SAPNet methodology</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://doi.org/10.5281/zenodo.8297048">Predictive nano-QSAR modeling of the cytotoxicity using epithelial cells obtained from Chinese hamster ovary (CHO-K1 cell line) for hybrid TiO2-based nanomaterials</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://doi.org/10.5281/zenodo.8297068">The influence of the properties of inorganic solvents on the hydrodynamic diameter of TiO2 nanoparticles</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://doi.org/10.5281/zenodo.8297079">Identification of factors determining the process of aggregation/agglomeration of metal oxide nanoparticles in a biological medium</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://doi.org/10.5281/zenodo.8297121">Influence of protein corona on cytotoxicity of metal oxide nanoparticles against human keratinocyte cell line (HaCaT)</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://doi.org/10.5281/zenodo.8297848">Adsorption free energies and potentials of mean-force for interactions between amino acids, lipid fragments, and nanoparticles</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://doi.org/10.5281/zenodo.8314626">Curated dataset on protein's properties and post-translational modification protein properties</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://doi.org/10.5281/zenodo.8321185">Occupational exposure dataset for TiO2, carbon black and TiO2 and Ag;X</a></td>
+  </tr>
+  <tr>
     <td><a href="https://doi.org/10.6084/m9.figshare.10071023.v1">MOESM1 of Role of chemical composition and redox modification of poorly soluble nanomaterials on their ability to enhance allergic airway sensitisation in mice</a></td>
   </tr>
   <tr>
@@ -228,6 +258,183 @@ SELECT ?dataset ?datasetLabel WHERE {
   </tr>
   <tr>
     <td><a href="https://link.springer.com/content/pdf/10.1007/s11224-021-01869-w.pdf">Using the Isalos platform to develop a QSAR model that predicts metal oxide toxicity utilizing facet-based electronic, image analysis-based, and periodic table derived properties as descriptors</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000003">JRC</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000004">JRC_run19-21</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000005">JRC_run22-24</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000006">KIT_IH_A549</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000007">KIT_IH_HCT116</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000008">KIT_SD</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000009">KIT_SD_THP1</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000010">NRCWE_BAL</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000011">NRCWE_Comet</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000012">CEA_Comet</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000013">CEA_53BP1</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000014">UCD_HepG2</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000015">UCD_RAW264.7</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000016">Zebrafish_KIT</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000017">Zebrafish_NOAEL_KIT</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000018">HepaRG_NOAEL_JRC</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000019">HepaRG_NOAEL_JRC_run19-21</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000020">HepaRG_NOAEL_JRC_run22-24</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000021">A549_NOAEL_KIT</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000022">HCT116_NOAEL_KIT</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000023">A549_NOAEL_LMU</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000024">HEPG2_NOAEL_UCD</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000025">RAW264.7_NOAEL_UCD</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000108">22. LEITAT-20190820_MWCNT_NB;</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000110">23. LEITAT-20190820_tent_NB</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000113">24. LEITAT-20190806_TiO2_FCCCO_VP</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000204">25. LEITAT-20190820_ink_NB</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000205">26. LEITAT-20190820_AgNPs_VP</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000206">27. LEITAT-20190820_AgNWs_L_VP</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000208">28. LEITAT-20190820_AgNWs_s_VP</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000209">29. 20190820_SC_NB-A</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000210">30. 20190820_SC_NB-B</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000211">31. 20190820_SC_NB-C</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000301">Nanogentools</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000303">32. 20190820_SC_NB-D</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000402">33. 20190820_SC_NB-E-TiO2</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000501">34. 20190820_SC_NB-E-Zn</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000502">35. LEITAT-20190806_TiO2_INOTEX_VP</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000602">36. Vienna-Dissolution-screening-test2017_NanoFASE_v2</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000604">21. NanoFASE-template_revised - For Burkhard</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000606">07. Vrije University - NanoFASE-template_Enchytraeids_Dorset</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000609">08. Vrije University - NanoFASE-template_Enchytraeids_Lufa</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000611">09. Vrije University - NanoFASE-template_Enchytraeids_Woburn</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000612">10. Vrije University - NanoFASE-template_Springtails_Dorset</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000613">11. Vrije University - NanoFASE-template_Springtails_Lufa</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000614">12. Vrije University - NanoFASE-template_Springtails_North Wales</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000615">13. Vrije University - NanoFASE-template_Springtails_Woburn</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000701">SmartNanoTox</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000805">14. NanoFASE-template_Venice DLS - TiO2 Uncoated</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000807">15. NanoFASE-template_Venice DLS - TiO2 PVP</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000808">16. NanoFASE-template_Venice DLS - Kaolinite</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000809">17. Ljubljana - NanoFASE-template_revised-Single Species - Lufa 2.2</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000810">18. Ljubljana - NanoFASE-template_revised-Single Species - North Wales</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000811">19. Ljubljana - NanoFASE-template_revised-Single Species - Woburn</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000812">20. Aveiro-NanoFASE-template_Dissolution_SG</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000813">01. NanoFASE-template_Mesocosm_Plymouth</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000814">05. EAWAG_Pyrolysis_data_Final</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000815">06. EAWAG - Ce_incineration_data</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000901">Synthesis of PVP-capped nanoMILE nanomaterials</a></td>
   </tr>
   <tr>
     <td><a href="https://tandfonline.com/doi/pdf/10.1080/17435390.2019.1595206">Application of Bayesian networks in determining nanoparticle-induced cellular outcomes using transcriptomics</a></td>

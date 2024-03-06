@@ -27,19 +27,6 @@ SELECT ?materialIRI ?material ?dataset_ ?datasetLabel WHERE {
 
 <table>
   <tr>
-    <td><b>materialIRI</b></td>
-    <td><b>material</b></td>
-    <td><b>dataset_</b></td>
-  </tr>
-  <tr>
-    <td>npo:NPO_1892</td>
-    <td>Ag nanoparticle</td>
-    <td>https://search.data.enanomapper.net/about/nanoreg</td>
-  </tr>
-  <tr>
-    <td>npo:NPO_1892</td>
-    <td>silver nanoparticle</td>
-    <td>https://search.data.enanomapper.net/about/nanoreg</td>
   </tr>
 </table>
 

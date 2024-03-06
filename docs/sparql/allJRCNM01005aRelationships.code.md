@@ -27,12 +27,6 @@ WHERE {
 
 <table>
   <tr>
-    <td><b>nm</b></td>
-    <td><b>relations</b></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000077">JRCNM01005a</a></td>
-    <td>0</td>
   </tr>
 </table>
 
