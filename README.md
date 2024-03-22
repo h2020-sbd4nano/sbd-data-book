@@ -1,3 +1,5 @@
+[![pages-build-deployment](https://github.com/h2020-sbd4nano/sbd-data-book/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/h2020-sbd4nano/sbd-data-book/actions/workflows/pages/pages-build-deployment)
+
 # sbd-data-book
 
 This book shows a number of competencies and simple SPARQL queries to demonstrate what
