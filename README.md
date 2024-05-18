@@ -9,6 +9,9 @@ can be found about nanomaterials.
 The repository https://github.com/h2020-sbd4nano/sbd-data-book holds the source code of
 this book and the output can be found at https://h2020-sbd4nano.github.io/sbd-data-book/
 
+This book uses only the open-licensed data, which is regularly updated in the repository
+https://github.com/h2020-sbd4nano/sbd-data-landscape-opendata
+
 ## Setting up a local SPARQL endpoint
 
 Below are links to instructions to set up a local SPARQL endpoint (all open source):
