@@ -393,11 +393,11 @@ This gives us:
   </tr>
   <tr>
     <td>83</td>
-    <td>https://creativecommons.org/licenses/by/4.0/legalcode</td>
+    <td>http://example.com/unknown</td>
   </tr>
   <tr>
     <td>83</td>
-    <td>http://example.com/unknown</td>
+    <td>https://creativecommons.org/licenses/by/4.0/legalcode</td>
   </tr>
   <tr>
     <td>29</td>

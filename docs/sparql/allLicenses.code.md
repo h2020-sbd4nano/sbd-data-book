@@ -43,11 +43,11 @@ WHERE {
   </tr>
   <tr>
     <td>83</td>
-    <td>https://creativecommons.org/licenses/by/4.0/legalcode</td>
+    <td>http://example.com/unknown</td>
   </tr>
   <tr>
     <td>83</td>
-    <td>http://example.com/unknown</td>
+    <td>https://creativecommons.org/licenses/by/4.0/legalcode</td>
   </tr>
   <tr>
     <td>29</td>
@@ -63,11 +63,15 @@ WHERE {
   </tr>
   <tr>
     <td>7</td>
-    <td>https://www.elsevier.com/tdm/userlicense/1.0/</td>
+    <td>https://opensource.org/licenses/GPL-3.0</td>
   </tr>
   <tr>
     <td>7</td>
-    <td>https://opensource.org/licenses/GPL-3.0</td>
+    <td>https://www.elsevier.com/tdm/userlicense/1.0/</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>https://spdx.org/licenses/Unlicense</td>
   </tr>
   <tr>
     <td>3</td>
@@ -78,8 +82,12 @@ WHERE {
     <td>https://doi.org/10.15223/policy-029</td>
   </tr>
   <tr>
-    <td>3</td>
-    <td>https://spdx.org/licenses/Unlicense</td>
+    <td>2</td>
+    <td>http://www.apache.org/licenses/LICENSE-2.0</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>https://creativecommons.org/licenses/by-nc/4.0/</td>
   </tr>
   <tr>
     <td>2</td>
@@ -94,20 +102,56 @@ WHERE {
     <td>http://creativecommons.org/licenses/by-nc-nd/4.0/</td>
   </tr>
   <tr>
-    <td>2</td>
-    <td>http://www.apache.org/licenses/LICENSE-2.0</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>https://creativecommons.org/licenses/by-nc/4.0/</td>
+    <td>1</td>
+    <td>https://opensource.org/licenses/CECILL-2.1</td>
   </tr>
   <tr>
     <td>1</td>
-    <td>http://onlinelibrary.wiley.com/termsAndConditions#am</td>
+    <td>https://opensource.org/licenses/AGPL-3.0</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://enanomapper.adma.ai/about/aurora</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://enanomapper.adma.ai/about/biorima</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://enanomapper.adma.ai/about/calibrate</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://enanomapper.adma.ai/about/charisma</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://enanomapper.adma.ai/about/cusp</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://enanomapper.adma.ai/about/enanomapper</td>
   </tr>
   <tr>
     <td>1</td>
     <td>https://enanomapper.adma.ai/about/gov4nano</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>http://creativecommons.org/licenses/by/3.0/</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://opensource.org/license/bsd-3-clause/</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://opensource.org/license/bsd-2-clause/</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>http://onlinelibrary.wiley.com/termsAndConditions#am</td>
   </tr>
   <tr>
     <td>1</td>
@@ -219,30 +263,6 @@ WHERE {
   </tr>
   <tr>
     <td>1</td>
-    <td>https://enanomapper.adma.ai/about/aurora</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://enanomapper.adma.ai/about/biorima</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://enanomapper.adma.ai/about/calibrate</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://enanomapper.adma.ai/about/charisma</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://enanomapper.adma.ai/about/cusp</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://enanomapper.adma.ai/about/enanomapper</td>
-  </tr>
-  <tr>
-    <td>1</td>
     <td>https://springernature.figshare.com/articles/dataset/MOESM1_of_Role_of_chemical_composition_and_redox_modification_of_poorly_soluble_nanomaterials_on_their_ability_to_enhance_allergic_airway_sensitisation_in_mice/10071023</td>
   </tr>
   <tr>
@@ -252,26 +272,6 @@ WHERE {
   <tr>
     <td>1</td>
     <td>https://creativecommons.org/share-your-work/public-domain/cc0</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://opensource.org/licenses/CECILL-2.1</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://opensource.org/licenses/AGPL-3.0</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>http://creativecommons.org/licenses/by/3.0/</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://opensource.org/license/bsd-3-clause/</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://opensource.org/license/bsd-2-clause/</td>
   </tr>
   <tr>
     <td>1</td>

@@ -151,6 +151,11 @@ This gives:
   <tr>
     <td>npo:NPO_606</td>
     <td>CNT: Carbon nanotubes</td>
+    <td>https://enanomapper.adma.ai/about/nanoreg</td>
+  </tr>
+  <tr>
+    <td>npo:NPO_606</td>
+    <td>CNT: Carbon nanotubes</td>
     <td>https://identifiers.org/geo:GSE156660</td>
   </tr>
   <tr>
@@ -161,12 +166,22 @@ This gives:
   <tr>
     <td>npo:NPO_606</td>
     <td>Single/Multiwalled nanotubes</td>
+    <td>https://enanomapper.adma.ai/about/nanoreg</td>
+  </tr>
+  <tr>
+    <td>npo:NPO_606</td>
+    <td>Single/Multiwalled nanotubes</td>
     <td>https://identifiers.org/geo:GSE156660</td>
   </tr>
   <tr>
     <td>npo:NPO_606</td>
     <td>Single/Multiwalled nanotubes</td>
     <td>https://identifiers.org/geo:GSE156666</td>
+  </tr>
+  <tr>
+    <td>npo:NPO_606</td>
+    <td>carbon nanotube</td>
+    <td>https://enanomapper.adma.ai/about/nanoreg</td>
   </tr>
   <tr>
     <td>npo:NPO_606</td>
@@ -181,7 +196,57 @@ This gives:
   <tr>
     <td>npo:NPO_354</td>
     <td>MWCNT40nm-COOH</td>
+    <td>https://enanomapper.adma.ai/about/harmless</td>
+  </tr>
+  <tr>
+    <td>npo:NPO_354</td>
+    <td>MWCNT40nm-COOH</td>
+    <td>https://enanomapper.adma.ai/about/nanoinformatix</td>
+  </tr>
+  <tr>
+    <td>npo:NPO_354</td>
+    <td>MWCNT40nm-COOH</td>
+    <td>https://enanomapper.adma.ai/about/nanoreg</td>
+  </tr>
+  <tr>
+    <td>npo:NPO_354</td>
+    <td>MWCNT40nm-COOH</td>
+    <td>https://enanomapper.adma.ai/about/nanoreg2</td>
+  </tr>
+  <tr>
+    <td>npo:NPO_354</td>
+    <td>MWCNT40nm-COOH</td>
+    <td>https://enanomapper.adma.ai/about/riskgone</td>
+  </tr>
+  <tr>
+    <td>npo:NPO_354</td>
+    <td>MWCNT40nm-COOH</td>
     <td>https://identifiers.org/geo:GSE156571</td>
+  </tr>
+  <tr>
+    <td>npo:NPO_354</td>
+    <td>MWCNTs (Multi-walled carbon nanotubes)</td>
+    <td>https://enanomapper.adma.ai/about/harmless</td>
+  </tr>
+  <tr>
+    <td>npo:NPO_354</td>
+    <td>MWCNTs (Multi-walled carbon nanotubes)</td>
+    <td>https://enanomapper.adma.ai/about/nanoinformatix</td>
+  </tr>
+  <tr>
+    <td>npo:NPO_354</td>
+    <td>MWCNTs (Multi-walled carbon nanotubes)</td>
+    <td>https://enanomapper.adma.ai/about/nanoreg</td>
+  </tr>
+  <tr>
+    <td>npo:NPO_354</td>
+    <td>MWCNTs (Multi-walled carbon nanotubes)</td>
+    <td>https://enanomapper.adma.ai/about/nanoreg2</td>
+  </tr>
+  <tr>
+    <td>npo:NPO_354</td>
+    <td>MWCNTs (Multi-walled carbon nanotubes)</td>
+    <td>https://enanomapper.adma.ai/about/riskgone</td>
   </tr>
   <tr>
     <td>npo:NPO_354</td>
@@ -191,7 +256,37 @@ This gives:
   <tr>
     <td>npo:NPO_354</td>
     <td>multi-walled carbon nanotube</td>
+    <td>https://enanomapper.adma.ai/about/harmless</td>
+  </tr>
+  <tr>
+    <td>npo:NPO_354</td>
+    <td>multi-walled carbon nanotube</td>
+    <td>https://enanomapper.adma.ai/about/nanoinformatix</td>
+  </tr>
+  <tr>
+    <td>npo:NPO_354</td>
+    <td>multi-walled carbon nanotube</td>
+    <td>https://enanomapper.adma.ai/about/nanoreg</td>
+  </tr>
+  <tr>
+    <td>npo:NPO_354</td>
+    <td>multi-walled carbon nanotube</td>
+    <td>https://enanomapper.adma.ai/about/nanoreg2</td>
+  </tr>
+  <tr>
+    <td>npo:NPO_354</td>
+    <td>multi-walled carbon nanotube</td>
+    <td>https://enanomapper.adma.ai/about/riskgone</td>
+  </tr>
+  <tr>
+    <td>npo:NPO_354</td>
+    <td>multi-walled carbon nanotube</td>
     <td>https://identifiers.org/geo:GSE156571</td>
+  </tr>
+  <tr>
+    <td>npo:NPO_943</td>
+    <td>single-walled carbon nanotube</td>
+    <td>https://enanomapper.adma.ai/about/nanoreg</td>
   </tr>
   <tr>
     <td>npo:NPO_943</td>

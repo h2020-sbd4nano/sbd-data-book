@@ -34,12 +34,47 @@ SELECT ?materialIRI ?material ?dataset_ ?datasetLabel WHERE {
   <tr>
     <td>obo:CHEBI_51050</td>
     <td>titanium dioxide nanoparticle</td>
+    <td>https://enanomapper.adma.ai/about/calibrate</td>
+  </tr>
+  <tr>
+    <td>obo:CHEBI_51050</td>
+    <td>titanium dioxide nanoparticle</td>
+    <td>https://enanomapper.adma.ai/about/harmless</td>
+  </tr>
+  <tr>
+    <td>obo:CHEBI_51050</td>
+    <td>titanium dioxide nanoparticle</td>
+    <td>https://enanomapper.adma.ai/about/nanoinformatix</td>
+  </tr>
+  <tr>
+    <td>obo:CHEBI_51050</td>
+    <td>titanium dioxide nanoparticle</td>
+    <td>https://enanomapper.adma.ai/about/nanoreg</td>
+  </tr>
+  <tr>
+    <td>obo:CHEBI_51050</td>
+    <td>titanium dioxide nanoparticle</td>
+    <td>https://enanomapper.adma.ai/about/nanoreg2</td>
+  </tr>
+  <tr>
+    <td>obo:CHEBI_51050</td>
+    <td>titanium dioxide nanoparticle</td>
     <td>https://identifiers.org/geo:GSE156564</td>
   </tr>
   <tr>
     <td>obo:CHEBI_51050</td>
     <td>titanium dioxide nanoparticle</td>
     <td>https://identifiers.org/geo:GSE99997</td>
+  </tr>
+  <tr>
+    <td>obo:CHEBI_51050</td>
+    <td>titanium dioxide nanoparticle</td>
+    <td>https://enanomapper.adma.ai/about/riskgone</td>
+  </tr>
+  <tr>
+    <td>obo:CHEBI_51050</td>
+    <td>titanium dioxide nanoparticle</td>
+    <td>https://enanomapper.adma.ai/about/sbd4nano</td>
   </tr>
   <tr>
     <td>http://purl.enanomapper.org/onto/ENM_9000204</td>

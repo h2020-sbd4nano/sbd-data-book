@@ -222,19 +222,19 @@ This gives us:
     <td>10</td>
   </tr>
   <tr>
-    <td>Increase, Mortality</td>
-    <td>9</td>
-  </tr>
-  <tr>
     <td>Increase, Apoptosis</td>
     <td>9</td>
   </tr>
   <tr>
-    <td>Decrease of neuronal network function</td>
+    <td>Increased, secretion of proinflammatory mediators</td>
     <td>9</td>
   </tr>
   <tr>
-    <td>Increased, secretion of proinflammatory mediators</td>
+    <td>Increase, Mortality</td>
+    <td>9</td>
+  </tr>
+  <tr>
+    <td>Decrease of neuronal network function</td>
     <td>9</td>
   </tr>
   <tr>
@@ -243,10 +243,6 @@ This gives us:
   </tr>
   <tr>
     <td>Increased, Oxidative Stress</td>
-    <td>8</td>
-  </tr>
-  <tr>
-    <td>Increase, Mutations</td>
     <td>8</td>
   </tr>
   <tr>
@@ -259,6 +255,10 @@ This gives us:
   </tr>
   <tr>
     <td>Accumulation, Fatty acid</td>
+    <td>8</td>
+  </tr>
+  <tr>
+    <td>Increase, Mutations</td>
     <td>8</td>
   </tr>
   <tr>

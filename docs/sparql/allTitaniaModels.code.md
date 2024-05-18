@@ -238,7 +238,7 @@ WHERE {
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_54a">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_54a</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>TiO2, titanium oxide nanoparticle, R-TiO2</td>
+    <td>R-TiO2, TiO2, titanium oxide nanoparticle</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_54b">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_54b</a></td>
@@ -253,7 +253,7 @@ WHERE {
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_55b">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_55b</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>R-TiO2, TiO2, titanium oxide nanoparticle</td>
+    <td>TiO2, titanium oxide nanoparticle, R-TiO2</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_55c">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_55c</a></td>
