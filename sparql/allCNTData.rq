@@ -5,9 +5,11 @@ PREFIX sbdbel:  <https://www.sbd4nano.eu/bel/#>
 PREFIX foaf:   <http://xmlns.com/foaf/0.1/> 
 PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#> 
 
-SELECT ?materialIRI ?material ?dataset_ ?datasetLabel WHERE {
+SELECT ?materialIRI (SAMPLE(?material_) AS ?material) ?dataset ?datasetLabel
+WHERE {
   VALUES ?superclass { npo:NPO_606 }
   VALUES ?type { sbd:Dataset sbd:Database }
-  ?dataset_ sbdbel:NP ?materialIRI ; a ?type ; rdfs:label ?datasetLabel .
-  ?materialIRI rdfs:subClassOf* ?superclass ; rdfs:label ?material .
-} ORDER BY ?dataset
+  ?dataset sbdbel:NP ?materialIRI ; a ?type ; rdfs:label ?datasetLabel .
+  ?materialIRI rdfs:subClassOf* ?superclass ; rdfs:label ?material_ .
+} GROUP BY ?materialIRI ?dataset ?datasetLabel
+  ORDER BY ?dataset
