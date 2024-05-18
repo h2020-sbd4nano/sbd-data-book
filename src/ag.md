@@ -1,6 +1,7 @@
 # Silver nanoparticles
 
-Another class of nanoforms of interest are the <topic>silver nanoparticles</topic> (npo:NPO_xxx):
+Another class of nanoforms of interest are the <topic>silver nanoparticles</topic>
+([npo:NPO_1892](https://www.ebi.ac.uk/ols4/ontologies/enm/classes/http%253A%252F%252Fpurl.bioontology.org%252Fontology%252Fnpo%2523NPO_1892)):
 
 <sparql>allAgNPs</sparql>
 

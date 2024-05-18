@@ -2,7 +2,8 @@
 
 # Silver nanoparticles
 
-Another class of nanoforms of interest are the <a name="tp1">silver nanoparticles</a> (npo:NPO_xxx):
+Another class of nanoforms of interest are the <a name="tp1">silver nanoparticles</a>
+([npo:NPO_1892](https://www.ebi.ac.uk/ols4/ontologies/enm/classes/http%253A%252F%252Fpurl.bioontology.org%252Fontology%252Fnpo%2523NPO_1892)):
 
 **SPARQL** [sparql/allAgNPs.rq](sparql/allAgNPs.code.html) ([run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20npo%3A%20%3Chttp%3A%2F%2Fpurl.bioontology.org%2Fontology%2Fnpo%23%3E%0APREFIX%20obo%3A%20%3Chttp%3A%2F%2Fpurl.obolibrary.org%2Fobo%2F%3E%0A%0ASELECT%20DISTINCT%20%3Fnm%20%28SAMPLE%28%3FnmLabel_%29%20AS%20%3FnmLabel%29%0AWHERE%20%7B%0A%20%20VALUES%20%3Fsuperclass%20%7B%20npo%3ANPO_1892%20%7D%0A%20%20%3Fnm%20rdfs%3AsubClassOf*%20%3Fsuperclass%20%3B%20rdfs%3Alabel%20%3FnmLabel_%20.%0A%7D%20GROUP%20BY%20%3Fnm%0A))
 ```sparql
