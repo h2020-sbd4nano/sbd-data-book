@@ -214,11 +214,11 @@ This gives us:
     <td>13</td>
   </tr>
   <tr>
-    <td>impaired, Fertility</td>
+    <td>ROS production</td>
     <td>10</td>
   </tr>
   <tr>
-    <td>ROS production</td>
+    <td>impaired, Fertility</td>
     <td>10</td>
   </tr>
   <tr>
@@ -250,6 +250,10 @@ This gives us:
     <td>8</td>
   </tr>
   <tr>
+    <td>Increase, Mutations</td>
+    <td>8</td>
+  </tr>
+  <tr>
     <td>Neuroinflammation</td>
     <td>8</td>
   </tr>
@@ -258,11 +262,7 @@ This gives us:
     <td>8</td>
   </tr>
   <tr>
-    <td>Increase, Mutations</td>
-    <td>8</td>
-  </tr>
-  <tr>
-    <td>Decrease, Reproduction</td>
+    <td>Increase, Oocyte apoptosis</td>
     <td>7</td>
   </tr>
   <tr><td colspan="2">This table is truncated. See the full table at <a href="sparql/relationshipsByOutcome.code.html">sparql/relationshipsByOutcome.rq</a></td></tr>

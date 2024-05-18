@@ -111,6 +111,18 @@ WHERE {
   </tr>
   <tr>
     <td>1</td>
+    <td>http://creativecommons.org/licenses/by/3.0/</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://opensource.org/license/bsd-3-clause/</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>https://opensource.org/license/bsd-2-clause/</td>
+  </tr>
+  <tr>
+    <td>1</td>
     <td>https://enanomapper.adma.ai/about/aurora</td>
   </tr>
   <tr>
@@ -136,18 +148,6 @@ WHERE {
   <tr>
     <td>1</td>
     <td>https://enanomapper.adma.ai/about/gov4nano</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>http://creativecommons.org/licenses/by/3.0/</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://opensource.org/license/bsd-3-clause/</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>https://opensource.org/license/bsd-2-clause/</td>
   </tr>
   <tr>
     <td>1</td>

@@ -179,16 +179,12 @@ This gives:
     <td>32</td>
   </tr>
   <tr>
-    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/14805">oxonickel</a></td>
-    <td>31</td>
-  </tr>
-  <tr>
     <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/159375">oxygen(2-);yttrium(3+)</a></td>
     <td>31</td>
   </tr>
   <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_0000118">Cobalt (II) oxide nanoparticle</a></td>
-    <td>30</td>
+    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/14805">oxonickel</a></td>
+    <td>31</td>
   </tr>
   <tr>
     <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/150906">indium(3+);oxygen(2-)</a></td>
@@ -204,6 +200,10 @@ This gives:
   </tr>
   <tr>
     <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/62762">dioxozirconium</a></td>
+    <td>30</td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_0000118">cobalt oxide nanoparticle</a></td>
     <td>30</td>
   </tr>
   <tr><td colspan="2">This table is truncated. See the full table at <a href="sparql/modelsForNanomaterials.code.html">sparql/modelsForNanomaterials.rq</a></td></tr>

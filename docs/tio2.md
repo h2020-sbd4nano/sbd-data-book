@@ -27,27 +27,6 @@ This gives us this list of nanomaterials:
     <td><a href="http://purl.bioontology.org/ontology/npo#NPO_1486">R-TiO2</a></td>
   </tr>
   <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000099">coated titanium dioxide nanoparticle</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000074">JRCNM01000a</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000075">JRCNM01001a</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000076">JRCNM01002a</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000077">JRCNM01005a</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000083">JRCNM01003a</a></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000084">JRCNM01004a</a></td>
-  </tr>
-  <tr>
     <td><a href="http://purl.enanomapper.org/onto/ENM_9000094">JRCNM10201a</a></td>
   </tr>
   <tr>
@@ -82,6 +61,27 @@ This gives us this list of nanomaterials:
   </tr>
   <tr>
     <td><a href="http://purl.obolibrary.org/obo/CHEBI_51050">titanium dioxide nanoparticle</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000099">coated titanium dioxide nanoparticle</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000074">JRCNM01000a</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000075">JRCNM01001a</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000076">JRCNM01002a</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000077">JRCNM01005a</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000083">JRCNM01003a</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000084">JRCNM01004a</a></td>
   </tr>
 </table>
 
@@ -158,7 +158,7 @@ We find here that basically all relationships are defined at a
 Toxicity of titanium dioxide has been extensively studied. Noting that for many resources we do not
 have detailed annotation of the nanoforms described by those sources, some do:
 
-**SPARQL** [sparql/allTitaniaData.rq](sparql/allTitaniaData.code.html) ([run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20npo%3A%20%3Chttp%3A%2F%2Fpurl.bioontology.org%2Fontology%2Fnpo%23%3E%0APREFIX%20obo%3A%20%3Chttp%3A%2F%2Fpurl.obolibrary.org%2Fobo%2F%3E%0APREFIX%20sbd%3A%20%20%20%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Frdf%2F%23%3E%0APREFIX%20sbdbel%3A%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Fbel%2F%23%3E%0APREFIX%20foaf%3A%20%20%20%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F%3E%20%0APREFIX%20rdfs%3A%20%20%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%20%0A%0ASELECT%20%3FmaterialIRI%20%3Fmaterial%20%3Fdataset_%20%3FdatasetLabel%20WHERE%20%7B%0A%20%20VALUES%20%3Fsuperclass%20%7B%20npo%3ANPO_1486%20obo%3ACHEBI_51050%20%7D%0A%20%20VALUES%20%3Ftype%20%7B%20sbd%3ADataset%20sbd%3ADatabase%20%7D%0A%20%20%3Fdataset_%20sbdbel%3ANP%20%3FmaterialIRI%20%3B%20a%20%3Ftype%20%3B%20rdfs%3Alabel%20%3FdatasetLabel%20.%0A%20%20%3FmaterialIRI%20rdfs%3AsubClassOf*%20%3Fsuperclass%20%3B%20rdfs%3Alabel%20%3Fmaterial%20.%0A%7D%20ORDER%20BY%20%3Fdataset%0A))
+**SPARQL** [sparql/allTitaniaData.rq](sparql/allTitaniaData.code.html) ([run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20npo%3A%20%3Chttp%3A%2F%2Fpurl.bioontology.org%2Fontology%2Fnpo%23%3E%0APREFIX%20obo%3A%20%3Chttp%3A%2F%2Fpurl.obolibrary.org%2Fobo%2F%3E%0APREFIX%20sbd%3A%20%20%20%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Frdf%2F%23%3E%0APREFIX%20sbdbel%3A%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Fbel%2F%23%3E%0APREFIX%20foaf%3A%20%20%20%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F%3E%20%0APREFIX%20rdfs%3A%20%20%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%20%0A%0ASELECT%20%3FmaterialIRI%20%28SAMPLE%28%3Fmaterial_%29%20AS%20%3Fmaterial%29%20%3Fdataset%20%3FdatasetLabel%0AWHERE%20%7B%0A%20%20VALUES%20%3Fsuperclass%20%7B%20npo%3ANPO_1486%20obo%3ACHEBI_51050%20%7D%0A%20%20VALUES%20%3Ftype%20%7B%20sbd%3ADataset%20sbd%3ADatabase%20%7D%0A%20%20%3Fdataset%20sbdbel%3ANP%20%3FmaterialIRI%20%3B%20a%20%3Ftype%20%3B%20rdfs%3Alabel%20%3FdatasetLabel%20.%0A%20%20%3FmaterialIRI%20rdfs%3AsubClassOf*%20%3Fsuperclass%20%3B%20rdfs%3Alabel%20%3Fmaterial_%20.%0A%7D%20GROUP%20BY%20%3FmaterialIRI%20%3Fdataset%20%3FdatasetLabel%0A%20%20ORDER%20BY%20%3Fdataset%0A))
 ```sparql
 PREFIX npo: <http://purl.bioontology.org/ontology/npo#>
 PREFIX obo: <http://purl.obolibrary.org/obo/>
@@ -166,12 +166,14 @@ PREFIX sbd:     <https://www.sbd4nano.eu/rdf/#>
 PREFIX sbdbel:  <https://www.sbd4nano.eu/bel/#>
 PREFIX foaf:   <http://xmlns.com/foaf/0.1/> 
 PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#> 
-SELECT ?materialIRI ?material ?dataset_ ?datasetLabel WHERE {
+SELECT ?materialIRI (SAMPLE(?material_) AS ?material) ?dataset ?datasetLabel
+WHERE {
   VALUES ?superclass { npo:NPO_1486 obo:CHEBI_51050 }
   VALUES ?type { sbd:Dataset sbd:Database }
-  ?dataset_ sbdbel:NP ?materialIRI ; a ?type ; rdfs:label ?datasetLabel .
-  ?materialIRI rdfs:subClassOf* ?superclass ; rdfs:label ?material .
-} ORDER BY ?dataset
+  ?dataset sbdbel:NP ?materialIRI ; a ?type ; rdfs:label ?datasetLabel .
+  ?materialIRI rdfs:subClassOf* ?superclass ; rdfs:label ?material_ .
+} GROUP BY ?materialIRI ?dataset ?datasetLabel
+  ORDER BY ?dataset
 ```
 
 This gives:
@@ -180,57 +182,57 @@ This gives:
   <tr>
     <td><b>materialIRI</b></td>
     <td><b>material</b></td>
-    <td><b>dataset_</b></td>
+    <td><b>dataset</b></td>
   </tr>
   <tr>
     <td>obo:CHEBI_51050</td>
     <td>titanium dioxide nanoparticle</td>
-    <td>https://enanomapper.adma.ai/about/calibrate</td>
+    <td><a href="https://enanomapper.adma.ai/about/calibrate">calibrate - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>obo:CHEBI_51050</td>
     <td>titanium dioxide nanoparticle</td>
-    <td>https://enanomapper.adma.ai/about/harmless</td>
+    <td><a href="https://enanomapper.adma.ai/about/harmless">harmless - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>obo:CHEBI_51050</td>
     <td>titanium dioxide nanoparticle</td>
-    <td>https://enanomapper.adma.ai/about/nanoinformatix</td>
+    <td><a href="https://enanomapper.adma.ai/about/nanoinformatix">nanoinformatix - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>obo:CHEBI_51050</td>
     <td>titanium dioxide nanoparticle</td>
-    <td>https://enanomapper.adma.ai/about/nanoreg</td>
+    <td><a href="https://enanomapper.adma.ai/about/nanoreg">nanoreg - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>obo:CHEBI_51050</td>
     <td>titanium dioxide nanoparticle</td>
-    <td>https://enanomapper.adma.ai/about/nanoreg2</td>
+    <td><a href="https://enanomapper.adma.ai/about/nanoreg2">nanoreg2 - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>obo:CHEBI_51050</td>
     <td>titanium dioxide nanoparticle</td>
-    <td>https://identifiers.org/geo:GSE156564</td>
+    <td><a href="https://enanomapper.adma.ai/about/riskgone">riskgone - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>obo:CHEBI_51050</td>
     <td>titanium dioxide nanoparticle</td>
-    <td>https://identifiers.org/geo:GSE99997</td>
-  </tr>
-  <tr>
-    <td>obo:CHEBI_51050</td>
-    <td>titanium dioxide nanoparticle</td>
-    <td>https://enanomapper.adma.ai/about/riskgone</td>
-  </tr>
-  <tr>
-    <td>obo:CHEBI_51050</td>
-    <td>titanium dioxide nanoparticle</td>
-    <td>https://enanomapper.adma.ai/about/sbd4nano</td>
+    <td><a href="https://enanomapper.adma.ai/about/sbd4nano">sbd4nano - eNanoMapper database</a></td>
   </tr>
   <tr>
     <td>http://purl.enanomapper.org/onto/ENM_9000204</td>
     <td>NM-105</td>
-    <td>https://identifiers.org/geo:GSE156509</td>
+    <td><a href="https://identifiers.org/geo:GSE156509">Transcriptomic study of NR8383 rat macrophages cells following exposure to TiO2 (NM105, p25 anatase/rutile)</a></td>
+  </tr>
+  <tr>
+    <td>obo:CHEBI_51050</td>
+    <td>titanium dioxide nanoparticle</td>
+    <td><a href="https://identifiers.org/geo:GSE156564">Transcriptomic study of NR8383 rat macrophages cells following exposure to TiO2 (NRCWE001)</a></td>
+  </tr>
+  <tr>
+    <td>obo:CHEBI_51050</td>
+    <td>titanium dioxide nanoparticle</td>
+    <td><a href="https://identifiers.org/geo:GSE99997">TiO2-induced gene expression profiles in rat lung: a subacute inhalation study</a></td>
   </tr>
 </table>
 
@@ -487,22 +489,22 @@ This gives us:
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_10">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_10</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>Cobalt (II) oxide nanoparticle, cobalt oxide nanoparticle, R-TiO2, TiO2, titanium oxide nanoparticle, Fe2O3, iron (III) oxide nanoparticle, ZnO, zinc oxide nanoparticle</td>
+    <td>ZnO, zinc oxide nanoparticle, R-TiO2, TiO2, titanium oxide nanoparticle, Fe2O3, iron (III) oxide nanoparticle, Cobalt (II) oxide nanoparticle, cobalt oxide nanoparticle</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_11">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_11</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>iron oxide nanoparticle, (Fe2O3)n(Fe3O4)m</td>
+    <td>(Fe2O3)n(Fe3O4)m, iron oxide nanoparticle</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_12">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_12</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>Fe3O4, iron (II,III) oxide nanoparticle, Cobalt (II) oxide nanoparticle, cobalt oxide nanoparticle, Co3O4 nanoparticle, R-TiO2, TiO2, titanium oxide nanoparticle, Fe2O3, iron (III) oxide nanoparticle, ZnO, zinc oxide nanoparticle</td>
+    <td>Fe3O4, iron (II,III) oxide nanoparticle, ZnO, zinc oxide nanoparticle, R-TiO2, TiO2, titanium oxide nanoparticle, Fe2O3, iron (III) oxide nanoparticle, Cobalt (II) oxide nanoparticle, cobalt oxide nanoparticle, Co3O4 nanoparticle</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_14">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_14</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>Fe3O4, iron (II,III) oxide nanoparticle, Cobalt (II) oxide nanoparticle, cobalt oxide nanoparticle, Co3O4 nanoparticle, R-TiO2, TiO2, titanium oxide nanoparticle, Fe2O3, iron (III) oxide nanoparticle, ZnO, zinc oxide nanoparticle</td>
+    <td>Fe3O4, iron (II,III) oxide nanoparticle, ZnO, zinc oxide nanoparticle, R-TiO2, TiO2, titanium oxide nanoparticle, Fe2O3, iron (III) oxide nanoparticle, Cobalt (II) oxide nanoparticle, cobalt oxide nanoparticle, Co3O4 nanoparticle</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_15">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_15</a></td>
@@ -517,27 +519,27 @@ This gives us:
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_18">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_18</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>iron oxide nanoparticle, (Fe2O3)n(Fe3O4)m</td>
+    <td>(Fe2O3)n(Fe3O4)m, iron oxide nanoparticle</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_1a">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_1a</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>iron oxide nanoparticle, (Fe2O3)n(Fe3O4)m</td>
+    <td>(Fe2O3)n(Fe3O4)m, iron oxide nanoparticle</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_1b">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_1b</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>iron oxide nanoparticle, (Fe2O3)n(Fe3O4)m</td>
+    <td>(Fe2O3)n(Fe3O4)m, iron oxide nanoparticle</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_20">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_20</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>Fe3O4, iron (II,III) oxide nanoparticle, R-TiO2, TiO2, titanium oxide nanoparticle, Fe2O3, iron (III) oxide nanoparticle, ZnO, zinc oxide nanoparticle</td>
+    <td>Fe3O4, iron (II,III) oxide nanoparticle, ZnO, zinc oxide nanoparticle, R-TiO2, TiO2, titanium oxide nanoparticle, Fe2O3, iron (III) oxide nanoparticle</td>
   </tr>
   <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_21">https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_21</a></td>
     <td>Computational models for the assessment of manufactured nanomaterials</td>
-    <td>Fe3O4, iron (II,III) oxide nanoparticle, R-TiO2, TiO2, titanium oxide nanoparticle, Fe2O3, iron (III) oxide nanoparticle, ZnO, zinc oxide nanoparticle</td>
+    <td>Fe3O4, iron (II,III) oxide nanoparticle, ZnO, zinc oxide nanoparticle, R-TiO2, TiO2, titanium oxide nanoparticle, Fe2O3, iron (III) oxide nanoparticle</td>
   </tr>
   <tr><td colspan="2">This table is truncated. See the full table at <a href="sparql/allMetalOxideModels.code.html">sparql/allMetalOxideModels.rq</a></td></tr>
 </table>

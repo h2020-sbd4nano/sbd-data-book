@@ -60,16 +60,12 @@ WHERE {
     <td>32</td>
   </tr>
   <tr>
-    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/14805">oxonickel</a></td>
-    <td>31</td>
-  </tr>
-  <tr>
     <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/159375">oxygen(2-);yttrium(3+)</a></td>
     <td>31</td>
   </tr>
   <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_0000118">Cobalt (II) oxide nanoparticle</a></td>
-    <td>30</td>
+    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/14805">oxonickel</a></td>
+    <td>31</td>
   </tr>
   <tr>
     <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/150906">indium(3+);oxygen(2-)</a></td>
@@ -85,6 +81,10 @@ WHERE {
   </tr>
   <tr>
     <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/62762">dioxozirconium</a></td>
+    <td>30</td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_0000118">cobalt oxide nanoparticle</a></td>
     <td>30</td>
   </tr>
   <tr>
@@ -112,11 +112,11 @@ WHERE {
     <td>17</td>
   </tr>
   <tr>
-    <td><a href="npo:NPO_729">(Fe2O3)n(Fe3O4)m</a></td>
+    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/14811">trioxotungsten</a></td>
     <td>16</td>
   </tr>
   <tr>
-    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/14811">trioxotungsten</a></td>
+    <td><a href="npo:NPO_729">(Fe2O3)n(Fe3O4)m</a></td>
     <td>16</td>
   </tr>
   <tr>
@@ -140,6 +140,10 @@ WHERE {
     <td>9</td>
   </tr>
   <tr>
+    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/159423">hafnium(4+);oxygen(2-)</a></td>
+    <td>7</td>
+  </tr>
+  <tr>
     <td><a href="http://purl.enanomapper.org/onto/ENM_9000254">Co3O4 nanoparticle</a></td>
     <td>7</td>
   </tr>
@@ -148,19 +152,15 @@ WHERE {
     <td>7</td>
   </tr>
   <tr>
-    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/159423">hafnium(4+);oxygen(2-)</a></td>
-    <td>7</td>
-  </tr>
-  <tr>
     <td><a href="npo:NPO_1541">Metal Oxide</a></td>
     <td>6</td>
   </tr>
   <tr>
-    <td><a href="npo:NPO_1892">Ag nanoparticle</a></td>
+    <td><a href="obo:CHEBI_51050">titanium dioxide nanoparticle</a></td>
     <td>4</td>
   </tr>
   <tr>
-    <td><a href="obo:CHEBI_51050">titanium dioxide nanoparticle</a></td>
+    <td><a href="npo:NPO_1892">Ag nanoparticle</a></td>
     <td>4</td>
   </tr>
   <tr>
@@ -168,7 +168,7 @@ WHERE {
     <td>3</td>
   </tr>
   <tr>
-    <td><a href="npo:NPO_730">Fullerene C60</a></td>
+    <td><a href="npo:NPO_103">Al nanoparticle</a></td>
     <td>2</td>
   </tr>
   <tr>
@@ -176,15 +176,7 @@ WHERE {
     <td>2</td>
   </tr>
   <tr>
-    <td><a href="npo:NPO_354">MWCNT40nm-COOH</a></td>
-    <td>2</td>
-  </tr>
-  <tr>
     <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/14802">trioxomolybdenum</a></td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td><a href="npo:NPO_103">Al nanoparticle</a></td>
     <td>2</td>
   </tr>
   <tr>
@@ -204,6 +196,22 @@ WHERE {
     <td>2</td>
   </tr>
   <tr>
+    <td><a href="npo:NPO_354">MWCNT40nm-COOH</a></td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td><a href="npo:NPO_730">Fullerene C60</a></td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td><a href="npo:NPO_1384">Metal</a></td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.bioontology.org/ontology/MESH/C569492">cobalt ferrite (CoFe2O4)</a></td>
+    <td>1</td>
+  </tr>
+  <tr>
     <td><a href="http://purl.enanomapper.org/onto/ENM_9000248">Cobalt nanoparticle</a></td>
     <td>1</td>
   </tr>
@@ -212,11 +220,27 @@ WHERE {
     <td>1</td>
   </tr>
   <tr>
-    <td><a href="npo:NPO_1384">Metal</a></td>
+    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/23942">platinum</a></td>
     <td>1</td>
   </tr>
   <tr>
-    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/20597791">manganese;oxygen(2-)</a></td>
+    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/25087137">zinc;iron(3+);oxygen(2-)</a></td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/4124403">silicon(4+)</a></td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/4226345">oxido(oxo)alumane</a></td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/6335514">germanium</a></td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/91574">tellanylidenecadmium</a></td>
     <td>1</td>
   </tr>
   <tr>
@@ -340,34 +364,6 @@ WHERE {
     <td>1</td>
   </tr>
   <tr>
-    <td><a href="http://purl.bioontology.org/ontology/MESH/C569492">cobalt ferrite (CoFe2O4)</a></td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/23942">platinum</a></td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/25087137">zinc;iron(3+);oxygen(2-)</a></td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/4124403">silicon(4+)</a></td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/4226345">oxido(oxo)alumane</a></td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/6335514">germanium</a></td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/91574">tellanylidenecadmium</a></td>
-    <td>1</td>
-  </tr>
-  <tr>
     <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/16747781">lambda1-thallanyloxythallium</a></td>
     <td>1</td>
   </tr>
@@ -433,6 +429,10 @@ WHERE {
   </tr>
   <tr>
     <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/9989219">copper;copper(1+);oxygen(2-)</a></td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/20597791">manganese;oxygen(2-)</a></td>
     <td>1</td>
   </tr>
 </table>

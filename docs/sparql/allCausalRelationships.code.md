@@ -15029,6 +15029,20 @@ WHERE {
     <td></td>
   </tr>
   <tr>
+    <td>dissolution</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>dissolution</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
     <td>amination</td>
     <td>https://www.sbd4nano.eu/bel/#correlates</td>
     <td>toxicity</td>
@@ -15067,20 +15081,6 @@ WHERE {
     <td>amination</td>
     <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
     <td>cell uptake (type)</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>dissolution</td>
-    <td>https://www.sbd4nano.eu/bel/#correlates</td>
-    <td>toxicity</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>dissolution</td>
-    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
-    <td>toxicity</td>
     <td></td>
     <td></td>
   </tr>
@@ -16044,37 +16044,37 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>Dose</td>
-    <td>https://www.sbd4nano.eu/bel/#correlates</td>
-    <td>reactivity</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Dose</td>
-    <td>https://www.sbd4nano.eu/bel/#DoesNotCorrelate</td>
-    <td>reactivity</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>aggregation</td>
-    <td>https://www.sbd4nano.eu/bel/#correlates</td>
-    <td>reactivity</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>aggregation</td>
-    <td>https://www.sbd4nano.eu/bel/#DoesNotCorrelate</td>
-    <td>reactivity</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
     <td>aggregation</td>
     <td>https://www.sbd4nano.eu/bel/#DoesNotCorrelate</td>
     <td>cytotoxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dose</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>reactivity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Dose</td>
+    <td>https://www.sbd4nano.eu/bel/#DoesNotCorrelate</td>
+    <td>reactivity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>aggregation</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>reactivity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>aggregation</td>
+    <td>https://www.sbd4nano.eu/bel/#DoesNotCorrelate</td>
+    <td>reactivity</td>
     <td></td>
     <td></td>
   </tr>
