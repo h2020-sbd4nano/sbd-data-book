@@ -29,14 +29,6 @@ WHERE {
 
 <table>
   <tr>
-    <td><b>superclass</b></td>
-    <td><b>nm</b></td>
-    <td><b>relations</b></td>
-  </tr>
-  <tr>
-    <td><a href="http://purl.bioontology.org/ontology/npo#NPO_1541">Metal Oxide</a></td>
-    <td><a href="http://purl.bioontology.org/ontology/npo#NPO_1541">Metal Oxide</a></td>
-    <td>6</td>
   </tr>
 </table>
 

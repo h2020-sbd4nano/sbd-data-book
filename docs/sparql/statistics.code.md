@@ -86,7 +86,7 @@ WHERE {
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/">AOP-Wiki AOPs</a></td>
     <td>0</td>
     <td>0</td>
-    <td>282</td>
+    <td>290</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
@@ -109,7 +109,7 @@ WHERE {
     <td>0</td>
     <td>0</td>
     <td>0</td>
-    <td>1951</td>
+    <td>1993</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
@@ -139,7 +139,7 @@ WHERE {
   </tr>
   <tr>
     <td><a href="https://fairsharing.org/">FAIRsharing</a></td>
-    <td>25</td>
+    <td>29</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
@@ -176,17 +176,6 @@ WHERE {
     <td>0</td>
     <td>6</td>
     <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-  </tr>
-  <tr>
-    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-nanowiki/">NanoWiki v6 causal relationships</a></td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>11</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>

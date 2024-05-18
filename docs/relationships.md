@@ -27,20 +27,6 @@ This gives us:
 
 <table>
   <tr>
-    <td><b>material</b></td>
-    <td><b>count</b></td>
-  </tr>
-  <tr>
-    <td>Metal Oxide</td>
-    <td>6</td>
-  </tr>
-  <tr>
-    <td>Nanoparticle</td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>Nanomaterial</td>
-    <td>5</td>
   </tr>
 </table>
 
@@ -69,8 +55,12 @@ This gives us:
     <td><b>count</b></td>
   </tr>
   <tr>
+    <td>Mitochondrial dysfunction</td>
+    <td>31</td>
+  </tr>
+  <tr>
     <td>Oxidative Stress </td>
-    <td>25</td>
+    <td>26</td>
   </tr>
   <tr>
     <td>Deposition of Energy</td>
@@ -93,16 +83,12 @@ This gives us:
     <td>13</td>
   </tr>
   <tr>
+    <td>Cell injury/death</td>
+    <td>13</td>
+  </tr>
+  <tr>
     <td>Increased, Reactive oxygen species</td>
     <td>13</td>
-  </tr>
-  <tr>
-    <td>N/A, Mitochondrial dysfunction 1</td>
-    <td>13</td>
-  </tr>
-  <tr>
-    <td>Cell injury/death</td>
-    <td>12</td>
   </tr>
   <tr>
     <td>Increase, Oxidative Stress</td>
@@ -133,6 +119,10 @@ This gives us:
     <td>9</td>
   </tr>
   <tr>
+    <td>Apoptosis</td>
+    <td>9</td>
+  </tr>
+  <tr>
     <td>Deposition of Ionizing Energy</td>
     <td>9</td>
   </tr>
@@ -145,7 +135,7 @@ This gives us:
     <td>8</td>
   </tr>
   <tr>
-    <td>Apoptosis</td>
+    <td>Decrease, testosterone levels </td>
     <td>8</td>
   </tr>
   <tr>
@@ -155,10 +145,6 @@ This gives us:
   <tr>
     <td>Increase, DNA strand breaks</td>
     <td>8</td>
-  </tr>
-  <tr>
-    <td>Activation, PPARα</td>
-    <td>7</td>
   </tr>
   <tr><td colspan="2">This table is truncated. See the full table at <a href="sparql/relationshipsByCause.code.html">sparql/relationshipsByCause.rq</a></td></tr>
 </table>
@@ -188,11 +174,19 @@ This gives us:
     <td><b>count</b></td>
   </tr>
   <tr>
-    <td>Cell injury/death</td>
-    <td>17</td>
+    <td>Mitochondrial dysfunction</td>
+    <td>23</td>
+  </tr>
+  <tr>
+    <td>Impairment, Learning and memory</td>
+    <td>18</td>
   </tr>
   <tr>
     <td>Decrease, Population growth rate</td>
+    <td>17</td>
+  </tr>
+  <tr>
+    <td>Cell injury/death</td>
     <td>17</td>
   </tr>
   <tr>
@@ -204,16 +198,12 @@ This gives us:
     <td>16</td>
   </tr>
   <tr>
-    <td>Impairment, Learning and memory</td>
+    <td>Increased, Reactive oxygen species</td>
     <td>15</td>
   </tr>
   <tr>
     <td>cell uptake (amount)</td>
     <td>15</td>
-  </tr>
-  <tr>
-    <td>Increased, Reactive oxygen species</td>
-    <td>14</td>
   </tr>
   <tr>
     <td>increased，Vascular endothelial dysfunction</td>
@@ -224,14 +214,6 @@ This gives us:
     <td>13</td>
   </tr>
   <tr>
-    <td>Increase, Apoptosis</td>
-    <td>10</td>
-  </tr>
-  <tr>
-    <td>Increase, Mortality</td>
-    <td>10</td>
-  </tr>
-  <tr>
     <td>impaired, Fertility</td>
     <td>10</td>
   </tr>
@@ -240,7 +222,23 @@ This gives us:
     <td>10</td>
   </tr>
   <tr>
+    <td>Increase, Mortality</td>
+    <td>9</td>
+  </tr>
+  <tr>
+    <td>Increase, Apoptosis</td>
+    <td>9</td>
+  </tr>
+  <tr>
+    <td>Decrease of neuronal network function</td>
+    <td>9</td>
+  </tr>
+  <tr>
     <td>Increased, secretion of proinflammatory mediators</td>
+    <td>9</td>
+  </tr>
+  <tr>
+    <td>Increased, Liver Steatosis</td>
     <td>9</td>
   </tr>
   <tr>
@@ -248,19 +246,11 @@ This gives us:
     <td>8</td>
   </tr>
   <tr>
-    <td>N/A, Mitochondrial dysfunction 1</td>
-    <td>8</td>
-  </tr>
-  <tr>
-    <td>Decrease of neuronal network function</td>
-    <td>8</td>
-  </tr>
-  <tr>
-    <td>Increased, Liver Steatosis</td>
-    <td>8</td>
-  </tr>
-  <tr>
     <td>Increase, Mutations</td>
+    <td>8</td>
+  </tr>
+  <tr>
+    <td>Oxidative Stress </td>
     <td>8</td>
   </tr>
   <tr>
@@ -268,15 +258,11 @@ This gives us:
     <td>8</td>
   </tr>
   <tr>
-    <td>Oxidative Stress </td>
-    <td>7</td>
-  </tr>
-  <tr>
-    <td>Increase, Oocyte apoptosis</td>
-    <td>7</td>
-  </tr>
-  <tr>
     <td>Accumulation, Fatty acid</td>
+    <td>8</td>
+  </tr>
+  <tr>
+    <td>Decrease, Reproduction</td>
     <td>7</td>
   </tr>
   <tr><td colspan="2">This table is truncated. See the full table at <a href="sparql/relationshipsByOutcome.code.html">sparql/relationshipsByOutcome.rq</a></td></tr>
@@ -344,7 +330,7 @@ This gives us:
   <tr>
     <td>Disruption, Lysosome</td>
     <td>https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/</td>
-    <td>N/A, Mitochondrial dysfunction 1</td>
+    <td>Mitochondrial dysfunction</td>
     <td></td>
     <td></td>
   </tr>

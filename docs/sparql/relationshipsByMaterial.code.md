@@ -27,20 +27,6 @@ WHERE {
 
 <table>
   <tr>
-    <td><b>material</b></td>
-    <td><b>count</b></td>
-  </tr>
-  <tr>
-    <td>Metal Oxide</td>
-    <td>6</td>
-  </tr>
-  <tr>
-    <td>Nanoparticle</td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>Nanomaterial</td>
-    <td>5</td>
   </tr>
 </table>
 

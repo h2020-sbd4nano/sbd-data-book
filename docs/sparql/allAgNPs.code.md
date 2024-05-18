@@ -27,6 +27,39 @@ WHERE {
   <tr>
     <td><a href="http://purl.bioontology.org/ontology/npo#NPO_1892">Ag nanoparticle</a></td>
   </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000235">NM-300</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000236">NM-300K</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000255">JRCNM03000a</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.obolibrary.org/obo/CHEBI_82776">coated silver nanoparticle</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.obolibrary.org/obo/CHEBI_82778">citrate-coated silver nanoparticle</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.obolibrary.org/obo/CHEBI_82780">poly(vinylpyrrolidone)-coated Ag nanoparticle</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.obolibrary.org/obo/CHEBI_82781">gum arabic-coated Ag NP</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.obolibrary.org/obo/CHEBI_82783">PVP8-Ag NP</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.obolibrary.org/obo/CHEBI_82784">PVP38-Ag NP</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.obolibrary.org/obo/CHEBI_82785">GA5-Ag NP</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.obolibrary.org/obo/CHEBI_82786">GA22-Ag NP</a></td>
+  </tr>
 </table>
 
 ## Code examples

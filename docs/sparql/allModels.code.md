@@ -1173,6 +1173,10 @@ SELECT ?model ?modelLabel ?provider WHERE {
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
+    <td><a href="https://identifiers.org/aop/232">NFE2/Nrf2 repression to steatosis</a></td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
     <td><a href="https://identifiers.org/aop/237">Substance interaction with lung resident cell membrane components leading to atherosclerosis</a></td>
     <td>AOP-Wiki AOPs</td>
   </tr>
@@ -1733,7 +1737,7 @@ SELECT ?model ?modelLabel ?provider WHERE {
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
-    <td><a href="https://identifiers.org/aop/439">Activation of the AhR leading to breast cancer </a></td>
+    <td><a href="https://identifiers.org/aop/439">Activation of the AhR leading to metastatic breast cancer </a></td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
@@ -1829,15 +1833,7 @@ SELECT ?model ?modelLabel ?provider WHERE {
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
-    <td><a href="https://identifiers.org/aop/479">Mitochondrial complexes inhibition leading to heart failure via increased myocardial oxidative stress</a></td>
-    <td>AOP-Wiki AOPs</td>
-  </tr>
-  <tr>
     <td><a href="https://identifiers.org/aop/48">Binding of agonists to ionotropic glutamate receptors in adult brain causes excitotoxicity that mediates neuronal cell death, contributing to learning and memory impairment.</a></td>
-    <td>AOP-Wiki AOPs</td>
-  </tr>
-  <tr>
-    <td><a href="https://identifiers.org/aop/480">Mitochondrial complexes inhibition leading to heart failure via decreased ATP production</a></td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
@@ -1869,7 +1865,7 @@ SELECT ?model ?modelLabel ?provider WHERE {
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
-    <td><a href="https://identifiers.org/aop/490">Co-activation of IP3R and RyR leads to economic burden through reduced IQ and non-cholinergic mechanisms</a></td>
+    <td><a href="https://identifiers.org/aop/490">Co-activation of IP3R and RyR leads to socio-economic burden through reduced IQ and non-cholinergic mechanisms</a></td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
@@ -1886,6 +1882,10 @@ SELECT ?model ?modelLabel ?provider WHERE {
   </tr>
   <tr>
     <td><a href="https://identifiers.org/aop/496">Androgen receptor agonism leading to reproduction dysfunction （in zebrafish）</a></td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td><a href="https://identifiers.org/aop/497">ERa inactivation alters mitochondrial functions and insulin signalling in skeletal muscle and leads to insulin resistance and metabolic syndrome</a></td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>
@@ -1942,6 +1942,38 @@ SELECT ?model ?modelLabel ?provider WHERE {
   </tr>
   <tr>
     <td><a href="https://identifiers.org/aop/518">Liver X Receptor (LXR) activation leads to liver steatosis</a></td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td><a href="https://identifiers.org/aop/520">Retinoic acid receptor agonism during neurodevelopment leading to impaired learning and memory</a></td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td><a href="https://identifiers.org/aop/521">Essential element imbalance leads to reproductive failure via oxidative stress</a></td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td><a href="https://identifiers.org/aop/525">Reduced oligodendrocyte differentiation during neurodevelopment leading to impaired learning and memory</a></td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td><a href="https://identifiers.org/aop/526">Decreased, Chicken Ovalbumin Upstream Promoter Transcription Factor II (COUP-TFII) leads to Impaired, Spermatogenesis</a></td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td><a href="https://identifiers.org/aop/527">Decreased, Chicken Ovalbumin Upstream Promoter Transcription Factor II (COUP-TFII) leads to Hypospadias, increased</a></td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td><a href="https://identifiers.org/aop/528">Decreased Insulin-like peptide 3 (INSL3) leads to Malformation, cryptorchidism - maldescended testis</a></td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td><a href="https://identifiers.org/aop/529">Perfluorooctanesulfonic acid (PFOS) binding to peroxisome proliferator-activated receptors (PPARs) causes dysregulation of lipid metabolism and subsequent liver steatosis</a></td>
+    <td>AOP-Wiki AOPs</td>
+  </tr>
+  <tr>
+    <td><a href="https://identifiers.org/aop/530">Endocytotic lysosomal uptake leads to intestinal barrier disruption</a></td>
     <td>AOP-Wiki AOPs</td>
   </tr>
   <tr>

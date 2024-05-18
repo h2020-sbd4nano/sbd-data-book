@@ -27,6 +27,69 @@ WHERE {
   <tr>
     <td><a href="http://purl.bioontology.org/ontology/npo#NPO_606">CNT: Carbon nanotubes</a></td>
   </tr>
+  <tr>
+    <td><a href="http://purl.bioontology.org/ontology/npo#NPO_354">MWCNT40nm-COOH</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.bioontology.org/ontology/npo#NPO_943">single-walled carbon nanotube</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000230">NM-403</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000239">Mitsui MWCNT-7</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.bioontology.org/ontology/npo#NPO_301">double-walled carbon nanotube</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000080">JRCNM04000a</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000081">JRCNM04001a</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000206">NM-400</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000207">NM-401</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000216">JRCNM40001a</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000217">JRCNM40002a</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000218">JRCNM40003a</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000219">JRCNM40004a</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000220">JRCNM40005a</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000221">JRCNM40006a</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000222">JRCNM40007a</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000223">JRCNM40008a</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000224">JRCNM40009a</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000225">JRCNM40010a</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000229">NM-402</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000258">JRCNM40011a</a></td>
+  </tr>
 </table>
 
 ## Code examples

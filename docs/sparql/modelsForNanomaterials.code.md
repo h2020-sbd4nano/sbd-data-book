@@ -68,10 +68,6 @@ WHERE {
     <td>31</td>
   </tr>
   <tr>
-    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/62762">dioxozirconium</a></td>
-    <td>30</td>
-  </tr>
-  <tr>
     <td><a href="http://purl.enanomapper.org/onto/ENM_0000118">Cobalt (II) oxide nanoparticle</a></td>
     <td>30</td>
   </tr>
@@ -85,6 +81,10 @@ WHERE {
   </tr>
   <tr>
     <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/29131">dioxotin</a></td>
+    <td>30</td>
+  </tr>
+  <tr>
+    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/62762">dioxozirconium</a></td>
     <td>30</td>
   </tr>
   <tr>
@@ -156,20 +156,16 @@ WHERE {
     <td>6</td>
   </tr>
   <tr>
+    <td><a href="obo:CHEBI_51050">titanium dioxide nanoparticle</a></td>
+    <td>4</td>
+  </tr>
+  <tr>
     <td><a href="npo:NPO_1892">Ag nanoparticle</a></td>
     <td>4</td>
   </tr>
   <tr>
     <td><a href="npo:NPO_707">Nanoparticle</a></td>
     <td>3</td>
-  </tr>
-  <tr>
-    <td><a href="npo:NPO_103">Al nanoparticle</a></td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td><a href="obo:CHEBI_33888">Cobalt molecular entity</a></td>
-    <td>2</td>
   </tr>
   <tr>
     <td><a href="npo:NPO_354">MWCNT40nm-COOH</a></td>
@@ -192,11 +188,19 @@ WHERE {
     <td>2</td>
   </tr>
   <tr>
-    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/14802">trioxomolybdenum</a></td>
+    <td><a href="npo:NPO_730">Fullerene C60</a></td>
     <td>2</td>
   </tr>
   <tr>
-    <td><a href="npo:NPO_730">Fullerene C60</a></td>
+    <td><a href="npo:NPO_103">Al nanoparticle</a></td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td><a href="obo:CHEBI_33888">Cobalt molecular entity</a></td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/14802">trioxomolybdenum</a></td>
     <td>2</td>
   </tr>
   <tr>
@@ -204,35 +208,15 @@ WHERE {
     <td>1</td>
   </tr>
   <tr>
-    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/20597791">manganese;oxygen(2-)</a></td>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000248">Cobalt nanoparticle</a></td>
     <td>1</td>
   </tr>
   <tr>
-    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/91574">tellanylidenecadmium</a></td>
+    <td><a href="obo:CHEBI_23336">Cobalt cations</a></td>
     <td>1</td>
   </tr>
   <tr>
     <td><a href="http://purl.bioontology.org/ontology/MESH/C569492">cobalt ferrite (CoFe2O4)</a></td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/23942">platinum</a></td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/25087137">zinc;iron(3+);oxygen(2-)</a></td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/4124403">silicon(4+)</a></td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/4226345">oxido(oxo)alumane</a></td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/6335514">germanium</a></td>
     <td>1</td>
   </tr>
   <tr>
@@ -424,11 +408,31 @@ WHERE {
     <td>1</td>
   </tr>
   <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000248">Cobalt nanoparticle</a></td>
+    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/20597791">manganese;oxygen(2-)</a></td>
     <td>1</td>
   </tr>
   <tr>
-    <td><a href="obo:CHEBI_23336">Cobalt cations</a></td>
+    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/23942">platinum</a></td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/25087137">zinc;iron(3+);oxygen(2-)</a></td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/4124403">silicon(4+)</a></td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/4226345">oxido(oxo)alumane</a></td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/6335514">germanium</a></td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/91574">tellanylidenecadmium</a></td>
     <td>1</td>
   </tr>
 </table>

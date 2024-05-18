@@ -27,10 +27,6 @@ SELECT ?title ?url WHERE {
     <td><b>url</b></td>
   </tr>
   <tr>
-    <td>Exposure Ontology</td>
-    <td>http://bioportal.bioontology.org/ontologies/1575</td>
-  </tr>
-  <tr>
     <td>The Blood Exposome Database</td>
     <td>http://bloodexposome.org/</td>
   </tr>
@@ -40,7 +36,7 @@ SELECT ?title ?url WHERE {
   </tr>
   <tr>
     <td>Chromium Epigenomics Toxicology</td>
-    <td>http://epichromium.org</td>
+    <td>http://eh4.uc.edu/chromium/</td>
   </tr>
   <tr>
     <td>Exposome Explorer</td>
@@ -65,6 +61,10 @@ SELECT ?title ?url WHERE {
   <tr>
     <td>Minimum Information About a Bioactive Entity</td>
     <td>http://www.psidev.info/miabe</td>
+  </tr>
+  <tr>
+    <td>Toxin and Toxin Target Database</td>
+    <td>http://www.t3db.ca/</td>
   </tr>
   <tr>
     <td>ECOTOXicology Knowledgebase</td>
@@ -175,11 +175,15 @@ SELECT ?title ?url WHERE {
     <td>https://enanomapper.adma.ai/projects/sunshine</td>
   </tr>
   <tr>
+    <td>Exposure Ontology</td>
+    <td>https://github.com/CTDbase/exposure-ontology</td>
+  </tr>
+  <tr>
     <td>Environmental Conditions, Treatments, and exposures Ontology</td>
     <td>https://github.com/EnvironmentOntology/environmental-exposure-ontology</td>
   </tr>
   <tr>
-    <td>Minimum Information about Animal Toxicology Experiments In Vivo</td>
+    <td>Minimum Information about Animal Toxicology Experiments</td>
     <td>https://github.com/zacharewskilab/MIATE</td>
   </tr>
   <tr>
@@ -191,8 +195,24 @@ SELECT ?title ?url WHERE {
     <td>https://particleandfibretoxicology.biomedcentral.com/articles/10.1186/s12989-021-00442-x</td>
   </tr>
   <tr>
+    <td>Bio-Pesticides DataBase</td>
+    <td>https://sitem.herts.ac.uk/aeru/bpdb/atoz.htm</td>
+  </tr>
+  <tr>
+    <td>Pesticide Properties DataBase</td>
+    <td>https://sitem.herts.ac.uk/aeru/ppdb/en/index.htm</td>
+  </tr>
+  <tr>
+    <td>Veterinary Substances Database</td>
+    <td>https://sitem.herts.ac.uk/aeru/vsdb/index.htm</td>
+  </tr>
+  <tr>
     <td>Ecotoxicology thesaurus</td>
     <td>https://skosmos.loterre.fr/3WV/en/</td>
+  </tr>
+  <tr>
+    <td>NanoCommons Knowledge Base</td>
+    <td>https://ssl.biomax.de/nanocommons/</td>
   </tr>
   <tr>
     <td>OECD eChemPortal</td>
@@ -201,10 +221,6 @@ SELECT ?title ?url WHERE {
   <tr>
     <td>EFSA OpenFoodTox</td>
     <td>https://www.efsa.europa.eu/en/microstrategy/openfoodtox</td>
-  </tr>
-  <tr>
-    <td>NanoCommons Knowledge Base</td>
-    <td>https://www.nanocommons.eu/nanocommons-knowledge-base/</td>
   </tr>
   <tr>
     <td>National Coronial Information System</td>

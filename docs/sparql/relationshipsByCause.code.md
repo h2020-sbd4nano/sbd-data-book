@@ -30,8 +30,12 @@ WHERE {
     <td><b>count</b></td>
   </tr>
   <tr>
+    <td>Mitochondrial dysfunction</td>
+    <td>31</td>
+  </tr>
+  <tr>
     <td>Oxidative Stress </td>
-    <td>25</td>
+    <td>26</td>
   </tr>
   <tr>
     <td>Deposition of Energy</td>
@@ -54,16 +58,12 @@ WHERE {
     <td>13</td>
   </tr>
   <tr>
+    <td>Cell injury/death</td>
+    <td>13</td>
+  </tr>
+  <tr>
     <td>Increased, Reactive oxygen species</td>
     <td>13</td>
-  </tr>
-  <tr>
-    <td>N/A, Mitochondrial dysfunction 1</td>
-    <td>13</td>
-  </tr>
-  <tr>
-    <td>Cell injury/death</td>
-    <td>12</td>
   </tr>
   <tr>
     <td>Increase, Oxidative Stress</td>
@@ -94,6 +94,10 @@ WHERE {
     <td>9</td>
   </tr>
   <tr>
+    <td>Apoptosis</td>
+    <td>9</td>
+  </tr>
+  <tr>
     <td>Deposition of Ionizing Energy</td>
     <td>9</td>
   </tr>
@@ -106,7 +110,7 @@ WHERE {
     <td>8</td>
   </tr>
   <tr>
-    <td>Apoptosis</td>
+    <td>Decrease, testosterone levels </td>
     <td>8</td>
   </tr>
   <tr>
@@ -122,7 +126,7 @@ WHERE {
     <td>7</td>
   </tr>
   <tr>
-    <td>Increase, Apoptosis</td>
+    <td>Epithelial Mesenchymal Transition</td>
     <td>7</td>
   </tr>
   <tr>
@@ -162,11 +166,11 @@ WHERE {
     <td>6</td>
   </tr>
   <tr>
-    <td>Increase, Cell Proliferation</td>
+    <td>Increase, Apoptosis</td>
     <td>6</td>
   </tr>
   <tr>
-    <td>Increase, Mitochondrial Dysfunction</td>
+    <td>Increase, Cell Proliferation</td>
     <td>6</td>
   </tr>
   <tr>
@@ -175,10 +179,6 @@ WHERE {
   </tr>
   <tr>
     <td>Increased SARS-CoV-2 production</td>
-    <td>6</td>
-  </tr>
-  <tr>
-    <td>Increased, Intracellular Calcium overload</td>
     <td>6</td>
   </tr>
   <tr>
@@ -226,6 +226,10 @@ WHERE {
     <td>5</td>
   </tr>
   <tr>
+    <td>Decrease of neuronal network function</td>
+    <td>5</td>
+  </tr>
+  <tr>
     <td>Decrease, androgen receptor activation</td>
     <td>5</td>
   </tr>
@@ -262,6 +266,10 @@ WHERE {
     <td>5</td>
   </tr>
   <tr>
+    <td>Increased, Intracellular Calcium overload</td>
+    <td>5</td>
+  </tr>
+  <tr>
     <td>Increased, glutamate</td>
     <td>5</td>
   </tr>
@@ -270,15 +278,7 @@ WHERE {
     <td>5</td>
   </tr>
   <tr>
-    <td>Induction, Epithelial Mesenchymal Transition</td>
-    <td>5</td>
-  </tr>
-  <tr>
     <td>Inhibition, Cyclooxygenase activity</td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>Mitochondrial dysfunction</td>
     <td>5</td>
   </tr>
   <tr>
@@ -330,6 +330,10 @@ WHERE {
     <td>4</td>
   </tr>
   <tr>
+    <td>Agonism, Retinoic acid receptor</td>
+    <td>4</td>
+  </tr>
+  <tr>
     <td>Alkylation, DNA</td>
     <td>4</td>
   </tr>
@@ -346,7 +350,7 @@ WHERE {
     <td>4</td>
   </tr>
   <tr>
-    <td>Antagonism, Androgen receptor</td>
+    <td>Antagonism, Thyroid Receptor </td>
     <td>4</td>
   </tr>
   <tr>
@@ -359,10 +363,6 @@ WHERE {
   </tr>
   <tr>
     <td>Damage, Lipid bilayer</td>
-    <td>4</td>
-  </tr>
-  <tr>
-    <td>Decrease of neuronal network function</td>
     <td>4</td>
   </tr>
   <tr>
@@ -402,6 +402,10 @@ WHERE {
     <td>4</td>
   </tr>
   <tr>
+    <td>Increased, Lipid peroxidation</td>
+    <td>4</td>
+  </tr>
+  <tr>
     <td>Inhibition, Aromatase</td>
     <td>4</td>
   </tr>
@@ -411,10 +415,6 @@ WHERE {
   </tr>
   <tr>
     <td>Inhibition, Nuclear factor kappa B (NF-kB)</td>
-    <td>4</td>
-  </tr>
-  <tr>
-    <td>Injury, Mitochondria</td>
     <td>4</td>
   </tr>
   <tr>
@@ -506,10 +506,6 @@ WHERE {
     <td>3</td>
   </tr>
   <tr>
-    <td>Accumulation, Triglyceride</td>
-    <td>3</td>
-  </tr>
-  <tr>
     <td>Acetylcholine accumulation in synapses</td>
     <td>3</td>
   </tr>
@@ -550,7 +546,19 @@ WHERE {
     <td>3</td>
   </tr>
   <tr>
+    <td>Antagonism, Androgen receptor</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>Antagonism, Estrogen receptor</td>
+    <td>3</td>
+  </tr>
+  <tr>
     <td>Bile accumulation, Pathological condition</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>Binding of (ant)agonist to peroxisome proliferator–activated receptor alpha</td>
     <td>3</td>
   </tr>
   <tr>
@@ -571,6 +579,14 @@ WHERE {
   </tr>
   <tr>
     <td>Decrease, Oxidative phosphorylation</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>Decrease, dihydrotestosterone (DHT) level</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>Decreased, Mitochondrial fatty acid beta-oxidation</td>
     <td>3</td>
   </tr>
   <tr>
@@ -638,10 +654,6 @@ WHERE {
     <td>3</td>
   </tr>
   <tr>
-    <td>Increased, Lipid peroxidation</td>
-    <td>3</td>
-  </tr>
-  <tr>
     <td>Increased, PPAR-alpha activation</td>
     <td>3</td>
   </tr>
@@ -690,19 +702,7 @@ WHERE {
     <td>3</td>
   </tr>
   <tr>
-    <td>Mitochondrial impairment</td>
-    <td>3</td>
-  </tr>
-  <tr>
     <td>Occurrence, renal proximal tubular necrosis</td>
-    <td>3</td>
-  </tr>
-  <tr>
-    <td>Particle size</td>
-    <td>3</td>
-  </tr>
-  <tr>
-    <td>Reduction, fetal/adult testosterone </td>
     <td>3</td>
   </tr>
   <tr>
@@ -719,14 +719,6 @@ WHERE {
   </tr>
   <tr>
     <td>increased，Vascular endothelial dysfunction</td>
-    <td>3</td>
-  </tr>
-  <tr>
-    <td>particle size</td>
-    <td>3</td>
-  </tr>
-  <tr>
-    <td>surface modification</td>
     <td>3</td>
   </tr>
   <tr>
@@ -787,6 +779,10 @@ WHERE {
   </tr>
   <tr>
     <td>Accumulation, Cytosolic toxic Tau oligomers</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Accumulation, Triglyceride</td>
     <td>2</td>
   </tr>
   <tr>
@@ -866,7 +862,7 @@ WHERE {
     <td>2</td>
   </tr>
   <tr>
-    <td>Antagonism, Estrogen receptor</td>
+    <td>Altered, cholesterol metabolism</td>
     <td>2</td>
   </tr>
   <tr>
@@ -874,7 +870,7 @@ WHERE {
     <td>2</td>
   </tr>
   <tr>
-    <td>Antagonism, Thyroid Receptor </td>
+    <td>Binding of (ant)agonist to liver X receptor</td>
     <td>2</td>
   </tr>
   <tr>
@@ -903,10 +899,6 @@ WHERE {
   </tr>
   <tr>
     <td>Cortisol and 11β-(OH) testosterone decreased</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Damaging, Mitochondria</td>
     <td>2</td>
   </tr>
   <tr>
@@ -962,10 +954,6 @@ WHERE {
     <td>2</td>
   </tr>
   <tr>
-    <td>Decrease, dihydrotestosterone (DHT) level</td>
-    <td>2</td>
-  </tr>
-  <tr>
     <td>Decrease, histaminergic neuron excitation</td>
     <td>2</td>
   </tr>
@@ -978,15 +966,19 @@ WHERE {
     <td>2</td>
   </tr>
   <tr>
-    <td>Decrease, testosterone levels </td>
-    <td>2</td>
-  </tr>
-  <tr>
     <td>Decrease, testosterone synthesis/level</td>
     <td>2</td>
   </tr>
   <tr>
     <td>Decreased Na/K ATPase activity</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Decreased proliferation of cortical neural progenitor cells</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Decreased steroidogenesis, Decreased Activity of Steroidogenic Enzymes in Adult Leydig cells</td>
     <td>2</td>
   </tr>
   <tr>
@@ -999,10 +991,6 @@ WHERE {
   </tr>
   <tr>
     <td>Decreased, LH Surge from anterior pituitary</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Decreased, Mitochondrial fatty acid beta-oxidation</td>
     <td>2</td>
   </tr>
   <tr>
@@ -1042,6 +1030,10 @@ WHERE {
     <td>2</td>
   </tr>
   <tr>
+    <td>Disrupted Lipid Storage</td>
+    <td>2</td>
+  </tr>
+  <tr>
     <td>Disruption, Lysosome</td>
     <td>2</td>
   </tr>
@@ -1062,19 +1054,11 @@ WHERE {
     <td>2</td>
   </tr>
   <tr>
-    <td>Dysfunction, Mitochondria </td>
-    <td>2</td>
-  </tr>
-  <tr>
     <td>Dysfunctional Autophagy</td>
     <td>2</td>
   </tr>
   <tr>
     <td>Dysregulation, ACE2 expression and activity</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Epithelial-mesenchymal transition</td>
     <td>2</td>
   </tr>
   <tr>
@@ -1386,6 +1370,10 @@ WHERE {
     <td>2</td>
   </tr>
   <tr>
+    <td>Inhibition, NMDARs</td>
+    <td>2</td>
+  </tr>
+  <tr>
     <td>Inhibition, sodium channel</td>
     <td>2</td>
   </tr>
@@ -1394,7 +1382,7 @@ WHERE {
     <td>2</td>
   </tr>
   <tr>
-    <td>Insulin resistance</td>
+    <td>Insulin resistance, increased</td>
     <td>2</td>
   </tr>
   <tr>
@@ -1431,6 +1419,10 @@ WHERE {
   </tr>
   <tr>
     <td>Occurrence, Cytoplasmic vacuolization (kupffer cell)</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>PFOS binding PPAR isoforms resulting in disrupted nuclear signaling</td>
     <td>2</td>
   </tr>
   <tr>
@@ -1483,10 +1475,6 @@ WHERE {
   </tr>
   <tr>
     <td>Reduction, Testosterone synthesis in Leydig cells</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>Reduction,Testosterone concentration in plasma</td>
     <td>2</td>
   </tr>
   <tr>
@@ -1711,6 +1699,10 @@ WHERE {
   </tr>
   <tr>
     <td>Aberrant, Dendritic morphology</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Aberrant, synaptic formation and plasticity</td>
     <td>1</td>
   </tr>
   <tr>
@@ -1994,7 +1986,19 @@ WHERE {
     <td>1</td>
   </tr>
   <tr>
+    <td>Altered Liver X receptor activity</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Altered brain morphology</td>
+    <td>1</td>
+  </tr>
+  <tr>
     <td>Altered differentiation</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Altered expression of cell cycle genes</td>
     <td>1</td>
   </tr>
   <tr>
@@ -2042,6 +2046,10 @@ WHERE {
     <td>1</td>
   </tr>
   <tr>
+    <td>Altered, white brain matter</td>
+    <td>1</td>
+  </tr>
+  <tr>
     <td>Angiogenesis dysfunction</td>
     <td>1</td>
   </tr>
@@ -2067,6 +2075,14 @@ WHERE {
   </tr>
   <tr>
     <td>Binding of agonist, Ionotropic glutamate receptors</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Binding of antagonist to glucocorticoid hormone receptor</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Binding of antagonist to thyroid hormone receptor</td>
     <td>1</td>
   </tr>
   <tr>
@@ -2422,6 +2438,10 @@ WHERE {
     <td>1</td>
   </tr>
   <tr>
+    <td>Decreased, Chicken Ovalbumin Upstream Promoter Transcription Factor II (COUP-TFII)</td>
+    <td>1</td>
+  </tr>
+  <tr>
     <td>Decreased, DHB4/HSD17B4</td>
     <td>1</td>
   </tr>
@@ -2459,6 +2479,10 @@ WHERE {
   </tr>
   <tr>
     <td>Decreased, Hydrogen peroxide production</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Decreased, Insulin-like peptide 3 (INSL3)</td>
     <td>1</td>
   </tr>
   <tr>
@@ -2531,10 +2555,6 @@ WHERE {
   </tr>
   <tr>
     <td>Decreased, Sodium reabsorption</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Decreased, Testosterone</td>
     <td>1</td>
   </tr>
   <tr>
@@ -2698,6 +2718,10 @@ WHERE {
     <td>1</td>
   </tr>
   <tr>
+    <td>Epididymal agenesis </td>
+    <td>1</td>
+  </tr>
+  <tr>
     <td>Epigenetic modification process</td>
     <td>1</td>
   </tr>
@@ -2762,7 +2786,7 @@ WHERE {
     <td>1</td>
   </tr>
   <tr>
-    <td>Heart failure </td>
+    <td>Granulosa cell proliferation of gonadotropin-independent follicles, Reduced</td>
     <td>1</td>
   </tr>
   <tr>
@@ -2799,6 +2823,10 @@ WHERE {
   </tr>
   <tr>
     <td>Hypertrophy/hyperplasia, smooth muscle</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Hypomyelination</td>
     <td>1</td>
   </tr>
   <tr>
@@ -2846,6 +2874,10 @@ WHERE {
     <td>1</td>
   </tr>
   <tr>
+    <td>Impaired, urethral tube closure </td>
+    <td>1</td>
+  </tr>
+  <tr>
     <td>Increase Chromosomal Aberrations</td>
     <td>1</td>
   </tr>
@@ -2871,6 +2903,10 @@ WHERE {
   </tr>
   <tr>
     <td>Increase,  pigmentation</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Increase, Abnormal Neural Remodeling</td>
     <td>1</td>
   </tr>
   <tr>
@@ -3059,10 +3095,6 @@ WHERE {
   </tr>
   <tr>
     <td>Increase, Necrosis (terminal bronchiolar cells)</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Increase, Neural Remodeling</td>
     <td>1</td>
   </tr>
   <tr>
@@ -3550,6 +3582,10 @@ WHERE {
     <td>1</td>
   </tr>
   <tr>
+    <td>Increased, essential element imbalance</td>
+    <td>1</td>
+  </tr>
+  <tr>
     <td>Increased, estrogens </td>
     <td>1</td>
   </tr>
@@ -3571,6 +3607,10 @@ WHERE {
   </tr>
   <tr>
     <td>Increased, glucocorticoid receptor activity</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Increased, histomorphological alteration of testis</td>
     <td>1</td>
   </tr>
   <tr>
@@ -3838,10 +3878,6 @@ WHERE {
     <td>1</td>
   </tr>
   <tr>
-    <td>Inhibition, NMDARs</td>
-    <td>1</td>
-  </tr>
-  <tr>
     <td>Inhibition, PPAR alpha</td>
     <td>1</td>
   </tr>
@@ -3951,6 +3987,10 @@ WHERE {
   </tr>
   <tr>
     <td>Mitochondrial Injury</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Mitochondrial dysfunction EMPTY</td>
     <td>1</td>
   </tr>
   <tr>
@@ -4174,7 +4214,15 @@ WHERE {
     <td>1</td>
   </tr>
   <tr>
+    <td>Reduced cortical thickness</td>
+    <td>1</td>
+  </tr>
+  <tr>
     <td>Reduced fitness or even mortality, Acidosis, hypovolemic shock and organ dysfunction</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Reduced number of oligodendrocytes</td>
     <td>1</td>
   </tr>
   <tr>
@@ -4386,6 +4434,10 @@ WHERE {
     <td>1</td>
   </tr>
   <tr>
+    <td>Reduction, fetal/adult testosterone </td>
+    <td>1</td>
+  </tr>
+  <tr>
     <td>Reduction, progesterone uptake, decresed maturation </td>
     <td>1</td>
   </tr>
@@ -4470,7 +4522,7 @@ WHERE {
     <td>1</td>
   </tr>
   <tr>
-    <td>Synthesis, De Novo FA</td>
+    <td>Synthesis, De Novo Fatty Acid (FA)</td>
     <td>1</td>
   </tr>
   <tr>
@@ -4582,11 +4634,11 @@ WHERE {
     <td>1</td>
   </tr>
   <tr>
-    <td>bioassay reading</td>
+    <td>chronic high fat diet</td>
     <td>1</td>
   </tr>
   <tr>
-    <td>chronic high fat diet</td>
+    <td>decline, neural progenitor cells</td>
     <td>1</td>
   </tr>
   <tr>
@@ -4611,10 +4663,6 @@ WHERE {
   </tr>
   <tr>
     <td>decreased, Intellectual Quotient</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>exposure concentration</td>
     <td>1</td>
   </tr>
   <tr>
@@ -4674,6 +4722,10 @@ WHERE {
     <td>1</td>
   </tr>
   <tr>
+    <td>inhibition, EKR1/2 signaling pathway</td>
+    <td>1</td>
+  </tr>
+  <tr>
     <td>interruption, Ovulation</td>
     <td>1</td>
   </tr>
@@ -4695,14 +4747,6 @@ WHERE {
   </tr>
   <tr>
     <td>narcosis</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>pH</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>particle type</td>
     <td>1</td>
   </tr>
   <tr>
@@ -4747,10 +4791,6 @@ WHERE {
   </tr>
   <tr>
     <td>systemic inflammation leading to hepatic steatosis</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>zeta potential</td>
     <td>1</td>
   </tr>
 </table>

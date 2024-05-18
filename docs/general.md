@@ -380,15 +380,15 @@ This gives us:
     <td><b>license</b></td>
   </tr>
   <tr>
-    <td>11507</td>
+    <td>39267</td>
     <td></td>
   </tr>
   <tr>
-    <td>1971</td>
+    <td>2013</td>
     <td>http://creativecommons.org/publicdomain/zero/1.0/</td>
   </tr>
   <tr>
-    <td>295</td>
+    <td>304</td>
     <td>https://creativecommons.org/licenses/by/4.0/</td>
   </tr>
   <tr>
@@ -396,7 +396,7 @@ This gives us:
     <td>https://creativecommons.org/licenses/by/4.0/legalcode</td>
   </tr>
   <tr>
-    <td>82</td>
+    <td>83</td>
     <td>http://example.com/unknown</td>
   </tr>
   <tr>
@@ -459,7 +459,7 @@ source what information is provided as basic <a name="tp7">statistics</a>:
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/">AOP-Wiki AOPs</a></td>
     <td>0</td>
     <td>0</td>
-    <td>282</td>
+    <td>290</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
@@ -482,7 +482,7 @@ source what information is provided as basic <a name="tp7">statistics</a>:
     <td>0</td>
     <td>0</td>
     <td>0</td>
-    <td>1951</td>
+    <td>1993</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
@@ -512,7 +512,7 @@ source what information is provided as basic <a name="tp7">statistics</a>:
   </tr>
   <tr>
     <td><a href="https://fairsharing.org/">FAIRsharing</a></td>
-    <td>25</td>
+    <td>29</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
@@ -549,17 +549,6 @@ source what information is provided as basic <a name="tp7">statistics</a>:
     <td>0</td>
     <td>6</td>
     <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-  </tr>
-  <tr>
-    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-nanowiki/">NanoWiki v6 causal relationships</a></td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>11</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>

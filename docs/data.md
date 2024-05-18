@@ -26,10 +26,6 @@ This gives us a list of databases, here showing the first 10:
     <td><b>url</b></td>
   </tr>
   <tr>
-    <td>Exposure Ontology</td>
-    <td>http://bioportal.bioontology.org/ontologies/1575</td>
-  </tr>
-  <tr>
     <td>The Blood Exposome Database</td>
     <td>http://bloodexposome.org/</td>
   </tr>
@@ -39,7 +35,7 @@ This gives us a list of databases, here showing the first 10:
   </tr>
   <tr>
     <td>Chromium Epigenomics Toxicology</td>
-    <td>http://epichromium.org</td>
+    <td>http://eh4.uc.edu/chromium/</td>
   </tr>
   <tr>
     <td>Exposome Explorer</td>
@@ -56,6 +52,10 @@ This gives us a list of databases, here showing the first 10:
   <tr>
     <td>Toxicology Data Markup Language</td>
     <td>http://toxml.org</td>
+  </tr>
+  <tr>
+    <td>International Harmonization of Nomenclature and Diagnostic criteria</td>
+    <td>http://www.goreni.org/</td>
   </tr>
   <tr><td colspan="2">This table is truncated. See the full table at <a href="sparql/allDatabases.code.html">sparql/allDatabases.rq</a></td></tr>
 </table>
