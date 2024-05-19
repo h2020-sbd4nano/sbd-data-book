@@ -11,6 +11,8 @@ PREFIX sbd:     <https://www.sbd4nano.eu/rdf/#>
 PREFIX sbdbel:  <https://www.sbd4nano.eu/bel/#>
 PREFIX foaf:   <http://xmlns.com/foaf/0.1/> 
 PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX erm:    <https://nanocommons.github.io/identifiers/registry#>
+PREFIX enm:    <http://purl.enanomapper.org/onto/>
 
 SELECT ?materialIRI (SAMPLE(?material_) AS ?material) ?dataset ?datasetLabel
 WHERE {

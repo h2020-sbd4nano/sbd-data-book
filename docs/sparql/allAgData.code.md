@@ -11,6 +11,8 @@ PREFIX sbd:     <https://www.sbd4nano.eu/rdf/#>
 PREFIX sbdbel:  <https://www.sbd4nano.eu/bel/#>
 PREFIX foaf:   <http://xmlns.com/foaf/0.1/> 
 PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX erm:    <https://nanocommons.github.io/identifiers/registry#>
+PREFIX enm:    <http://purl.enanomapper.org/onto/>
 
 SELECT ?materialIRI (SAMPLE(?material_) AS ?material) ?dataset ?datasetLabel
 WHERE {
@@ -22,7 +24,7 @@ WHERE {
   ORDER BY ?dataset
 ```
 
-[run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20npo%3A%20%3Chttp%3A%2F%2Fpurl.bioontology.org%2Fontology%2Fnpo%23%3E%0APREFIX%20obo%3A%20%3Chttp%3A%2F%2Fpurl.obolibrary.org%2Fobo%2F%3E%0APREFIX%20sbd%3A%20%20%20%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Frdf%2F%23%3E%0APREFIX%20sbdbel%3A%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Fbel%2F%23%3E%0APREFIX%20foaf%3A%20%20%20%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F%3E%20%0APREFIX%20rdfs%3A%20%20%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%20%0A%0ASELECT%20%3FmaterialIRI%20%28SAMPLE%28%3Fmaterial_%29%20AS%20%3Fmaterial%29%20%3Fdataset%20%3FdatasetLabel%0AWHERE%20%7B%0A%20%20VALUES%20%3Fsuperclass%20%7B%20npo%3ANPO_1892%20%7D%0A%20%20VALUES%20%3Ftype%20%7B%20sbd%3ADataset%20sbd%3ADatabase%20%7D%0A%20%20%3Fdataset%20sbdbel%3ANP%20%3FmaterialIRI%20%3B%20a%20%3Ftype%20%3B%20rdfs%3Alabel%20%3FdatasetLabel%20.%0A%20%20%3FmaterialIRI%20rdfs%3AsubClassOf*%20%3Fsuperclass%20%3B%20rdfs%3Alabel%20%3Fmaterial_%20.%0A%7D%20GROUP%20BY%20%3FmaterialIRI%20%3Fdataset%20%3FdatasetLabel%0A%20%20ORDER%20BY%20%3Fdataset%0A)
+[run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20npo%3A%20%3Chttp%3A%2F%2Fpurl.bioontology.org%2Fontology%2Fnpo%23%3E%0APREFIX%20obo%3A%20%3Chttp%3A%2F%2Fpurl.obolibrary.org%2Fobo%2F%3E%0APREFIX%20sbd%3A%20%20%20%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Frdf%2F%23%3E%0APREFIX%20sbdbel%3A%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Fbel%2F%23%3E%0APREFIX%20foaf%3A%20%20%20%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F%3E%20%0APREFIX%20rdfs%3A%20%20%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%20%0APREFIX%20erm%3A%20%20%20%20%3Chttps%3A%2F%2Fnanocommons.github.io%2Fidentifiers%2Fregistry%23%3E%0APREFIX%20enm%3A%20%20%20%20%3Chttp%3A%2F%2Fpurl.enanomapper.org%2Fonto%2F%3E%0A%0ASELECT%20%3FmaterialIRI%20%28SAMPLE%28%3Fmaterial_%29%20AS%20%3Fmaterial%29%20%3Fdataset%20%3FdatasetLabel%0AWHERE%20%7B%0A%20%20VALUES%20%3Fsuperclass%20%7B%20npo%3ANPO_1892%20%7D%0A%20%20VALUES%20%3Ftype%20%7B%20sbd%3ADataset%20sbd%3ADatabase%20%7D%0A%20%20%3Fdataset%20sbdbel%3ANP%20%3FmaterialIRI%20%3B%20a%20%3Ftype%20%3B%20rdfs%3Alabel%20%3FdatasetLabel%20.%0A%20%20%3FmaterialIRI%20rdfs%3AsubClassOf*%20%3Fsuperclass%20%3B%20rdfs%3Alabel%20%3Fmaterial_%20.%0A%7D%20GROUP%20BY%20%3FmaterialIRI%20%3Fdataset%20%3FdatasetLabel%0A%20%20ORDER%20BY%20%3Fdataset%0A)
 
 
 ### Output
@@ -59,7 +61,7 @@ WHERE {
     <td><a href="https://enanomapper.adma.ai/about/riskgone">riskgone - eNanoMapper database</a></td>
   </tr>
   <tr>
-    <td>https://nanocommons.github.io/identifiers/registry#ERM00000067</td>
+    <td>erm:ERM00000067</td>
     <td>ERM00000067</td>
     <td><a href="https://enanomapper.adma.ai/about/riskgone">riskgone - eNanoMapper database</a></td>
   </tr>
