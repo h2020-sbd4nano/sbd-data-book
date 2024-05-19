@@ -28,6 +28,27 @@ WHERE {
     <td><a href="http://purl.bioontology.org/ontology/npo#NPO_1486">R-TiO2</a></td>
   </tr>
   <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000099">coated titanium dioxide nanoparticle</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000074">JRCNM01000a</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000075">JRCNM01001a</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000076">JRCNM01002a</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000077">JRCNM01005a</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000083">JRCNM01003a</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.enanomapper.org/onto/ENM_9000084">JRCNM01004a</a></td>
+  </tr>
+  <tr>
     <td><a href="http://purl.enanomapper.org/onto/ENM_9000094">JRCNM10201a</a></td>
   </tr>
   <tr>
@@ -64,25 +85,34 @@ WHERE {
     <td><a href="http://purl.obolibrary.org/obo/CHEBI_51050">titanium dioxide nanoparticle</a></td>
   </tr>
   <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000099">coated titanium dioxide nanoparticle</a></td>
+    <td><a href="https://nanocommons.github.io/identifiers/registry#ERM00000062">ERM00000062</a></td>
   </tr>
   <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000074">JRCNM01000a</a></td>
+    <td><a href="https://nanocommons.github.io/identifiers/registry#ERM00000064">ERM00000064</a></td>
   </tr>
   <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000075">JRCNM01001a</a></td>
+    <td><a href="https://nanocommons.github.io/identifiers/registry#ERM00000093">ERM00000093</a></td>
   </tr>
   <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000076">JRCNM01002a</a></td>
+    <td><a href="https://nanocommons.github.io/identifiers/registry#ERM00000587">ERM00000587</a></td>
   </tr>
   <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000077">JRCNM01005a</a></td>
+    <td><a href="https://nanocommons.github.io/identifiers/registry#ERM00000595">ERM00000595</a></td>
   </tr>
   <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000083">JRCNM01003a</a></td>
+    <td><a href="https://nanocommons.github.io/identifiers/registry#ERM00000599">ERM00000599</a></td>
   </tr>
   <tr>
-    <td><a href="http://purl.enanomapper.org/onto/ENM_9000084">JRCNM01004a</a></td>
+    <td><a href="https://nanocommons.github.io/identifiers/registry#ERM00000600">ERM00000600</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://nanocommons.github.io/identifiers/registry#ERM00000604">ERM00000604</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://nanocommons.github.io/identifiers/registry#ERM00000605">ERM00000605</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://nanocommons.github.io/identifiers/registry#ERM00000606">ERM00000606</a></td>
   </tr>
 </table>
 

@@ -69,6 +69,16 @@ WHERE {
     <td><a href="https://enanomapper.adma.ai/about/riskgone">riskgone - eNanoMapper database</a></td>
   </tr>
   <tr>
+    <td>https://nanocommons.github.io/identifiers/registry#ERM00000066</td>
+    <td>ERM00000066</td>
+    <td><a href="https://enanomapper.adma.ai/about/riskgone">riskgone - eNanoMapper database</a></td>
+  </tr>
+  <tr>
+    <td>https://nanocommons.github.io/identifiers/registry#ERM00000325</td>
+    <td>ERM00000325</td>
+    <td><a href="https://enanomapper.adma.ai/about/riskgone">riskgone - eNanoMapper database</a></td>
+  </tr>
+  <tr>
     <td>http://purl.enanomapper.org/onto/ENM_9000230</td>
     <td>NM-403</td>
     <td><a href="https://identifiers.org/geo:GSE156511">Transcriptomic study of NR8383 rat macrophages cells following exposure to NM403 carbon nanotubes</a></td>

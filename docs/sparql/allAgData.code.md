@@ -58,6 +58,11 @@ WHERE {
     <td>Ag nanoparticle</td>
     <td><a href="https://enanomapper.adma.ai/about/riskgone">riskgone - eNanoMapper database</a></td>
   </tr>
+  <tr>
+    <td>https://nanocommons.github.io/identifiers/registry#ERM00000067</td>
+    <td>ERM00000067</td>
+    <td><a href="https://enanomapper.adma.ai/about/riskgone">riskgone - eNanoMapper database</a></td>
+  </tr>
 </table>
 
 ## Code examples

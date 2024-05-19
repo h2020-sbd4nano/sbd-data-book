@@ -58,6 +58,9 @@ This gives us this list of Ag nanomaterials:
   <tr>
     <td><a href="http://purl.obolibrary.org/obo/CHEBI_82786">GA22-Ag NP</a></td>
   </tr>
+  <tr>
+    <td><a href="https://nanocommons.github.io/identifiers/registry#ERM00000067">ERM00000067</a></td>
+  </tr>
 </table>
 
 ## Causal relationships
@@ -142,6 +145,11 @@ This gives:
   <tr>
     <td>npo:NPO_1892</td>
     <td>Ag nanoparticle</td>
+    <td><a href="https://enanomapper.adma.ai/about/riskgone">riskgone - eNanoMapper database</a></td>
+  </tr>
+  <tr>
+    <td>https://nanocommons.github.io/identifiers/registry#ERM00000067</td>
+    <td>ERM00000067</td>
     <td><a href="https://enanomapper.adma.ai/about/riskgone">riskgone - eNanoMapper database</a></td>
   </tr>
 </table>

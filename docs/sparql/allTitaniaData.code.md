@@ -64,8 +64,58 @@ WHERE {
     <td><a href="https://enanomapper.adma.ai/about/riskgone">riskgone - eNanoMapper database</a></td>
   </tr>
   <tr>
+    <td>https://nanocommons.github.io/identifiers/registry#ERM00000062</td>
+    <td>ERM00000062</td>
+    <td><a href="https://enanomapper.adma.ai/about/riskgone">riskgone - eNanoMapper database</a></td>
+  </tr>
+  <tr>
+    <td>https://nanocommons.github.io/identifiers/registry#ERM00000064</td>
+    <td>ERM00000064</td>
+    <td><a href="https://enanomapper.adma.ai/about/riskgone">riskgone - eNanoMapper database</a></td>
+  </tr>
+  <tr>
     <td>obo:CHEBI_51050</td>
     <td>titanium dioxide nanoparticle</td>
+    <td><a href="https://enanomapper.adma.ai/about/sbd4nano">sbd4nano - eNanoMapper database</a></td>
+  </tr>
+  <tr>
+    <td>https://nanocommons.github.io/identifiers/registry#ERM00000093</td>
+    <td>ERM00000093</td>
+    <td><a href="https://enanomapper.adma.ai/about/sbd4nano">sbd4nano - eNanoMapper database</a></td>
+  </tr>
+  <tr>
+    <td>https://nanocommons.github.io/identifiers/registry#ERM00000600</td>
+    <td>ERM00000600</td>
+    <td><a href="https://enanomapper.adma.ai/about/sbd4nano">sbd4nano - eNanoMapper database</a></td>
+  </tr>
+  <tr>
+    <td>https://nanocommons.github.io/identifiers/registry#ERM00000604</td>
+    <td>ERM00000604</td>
+    <td><a href="https://enanomapper.adma.ai/about/sbd4nano">sbd4nano - eNanoMapper database</a></td>
+  </tr>
+  <tr>
+    <td>https://nanocommons.github.io/identifiers/registry#ERM00000605</td>
+    <td>ERM00000605</td>
+    <td><a href="https://enanomapper.adma.ai/about/sbd4nano">sbd4nano - eNanoMapper database</a></td>
+  </tr>
+  <tr>
+    <td>https://nanocommons.github.io/identifiers/registry#ERM00000606</td>
+    <td>ERM00000606</td>
+    <td><a href="https://enanomapper.adma.ai/about/sbd4nano">sbd4nano - eNanoMapper database</a></td>
+  </tr>
+  <tr>
+    <td>https://nanocommons.github.io/identifiers/registry#ERM00000587</td>
+    <td>ERM00000587</td>
+    <td><a href="https://enanomapper.adma.ai/about/sbd4nano">sbd4nano - eNanoMapper database</a></td>
+  </tr>
+  <tr>
+    <td>https://nanocommons.github.io/identifiers/registry#ERM00000595</td>
+    <td>ERM00000595</td>
+    <td><a href="https://enanomapper.adma.ai/about/sbd4nano">sbd4nano - eNanoMapper database</a></td>
+  </tr>
+  <tr>
+    <td>https://nanocommons.github.io/identifiers/registry#ERM00000599</td>
+    <td>ERM00000599</td>
     <td><a href="https://enanomapper.adma.ai/about/sbd4nano">sbd4nano - eNanoMapper database</a></td>
   </tr>
   <tr>

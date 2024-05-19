@@ -72,17 +72,6 @@ WHERE {
     <td>0</td>
   </tr>
   <tr>
-    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-smartnanotox/">SmartNanoTox Transcriptomics datasets</a></td>
-    <td>0</td>
-    <td>20</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-  </tr>
-  <tr>
     <td><a href="https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/">AOP-Wiki AOPs</a></td>
     <td>0</td>
     <td>0</td>
@@ -208,6 +197,17 @@ WHERE {
     <td>0</td>
     <td>0</td>
     <td>10</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td><a href="https://h2020-sbd4nano.github.io/sbd-data-smartnanotox/">SmartNanoTox Transcriptomics datasets</a></td>
+    <td>0</td>
+    <td>20</td>
+    <td>0</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>

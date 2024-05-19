@@ -60,6 +60,9 @@ WHERE {
   <tr>
     <td><a href="http://purl.obolibrary.org/obo/CHEBI_82786">GA22-Ag NP</a></td>
   </tr>
+  <tr>
+    <td><a href="https://nanocommons.github.io/identifiers/registry#ERM00000067">ERM00000067</a></td>
+  </tr>
 </table>
 
 ## Code examples

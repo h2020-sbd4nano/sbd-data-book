@@ -89,6 +89,12 @@ This gives us this list of carbon nanotubes:
   <tr>
     <td><a href="http://purl.enanomapper.org/onto/ENM_9000258">JRCNM40011a</a></td>
   </tr>
+  <tr>
+    <td><a href="https://nanocommons.github.io/identifiers/registry#ERM00000066">ERM00000066</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://nanocommons.github.io/identifiers/registry#ERM00000325">ERM00000325</a></td>
+  </tr>
 </table>
 
 ## Causal relationships
@@ -183,6 +189,16 @@ This gives:
   <tr>
     <td>npo:NPO_354</td>
     <td>MWCNT40nm-COOH</td>
+    <td><a href="https://enanomapper.adma.ai/about/riskgone">riskgone - eNanoMapper database</a></td>
+  </tr>
+  <tr>
+    <td>https://nanocommons.github.io/identifiers/registry#ERM00000066</td>
+    <td>ERM00000066</td>
+    <td><a href="https://enanomapper.adma.ai/about/riskgone">riskgone - eNanoMapper database</a></td>
+  </tr>
+  <tr>
+    <td>https://nanocommons.github.io/identifiers/registry#ERM00000325</td>
+    <td>ERM00000325</td>
     <td><a href="https://enanomapper.adma.ai/about/riskgone">riskgone - eNanoMapper database</a></td>
   </tr>
   <tr>

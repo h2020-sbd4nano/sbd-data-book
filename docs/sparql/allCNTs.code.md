@@ -90,6 +90,12 @@ WHERE {
   <tr>
     <td><a href="http://purl.enanomapper.org/onto/ENM_9000258">JRCNM40011a</a></td>
   </tr>
+  <tr>
+    <td><a href="https://nanocommons.github.io/identifiers/registry#ERM00000066">ERM00000066</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://nanocommons.github.io/identifiers/registry#ERM00000325">ERM00000325</a></td>
+  </tr>
 </table>
 
 ## Code examples
