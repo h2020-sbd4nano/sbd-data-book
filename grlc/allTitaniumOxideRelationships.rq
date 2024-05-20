@@ -1,0 +1,23 @@
+#+ endpoint: https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/sparql
+#+ endpoint_in_url: False
+#+ enumerate:
+#+   - lang:
+#+     - en,en
+
+
+PREFIX sbd:  <https://www.sbd4nano.eu/rdf/#>
+PREFIX sbdbel:  <https://www.sbd4nano.eu/bel/#>
+PREFIX npo: <http://purl.bioontology.org/ontology/npo#>
+
+SELECT DISTINCT
+  ?superclass (SAMPLE(?superclassLabel_) AS ?superclassLabel)
+  ?nm (SAMPLE(?nmLabel_) AS ?nmLabel)
+  (COUNT(DISTINCT ?relation) AS ?relations)
+WHERE {
+  VALUES ?ca { sbdbel:CausalAssertion sbd:CausalAssertion }
+  VALUES ?superclass { npo:NPO_1486 }
+  ?nm rdfs:subClassOf* ?superclass ; rdfs:label ?nmLabel_ .
+  ?superclass rdfs:label ?superclassLabel_ .
+  ?relation a ?ca ; sbdbel:NP ?nm .
+} GROUP BY ?superclass ?nm
+

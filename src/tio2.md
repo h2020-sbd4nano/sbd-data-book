@@ -1,7 +1,7 @@
 # Titanium Oxide
 
 Because the eNanoMapper ontology [<cite>Q27062683</cite>] is loaded, we can take advantage of the
-hierarchy of the ontology. For example, we can list all <topic>titania</topic>'s (npo:NPO_1486)
+hierarchy of the ontology. For example, we can list all <topic>titania</topic>'s (`npo:NPO_1486`)
 with this SPARQL:
 
 <sparql>allTitanias</sparql>
@@ -9,6 +9,17 @@ with this SPARQL:
 This gives us this list of nanomaterials:
 
 <out>allTitanias</out>
+
+## Resources
+
+Using the hierarchy, we can find resources about a specific nanomaterial or about any of its
+superclasses:
+
+<sparq>allTitaniaResources</sparql>
+
+This returns:
+
+<out>allTitaniaResources</out>
 
 ## Causal relationships
 
@@ -20,10 +31,20 @@ nanomaterial or nanomaterial class. For example, we can list all relationships f
 
 But for a specific material, such relationships may not exist:
 
-<out>allJRCNM01005aRelationships</out>
+<out limit="10">allJRCNM01005aRelationships</out>
 
 In that case, we can better look for relationships for the class of nanoforms this
 material is part of.
+
+### All tatanium dioxides
+
+For example, we can list all relationships for all metal oxides:
+
+<sparql>allTitaniumOxideRelationships</sparql>
+
+But this still returns no relationships:
+
+<out>allTitaniumOxideRelationships</out>
 
 ### All metal oxides
 

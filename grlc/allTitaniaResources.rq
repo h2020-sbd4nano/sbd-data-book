@@ -1,0 +1,29 @@
+#+ endpoint: https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/sparql
+#+ endpoint_in_url: False
+#+ enumerate:
+#+   - lang:
+#+     - en,en
+
+
+PREFIX sbd:  <https://www.sbd4nano.eu/rdf/#>
+PREFIX sbdbel:  <https://www.sbd4nano.eu/bel/#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX npo: <http://purl.bioontology.org/ontology/npo#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX enm: <http://purl.enanomapper.org/onto/>
+PREFIX sio: <http://semanticscience.org/resource/SIO_>
+PREFIX sbdbel2:  <https://h2020-sbd4nano.github.io/sbdbel/>
+
+SELECT DISTINCT ?superclasses (SAMPLE(?superclassesLabel_) AS ?superclassesLabel) ?type (COUNT(DISTINCT ?resource) AS ?count)
+WHERE {
+  VALUES ?superclasses { npo:NPO_1541 npo:NPO_1486 enm:ENM_9000077 } # metal oxide, TiO2, JRCNM01005a
+  ?nm rdfs:subClassOf* ?superclasses .
+  ?superclasses rdfs:label ?superclassesLabel_ .
+  OPTIONAL {
+    ?resource a ?type ;
+              sbdbel:NP | sio:000332 | sbdbel2:NP ?nm .
+    ?type rdfs:label ?typeLabel .
+  }
+} GROUP BY ?superclasses ?superclassesLabel ?type
+  ORDER BY DESC(?count)
+
