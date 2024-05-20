@@ -2,12 +2,14 @@ PREFIX sbd:     <https://www.sbd4nano.eu/rdf/#>
 PREFIX sbdbel:  <https://www.sbd4nano.eu/bel/#>
 PREFIX dc:      <http://purl.org/dc/elements/1.1/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX sio: <http://semanticscience.org/resource/SIO_>
+PREFIX sbdbel2:  <https://h2020-sbd4nano.github.io/sbdbel/>
 
 SELECT ?material (COUNT(DISTINCT ?relation) AS ?count)
 WHERE {
-  VALUES ?ca { sbdbel:CausalAssertion sbd:CausalAssertion }
+  VALUES ?ca { sbdbel:CausalAssertion sbd:CausalAssertion sbdbel2:CausalAssertion }
   ?relation a ?ca ;
-    sbdbel:NP ?materialIRI .
+    sbdbel:NP | sio:000332 | sbdbel2:NP ?materialIRI .
   ?materialIRI rdfs:label ?material .
 } GROUP BY ?material
   ORDER BY DESC(?count)

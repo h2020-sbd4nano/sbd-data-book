@@ -9,10 +9,11 @@ PREFIX sbd:     <https://www.sbd4nano.eu/rdf/#>
 PREFIX sbdbel:  <https://www.sbd4nano.eu/bel/#>
 PREFIX dc:      <http://purl.org/dc/elements/1.1/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX sbdbel2:  <https://h2020-sbd4nano.github.io/sbdbel/>
 
 SELECT ?cause (COUNT(DISTINCT ?relation) AS ?count)
 WHERE {
-  VALUES ?ca { sbdbel:CausalAssertion sbd:CausalAssertion }
+  VALUES ?ca { sbdbel:CausalAssertion sbd:CausalAssertion sbdbel2:CausalAssertion }
   ?relation a ?ca ;
     sbdbel:cause / rdfs:label ?cause .
 } GROUP BY ?cause

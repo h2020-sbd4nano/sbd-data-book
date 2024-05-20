@@ -9,14 +9,16 @@ PREFIX sbd:     <https://www.sbd4nano.eu/rdf/#>
 PREFIX sbdbel:  <https://www.sbd4nano.eu/bel/#>
 PREFIX dc:      <http://purl.org/dc/elements/1.1/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX sio: <http://semanticscience.org/resource/SIO_>
+PREFIX sbdbel2:  <https://h2020-sbd4nano.github.io/sbdbel/>
 
 SELECT DISTINCT ?cause ?type ?outcome ?material ?evidence
 WHERE {
-  VALUES ?ca { sbdbel:CausalAssertion sbd:CausalAssertion }
+  VALUES ?ca { sbdbel:CausalAssertion sbd:CausalAssertion sbdbel2:CausalAssertion }
   ?relation a ?ca ; sbdbel:relationship ?type .
   OPTIONAL { ?relation sbdbel:cause / rdfs:label ?cause . }
   OPTIONAL { ?relation sbdbel:outcome / rdfs:label ?outcome . }
-  OPTIONAL { ?relation sbdbel:NP / rdfs:label ?material . }
+  OPTIONAL { ?relation sbdbel:NP | sio:000332 | sbdbel2:NP / rdfs:label ?material . }
   OPTIONAL { ?relation sbdbel:evidence ?evidence . }
 } ORDER BY DESC(?relation)
 

@@ -9,19 +9,21 @@ PREFIX sbd:     <https://www.sbd4nano.eu/rdf/#>
 PREFIX sbdbel:  <https://www.sbd4nano.eu/bel/#>
 PREFIX dc:      <http://purl.org/dc/elements/1.1/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX sio: <http://semanticscience.org/resource/SIO_>
+PREFIX sbdbel2:  <https://h2020-sbd4nano.github.io/sbdbel/>
 
 SELECT DISTINCT ?cause ?type ?outcome ?material ?evidence
 WHERE {
-  VALUES ?ca { sbdbel:CausalAssertion sbd:CausalAssertion }
+  VALUES ?ca { sbdbel:CausalAssertion sbd:CausalAssertion sbdbel2:CausalAssertion }
   ?relation a ?ca ; sbdbel:relationship ?type .
   OPTIONAL { ?relation sbdbel:cause / rdfs:label ?cause . }
   OPTIONAL { ?relation sbdbel:outcome / rdfs:label ?outcome . }
-  OPTIONAL { ?relation sbdbel:NP / rdfs:label ?material . }
+  OPTIONAL { ?relation sbdbel:NP | sio:000332 | sbdbel2:NP / rdfs:label ?material . }
   OPTIONAL { ?relation sbdbel:evidence ?evidence . }
 } ORDER BY DESC(?relation)
 ```
 
-[run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20sbd%3A%20%20%20%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Frdf%2F%23%3E%0APREFIX%20sbdbel%3A%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Fbel%2F%23%3E%0APREFIX%20dc%3A%20%20%20%20%20%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%3E%0APREFIX%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0A%0ASELECT%20DISTINCT%20%3Fcause%20%3Ftype%20%3Foutcome%20%3Fmaterial%20%3Fevidence%0AWHERE%20%7B%0A%20%20VALUES%20%3Fca%20%7B%20sbdbel%3ACausalAssertion%20sbd%3ACausalAssertion%20%7D%0A%20%20%3Frelation%20a%20%3Fca%20%3B%20sbdbel%3Arelationship%20%3Ftype%20.%0A%20%20OPTIONAL%20%7B%20%3Frelation%20sbdbel%3Acause%20%2F%20rdfs%3Alabel%20%3Fcause%20.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Frelation%20sbdbel%3Aoutcome%20%2F%20rdfs%3Alabel%20%3Foutcome%20.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Frelation%20sbdbel%3ANP%20%2F%20rdfs%3Alabel%20%3Fmaterial%20.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Frelation%20sbdbel%3Aevidence%20%3Fevidence%20.%20%7D%0A%7D%20ORDER%20BY%20DESC%28%3Frelation%29%0A)
+[run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20sbd%3A%20%20%20%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Frdf%2F%23%3E%0APREFIX%20sbdbel%3A%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Fbel%2F%23%3E%0APREFIX%20dc%3A%20%20%20%20%20%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%3E%0APREFIX%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0APREFIX%20sio%3A%20%3Chttp%3A%2F%2Fsemanticscience.org%2Fresource%2FSIO_%3E%0APREFIX%20sbdbel2%3A%20%20%3Chttps%3A%2F%2Fh2020-sbd4nano.github.io%2Fsbdbel%2F%3E%0A%0ASELECT%20DISTINCT%20%3Fcause%20%3Ftype%20%3Foutcome%20%3Fmaterial%20%3Fevidence%0AWHERE%20%7B%0A%20%20VALUES%20%3Fca%20%7B%20sbdbel%3ACausalAssertion%20sbd%3ACausalAssertion%20sbdbel2%3ACausalAssertion%20%7D%0A%20%20%3Frelation%20a%20%3Fca%20%3B%20sbdbel%3Arelationship%20%3Ftype%20.%0A%20%20OPTIONAL%20%7B%20%3Frelation%20sbdbel%3Acause%20%2F%20rdfs%3Alabel%20%3Fcause%20.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Frelation%20sbdbel%3Aoutcome%20%2F%20rdfs%3Alabel%20%3Foutcome%20.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Frelation%20sbdbel%3ANP%20%7C%20sio%3A000332%20%7C%20sbdbel2%3ANP%20%2F%20rdfs%3Alabel%20%3Fmaterial%20.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Frelation%20sbdbel%3Aevidence%20%3Fevidence%20.%20%7D%0A%7D%20ORDER%20BY%20DESC%28%3Frelation%29%0A)
 
 
 ### Output
@@ -15540,20 +15542,6 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>exposure</td>
-    <td>https://www.sbd4nano.eu/bel/#correlates</td>
-    <td>immunoproteasome LMP7</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>exposure</td>
-    <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
-    <td>immunoproteasome LMP7</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
     <td>concentration</td>
     <td>https://www.sbd4nano.eu/bel/#correlates</td>
     <td>protein corona</td>
@@ -15590,6 +15578,20 @@ WHERE {
   </tr>
   <tr>
     <td>concentration</td>
+    <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
+    <td>immunoproteasome LMP7</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>immunoproteasome LMP7</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>exposure</td>
     <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
     <td>immunoproteasome LMP7</td>
     <td></td>
@@ -15879,13 +15881,6 @@ WHERE {
     <td>medium</td>
     <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
     <td>aggregation</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>aggregation</td>
-    <td>https://www.sbd4nano.eu/bel/#correlates</td>
-    <td>toxicity</td>
     <td></td>
     <td></td>
   </tr>
@@ -15899,6 +15894,13 @@ WHERE {
   <tr>
     <td>Dose</td>
     <td>https://www.sbd4nano.eu/bel/#DoesNotCorrelate</td>
+    <td>toxicity</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>aggregation</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
     <td>toxicity</td>
     <td></td>
     <td></td>
@@ -16500,20 +16502,13 @@ WHERE {
   </tr>
   <tr>
     <td>coating/surface chemistry</td>
-    <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
-    <td>cell viability</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>coating/surface chemistry</td>
     <td>https://www.sbd4nano.eu/bel/#correlates</td>
     <td>cell viability</td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td>Mn-impurity</td>
+    <td>coating/surface chemistry</td>
     <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
     <td>cell viability</td>
     <td></td>
@@ -16527,9 +16522,9 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>coating/surface chemistry</td>
+    <td>Mn-impurity</td>
     <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
-    <td>ultraviolet shielding function</td>
+    <td>cell viability</td>
     <td></td>
     <td></td>
   </tr>
@@ -16541,7 +16536,7 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>Mn-impurity</td>
+    <td>coating/surface chemistry</td>
     <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
     <td>ultraviolet shielding function</td>
     <td></td>
@@ -16551,6 +16546,20 @@ WHERE {
     <td>Mn-impurity</td>
     <td>https://www.sbd4nano.eu/bel/#correlates</td>
     <td>ultraviolet shielding function</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Mn-impurity</td>
+    <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
+    <td>ultraviolet shielding function</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>coating/surface chemistry</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>protein corona</td>
     <td></td>
     <td></td>
   </tr>
@@ -16562,7 +16571,7 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>coating/surface chemistry</td>
+    <td>Mn-impurity</td>
     <td>https://www.sbd4nano.eu/bel/#correlates</td>
     <td>protein corona</td>
     <td></td>
@@ -16571,13 +16580,6 @@ WHERE {
   <tr>
     <td>Mn-impurity</td>
     <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
-    <td>protein corona</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Mn-impurity</td>
-    <td>https://www.sbd4nano.eu/bel/#correlates</td>
     <td>protein corona</td>
     <td></td>
     <td></td>
@@ -16591,14 +16593,14 @@ WHERE {
   </tr>
   <tr>
     <td>Mn-impurity</td>
-    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
     <td>toxicity</td>
     <td></td>
     <td></td>
   </tr>
   <tr>
     <td>Mn-impurity</td>
-    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
     <td>toxicity</td>
     <td></td>
     <td></td>
@@ -16619,20 +16621,13 @@ WHERE {
   </tr>
   <tr>
     <td>coating/surface chemistry</td>
-    <td>https://www.sbd4nano.eu/bel/#DoesNotCorrelate</td>
-    <td>cell uptake (type)</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>coating/surface chemistry</td>
     <td>https://www.sbd4nano.eu/bel/#correlates</td>
     <td>cell uptake (type)</td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td>lateral dimension</td>
+    <td>coating/surface chemistry</td>
     <td>https://www.sbd4nano.eu/bel/#DoesNotCorrelate</td>
     <td>cell uptake (type)</td>
     <td></td>
@@ -16646,6 +16641,20 @@ WHERE {
     <td></td>
   </tr>
   <tr>
+    <td>lateral dimension</td>
+    <td>https://www.sbd4nano.eu/bel/#DoesNotCorrelate</td>
+    <td>cell uptake (type)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>activation of caspase-3</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>dissolution</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
     <td>activation of caspase-3</td>
     <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
     <td>dissolution</td>
@@ -16653,7 +16662,7 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>activation of caspase-3</td>
+    <td>coating/surface chemistry</td>
     <td>https://www.sbd4nano.eu/bel/#correlates</td>
     <td>dissolution</td>
     <td></td>
@@ -16667,9 +16676,9 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>coating/surface chemistry</td>
+    <td>activation of caspase-3</td>
     <td>https://www.sbd4nano.eu/bel/#correlates</td>
-    <td>dissolution</td>
+    <td>Apoptosis</td>
     <td></td>
     <td></td>
   </tr>
@@ -16681,7 +16690,7 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>activation of caspase-3</td>
+    <td>coating/surface chemistry</td>
     <td>https://www.sbd4nano.eu/bel/#correlates</td>
     <td>Apoptosis</td>
     <td></td>
@@ -16690,27 +16699,20 @@ WHERE {
   <tr>
     <td>coating/surface chemistry</td>
     <td>https://www.sbd4nano.eu/bel/#PositivelyCorrelates</td>
-    <td>Apoptosis</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>coating/surface chemistry</td>
-    <td>https://www.sbd4nano.eu/bel/#correlates</td>
     <td>Apoptosis</td>
     <td></td>
     <td></td>
   </tr>
   <tr>
     <td>lateral dimension</td>
-    <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
     <td>ROS production</td>
     <td></td>
     <td></td>
   </tr>
   <tr>
     <td>lateral dimension</td>
-    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
     <td>ROS production</td>
     <td></td>
     <td></td>
@@ -16731,6 +16733,13 @@ WHERE {
   </tr>
   <tr>
     <td>coating/surface chemistry</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>cell uptake (amount)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>coating/surface chemistry</td>
     <td>https://www.sbd4nano.eu/bel/#NegativelyCorrelates</td>
     <td>cell uptake (amount)</td>
     <td></td>
@@ -16738,41 +16747,6 @@ WHERE {
   </tr>
   <tr>
     <td>coating/surface chemistry</td>
-    <td>https://www.sbd4nano.eu/bel/#correlates</td>
-    <td>cell uptake (amount)</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>coating/surface chemistry</td>
-    <td>https://www.sbd4nano.eu/bel/#correlates</td>
-    <td>Surface charge</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>core composition</td>
-    <td>https://www.sbd4nano.eu/bel/#Correlates</td>
-    <td>Surface charge</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>core composition</td>
-    <td>https://www.sbd4nano.eu/bel/#correlates</td>
-    <td>Surface charge</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>coating/surface chemistry</td>
-    <td>https://www.sbd4nano.eu/bel/#Correlates</td>
-    <td>protein corona</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>core composition</td>
     <td>https://www.sbd4nano.eu/bel/#Correlates</td>
     <td>protein corona</td>
     <td></td>
@@ -16786,6 +16760,20 @@ WHERE {
     <td></td>
   </tr>
   <tr>
+    <td>core composition</td>
+    <td>https://www.sbd4nano.eu/bel/#Correlates</td>
+    <td>protein corona</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>coating/surface chemistry</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>Surface charge</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
     <td>coating/surface chemistry</td>
     <td>https://www.sbd4nano.eu/bel/#Correlates</td>
     <td>Surface charge</td>
@@ -16794,8 +16782,15 @@ WHERE {
   </tr>
   <tr>
     <td>core composition</td>
+    <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>Surface charge</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>core composition</td>
     <td>https://www.sbd4nano.eu/bel/#Correlates</td>
-    <td>Suspension</td>
+    <td>Surface charge</td>
     <td></td>
     <td></td>
   </tr>
@@ -16807,7 +16802,7 @@ WHERE {
     <td></td>
   </tr>
   <tr>
-    <td>coating/surface chemistry</td>
+    <td>core composition</td>
     <td>https://www.sbd4nano.eu/bel/#Correlates</td>
     <td>Suspension</td>
     <td></td>
@@ -16816,6 +16811,13 @@ WHERE {
   <tr>
     <td>coating/surface chemistry</td>
     <td>https://www.sbd4nano.eu/bel/#correlates</td>
+    <td>Suspension</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>coating/surface chemistry</td>
+    <td>https://www.sbd4nano.eu/bel/#Correlates</td>
     <td>Suspension</td>
     <td></td>
     <td></td>
