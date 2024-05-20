@@ -1,15 +1,17 @@
 PREFIX sbd:  <https://www.sbd4nano.eu/rdf/#>
 PREFIX sbdbel:  <https://www.sbd4nano.eu/bel/#>
 PREFIX npo: <http://purl.bioontology.org/ontology/npo#>
+PREFIX sio: <http://semanticscience.org/resource/SIO_>
+PREFIX sbdbel2:  <https://h2020-sbd4nano.github.io/sbdbel/>
 
 SELECT DISTINCT
   ?superclass (SAMPLE(?superclassLabel_) AS ?superclassLabel)
   ?nm (SAMPLE(?nmLabel_) AS ?nmLabel)
   (COUNT(DISTINCT ?relation) AS ?relations)
 WHERE {
-  VALUES ?ca { sbdbel:CausalAssertion sbd:CausalAssertion }
+  VALUES ?ca { sbdbel:CausalAssertion sbd:CausalAssertion sbdbel2:CausalAssertion }
   VALUES ?superclass { npo:NPO_606 }
   ?nm rdfs:subClassOf* ?superclass ; rdfs:label ?nmLabel_ .
   ?superclass rdfs:label ?superclassLabel_ .
-  ?relation a ?ca ; sbdbel:NP ?nm .
+  ?relation a ?ca ; sbdbel:NP | sio:000332 | sbdbel2:NP ?nm .
 } GROUP BY ?superclass ?nm
