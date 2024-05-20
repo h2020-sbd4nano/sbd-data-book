@@ -12,10 +12,10 @@ This gives us this list of nanomaterials:
 
 ## Resources
 
-Using the hierarchy, we can find resources about a specific nanomaterial or about any of its
-superclasses:
+Using the hierarchy, we can find resources about a specific nanomaterial (here <topic>JRCNM01005a</topic>)
+or about any of its superclasses:
 
-<sparq>allTitaniaResources</sparql>
+<sparql>allTitaniaResources</sparql>
 
 This returns:
 

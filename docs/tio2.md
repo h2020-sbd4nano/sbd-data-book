@@ -117,10 +117,32 @@ This gives us this list of nanomaterials:
 
 ## Resources
 
-Using the hierarchy, we can find resources about a specific nanomaterial or about any of its
-superclasses:
+Using the hierarchy, we can find resources about a specific nanomaterial (here <a name="tp2">JRCNM01005a</a>)
+or about any of its superclasses:
 
-<sparq>allTitaniaResources</sparql>
+**SPARQL** [sparql/allTitaniaResources.rq](sparql/allTitaniaResources.code.html) ([run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20sbd%3A%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Frdf%2F%23%3E%0APREFIX%20sbdbel%3A%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Fbel%2F%23%3E%0APREFIX%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0APREFIX%20npo%3A%20%3Chttp%3A%2F%2Fpurl.bioontology.org%2Fontology%2Fnpo%23%3E%0APREFIX%20obo%3A%20%3Chttp%3A%2F%2Fpurl.obolibrary.org%2Fobo%2F%3E%0APREFIX%20enm%3A%20%3Chttp%3A%2F%2Fpurl.enanomapper.org%2Fonto%2F%3E%0APREFIX%20sio%3A%20%3Chttp%3A%2F%2Fsemanticscience.org%2Fresource%2FSIO_%3E%0APREFIX%20sbdbel2%3A%20%20%3Chttps%3A%2F%2Fh2020-sbd4nano.github.io%2Fsbdbel%2F%3E%0A%0ASELECT%20DISTINCT%20%3Fsuperclasses%20%28SAMPLE%28%3FsuperclassesLabel_%29%20AS%20%3FsuperclassesLabel%29%20%3Ftype%20%28COUNT%28DISTINCT%20%3Fresource%29%20AS%20%3Fcount%29%0AWHERE%20%7B%0A%20%20VALUES%20%3Fsuperclasses%20%7B%20npo%3ANPO_1541%20npo%3ANPO_1486%20enm%3AENM_9000077%20%7D%20%23%20metal%20oxide%2C%20TiO2%2C%20JRCNM01005a%0A%20%20%3Fnm%20rdfs%3AsubClassOf*%20%3Fsuperclasses%20.%0A%20%20%3Fsuperclasses%20rdfs%3Alabel%20%3FsuperclassesLabel_%20.%0A%20%20OPTIONAL%20%7B%0A%20%20%20%20%3Fresource%20a%20%3Ftype%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20sbdbel%3ANP%20%7C%20sio%3A000332%20%7C%20sbdbel2%3ANP%20%3Fnm%20.%0A%20%20%20%20%3Ftype%20rdfs%3Alabel%20%3FtypeLabel%20.%0A%20%20%7D%0A%7D%20GROUP%20BY%20%3Fsuperclasses%20%3FsuperclassesLabel%20%3Ftype%0A%20%20ORDER%20BY%20DESC%28%3Fcount%29%0A))
+```sparql
+PREFIX sbd:  <https://www.sbd4nano.eu/rdf/#>
+PREFIX sbdbel:  <https://www.sbd4nano.eu/bel/#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX npo: <http://purl.bioontology.org/ontology/npo#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX enm: <http://purl.enanomapper.org/onto/>
+PREFIX sio: <http://semanticscience.org/resource/SIO_>
+PREFIX sbdbel2:  <https://h2020-sbd4nano.github.io/sbdbel/>
+SELECT DISTINCT ?superclasses (SAMPLE(?superclassesLabel_) AS ?superclassesLabel) ?type (COUNT(DISTINCT ?resource) AS ?count)
+WHERE {
+  VALUES ?superclasses { npo:NPO_1541 npo:NPO_1486 enm:ENM_9000077 } # metal oxide, TiO2, JRCNM01005a
+  ?nm rdfs:subClassOf* ?superclasses .
+  ?superclasses rdfs:label ?superclassesLabel_ .
+  OPTIONAL {
+    ?resource a ?type ;
+              sbdbel:NP | sio:000332 | sbdbel2:NP ?nm .
+    ?type rdfs:label ?typeLabel .
+  }
+} GROUP BY ?superclasses ?superclassesLabel ?type
+  ORDER BY DESC(?count)
+```
 
 This returns:
 
@@ -175,7 +197,7 @@ This returns:
 ## Causal relationships
 
 This approach can be used to find datasets, models, causal relationships, etc applicable to a certain
-nanomaterial or nanomaterial class. For example, we can list all relationships for <a name="tp2">JRCNM01005a</a>
+nanomaterial or nanomaterial class. For example, we can list all relationships for <a name="tp3">JRCNM01005a</a>
 [<a href="#citeref2">2</a>,<a href="#citeref3">3</a>]:
 
 **SPARQL** [sparql/allJRCNM01005aRelationships.rq](sparql/allJRCNM01005aRelationships.code.html) ([run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20sbd%3A%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Frdf%2F%23%3E%0APREFIX%20sbdbel%3A%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Fbel%2F%23%3E%0APREFIX%20enm%3A%20%20%20%20%20%3Chttp%3A%2F%2Fpurl.enanomapper.org%2Fonto%2F%3E%0A%0ASELECT%20DISTINCT%0A%20%20%3Fnm%20%28SAMPLE%28%3FnmLabel_%29%20AS%20%3FnmLabel%29%0A%20%20%28COUNT%28DISTINCT%20%3Frelation%29%20AS%20%3Frelations%29%0AWHERE%20%7B%0A%20%20VALUES%20%3Fca%20%7B%20sbdbel%3ACausalAssertion%20sbd%3ACausalAssertion%20%7D%0A%20%20VALUES%20%3Fnm%20%7B%20enm%3AENM_9000077%20%7D%0A%20%20%3Fnm%20rdfs%3Alabel%20%3FnmLabel_%20.%0A%20%20OPTIONAL%20%7B%20%3Frelation%20a%20%3Fca%20%3B%20sbdbel%3ANP%20%3Fnm%20.%20%7D%0A%7D%20GROUP%20BY%20%3Fsuperclass%20%3Fnm%0A))
@@ -262,7 +284,7 @@ WHERE {
 ```
 
 We find here that basically all relationships are defined at a
-<a name="tp3">metal oxide</a> level:
+<a name="tp4">metal oxide</a> level:
 
 <table>
   <tr>
@@ -406,7 +428,7 @@ This gives:
 
 ## TiO2 Models
 
-We can list all <a name="tp4">models</a> for titanium dioxide with the following query:
+We can list all <a name="tp5">models</a> for titanium dioxide with the following query:
 
 **SPARQL** [sparql/allTitaniaModels.rq](sparql/allTitaniaModels.code.html) ([run](https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/?q=PREFIX%20npo%3A%20%3Chttp%3A%2F%2Fpurl.bioontology.org%2Fontology%2Fnpo%23%3E%0APREFIX%20obo%3A%20%3Chttp%3A%2F%2Fpurl.obolibrary.org%2Fobo%2F%3E%0APREFIX%20rdfs%3A%20%20%20%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0APREFIX%20sbd%3A%20%20%20%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Frdf%2F%23%3E%0APREFIX%20sbdbel%3A%20%20%3Chttps%3A%2F%2Fwww.sbd4nano.eu%2Fbel%2F%23%3E%0APREFIX%20dc%3A%20%20%20%20%20%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%3E%0APREFIX%20dct%3A%20%20%20%20%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0APREFIX%20skos%3A%20%20%20%20%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0A%0ASELECT%20%3Fmodel%20%3FmodelLabel%20%3Fprovider%0A%20%20%20%20%20%20%20%28group_concat%28distinct%20%3Fmaterial_%3Bseparator%3D%22%2C%20%22%29%20AS%20%3Fmaterial%29%0AWHERE%20%7B%0A%20%20VALUES%20%3Fsuperclass%20%7B%20npo%3ANPO_1486%20obo%3ACHEBI_51050%20%7D%0A%20%20%3FmaterialIRI%20rdfs%3AsubClassOf*%20%3Fsuperclass%20%3B%20rdfs%3Alabel%20%3Fmaterial_%20.%0A%20%20%3Fmodel%20a%20sbd%3AModel%20%3B%0A%20%20%20%20%20dc%3Asource%20%3FproviderRes.%0A%20%20%7B%20%3Fmodel%20sbdbel%3ANP%20%3FmaterialIRI%20.%20%7D%20UNION%20%7B%20%3Fmodel%20dct%3Asubject%20%2F%20skos%3Anarrower%20%3FmaterialIRI%20.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fmodel%20rdfs%3Alabel%20%3FrdfsLabel%20%7D%0A%20%20BIND%28COALESCE%28%3FrdfsLabel%2C%20str%28%3Fmodel%29%29%20AS%20%3FmodelLabel%29%0A%20%20%3FproviderRes%20dct%3Atitle%20%7C%20dc%3Atitle%20%3Fprovider%20.%0A%7D%20GROUP%20BY%20%3Fmodel%20%3FmodelLabel%20%3Fprovider%0A%20%20ORDER%20BY%20%3Fmodel%0A))
 ```sparql
