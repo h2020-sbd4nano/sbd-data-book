@@ -4,6 +4,9 @@
 
 Causal relationships links <a name="tp1">causes and effects</a>. We can categorize them
 by, for example, nanomaterial they are applicable too, by cause, and by effect.
+The current open data includes causal relationship from the <a name="tp2">AOP-Wiki</a> [<a href="#citeref1">1</a>],
+but still excludes the relationships from another paper [<a href="#citeref2">2</a>]
+and SbD4Nano Deliverable D6.3.
 
 ## Relationships for nanomaterials
 
@@ -294,7 +297,7 @@ This gives us:
   <tr><td colspan="2">This table is truncated. See the full table at <a href="sparql/relationshipsByOutcome.code.html">sparql/relationshipsByOutcome.rq</a></td></tr>
 </table>
 
-Or by Gracious [<a href="#citeref1">1</a>] term:
+Or by Gracious [<a href="#citeref3">3</a>] term:
 
 <table>
   <tr>
@@ -395,5 +398,7 @@ This gives us:
 
 ## References
 
-1. <a name="citeref1"></a>Stone V, Gottardo S, Bleeker EAJ, Braakhuis H, Dekkers S, Fernandes T, et al. A framework for grouping and read-across of nanomaterials- supporting innovation and risk assessment. Nano Today. 2020 Dec;35:100941.  doi:[10.1016/J.NANTOD.2020.100941](https://doi.org/10.1016/J.NANTOD.2020.100941) ([Scholia](https://scholia.toolforge.org/doi/10.1016/J.NANTOD.2020.100941))
+1. <a name="citeref1"></a>Martens M, Evelo CT, Willighagen EL. Providing Adverse Outcome Pathways from the AOP-Wiki in a Semantic Web Format to Increase Usability and Accessibility of the Content. Applied In Vitro Toxicology. 2022 Feb 25;  doi:[10.1089/AIVT.2021.0010](https://doi.org/10.1089/AIVT.2021.0010) ([Scholia](https://scholia.toolforge.org/doi/10.1089/AIVT.2021.0010))
+2. <a name="citeref2"></a>van Rijn JPM, Martens M, Ammar A, Cimpan MR, Fessard V, Hoet P, et al. From papers to RDF-based integration of physicochemical data and adverse outcome pathways for nanomaterials. J Cheminform. 2024 May 1;16(1).  doi:[10.1186/S13321-024-00833-0](https://doi.org/10.1186/S13321-024-00833-0) ([Scholia](https://scholia.toolforge.org/doi/10.1186/S13321-024-00833-0))
+3. <a name="citeref3"></a>Stone V, Gottardo S, Bleeker EAJ, Braakhuis H, Dekkers S, Fernandes T, et al. A framework for grouping and read-across of nanomaterials- supporting innovation and risk assessment. Nano Today. 2020 Dec;35:100941.  doi:[10.1016/J.NANTOD.2020.100941](https://doi.org/10.1016/J.NANTOD.2020.100941) ([Scholia](https://scholia.toolforge.org/doi/10.1016/J.NANTOD.2020.100941))
 

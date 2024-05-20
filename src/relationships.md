@@ -2,6 +2,9 @@
 
 Causal relationships links <topic>causes and effects</topic>. We can categorize them
 by, for example, nanomaterial they are applicable too, by cause, and by effect.
+The current open data includes causal relationship from the <topic>AOP-Wiki</topic> [<cite>Q111081275</cite>],
+but still excludes the relationships from another paper [<cite>Q125744507</cite>]
+and SbD4Nano Deliverable D6.3.
 
 ## Relationships for nanomaterials
 
